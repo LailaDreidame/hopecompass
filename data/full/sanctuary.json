@@ -6,7 +6,9 @@
       "id": "respite-arch-locator",
       "name": "ARCH National Respite Network and Resource Center",
       "scope": "national",
-      "states": ["ALL"],
+      "states": [
+        "ALL"
+      ],
       "what_they_offer": "A national respite locator that helps caregivers find respite providers and programs in their state, plus guides on choosing and paying for respite.",
       "eligibility": "Open to any family caregiver looking for respite options.",
       "how_to_apply": "Use the respite locator on the ARCH website to search by state and type of care, then contact listed programs directly.",
@@ -17,7 +19,9 @@
       "id": "respite-lifespan-state",
       "name": "State Lifespan Respite Programs",
       "scope": "state",
-      "states": ["ALL"],
+      "states": [
+        "ALL"
+      ],
       "what_they_offer": "Many states run Lifespan Respite programs that coordinate respite resources across ages and disabilities, and some offer short-term respite vouchers or caregiver-directed respite funds.",
       "eligibility": "Varies by state; many programs serve family caregivers of children and adults with disabilities or special needs.",
       "how_to_apply": "Search for your state's Lifespan Respite program through ARCH, or ask your state's aging and disability resource center.",
@@ -28,7 +32,9 @@
       "id": "respite-medicaid-waiver",
       "name": "Medicaid home and community-based waiver respite",
       "scope": "state",
-      "states": ["ALL"],
+      "states": [
+        "ALL"
+      ],
       "what_they_offer": "Many state Medicaid home and community-based services waivers include respite hours as a covered service for eligible children and young adults with disabilities.",
       "eligibility": "Varies by state and waiver; some waivers look only at the child's needs and income, and many have waiting lists.",
       "how_to_apply": "Contact your state Medicaid agency or developmental disabilities agency and ask which waivers include respite and how to join the waiting list.",
@@ -39,7 +45,9 @@
       "id": "respite-easterseals",
       "name": "Easterseals local affiliates",
       "scope": "national",
-      "states": ["ALL"],
+      "states": [
+        "ALL"
+      ],
       "what_they_offer": "Easterseals affiliates across the country offer disability services, and many provide respite, day programs, or camps for children and young adults with disabilities.",
       "eligibility": "Varies by affiliate and program.",
       "how_to_apply": "Find your nearest affiliate on the Easterseals website and ask about respite or camp programs.",
@@ -50,7 +58,9 @@
       "id": "respite-the-arc",
       "name": "The Arc chapters",
       "scope": "national",
-      "states": ["ALL"],
+      "states": [
+        "ALL"
+      ],
       "what_they_offer": "Local chapters of The Arc support people with intellectual and developmental disabilities and their families; some chapters offer respite, family support, or help navigating waiver services.",
       "eligibility": "Varies by chapter; focuses on intellectual and developmental disabilities.",
       "how_to_apply": "Find your local chapter on The Arc's website and ask about family support and respite.",
@@ -61,7 +71,9 @@
       "id": "respite-nfcsp",
       "name": "National Family Caregiver Support Program (through Area Agencies on Aging)",
       "scope": "national",
-      "states": ["ALL"],
+      "states": [
+        "ALL"
+      ],
       "what_they_offer": "Federally funded caregiver support delivered locally, which can include respite, counseling, training, and information. It specifically includes older relatives, such as grandparents, raising children.",
       "eligibility": "Includes grandparents and other relatives age 55 and older caring for a child, among other caregiver groups; details vary by local agency.",
       "how_to_apply": "Find your local Area Agency on Aging through the Eldercare Locator and ask about family caregiver support and respite.",
@@ -72,7 +84,9 @@
       "id": "respite-pti-centers",
       "name": "Parent Training and Information Centers",
       "scope": "state",
-      "states": ["ALL"],
+      "states": [
+        "ALL"
+      ],
       "what_they_offer": "Every state has at least one federally funded Parent Training and Information Center that helps families of children with disabilities understand their rights and find local resources, including respite programs.",
       "eligibility": "Families and caregivers of children and youth with disabilities, birth through 26.",
       "how_to_apply": "Find your state's center through the Center for Parent Information and Resources and call or email for help.",
@@ -83,7 +97,9 @@
       "id": "respite-sample-golden-hour",
       "name": "Golden Hour Respite Fund (sample listing)",
       "scope": "local",
-      "states": ["GA"],
+      "states": [
+        "GA"
+      ],
       "what_they_offer": "Sample listing: small grants to pay a trained respite provider for a few hours each month so caregivers can rest, run errands, or simply sit in the sun.",
       "eligibility": "Sample listing: caregivers of children 0 to 21 with physical disabilities living in the metro Atlanta area.",
       "how_to_apply": "Sample listing: short online form plus a letter from any provider who knows the child.",
@@ -94,7 +110,9 @@
       "id": "respite-sample-grandfamily-breather",
       "name": "GrandFamily Breather Grants (sample listing)",
       "scope": "local",
-      "states": ["AZ"],
+      "states": [
+        "AZ"
+      ],
       "what_they_offer": "Sample listing: respite and weekend-break funding for grandparents and relatives raising children with disabilities.",
       "eligibility": "Sample listing: kinship caregivers in Maricopa County raising a child with a physical disability.",
       "how_to_apply": "Sample listing: apply by phone with help from a kinship navigator.",
@@ -105,7 +123,9 @@
       "id": "respite-sample-resource-family-rest",
       "name": "Resource Family Rest Network (sample listing)",
       "scope": "state",
-      "states": ["CA"],
+      "states": [
+        "CA"
+      ],
       "what_they_offer": "Sample listing: a pool of trained, accessible-home respite providers for foster and resource families caring for children who use mobility equipment.",
       "eligibility": "Sample listing: licensed foster and resource families and approved kinship caregivers.",
       "how_to_apply": "Sample listing: request a referral through your placement worker.",
@@ -116,7 +136,9 @@
       "id": "respite-sample-saturday-sunrise",
       "name": "Saturday Sunrise Accessible Play Club (sample listing)",
       "scope": "local",
-      "states": ["IL"],
+      "states": [
+        "IL"
+      ],
       "what_they_offer": "Sample listing: a free monthly Saturday morning of adaptive play, art, and music for kids, with trained volunteers, while caregivers take three hours off.",
       "eligibility": "Sample listing: children ages 3 to 14 using wheelchairs, walkers, or canes, and their siblings.",
       "how_to_apply": "Sample listing: register online two weeks in advance.",
@@ -127,7 +149,9 @@
       "id": "respite-sample-brazos-break",
       "name": "Brazos Break Respite Vouchers (sample listing)",
       "scope": "local",
-      "states": ["TX"],
+      "states": [
+        "TX"
+      ],
       "what_they_offer": "Sample listing: caregiver-directed vouchers you can use to pay a trusted relative, neighbor, or provider for respite care.",
       "eligibility": "Sample listing: caregivers in Central Texas of children with disabilities who are on a waiver waiting list.",
       "how_to_apply": "Sample listing: one-page application and proof of residence.",
@@ -138,7 +162,9 @@
       "id": "respite-sample-harbor-nights",
       "name": "Harbor Nights Overnight Respite (sample listing)",
       "scope": "local",
-      "states": ["MD"],
+      "states": [
+        "MD"
+      ],
       "what_they_offer": "Sample listing: fully accessible overnight respite weekends with nurses on site, including ceiling lifts and roll-in showers.",
       "eligibility": "Sample listing: young people ages 6 to 21 with complex physical disabilities in the Baltimore region.",
       "how_to_apply": "Sample listing: intake call and a care-planning visit.",
@@ -149,19 +175,36 @@
       "id": "respite-sample-young-adult-hangout",
       "name": "Next Chapter Young Adult Hangouts (sample listing)",
       "scope": "local",
-      "states": ["WA"],
+      "states": [
+        "WA"
+      ],
       "what_they_offer": "Sample listing: evening social outings for young adults 16 to 21 with physical disabilities, with accessible transportation, giving caregivers a regular night off.",
       "eligibility": "Sample listing: young adults in the Seattle area and the families who support them.",
       "how_to_apply": "Sample listing: sign up for the monthly calendar by text.",
       "url": "",
       "real_org": false
+    },
+    {
+      "id": "respite-rceb",
+      "name": "Regional Center of the East Bay: respite services",
+      "scope": "local",
+      "states": [
+        "CA"
+      ],
+      "what_they_offer": "Eligible East Bay families can ask their regional center service coordinator about funded respite hours.",
+      "eligibility": "Children and adults found eligible for regional center services (Alameda & Contra Costa counties).",
+      "how_to_apply": "Ask your RCEB service coordinator to add respite to your Individual Program Plan.",
+      "url": "https://www.rceb.org",
+      "real_org": true
     }
   ],
   "support_groups": [
     {
       "id": "group-p2pusa",
       "name": "Parent to Parent USA",
-      "audience": ["all"],
+      "audience": [
+        "all"
+      ],
       "format": "virtual",
       "city": "",
       "state": "ALL",
@@ -173,7 +216,10 @@
     {
       "id": "group-gu-grandfamilies",
       "name": "Generations United GrandFamilies",
-      "audience": ["grandparents", "kinship"],
+      "audience": [
+        "grandparents",
+        "kinship"
+      ],
       "format": "virtual",
       "city": "",
       "state": "ALL",
@@ -185,7 +231,9 @@
     {
       "id": "group-sibshops",
       "name": "Sibling Support Project and Sibshops",
-      "audience": ["siblings"],
+      "audience": [
+        "siblings"
+      ],
       "format": "hybrid",
       "city": "",
       "state": "ALL",
@@ -197,7 +245,9 @@
     {
       "id": "group-little-lobbyists",
       "name": "Little Lobbyists",
-      "audience": ["all"],
+      "audience": [
+        "all"
+      ],
       "format": "virtual",
       "city": "",
       "state": "ALL",
@@ -209,7 +259,9 @@
     {
       "id": "group-wa-fathers-network",
       "name": "Washington State Fathers Network",
-      "audience": ["male_caregivers"],
+      "audience": [
+        "male_caregivers"
+      ],
       "format": "hybrid",
       "city": "",
       "state": "WA",
@@ -221,7 +273,10 @@
     {
       "id": "group-sample-grand-circle",
       "name": "Grand Circle Coffee Hour (sample listing)",
-      "audience": ["grandparents", "kinship"],
+      "audience": [
+        "grandparents",
+        "kinship"
+      ],
       "format": "local",
       "city": "Columbus",
       "state": "OH",
@@ -233,7 +288,9 @@
     {
       "id": "group-sample-resource-family-roundtable",
       "name": "Resource Family Roundtable (sample listing)",
-      "audience": ["foster_resource"],
+      "audience": [
+        "foster_resource"
+      ],
       "format": "hybrid",
       "city": "Sacramento",
       "state": "CA",
@@ -245,7 +302,9 @@
     {
       "id": "group-sample-rooted-and-rising",
       "name": "Rooted and Rising: BIPOC Caregiver Circle (sample listing)",
-      "audience": ["bipoc"],
+      "audience": [
+        "bipoc"
+      ],
       "format": "virtual",
       "city": "",
       "state": "ALL",
@@ -257,7 +316,9 @@
     {
       "id": "group-sample-dads-and-uncles",
       "name": "The Pit Crew: Dads, Granddads and Uncles (sample listing)",
-      "audience": ["male_caregivers"],
+      "audience": [
+        "male_caregivers"
+      ],
       "format": "virtual",
       "city": "",
       "state": "ALL",
@@ -269,7 +330,9 @@
     {
       "id": "group-sample-familias-en-movimiento",
       "name": "Familias en Movimiento (sample listing)",
-      "audience": ["spanish_speaking"],
+      "audience": [
+        "spanish_speaking"
+      ],
       "format": "hybrid",
       "city": "San Antonio",
       "state": "TX",
@@ -281,7 +344,9 @@
     {
       "id": "group-sample-rainbow-rollers",
       "name": "Rainbow Rollers Family Circle (sample listing)",
-      "audience": ["lgbtq"],
+      "audience": [
+        "lgbtq"
+      ],
       "format": "virtual",
       "city": "",
       "state": "ALL",
@@ -293,7 +358,9 @@
     {
       "id": "group-sample-kin-together",
       "name": "Kin Together (sample listing)",
-      "audience": ["kinship"],
+      "audience": [
+        "kinship"
+      ],
       "format": "local",
       "city": "Detroit",
       "state": "MI",
@@ -305,7 +372,9 @@
     {
       "id": "group-sample-next-steps",
       "name": "Next Steps: Transition Caregivers Group (sample listing)",
-      "audience": ["young_adult_transition"],
+      "audience": [
+        "young_adult_transition"
+      ],
       "format": "virtual",
       "city": "",
       "state": "ALL",
@@ -317,7 +386,9 @@
     {
       "id": "group-sample-sunday-siblings",
       "name": "Sunday Sibs Hangout (sample listing)",
-      "audience": ["siblings"],
+      "audience": [
+        "siblings"
+      ],
       "format": "local",
       "city": "Raleigh",
       "state": "NC",
@@ -329,7 +400,9 @@
     {
       "id": "group-sample-joy-circle",
       "name": "Joy Circle Open Gathering (sample listing)",
-      "audience": ["all"],
+      "audience": [
+        "all"
+      ],
       "format": "hybrid",
       "city": "Atlanta",
       "state": "GA",
@@ -341,7 +414,10 @@
     {
       "id": "group-sample-black-grandfamilies",
       "name": "Sweet Tea Grandfamilies (sample listing)",
-      "audience": ["grandparents", "bipoc"],
+      "audience": [
+        "grandparents",
+        "bipoc"
+      ],
       "format": "local",
       "city": "Memphis",
       "state": "TN",
@@ -349,6 +425,22 @@
       "description": "Sample listing: Black grandparents and great-grandparents raising grandchildren with disabilities share wisdom, faith, and practical help with schools and benefits.",
       "url": "",
       "real_org": false
+    },
+    {
+      "id": "group-dredf-pti",
+      "name": "DREDF Parent Training & Information Center (free IEP help)",
+      "audience": [
+        "all",
+        "foster_resource",
+        "kinship"
+      ],
+      "format": "hybrid",
+      "city": "Berkeley",
+      "state": "CA",
+      "schedule": "Call or email for advocate support and workshops",
+      "description": "Free help for East Bay families of children and young adults with disabilities (birth to 26): understanding IEPs, preparing for meetings, and support for foster families and foster youth.",
+      "url": "https://dredf.org",
+      "real_org": true
     }
   ],
   "resets": [

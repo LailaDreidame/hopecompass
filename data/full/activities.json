@@ -7580,6 +7580,330 @@
       },
       "how_to_join": "Sign up with the arts center front desk or just drop in.",
       "website": ""
+    },
+    {
+      "id": "act-171",
+      "hotspot_id": "oakland-ca",
+      "city": "Oakland",
+      "state": "CA",
+      "caregiver_tip": "Start near Children's Fairyland so little ones have a fun goal at the end.",
+      "venue": "Lake Merritt shoreline path",
+      "neighborhood": "Lake Merritt / Downtown",
+      "schedule": {
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ],
+        "start": "07:00",
+        "end": "19:00",
+        "season": "Year-round",
+        "notes": "Public path, open every day; weekend afternoons get busy"
+      },
+      "how_to_join": "Just show up and pick a starting point by the lake.",
+      "website": "",
+      "name": "Lake Merritt Loop Roll & Stroll",
+      "category": "accessible_trail",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free public path",
+      "setting": "outdoor",
+      "description": "A flat, paved loop around Oakland's lake with ducks, pelicans and skyline views. Roll a short stretch or the whole loop, about three miles, and turn back whenever you like.",
+      "accessibility_notes": [
+        "Mostly flat paved path around the lake",
+        "Benches all along the way for rest stops",
+        "Nearby downtown sidewalks and transit; check parking near your starting point"
+      ],
+      "best_time": "Open daily; mornings are calmer"
+    },
+    {
+      "id": "act-172",
+      "hotspot_id": "oakland-ca",
+      "city": "Oakland",
+      "state": "CA",
+      "caregiver_tip": "Bring warm layers and gloves; the rink is cold even when the bench is cheering.",
+      "venue": "Oakland Ice Center rink (BORP program)",
+      "neighborhood": "Downtown Oakland",
+      "schedule": null,
+      "how_to_join": "Contact BORP to ask about the current season and a try-it session.",
+      "website": "https://www.borp.org",
+      "name": "BORP Youth Sled Hockey (with Oakland Ice Center)",
+      "category": "adaptive_sports",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under25",
+      "price_note": "Low cost; confirm current fees with BORP",
+      "setting": "indoor",
+      "description": "Northern California's ongoing youth sled hockey program: kids fly across the ice in custom sleds, stick-handling and scoring with a real team. Sleds and equipment are provided.",
+      "accessibility_notes": [
+        "Custom sleds and equipment provided by the program",
+        "Coaches experienced with wheelchair users",
+        "Ask about group transportation, which BORP has offered youth participants"
+      ],
+      "best_time": "Check today's hours and prices on their website before you go"
+    },
+    {
+      "id": "act-173",
+      "hotspot_id": "oakland-ca",
+      "city": "Oakland",
+      "state": "CA",
+      "caregiver_tip": "",
+      "venue": "BORP Adaptive Cycling Center",
+      "neighborhood": "West Berkeley (East Bay)",
+      "schedule": null,
+      "how_to_join": "Email or call BORP to book a ride or ask about youth group rides.",
+      "website": "https://www.borp.org",
+      "name": "BORP Adaptive Cycling Center",
+      "category": "adaptive_recreation",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision"
+      ],
+      "ages": [
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under25",
+      "price_note": "Membership or program enrollment may be required; confirm fees",
+      "setting": "outdoor",
+      "description": "A fleet of more than 65 adaptive cycles, including youth sizes: handcycles, trikes and tandems. Group youth rides are escorted by trained volunteers.",
+      "accessibility_notes": [
+        "Adaptive bikes in youth and adult sizes",
+        "Trained volunteers on group youth rides",
+        "Hours are seasonal; book ahead"
+      ],
+      "best_time": "Check today's hours and prices on their website before you go"
+    },
+    {
+      "id": "act-174",
+      "hotspot_id": "oakland-ca",
+      "city": "Oakland",
+      "state": "CA",
+      "caregiver_tip": "",
+      "venue": "BORP youth sports (East Bay gyms)",
+      "neighborhood": "Berkeley / Oakland",
+      "schedule": null,
+      "how_to_join": "Contact BORP's youth sports team to ask about practices and sign-up.",
+      "website": "https://www.borp.org",
+      "name": "BORP Youth Wheelchair Basketball & Power Soccer",
+      "category": "adaptive_sports",
+      "access": [
+        "wheelchair"
+      ],
+      "ages": [
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under25",
+      "price_note": "Low cost; confirm current fees with BORP",
+      "setting": "indoor",
+      "description": "Team practices where kids who use manual or power chairs learn the game, make friends and compete. Power soccer is built for power-chair users.",
+      "accessibility_notes": [
+        "Sports chairs and equipment through the program",
+        "Power soccer designed for power-chair users",
+        "Also ask about Jr. Adventures, BORP's non-competitive outings"
+      ],
+      "best_time": "Check today's hours and prices on their website before you go"
+    },
+    {
+      "id": "act-175",
+      "hotspot_id": "oakland-ca",
+      "city": "Oakland",
+      "state": "CA",
+      "caregiver_tip": "",
+      "venue": "Children's Fairyland, Lakeside Park",
+      "neighborhood": "Lake Merritt",
+      "schedule": null,
+      "how_to_join": "Buy admission at the gate or on their website.",
+      "website": "https://fairyland.org",
+      "name": "Children's Fairyland",
+      "category": "adaptive_recreation",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12"
+      ],
+      "cost_tier": "under25",
+      "price_note": "Paid admission; check current prices",
+      "setting": "outdoor",
+      "description": "A storybook park on the shore of Lake Merritt with puppet shows, small rides and fairy-tale sets made for young children. A beloved Oakland classic.",
+      "accessibility_notes": [
+        "Ask staff for the most accessible route through the park",
+        "Lakeside location next to the flat Lake Merritt path",
+        "Call ahead about accessible restrooms and changing space"
+      ],
+      "best_time": "Check today's hours and prices on their website before you go"
+    },
+    {
+      "id": "act-176",
+      "hotspot_id": "oakland-ca",
+      "city": "Oakland",
+      "state": "CA",
+      "caregiver_tip": "",
+      "venue": "Oakland Zoo, Knowland Park",
+      "neighborhood": "East Oakland hills",
+      "schedule": null,
+      "how_to_join": "Buy tickets on their website or at the gate.",
+      "website": "https://www.oaklandzoo.org",
+      "name": "Oakland Zoo",
+      "category": "zoo_aquarium",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under50",
+      "price_note": "Paid admission; check current prices",
+      "setting": "outdoor",
+      "description": "Lions, giraffes and a gondola ride up to the California Trail with views over the bay. Some paths are hilly, so plan your route.",
+      "accessibility_notes": [
+        "Ask about the gondola to the California Trail and wheelchair loading",
+        "Some paths are steep; ask for an accessibility map",
+        "Check their website for accessibility services and sensory resources"
+      ],
+      "best_time": "Check today's hours and prices on their website before you go"
+    },
+    {
+      "id": "act-177",
+      "hotspot_id": "oakland-ca",
+      "city": "Oakland",
+      "state": "CA",
+      "caregiver_tip": "",
+      "venue": "Chabot Space & Science Center",
+      "neighborhood": "Oakland hills",
+      "schedule": null,
+      "how_to_join": "Buy tickets on their website.",
+      "website": "https://chabotspace.org",
+      "name": "Chabot Space & Science Center",
+      "category": "sensory_friendly_museum",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under50",
+      "price_note": "Paid admission; check current prices",
+      "setting": "indoor",
+      "description": "Planetarium shows, hands-on space exhibits and big telescopes up in the Oakland hills. A cozy indoor adventure for curious kids.",
+      "accessibility_notes": [
+        "Ask about accessible parking and elevator access",
+        "Planetarium shows can be loud and dark; ask about seating near exits",
+        "Check their site for sensory-friendly events"
+      ],
+      "best_time": "Check today's hours and prices on their website before you go"
+    },
+    {
+      "id": "act-178",
+      "hotspot_id": "oakland-ca",
+      "city": "Oakland",
+      "state": "CA",
+      "caregiver_tip": "",
+      "venue": "Oakland Public Library branches",
+      "neighborhood": "Citywide",
+      "schedule": null,
+      "how_to_join": "Find a storytime on the library's events calendar.",
+      "website": "https://oaklandlibrary.org",
+      "name": "Oakland Public Library Storytimes",
+      "category": "library_storytime",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "0-5"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free",
+      "setting": "indoor",
+      "description": "Songs, stories and wiggles for little ones at Oakland's library branches. A free, easy outing on a rainy day.",
+      "accessibility_notes": [
+        "Ask your branch about accessible entrances and seating",
+        "Libraries can often help with large print and audiobooks",
+        "Check the branch calendar for sensory-friendly storytimes"
+      ],
+      "best_time": "Check your branch's storytime calendar"
+    },
+    {
+      "id": "act-179",
+      "hotspot_id": "oakland-ca",
+      "city": "Oakland",
+      "state": "CA",
+      "caregiver_tip": "",
+      "venue": "Magical Bridge playgrounds",
+      "neighborhood": "Peninsula & South Bay (a drive from Oakland)",
+      "schedule": null,
+      "how_to_join": "Free and open to the public; see their site for locations.",
+      "website": "https://magicalbridge.org",
+      "name": "Magical Bridge Playgrounds (Peninsula & South Bay)",
+      "category": "inclusive_playground",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free public playgrounds",
+      "setting": "outdoor",
+      "description": "Playgrounds designed from the ground up for kids of every ability, with wheelchair-friendly surfacing and sensory play. Worth the drive from Oakland for a big day out.",
+      "accessibility_notes": [
+        "Designed for people of all abilities",
+        "Smooth surfacing for wheelchairs and walkers",
+        "Several locations; check which is closest"
+      ],
+      "best_time": "Check today's hours and prices on their website before you go"
     }
   ]
 }

@@ -76,6 +76,9 @@ class Toolbox:
         for h in self.db["hotspots"]["hotspots"]:
             if h["city"].lower() in p or p in h["city"].lower():
                 return h
+        for h in self.db["hotspots"]["hotspots"]:          # e.g. "Berkeley" or "East Bay" -> Oakland
+            if any(al in p for al in h.get("aliases", [])):
+                return h
         return None
 
     def _state_of(self, place: str | None) -> str | None:

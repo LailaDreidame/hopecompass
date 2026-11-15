@@ -669,6 +669,40 @@
       "how_to_apply": "Apply through the foundation's website with your child's therapist; check whether they currently serve families outside Louisiana.",
       "url": "",
       "real_org": true
+    },
+    {
+      "id": "prog-034",
+      "name": "California Children's Services (CCS) and its Medical Therapy Program",
+      "type": "grant",
+      "scope": "state",
+      "states": [
+        "CA"
+      ],
+      "covers": [
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "California's program for kids with qualifying conditions, such as cerebral palsy, can cover medical equipment, and its Medical Therapy Program provides PT/OT, often at school-based Medical Therapy Units.",
+      "how_to_apply": "Ask your pediatrician or county CCS office about a referral; check eligibility rules on the DHCS site.",
+      "url": "https://www.dhcs.ca.gov/services/ccs",
+      "real_org": true
+    },
+    {
+      "id": "prog-035",
+      "name": "Regional Center of the East Bay (Alameda & Contra Costa counties)",
+      "type": "grant",
+      "scope": "local",
+      "states": [
+        "CA"
+      ],
+      "covers": [
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "California's regional center for the East Bay serves eligible people with developmental disabilities, including cerebral palsy, and can help with services, some equipment and respite when other sources don't cover them.",
+      "how_to_apply": "Call RCEB intake to request an eligibility assessment; services are planned in an Individual Program Plan (IPP).",
+      "url": "https://www.rceb.org",
+      "real_org": true
     }
   ]
 }

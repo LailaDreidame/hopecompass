@@ -1543,6 +1543,66 @@
         "Uneven school quality"
       ],
       "cost_of_living": "moderate"
+    },
+    {
+      "id": "oakland-ca",
+      "city": "Oakland",
+      "state": "CA",
+      "region": "Pacific",
+      "aliases": [
+        "east bay",
+        "berkeley",
+        "alameda",
+        "alameda county",
+        "emeryville",
+        "oakland ca"
+      ],
+      "lat": 37.8,
+      "lon": -122.27,
+      "scores": {
+        "transit_curb_cuts": 80,
+        "inclusive_playgrounds": 72,
+        "medicaid_waiver": 84,
+        "pediatric_specialty": 88,
+        "inclusive_schools": 70
+      },
+      "tagline": "Lake Merritt sunsets, a children's hospital in town, and Northern California's youth sled hockey team next door.",
+      "highlights": [
+        "UCSF Benioff Children's Hospital Oakland is right in the city",
+        "BORP (Berkeley) runs youth sled hockey with the Oakland Ice Center, plus wheelchair basketball, power soccer and adaptive cycling",
+        "BART stations have elevators, AC Transit buses have ramps, and East Bay Paratransit covers trips fixed routes can't",
+        "California Children's Services (CCS) and the Regional Center of the East Bay can add therapy, equipment and respite help"
+      ],
+      "pediatric_hospitals": [
+        "UCSF Benioff Children's Hospital Oakland"
+      ],
+      "inclusive_playgrounds": [
+        "Magical Bridge playgrounds on the Peninsula and in the South Bay (a drive, but built for every body)",
+        "Ask Oakland Parks, Recreation & Youth Development which neighborhood playgrounds have rubber surfacing"
+      ],
+      "transit_notes": "BART stations have elevators and AC Transit buses kneel and deploy ramps; East Bay Paratransit serves riders who can't use fixed routes. The flats (Lake Merritt, downtown, Jack London) roll easily; the hills are steep.",
+      "waiver_notes": "California's Medi-Cal covers kids under 21 (EPSDT). California Children's Services (CCS) and its Medical Therapy Program can provide PT/OT for qualifying conditions such as cerebral palsy, and the Regional Center of the East Bay serves eligible kids with developmental disabilities (including CP) under the Lanterman Act. Ask both about equipment, respite and In-Home Supportive Services (IHSS).",
+      "school_notes": "Oakland Unified's special education team runs IEPs; DREDF in Berkeley is the free Parent Training and Information Center for Alameda County and helps families prepare for IEP meetings.",
+      "insider_tips": [
+        {
+          "tip": "Lake Merritt's paved loop is flat and about three miles around, so you can turn back at any bench.",
+          "from": "Joy Risers tip"
+        },
+        {
+          "tip": "Call BORP before the season starts and ask about a sled hockey try-it session; they provide the sleds.",
+          "from": "Joy Risers tip"
+        },
+        {
+          "tip": "Ask your CCS therapist whether a Medical Therapy Unit at a nearby school can do seating checks.",
+          "from": "Joy Risers tip"
+        }
+      ],
+      "watch_outs": [
+        "Steep hills in many neighborhoods",
+        "High cost of living",
+        "Regional Center and CCS intake can take time, so start early"
+      ],
+      "cost_of_living": "high"
     }
   ]
 }
