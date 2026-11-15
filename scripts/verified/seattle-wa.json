@@ -1,0 +1,622 @@
+{
+  "hotspot": {
+    "id": "seattle-wa",
+    "city": "Seattle",
+    "state": "WA",
+    "region": "Pacific",
+    "aliases": [
+      "bellevue",
+      "king county",
+      "puget sound",
+      "washington state",
+      "redmond",
+      "issaquah",
+      "seattle wa"
+    ],
+    "lat": 47.61,
+    "lon": -122.33,
+    "scores": {
+      "transit_curb_cuts": 80,
+      "inclusive_playgrounds": 80,
+      "medicaid_waiver": 72,
+      "pediatric_specialty": 95,
+      "inclusive_schools": 70
+    },
+    "tagline": "Free adaptive bikes by the lake, youth wheelchair basketball with chairs provided, and a top children's hospital in town.",
+    "highlights": [
+      "Seattle Children's Hospital has a Rehabilitation Medicine program, a Tone Management Program for spasticity and dystonia, and inpatient rehabilitation for patients up to age 21",
+      "Outdoors for All lends adaptive bikes free of charge for on-site rides at its Magnuson Park Adaptive Cycling Center during the warm-weather season",
+      "Seattle Adaptive Sports runs youth wheelchair basketball (they provide the chairs), a youth sled hockey team and power soccer",
+      "Seattle Parks and Recreation's Specialized Programs offer day camps for ages 4-21, youth weekend trips, and teen and young adult afterschool programs"
+    ],
+    "pediatric_hospitals": [
+      "Seattle Children's Hospital"
+    ],
+    "inclusive_playgrounds": [
+      "Seattle Children's PlayGarden at Colman Playground in South Seattle: a free, fenced, fully accessible park with turf surfacing and low, wide play structures",
+      "Inspiration Playground at Bellevue Downtown Park, a universally accessible playground built by the City of Bellevue with the Bellevue Rotary Club"
+    ],
+    "transit_notes": "Every King County Metro bus has a wheelchair lift or ramp, and Sound Transit's Link light rail offers level boarding, with elevators at stations above or below street level. King County Metro's Access Transportation is the ADA paratransit service for riders ages 6 and up whose disability keeps them from using buses and light rail on their own; qualifying with one Puget Sound agency lets you ride with the others in the regional agreement. Seattle is hilly, so plan routes around the steepest streets.",
+    "waiver_notes": "Washington Apple Health for Kids gives children under 19 medical, dental, vision and mental health coverage (free or low-cost depending on household income, with no deductibles or co-pays). The DSHS Developmental Disabilities Administration (DDA, briefly called DDCS in 2025) offers services for eligible children and youth ages 0-21 and Home and Community Based waivers such as Basic Plus. For babies and toddlers, Washington's Early Support for Infants and Toddlers (ESIT) program at DCYF serves children from birth to age 3. Unpaid family caregivers can also apply for a Lifespan Respite Washington voucher.",
+    "school_notes": "Seattle Public Schools' Special Education department builds each student's IEP with the family and has a district ombudsperson for concerns not settled at school. PAVE is Washington's Parent Training and Information Center and gives free help preparing for IEP and 504 meetings, and the parent-led Seattle Special Education PTSA publishes a guide to special education in ten languages.",
+    "insider_tips": [
+      {
+        "tip": "Green Lake's 2.8-mile paved inner loop has an outside lane just for wheels, and motorized wheelchairs are the only motorized devices allowed on the path.",
+        "from": "Joy Risers tip"
+      },
+      {
+        "tip": "Seattle Adaptive Sports invites families to a training session to try a sport; kids don't need to use a wheelchair every day to play wheelchair basketball, and the team provides the chairs.",
+        "from": "Joy Risers tip"
+      },
+      {
+        "tip": "At Pacific Science Center, a guest's aide gets complimentary admission, and free wheelchairs and sensory kits are available at the Main Entry.",
+        "from": "Joy Risers tip"
+      },
+      {
+        "tip": "Seattle Parks' Specialized Programs say they accept DDA (DDCS) respite funds for camp where applicable, so ask your case manager before you register.",
+        "from": "Joy Risers tip"
+      }
+    ],
+    "watch_outs": [
+      "Steep hills in many neighborhoods",
+      "High cost of living",
+      "Many outdoor programs (adaptive cycling, spray features, summer camps) are seasonal, so register early",
+      "DDA eligibility and enrollment can take time, so start early"
+    ],
+    "cost_of_living": "high",
+    "verified_sources": [
+      "https://www.seattlechildrens.org",
+      "https://www.seattlechildrens.org/clinics/rehabilitation-medicine/",
+      "https://www.seattlechildrens.org/conditions/cerebral-palsy/",
+      "https://kingcounty.gov/en/dept/metro/rider-tools/how-to-ride/accessibility-on-buses",
+      "https://kingcounty.gov/en/dept/metro/travel-options/accessible-services/access-transportation",
+      "https://www.soundtransit.org/node/450",
+      "https://www.hca.wa.gov/free-or-low-cost-health-care/i-need-medical-dental-or-vision-care/children",
+      "https://www.dshs.wa.gov/dda",
+      "https://www.hca.wa.gov/node/36625",
+      "https://arcwa.org/2026/05/",
+      "https://www.dcyf.wa.gov/services/child-development-support/esit",
+      "https://wapave.org/parent-training-and-information-program",
+      "https://wapave.org/how-to-apply-for-respite/",
+      "https://www.seattleschools.org/departments/special-education/",
+      "https://seattlespecialeducationptsa.org",
+      "https://seattle.gov/parks/find/specialized-programs",
+      "https://www.seattle.gov/parks/parkspaces/greenlak.htm",
+      "https://www.seattleadaptivesports.org/youth-sports/",
+      "https://outdoorsforall.org/programs/recreation-programs/",
+      "https://pacificsciencecenter.org/visit/accessibility",
+      "https://www.parentmap.com/article/new-seattle-childrens-playgarden-playground-accessible-inclusive",
+      "https://bellevuewa.gov/city-government/departments/parks/planning-and-development/downtown-park/inspiration-playground"
+    ]
+  },
+  "activities": [
+    {
+      "id": "act-221",
+      "hotspot_id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "name": "Outdoors for All Adaptive Cycling at Magnuson Park",
+      "category": "adaptive_recreation",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "On-site daily adaptive bike rentals at Magnuson Park are free during the season; taking a bike off-site or overnight carries standard rental fees",
+      "setting": "outdoor",
+      "description": "Outdoors for All runs one of the country's biggest adaptive bike fleets, with hand- and foot-powered trikes so kids can feel the wind off Lake Washington on wheels that fit their body. During the season the Magnuson Park center lends bikes free for on-site rides, and its sister center at Lake Sammamish State Park in Issaquah is free for riders with disabilities ages 7 and up.",
+      "accessibility_notes": [
+        "Hand- and foot-powered trikes are available for children ages 7 and up",
+        "Every rider must wear a helmet; bikes are first-come, first-served",
+        "Ask whether staff can help with transfers; at the Lake Sammamish center's free TrackChair, staff can't assist with transfers, so bring a support person"
+      ],
+      "best_time": "Seasonal: in 2026 the Magnuson center ran May 1 to October 18, 7 days a week, 10 a.m. to 6 p.m., with some holiday and Sunday closures. Confirm on their website before you go",
+      "caregiver_tip": "Arrive early on sunny weekends since bikes are first-come, first-served, and pack a helmet that fits your rider.",
+      "venue": "Magnuson Park Adaptive Cycling Center (Outdoors for All), 6344 NE 74th St",
+      "neighborhood": "Magnuson Park / Sand Point, Seattle",
+      "schedule": null,
+      "how_to_join": "Drop in during the season for an on-site rental, or email acc-magnuson@outdoorsforall.org with questions; register on their site for camps and Learn to Ride a Bike sessions.",
+      "website": "https://outdoorsforall.org/programs/recreation-programs/",
+      "verified_sources": [
+        "https://outdoorsforall.org",
+        "https://outdoorsforall.org/programs/recreation-programs/"
+      ]
+    },
+    {
+      "id": "act-222",
+      "hotspot_id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "name": "Seattle Adaptive Sports Youth Wheelchair Basketball, Sled Hockey and Power Soccer",
+      "category": "adaptive_sports",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under25",
+      "price_note": "Fees aren't published online; ask Seattle Adaptive Sports about current costs",
+      "setting": "indoor",
+      "description": "Seattle Adaptive Sports, a Paralympic Sport Club, fields coed youth wheelchair basketball teams from the Micro Sonics (ages 4-7) up through Prep and Varsity, plus a new youth sled hockey team for ages 8-18. Power soccer has no age limit, so the whole crew can find a court where they shine.",
+      "accessibility_notes": [
+        "Wheelchair basketball chairs are provided, and regular wheelchair use isn't required to play",
+        "Sled hockey needs no prior hockey experience or equipment; ask whether sleds are provided",
+        "Power soccer players need to operate the equipment independently; ask about chair availability"
+      ],
+      "best_time": "Power soccer: Saturdays 10 a.m. to noon at Meadowbrook Community Center; wheelchair basketball practices weekly during the school year (ask for location). Confirm on their website before you go",
+      "caregiver_tip": "Email ahead to set up a visit to a training session so your athlete can meet the coaches and teammates first.",
+      "venue": "Various Seattle gyms and rinks; power soccer meets at Meadowbrook Community Center",
+      "neighborhood": "Citywide, Seattle (power soccer in Meadowbrook)",
+      "schedule": null,
+      "how_to_join": "Email info@seattleadaptivesports.org and ask to attend a training session to try a sport.",
+      "website": "https://www.seattleadaptivesports.org/youth-sports/",
+      "verified_sources": [
+        "https://www.seattleadaptivesports.org",
+        "https://www.seattleadaptivesports.org/youth-sports/",
+        "https://adaptiverechub.org/programs/seattle-adaptive-sports/"
+      ]
+    },
+    {
+      "id": "act-223",
+      "hotspot_id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "name": "Seattle Parks and Recreation Specialized Programs",
+      "category": "adaptive_recreation",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under100",
+      "price_note": "Fees vary by program; scholarships may be available with proof of income, and the program says it accepts DDA (DDCS) respite funds where applicable. Check current prices on their website",
+      "setting": "hybrid",
+      "description": "The City of Seattle's own recreation team for people with disabilities runs summer day camps for ages 4-21, overnight camp for ages 6-21, youth weekend programs and trips, and teen and young adult afterschool programs. It's a wonderful way for kids to make friends, try new things and give caregivers a little breathing room.",
+      "accessibility_notes": [
+        "Run by Seattle Parks' dedicated Specialized Programs unit for people with disabilities",
+        "Ask about staff-to-participant ratios and help with transfers, feeding or personal care",
+        "Ask whether outings and trips use wheelchair-accessible transportation"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Seasonal registration opens early (fall 2026 registration began September 1), so mark the brochure release on your calendar.",
+      "venue": "Specialized Programs office, Magnuson Park Building 30, 6310 NE 74th St",
+      "neighborhood": "Magnuson Park / Sand Point, Seattle (programs run citywide)",
+      "schedule": null,
+      "how_to_join": "Call (206) 684-4950 or email PKS_Specialized_Programs@seattle.gov; camp registration uses the Camp Registration and Participant Information forms on their page.",
+      "website": "https://seattle.gov/parks/find/specialized-programs",
+      "verified_sources": [
+        "https://seattle.gov/parks/find/specialized-programs"
+      ]
+    },
+    {
+      "id": "act-224",
+      "hotspot_id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "name": "Seattle Children's PlayGarden Free Play",
+      "category": "inclusive_playground",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free and open to the public; no registration for Free Play",
+      "setting": "outdoor",
+      "description": "This one-acre, fully fenced garden and playground was built so kids with disabilities can play side by side with siblings and friends, with friendly staff on site during open play. A 2026 renovation swapped wood chips for turf, so wheels, walkers and bare feet can roam everywhere.",
+      "accessibility_notes": [
+        "Artificial turf replaced wood chips, making it wheelchair and stroller friendly",
+        "Play structures are low and wide, so it's easy to lift a child from a wheelchair onto a ride; the seesaw and spinning ring work for kids in chairs",
+        "Ask about accessible restrooms and parking when you visit"
+      ],
+      "best_time": "Outside summer camp season the PlayGarden is open daily, sunrise to sunset (summer hours differ). Confirm on their website before you go",
+      "caregiver_tip": "In summer, ask about the free Saturday wheelchair basketball the PlayGarden has hosted with Seattle Adaptive Sports and Rainier Adaptive Sports.",
+      "venue": "Seattle Children's PlayGarden (Seattle PlayGarden), 1745 24th Ave S at Colman Playground",
+      "neighborhood": "South Seattle (Colman Playground)",
+      "schedule": null,
+      "how_to_join": "Just come play; call (206) 325-5576 about camps (ages 3.5-21), preschool and young adult programs.",
+      "website": "https://seattleplaygarden.org",
+      "verified_sources": [
+        "https://seattleplaygarden.org",
+        "https://www.parentmap.com/article/new-seattle-childrens-playgarden-playground-accessible-inclusive",
+        "https://www.seattleschild.com/?p=94491"
+      ]
+    },
+    {
+      "id": "act-225",
+      "hotspot_id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "name": "Inspiration Playground at Bellevue Downtown Park",
+      "category": "inclusive_playground",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision"
+      ],
+      "ages": [
+        "0-5",
+        "6-12"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free public park",
+      "setting": "outdoor",
+      "description": "Bellevue built this universally accessible playground with the Bellevue Rotary Club so kids of every ability can play and explore at their own pace. Its features engage sight, sound, scent and touch, and in summer the water spray adds a splash of joy.",
+      "accessibility_notes": [
+        "The City of Bellevue describes it as a universally accessible play experience with features that engage the senses",
+        "A reviewer notes multiple inclusive swing options and a braille map at the entrance",
+        "Restrooms are next to the playground; a reviewer noted some parking curb cuts don't line up with access aisles, so scout your path"
+      ],
+      "best_time": "Open year-round; water spray typically runs from the Friday of Memorial Day weekend through Labor Day, 10 a.m. to 8 p.m. daily. Confirm on their website before you go",
+      "caregiver_tip": "Bring a towel and a change of clothes in summer; the water spray is hard to resist.",
+      "venue": "Bellevue Downtown Park, 10201 NE 4th St",
+      "neighborhood": "Downtown Bellevue",
+      "schedule": null,
+      "how_to_join": "Drop in; no registration needed.",
+      "website": "https://bellevuewa.gov/city-government/departments/parks/planning-and-development/downtown-park/inspiration-playground",
+      "verified_sources": [
+        "https://bellevuewa.gov/city-government/departments/parks/planning-and-development/downtown-park/inspiration-playground",
+        "https://adapted-design.com/blogs/park-reviews-5/bellevue-downtown-park"
+      ]
+    },
+    {
+      "id": "act-226",
+      "hotspot_id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "name": "Green Lake Park Inner Loop",
+      "category": "accessible_trail",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free public park",
+      "setting": "outdoor",
+      "description": "Green Lake's 2.8-mile paved inner loop is one of Seattle's favorite car-free paths, with lake views, ducks and plenty of company. Roll a lap, stop for a picnic, or simply turn back whenever your crew is ready.",
+      "accessibility_notes": [
+        "The 2.8-mile inner loop is paved",
+        "Wheeled users have the outside lane (one way, follow the arrows, 10 mph limit); motorized wheelchairs are the only motorized devices allowed",
+        "Restrooms are listed among park amenities; ask Seattle Parks which ones are accessible"
+      ],
+      "best_time": "Park open daily, 4 a.m. to 11:30 p.m. Confirm on their website before you go",
+      "caregiver_tip": "On busy weekends, follow the lane arrows and pull aside at a wide spot when you need a break.",
+      "venue": "Green Lake Park, 7201 E Green Lake Dr N",
+      "neighborhood": "Green Lake, Seattle",
+      "schedule": null,
+      "how_to_join": "Just show up; no registration needed.",
+      "website": "https://www.seattle.gov/parks/parkspaces/greenlak.htm",
+      "verified_sources": [
+        "https://www.seattle.gov/parks/parkspaces/greenlak.htm",
+        "https://www.wta.org/go-hiking/hikes/green-lake-seattle"
+      ]
+    },
+    {
+      "id": "act-227",
+      "hotspot_id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "name": "Woodland Park Zoo",
+      "category": "zoo_aquarium",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under50",
+      "price_note": "Check current prices on their website; interpreters and one-to-one aides get free admission (except ticketed events like ZooTunes)",
+      "setting": "hybrid",
+      "description": "Seattle's zoo has published an Accessibility Guide with a trail-conditions map and a Sensory Map pointing to quiet spots to relax and lively spots to romp. Blind and low-vision guests can even request a trained volunteer sighted guide for a day of animal wonder.",
+      "accessibility_notes": [
+        "Manual wheelchairs and electric scooters can be rented at Guest Services (first come, first served); EBT/Washington Quest, WIC and foster and kinship families get 50% off manual wheelchair rentals",
+        "Request a sighted guide with 14 days' notice, or a certified sign language interpreter through the zoo's request form",
+        "An adult-sized changing table is in the family restroom near the West Guest Entry/ZooStore; accessible stalls are marked on the Accessibility Map"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Download the Accessibility Guide before your visit to plan the smoothest paths around the hills.",
+      "venue": "Woodland Park Zoo",
+      "neighborhood": "Phinney Ridge, Seattle",
+      "schedule": null,
+      "how_to_join": "Buy tickets online and use the zoo's access page to request a sighted guide or interpreter.",
+      "website": "https://www.zoo.org/access",
+      "verified_sources": [
+        "https://www.zoo.org/access"
+      ]
+    },
+    {
+      "id": "act-228",
+      "hotspot_id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "name": "Pacific Science Center Sensory-Friendly Hours",
+      "category": "sensory_friendly_museum",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "ParentMap reports admission to Sensory-Friendly Hours is free; confirm when you reserve tickets",
+      "setting": "indoor",
+      "description": "About once a month, Pacific Science Center opens early or stays late with softer lighting, lower noise and hands-on exhibits adjusted for a calmer visit. It's a relaxed way for curious kids to explore science without the crowds.",
+      "accessibility_notes": [
+        "Free wheelchairs at the Main Entry Information Desk (ID required as a deposit); restrooms are wheelchair accessible",
+        "Free sensory kits with noise-cancelling headphones, fidgets and sunglasses, plus a Sensory Lounge in Exhibits East",
+        "A guest's aide receives complimentary admission"
+      ],
+      "best_time": "Monthly 2026-27 series: Dec 30, 2026 and Jan 31, Feb 18, Apr 15 and May 22, 2027 (8-10 a.m.); Mar 27 and Jun 24, 2027 (5-7 p.m.). Confirm on their website before you go",
+      "caregiver_tip": "Request a wheelchair ahead of time if you can, especially for busier visits.",
+      "venue": "Pacific Science Center",
+      "neighborhood": "Seattle Center, Seattle",
+      "schedule": null,
+      "how_to_join": "Reserve tickets through the Sensory-Friendly Hours event page or email gs@pacsci.org.",
+      "website": "https://pacificsciencecenter.org/events/sensory-hours/",
+      "verified_sources": [
+        "https://pacificsciencecenter.org/events/sensory-hours/",
+        "https://pacificsciencecenter.org/visit/accessibility",
+        "https://www.parentmap.com/calendar/sensory-hours-pacific-science-center"
+      ]
+    },
+    {
+      "id": "act-229",
+      "hotspot_id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "name": "Seattle Children's Theatre Access and Sensory-Friendly Performances",
+      "category": "adaptive_arts",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17"
+      ],
+      "cost_tier": "under100",
+      "price_note": "Check current prices on their website; complimentary Personal Care Attendant tickets are available",
+      "setting": "indoor",
+      "description": "Seattle Children's Theatre's Access performances are sensory-friendly shows that also include ASL interpreting and audio description, and every Mainstage show has a Relaxed or Sensory-Friendly performance plus at least one ASL-interpreted date. It's live theater where every young audience member belongs.",
+      "accessibility_notes": [
+        "Both theatres are accessible to patrons who use wheelchairs or have limited mobility; the accessible entrance is through the Charlotte Martin Theatre lobby on the north side",
+        "A hearing loop is installed in both theatres and both Quiet Rooms, with receivers available from the Box Office",
+        "Audio description by headphones at Access performances; request Audio Description On Demand at least two weeks ahead"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Ask for seats in the ASL section or near the aisle when you book, and call the Box Office on the day of the show for special accommodations.",
+      "venue": "Seattle Children's Theatre",
+      "neighborhood": "Seattle Center, Seattle",
+      "schedule": null,
+      "how_to_join": "Book through sct.org or the Box Office at tickets@sct.org or 206.441.3322 and ask which dates are Access, Sensory-Friendly or ASL performances.",
+      "website": "https://www.sct.org/accessibility-offerings/",
+      "verified_sources": [
+        "https://www.sct.org/accessibility-offerings/",
+        "https://www.sct.org/accessibility-offerings/access-performances/"
+      ]
+    },
+    {
+      "id": "act-230",
+      "hotspot_id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "name": "Multisensory Storytime at the Washington Talking Book & Braille Library",
+      "category": "library_storytime",
+      "access": [
+        "wheelchair",
+        "vision"
+      ],
+      "ages": [
+        "0-5"
+      ],
+      "cost_tier": "free",
+      "price_note": "No cost is listed; confirm with the library",
+      "setting": "indoor",
+      "description": "Washington's state library for readers who can't use standard print hosts a storytime for children 0-5 of all abilities: 30 minutes of stories, songs and dance, then 30 minutes of play. Its Children's Room is designed for multisensory exploration, with tactile toys and print/braille board books.",
+      "accessibility_notes": [
+        "Designed for children who are blind or have low vision, with print/braille and large-print board books",
+        "Families who can't attend can watch on WTBBL's YouTube channel or request a Storytime Kit mailed home (ages 0-5)",
+        "Ask about the accessible entrance and route to the Conference Room before your first visit"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Youth patrons under 18 need a signed Parental Acknowledgment Form on file to use WTBBL services, so send it in early.",
+      "venue": "Washington Talking Book & Braille Library, 2021 9th Ave",
+      "neighborhood": "South Lake Union / Denny Triangle, Seattle",
+      "schedule": null,
+      "how_to_join": "Their Youth Services page lists Wednesdays 11 a.m. to noon, but other library pages list Fridays, so call WTBBL at 206-615-0400 to confirm the day.",
+      "website": "https://www.sos.wa.gov/washington-talking-book-braille-library",
+      "verified_sources": [
+        "https://sos.wa.gov/node/11941",
+        "https://www.sos.wa.gov/washington-talking-book-braille-library/about-wtbbl/calendar-events"
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "id": "prog-045",
+      "name": "Washington Assistive Technology Act Program (WATAP) device lending",
+      "type": "loan_closet",
+      "scope": "state",
+      "states": [
+        "WA"
+      ],
+      "covers": [
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "Washington's statewide assistive technology program lends devices for 21 days (with short extensions) so families can try before they buy or bridge a gap during repairs, and ships anywhere in Washington. WATAP also offers device demonstrations, evaluations and training for people with disabilities and their circle of support. There is a nominal borrowing fee based on the device's value and maintenance cost.",
+      "how_to_apply": "Start at WATAP's Borrow a Device page or contact WATAP; ask about devices for your child's mobility, vision, hearing or communication needs.",
+      "url": "https://watap.org",
+      "real_org": true,
+      "verified_sources": [
+        "https://watap.org",
+        "https://watap.org/loan"
+      ]
+    },
+    {
+      "id": "prog-046",
+      "name": "Northwest Access Fund low-interest assistive technology loans",
+      "type": "grant",
+      "scope": "state",
+      "states": [
+        "WA"
+      ],
+      "covers": [
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A nonprofit serving Washington, Oregon and Idaho that offers low-interest loans (not grants) to buy assistive technology, plus free one-on-one financial coaching. WATAP partners with the Fund on AT financing.",
+      "how_to_apply": "Apply online through the Fund's AT loan page or call 1-877-428-5116 to ask about current rates, limits and whether a family member can apply on a child's behalf.",
+      "url": "https://nwaccessfund.org",
+      "real_org": true,
+      "verified_sources": [
+        "https://nwaccessfund.org",
+        "https://watap.org"
+      ]
+    },
+    {
+      "id": "prog-047",
+      "name": "Bridge Disability Ministries: Meyer Medical Equipment Center",
+      "type": "reuse",
+      "scope": "local",
+      "states": [
+        "WA"
+      ],
+      "covers": [
+        "mobility"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "An Eastside nonprofit center that provides essential mobility and medical equipment, refurbishing donated items such as wheelchairs and walkers for people who need them.",
+      "how_to_apply": "Visit Monday-Thursday, 9:30 a.m. to 5 p.m., at 15411 NE 95th St in Redmond, or call (425) 628-1751 / email equipment@bridgemin.org; ask about cost and whether pediatric sizes are available.",
+      "url": "https://www.bridgemin.org",
+      "real_org": true,
+      "verified_sources": [
+        "https://www.bridgemin.org"
+      ]
+    }
+  ],
+  "respite_grants": [
+    {
+      "id": "respite-seattle-1",
+      "name": "Lifespan Respite Washington voucher (run by PAVE)",
+      "scope": "state",
+      "states": [
+        "WA"
+      ],
+      "what_they_offer": "A voucher of up to $1,000 per household per year for short-term respite from a provider on the approved list; it usually lasts about 3-4 months, and summer camp and recreation awards start in January. Family members, friends and independent providers can't be paid with the voucher.",
+      "eligibility": "Unpaid Washington caregivers who provide 40 or more hours of care per week (including supervision), can't afford respite on their own, and aren't enrolled in another respite program (unless waitlisted and not scheduled within 30 days). The person receiving care can be any age.",
+      "how_to_apply": "Submit the online application; for help email getrespite@wapave.org or call 253-442-3214. Awards depend on available funding.",
+      "url": "https://wapave.org/how-to-apply-for-respite/",
+      "real_org": true,
+      "verified_sources": [
+        "https://wapave.org/how-to-apply-for-respite/",
+        "https://wapave.org"
+      ]
+    },
+    {
+      "id": "respite-seattle-2",
+      "name": "DSHS Developmental Disabilities Administration (DDA): respite for children and youth",
+      "scope": "state",
+      "states": [
+        "WA"
+      ],
+      "what_they_offer": "DDA serves eligible children and youth ages 0-21 with developmental disabilities so they can live at home. Ask whether respite can be part of your child's services; DDA also runs Enhanced Respite Services, short-term stays in DDA-contracted, licensed, staffed settings for some children and youth.",
+      "eligibility": "Children and youth found eligible as DDA clients; DDA decides whether a child's condition meets its developmental disability definition.",
+      "how_to_apply": "Use DDA's How to Enroll page or Service and Information Request Form; current clients can ask their Case Resource Manager about respite.",
+      "url": "https://www.dshs.wa.gov/dda",
+      "real_org": true,
+      "verified_sources": [
+        "https://www.dshs.wa.gov/dda",
+        "https://www.dshs.wa.gov/sites/default/files/DDA/dda/documents/24-1360%20DDA%20Enhance%20Respite%20for%20Children%20-%20Leg%20Report.pdf",
+        "https://seattle.gov/parks/find/specialized-programs"
+      ]
+    }
+  ],
+  "support_groups": [
+    {
+      "id": "group-seattle-1",
+      "name": "PAVE Parent Training and Information Center (free IEP and 504 help)",
+      "audience": [
+        "all"
+      ],
+      "format": "hybrid",
+      "city": "Tacoma",
+      "state": "WA",
+      "schedule": "Contact PAVE for one-on-one help; live trainings are offered in person or online",
+      "description": "Washington's Parent Training and Information Center gives free one-on-one help and trainings to family caregivers and youth with disabilities (birth to 26), including help organizing concerns before IEP and Section 504 meetings. PAVE also runs Lifespan Respite Washington and the Family to Family Health Information Center.",
+      "url": "https://wapave.org/parent-training-and-information-program",
+      "real_org": true,
+      "verified_sources": [
+        "https://wapave.org",
+        "https://wapave.org/parent-training-and-information-program",
+        "https://wapave.org/?p=614",
+        "https://ospi.k12.wa.us/student-success/special-education/family-engagement-and-guidance/need-assistance"
+      ]
+    },
+    {
+      "id": "group-seattle-2",
+      "name": "The Arc of King County Parent to Parent",
+      "audience": [
+        "all"
+      ],
+      "format": "hybrid",
+      "city": "SeaTac",
+      "state": "WA",
+      "schedule": "Online support groups on Facebook and Google Groups, plus community events; email to request a Helping Parent match",
+      "description": "Peer support from parents who've walked the road before: support groups, community events and Helping Parent matches that connect you with a trained mentor parent with similar experiences. Services are offered in English and Spanish.",
+      "url": "https://arcofkingcounty.org/services/parent-to-parent",
+      "real_org": true,
+      "verified_sources": [
+        "https://arcofkingcounty.org",
+        "https://arcofkingcounty.org/services/parent-to-parent"
+      ]
+    }
+  ]
+}

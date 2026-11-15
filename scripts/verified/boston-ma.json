@@ -1,0 +1,651 @@
+{
+  "hotspot": {
+    "id": "boston-ma",
+    "city": "Boston",
+    "state": "MA",
+    "region": "Northeast",
+    "aliases": [
+      "cambridge",
+      "somerville",
+      "brookline",
+      "greater boston",
+      "massachusetts",
+      "boston ma"
+    ],
+    "lat": 42.36,
+    "lon": -71.06,
+    "scores": {
+      "transit_curb_cuts": 74,
+      "inclusive_playgrounds": 77,
+      "medicaid_waiver": 84,
+      "pediatric_specialty": 96,
+      "inclusive_schools": 76
+    },
+    "tagline": "Free adaptive skating on DCR ice, two inclusive waterfront playgrounds, and some of the country's best children's hospitals a short ride away.",
+    "highlights": [
+      "Boston Children's Hospital, Franciscan Children's (pediatric rehab in Brighton) and Shriners Children's Boston are all in the city",
+      "Spaulding Adaptive Sports Centers runs the Sledgehogs youth sled hockey team, and the state's DCR Universal Access Program offers free adaptive ice skating with sleds and skate walkers in East Boston",
+      "Martin's Park in the Seaport and the fully ADA-accessible Gronk Playground on the Esplanade were built for kids of all abilities",
+      "Free equipment help: Easterseals Massachusetts' Assistive Technology Regional Center lends devices for up to 30 days, and REquipment gives away refurbished wheelchairs and other gear"
+    ],
+    "pediatric_hospitals": [
+      "Boston Children's Hospital",
+      "Franciscan Children's (Brighton; pediatric rehabilitation, a Boston Children's affiliate)",
+      "Shriners Children's Boston"
+    ],
+    "inclusive_playgrounds": [
+      "Martin's Park at Children's Wharf Park in the Seaport (sloped paths reach the top of the play areas)",
+      "Gronk Playground on the Charles River Esplanade, opened in 2025 as a fully ADA-accessible playground",
+      "Ask Boston Parks and Recreation which neighborhood playgrounds near you have rubber surfacing"
+    ],
+    "transit_notes": "The MBTA says all of its buses and most subway and trolley stations are accessible; call the Elevator/Escalator Hotline (617-222-2828) or check mbta.com accessibility alerts before you head out. The RIDE, the MBTA's door-to-door paratransit, serves 58 greater Boston cities and towns for riders whose disability keeps them from using fixed routes some or all of the time; apply through the MBTA Mobility Center, which also offers free travel training. Brick sidewalks in some historic neighborhoods can be bumpy.",
+    "waiver_notes": "MassHealth covers many children with disabilities; MassHealth CommonHealth is a pathway for children and adults with disabilities who can't get MassHealth Standard, with premiums that depend on income. The Kaileigh Mulligan program lets qualifying children with severe disabilities be cared for at home without counting parental income or assets. Massachusetts Early Intervention serves children birth to three at no out-of-pocket cost, and the Department of Developmental Services (DDS) funds Family Support Centers for eligible families. Ask your hospital social worker which options fit your child.",
+    "school_notes": "Boston Public Schools' specialized services team handles IEPs, Child Find and transition services. The Boston Special Education Parent Advisory Council (SpEdPAC) holds family meetings and trainings, and the Federation for Children with Special Needs, Massachusetts' Parent Training and Information Center, offers free help understanding IEPs and special education rights.",
+    "insider_tips": [
+      {
+        "tip": "The four accessible parking spaces on the Esplanade are at the Blossom Street entrance, between Teddy Ebersol's Red Sox Fields and the Alfond Spray Deck, close to the Gronk Playground.",
+        "from": "Joy Risers tip"
+      },
+      {
+        "tip": "Kids who use their own wheelchair get into the New England Aquarium free, and visitors with visual impairments do too.",
+        "from": "Joy Risers tip"
+      },
+      {
+        "tip": "At the Museum of Science, personal care assistants get in free, and the museum lends pediatric wheelchairs at no charge.",
+        "from": "Joy Risers tip"
+      },
+      {
+        "tip": "Want to try a communication device or adapted toy before you buy? Borrow it free for up to 30 days from the Easterseals Assistive Technology Regional Center on South Street in Boston.",
+        "from": "Joy Risers tip"
+      }
+    ],
+    "watch_outs": [
+      "Snow and ice can block curb cuts in winter",
+      "Brick sidewalks in historic neighborhoods are bumpy",
+      "Station elevators sometimes go out of service, so check before you travel",
+      "High cost of living"
+    ],
+    "cost_of_living": "high",
+    "verified_sources": [
+      "https://www.mbta.com/accessibility",
+      "https://www.mbta.com/accessibility/the-ride",
+      "https://www.childrenshospital.org",
+      "https://franciscans.childrenshospital.org/",
+      "https://www.shrinerschildrens.org/en/locations/boston",
+      "https://www.boston.gov/departments/parks-and-recreation/martins-park",
+      "https://beaconhilltimes.com/2025/08/28/rob-gronkowski-celebrates-opening-of-gronk-playground-on-esplanade/",
+      "https://esplanade.org/know-before-you-go/",
+      "https://www.mass.gov/info-details/masshealth-coverage-types-for-individuals-and-families-including-people-with-disabilities-0",
+      "https://www.mass.gov/info-details/masshealth-resources-for-ccm-members-and-families",
+      "https://www.mass.gov/info-details/about-massachusetts-early-intervention-ei",
+      "https://www.mass.gov/info-details/dds-family-support-centers",
+      "https://www.bostonpublicschools.org/academics/specialized-services/boston-spedpac",
+      "https://fcsn.org/pti/",
+      "https://www.neaq.org/visit/accessibility/",
+      "https://www.mos.org/visit/accessibility",
+      "https://massachusetts.easterseals.com/get-support/areas-of-support/assistive-technology/assistive-technology-regional-centers-atrc"
+    ]
+  },
+  "activities": [
+    {
+      "id": "act-201",
+      "hotspot_id": "boston-ma",
+      "city": "Boston",
+      "state": "MA",
+      "name": "Spaulding Sledgehogs Youth Sled Hockey",
+      "category": "adaptive_sports",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "6-12",
+        "13-17"
+      ],
+      "cost_tier": "under25",
+      "price_note": "Fees apply to some sled hockey sessions; check current prices with Spaulding",
+      "setting": "indoor",
+      "description": "Spaulding Adaptive Sports Centers' Sledgehogs is greater Boston's youth sled hockey team, with youth-only practices plus clinics and games around the region and beyond. Kids of all abilities glide, pass and score from the seat of a sled, and teammates quickly become a second family.",
+      "accessibility_notes": [
+        "Coaching and sleds/equipment are provided in Spaulding sled hockey sessions",
+        "Offers both recreational and competitive levels of play",
+        "Ask which rink this season's practices use and about accessible locker rooms and parking"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Pack extra layers, a blanket and warm gloves for both the player and the bench crew; rinks are chilly.",
+      "venue": "Greater Boston ice rinks (Spaulding Adaptive Sports Centers program)",
+      "neighborhood": "Greater Boston (rink varies by session)",
+      "schedule": null,
+      "how_to_join": "Pre-register for practices on the Spaulding Adaptive Sports Centers sled hockey page, or email spauldingsledhockey@partners.org to ask about a first try.",
+      "website": "https://sasc.spauldingrehab.org/hockey.aspx",
+      "verified_sources": [
+        "https://sasc.spauldingrehab.org/hockey.aspx",
+        "https://sasc.spauldingrehab.org/",
+        "https://itemlive.com/2025/02/24/hockey-is-for-all-in-saugus-and-beyond/"
+      ]
+    },
+    {
+      "id": "act-202",
+      "hotspot_id": "boston-ma",
+      "city": "Boston",
+      "state": "MA",
+      "name": "Miracle League of Massachusetts Baseball",
+      "category": "adaptive_sports",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free to players; the league says it is provided at no cost to families",
+      "setting": "outdoor",
+      "description": "Every player gets to bat, run the bases and hear the crowd cheer on the Joseph Lalli Miracle Field, a specially built field at NARA Park. Volunteer buddies help where needed, so the whole afternoon is about joy, not keeping score.",
+      "accessibility_notes": [
+        "The Miracle Field has a flat, rubberized surface so players using wheelchairs and walkers can move around the bases",
+        "Youth league for players about ages 5 to 21, plus a separate adult league",
+        "Ask about accessible parking and restrooms at NARA Park when you register"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Bring sunscreen, water and a folding chair for the sidelines, and let the volunteer buddies take a turn while you cheer.",
+      "venue": "Joseph Lalli Miracle Field, NARA Park",
+      "neighborhood": "Acton",
+      "schedule": null,
+      "how_to_join": "Register through the Youth registration form on the league's website before the season starts.",
+      "website": "https://miracleleaguema.org/",
+      "verified_sources": [
+        "https://miracleleaguema.org/",
+        "https://patch.com/massachusetts/acton/miracle-field-opens-saturday-in-acton",
+        "https://www.actonexchange.org/miracle-league-of-massachusetts-completes-resurfacing-of-miracle-field-at-nara-park/"
+      ]
+    },
+    {
+      "id": "act-203",
+      "hotspot_id": "boston-ma",
+      "city": "Boston",
+      "state": "MA",
+      "name": "DCR Adaptive Ice Skating at Porrazzo Memorial Rink",
+      "category": "adaptive_recreation",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free: entry and equipment are free of charge (DCR Universal Access Program)",
+      "setting": "indoor",
+      "description": "The state's Universal Access Program turns a public rink into a place where everyone gets on the ice, whether in their own wheelchair, an ice sled or a skate walker. Families, friends and support staff are welcome to skate alongside.",
+      "accessibility_notes": [
+        "Skaters can use a wheelchair, an ice sled, a skate walker, ice grippers or regular skates on the ice",
+        "Adaptive equipment is provided free",
+        "Pre-registration is required; ask about age guidelines for younger children when you sign up"
+      ],
+      "best_time": "Winter 2026-27 Wednesday sessions listed by DCR, e.g. Dec. 9, 2026, 11 a.m.-1:30 p.m.; further dates listed for Jan. 6, Feb. 3 and Mar. 3, 2027. Confirm on their website before you go",
+      "caregiver_tip": "Bring a winter coat, hat and gloves; the rink is cold even for people watching from the boards.",
+      "venue": "Porrazzo Memorial Rink, 199 Coleridge St",
+      "neighborhood": "East Boston",
+      "schedule": null,
+      "how_to_join": "Pre-register with the DCR Universal Access Program (DCR.UniversalAccess@mass.gov); groups submit a registration sheet and release forms a week ahead.",
+      "website": "https://www.mass.gov/accessible-ice-skating",
+      "verified_sources": [
+        "https://www.mass.gov/event/dec-9-adaptive-ice-skating-at-porrazzo-memorial-rink-12-09-2026",
+        "https://www.mass.gov/event/jan-6-adaptive-ice-skating-at-porrazzo-memorial-rink-01-06-2027",
+        "https://www.mass.gov/info-details/dcr-universal-access-program-winter-2025-2026-schedule"
+      ]
+    },
+    {
+      "id": "act-204",
+      "hotspot_id": "boston-ma",
+      "city": "Boston",
+      "state": "MA",
+      "name": "Martin's Park",
+      "category": "inclusive_playground",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free public park",
+      "setting": "outdoor",
+      "description": "Built in memory of Martin Richard, this waterfront playground in the Seaport was designed so children of every ability can climb, explore and play together, including on its big play ship. Sloping paths, gardens and water play make it a favorite stop next to Boston Children's Museum.",
+      "accessibility_notes": [
+        "Sloping paths and hills let children with mobility disabilities reach the top of the play areas",
+        "Signs point out the inclusive routes and play elements",
+        "Quieter, plant-filled corners offer a break for kids who get overstimulated; the park has no dedicated parking lot, so plan on a nearby garage"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Pair it with a Boston Children's Museum visit next door so you can trade between indoor and outdoor play.",
+      "venue": "Martin's Park at Children's Wharf Park, 64 Sleeper Street",
+      "neighborhood": "Seaport / Fort Point",
+      "schedule": null,
+      "how_to_join": "Just show up; no registration needed.",
+      "website": "https://martinsparkboston.org/",
+      "verified_sources": [
+        "https://martinsparkboston.org/",
+        "https://www.boston.gov/departments/parks-and-recreation/martins-park",
+        "https://www.asla.org/focus-areas/diversity%2C-equity%2C-inclusion/universal-design-guide/universal-design-guide-playgrounds"
+      ]
+    },
+    {
+      "id": "act-205",
+      "hotspot_id": "boston-ma",
+      "city": "Boston",
+      "state": "MA",
+      "name": "Gronk Playground on the Esplanade",
+      "category": "inclusive_playground",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free public playground",
+      "setting": "outdoor",
+      "description": "Opened in 2025 on the old Charlesbank Playground site, this riverside playground was built to be fully ADA-accessible, with mini duck boats, small Boston landmarks and a 40-yard dash. It sits right next to the Alfond Spray Deck and Teddy Ebersol's Red Sox Fields, so there is plenty to do in one stop.",
+      "accessibility_notes": [
+        "Described by the Esplanade Association and DCR as a fully ADA-accessible playground",
+        "Design plans included rubberized surfacing and a ground-level merry-go-round for wheelchair access",
+        "Accessible portable restrooms are next to Teddy Ebersol's Red Sox Fields and the Alfond Spray Deck (seasonal); ask the Esplanade Association about current restroom hours"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Use the four accessible parking spaces at the Blossom Street entrance, or take the T to Science Park/West End.",
+      "venue": "Gronk Playground, Charles River Esplanade",
+      "neighborhood": "West End / Charles River Esplanade",
+      "schedule": null,
+      "how_to_join": "Just show up; no registration needed.",
+      "website": "https://esplanade.org/playgrounds/",
+      "verified_sources": [
+        "https://esplanade.org/playgrounds/",
+        "https://beaconhilltimes.com/2025/08/28/rob-gronkowski-celebrates-opening-of-gronk-playground-on-esplanade/",
+        "https://www.cbsnews.com/boston/news/gronk-playground-boston-design-plan-patriots",
+        "https://esplanade.org/know-before-you-go/"
+      ]
+    },
+    {
+      "id": "act-206",
+      "hotspot_id": "boston-ma",
+      "city": "Boston",
+      "state": "MA",
+      "name": "Charles River Esplanade Paths",
+      "category": "accessible_trail",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free public park",
+      "setting": "outdoor",
+      "description": "Three miles of riverside park with more than five miles of paved paths, sailboats on the Charles and skyline views at every turn. Roll as far as you like, then rest at a playground, the Hatch Shell or the water's edge.",
+      "accessibility_notes": [
+        "Over five miles of paved paths; width and smoothness vary, but the Esplanade Association calls them largely welcoming to all visitors",
+        "The Frances Appleton Pedestrian Bridge at Charles Circle is the most accessible way in; there are also at-grade entrances at each end of the park",
+        "Four accessible parking spaces at the Blossom Street entrance; Charles/MGH is the nearby T station with an ADA footbridge"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Restrooms are typically open dawn to dusk from mid-April to mid-October, so plan longer outings for the warmer months.",
+      "venue": "Charles River Esplanade",
+      "neighborhood": "Back Bay / Beacon Hill",
+      "schedule": null,
+      "how_to_join": "Just show up; no registration needed.",
+      "website": "https://esplanade.org/know-before-you-go/",
+      "verified_sources": [
+        "https://esplanade.org/know-before-you-go/",
+        "https://esplanade.org/"
+      ]
+    },
+    {
+      "id": "act-207",
+      "hotspot_id": "boston-ma",
+      "city": "Boston",
+      "state": "MA",
+      "name": "Story Times at the Boston Public Library Children's Library",
+      "category": "library_storytime",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free; the library says all of its programs are free and open to the public",
+      "setting": "indoor",
+      "description": "The Children's Library at the Central Library in Copley Square hosts story times for little ones (recent listings include ages 0-5 and 0-7), full of songs, rhymes and picture books. It is a cozy, welcoming way to spend a morning or afternoon together.",
+      "accessibility_notes": [
+        "The 700 Boylston Street entrance is at sidewalk level, and the Glass and West elevators reach the second-floor Children's Library",
+        "Request ASL or other interpretation in advance through the contact on the event listing",
+        "Magnifiers and an adaptive computer station are available, and staff can help with a Perkins Library application for Braille and accessible materials"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Ask for accommodations well before the event; the library recommends contacting the Children's Room ahead of time.",
+      "venue": "Boston Public Library, Central Library in Copley Square (Children's Library)",
+      "neighborhood": "Back Bay",
+      "schedule": null,
+      "how_to_join": "Check the BPL events calendar for current story times; most are drop-in.",
+      "website": "https://www.bpl.org/services-central-library/childrens-library-at-the-central-library/",
+      "verified_sources": [
+        "https://www.bpl.org/services-central-library/childrens-library-at-the-central-library/",
+        "https://www.bpl.org/accessibility-at-the-boston-public-library/",
+        "https://www.bpl.org/locations/central/"
+      ]
+    },
+    {
+      "id": "act-208",
+      "hotspot_id": "boston-ma",
+      "city": "Boston",
+      "state": "MA",
+      "name": "Boston Children's Museum: Morningstar Access",
+      "category": "sensory_friendly_museum",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12"
+      ],
+      "cost_tier": "under25",
+      "price_note": "General admission is listed at $24 for ages 1 and up (under 12 months free); check Morningstar Access pricing when you pre-register",
+      "setting": "indoor",
+      "description": "Morningstar Access opens the museum at quieter times for children with special or medical needs and their families, with a cap of 100 guests. Kids can climb, splash and pretend at their own pace without the usual crowds.",
+      "accessibility_notes": [
+        "Building and exhibits are wheelchair accessible, and the main elevator serves all three floors",
+        "Free child and adult manual wheelchairs to borrow, plus sound-reducing earmuffs and assistive listening devices at the Admissions Desk",
+        "Wheelchair-accessible family restrooms on every floor and a height-adjustable adult changing table in the first aid room (staff unlock it on request)"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Grab the museum's pre-visit Social Story to help your child know what to expect, then head next door to Martin's Park afterward.",
+      "venue": "Boston Children's Museum",
+      "neighborhood": "Seaport / Fort Point",
+      "schedule": null,
+      "how_to_join": "Pre-register for a monthly Morningstar Access date on the museum's website; registration is required.",
+      "website": "https://bostonchildrensmuseum.org/visit/accessibility/",
+      "verified_sources": [
+        "https://bostonchildrensmuseum.org/visit/accessibility/",
+        "https://annualreports.bostonchildrensmuseum.org/annual-report-2025/access-programs/"
+      ]
+    },
+    {
+      "id": "act-209",
+      "hotspot_id": "boston-ma",
+      "city": "Boston",
+      "state": "MA",
+      "name": "Museum of Science, Boston",
+      "category": "sensory_friendly_museum",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under50",
+      "price_note": "Listed at $33 adults and $28 ages 3-11 (under 3 free); personal care assistants accompanying a visitor with a disability get in free. Check current prices on their website",
+      "setting": "indoor",
+      "description": "From live science shows to the Planetarium, the Museum of Science is a big, hands-on adventure for curious kids of every age. Its Access Hours and quieter weekend mornings make it easier to explore at your own pace.",
+      "accessibility_notes": [
+        "Free loans of manual, pediatric and bariatric wheelchairs, strollers and scooters at the Information Desk",
+        "Audio description for pre-recorded Omni and 4-D Theater shows and free Aira sighted-guide service",
+        "ASL interpretation for live shows (in-person interpreters with two weeks' notice); Access Hours every other month and Soft Light, Soft Sound Planetarium shows"
+      ],
+      "best_time": "Weekend mornings 9-11 a.m. or weekday afternoons after 2 p.m. during the school year are usually quieter",
+      "caregiver_tip": "Email the Accessibility Coordinator before your visit to plan seating for shows and ask about the next Access Hours.",
+      "venue": "Museum of Science (Science Park)",
+      "neighborhood": "Science Park / West End",
+      "schedule": null,
+      "how_to_join": "Buy timed tickets online; contact the accessibility team in advance for interpreters.",
+      "website": "https://www.mos.org/visit/accessibility",
+      "verified_sources": [
+        "https://www.mos.org/visit/accessibility",
+        "https://www.mos.org/visit/faq"
+      ]
+    },
+    {
+      "id": "act-210",
+      "hotspot_id": "boston-ma",
+      "city": "Boston",
+      "state": "MA",
+      "name": "New England Aquarium",
+      "category": "zoo_aquarium",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under50",
+      "price_note": "Free for visitors using their own wheelchairs and for visitors with visual impairments; other family members pay regular admission (listed at $39.95 adults, $30.95 ages 3-11, 2 and under free). Check current prices on their website",
+      "setting": "indoor",
+      "description": "Ocean animals of every shape and size wait on Boston's waterfront, and kids who use their own wheelchairs get in free. The Aquarium is KultureCity certified, so staff are trained to welcome visitors with sensory needs.",
+      "accessibility_notes": [
+        "Free wheelchair loans for ticketed guests (ID required) and elevators in the Tropical Gallery and West Wing",
+        "Sensory kits with noise-canceling headphones, fidget tools and picture-communication cards, plus quiet spaces in the lower West Wing and first-aid room",
+        "Description panels throughout for visitors who are deaf or hard of hearing; assistive listening and captioning devices in the Simons Theatre"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Sign up on the accessibility page for alerts about the Aquarium's Sensory Events with smaller crowds and lower noise.",
+      "venue": "New England Aquarium",
+      "neighborhood": "Downtown Waterfront",
+      "schedule": null,
+      "how_to_join": "Buy tickets online or at the door; ask at the Information Desk for wheelchairs or sensory kits.",
+      "website": "https://www.neaq.org/visit/accessibility/",
+      "verified_sources": [
+        "https://www.neaq.org/visit/accessibility/",
+        "https://www.neaq.org/tickets"
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "id": "prog-040",
+      "name": "MassMATCH Assistive Technology Regional Centers (hosted by Easterseals Massachusetts)",
+      "type": "loan_closet",
+      "scope": "state",
+      "states": [
+        "MA"
+      ],
+      "covers": [
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "Free device demonstrations and a lending library of equipment, software and toys, from low-tech to high-tech, that Massachusetts residents can borrow for up to 30 days. Try before you buy, or bridge a gap while insurance decides. Boston center at 89 South Street, with a second center in Worcester.",
+      "how_to_apply": "Create a free account at massmatch.at4all.com, browse the inventory and request up to 5 devices, or contact the Boston center to schedule a visit.",
+      "url": "https://massachusetts.easterseals.com/get-support/areas-of-support/assistive-technology/assistive-technology-regional-centers-atrc",
+      "real_org": true,
+      "verified_sources": [
+        "https://massachusetts.easterseals.com/get-support/areas-of-support/assistive-technology/assistive-technology-regional-centers-atrc",
+        "https://www.massmatch.org/"
+      ]
+    },
+    {
+      "id": "prog-041",
+      "name": "REquipment Durable Medical Equipment & Assistive Technology Reuse",
+      "type": "reuse",
+      "scope": "state",
+      "states": [
+        "MA"
+      ],
+      "covers": [
+        "power_wheelchair",
+        "manual_wheelchair",
+        "stander",
+        "walker",
+        "bath",
+        "home_ramp"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A program of MassMATCH (the Massachusetts Assistive Technology Act program) that cleans and restores donated home medical equipment and assistive technology and provides it free to Massachusetts residents, including children. Helpful if insurance won't cover an item, you need a backup while a chair is in the shop, or you need something short term.",
+      "how_to_apply": "Search the online inventory on the REquipment website, then call or email (info@requipmentma.org) to request an item.",
+      "url": "https://requipmentma.org/",
+      "real_org": true,
+      "verified_sources": [
+        "https://requipmentma.org/",
+        "https://www.requipmentma.org/about",
+        "https://www.mass.gov/doc/requipment-assistive-technology-at-program/download"
+      ]
+    },
+    {
+      "id": "prog-042",
+      "name": "Catastrophic Illness in Children Relief Fund (CICRF)",
+      "type": "grant",
+      "scope": "state",
+      "states": [
+        "MA"
+      ],
+      "covers": [
+        "any",
+        "vehicle"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A Massachusetts Department of Public Health fund that can help families of children and youth under 22 with medically related expenses not covered by insurance, including medical equipment and supplies. Home modifications and accessible vehicles are also considered, with limits and a sliding scale.",
+      "how_to_apply": "Review the eligibility and covered-expense pages on mass.gov, then apply after the expenses are incurred; the CICRF Commission makes the final decision.",
+      "url": "https://www.mass.gov/catastrophic-illness-in-children-relief-fund-cicrf",
+      "real_org": true,
+      "verified_sources": [
+        "https://www.mass.gov/catastrophic-illness-in-children-relief-fund-cicrf",
+        "https://www.mass.gov/info-details/check-eligibility-for-cicrf",
+        "https://www.mass.gov/info-details/what-expenses-are-covered-by-cicrf"
+      ]
+    }
+  ],
+  "respite_grants": [
+    {
+      "id": "respite-boston-1",
+      "name": "Caregiver to Caregiver (C2C) Respite Network (Federation for Children with Special Needs)",
+      "scope": "state",
+      "states": [
+        "MA"
+      ],
+      "what_they_offer": "Matches Massachusetts families of children who need specialized support so caregivers can trade respite, based on the child's medical and support needs, location and language or cultural preferences. Staff run background checks, offer trainings and online forums, and check in with matched families at least monthly.",
+      "eligibility": "Massachusetts families of children and young people ages 0-26 who need specialized support; open to families regardless of financial resources.",
+      "how_to_apply": "Click Join / Request a Match on the C2C page or email c2crespite@fcsn.org.",
+      "url": "https://fcsn.org/c2c/",
+      "real_org": true,
+      "verified_sources": [
+        "https://fcsn.org/c2c/",
+        "https://archrespite.org/library/webinar-caregiver-to-caregiver-c2c-respite-network/"
+      ]
+    },
+    {
+      "id": "respite-boston-2",
+      "name": "Massachusetts DDS Family Support Centers: respite and flexible family support",
+      "scope": "state",
+      "states": [
+        "MA"
+      ],
+      "what_they_offer": "Department of Developmental Services-funded centers give families information, referrals and support services; eligible families can ask about respite, including flexible funds to pay respite providers they choose.",
+      "eligibility": "Information and referral are open to any family; funded respite generally requires eligibility for DDS services (intellectual and developmental disabilities).",
+      "how_to_apply": "Contact the Family Support Center for your area from the DDS directory, or ask your DDS Service Coordinator about respite.",
+      "url": "https://www.mass.gov/info-details/dds-family-support-centers",
+      "real_org": true,
+      "verified_sources": [
+        "https://www.mass.gov/info-details/dds-family-support-centers",
+        "https://www.mass.gov/info-details/about-family-support-family-support-programs-for-people-of-all-ages",
+        "https://disabilityinfo.org/fact-sheet-library/home-supports/respite-options/"
+      ]
+    }
+  ],
+  "support_groups": [
+    {
+      "id": "group-boston-1",
+      "name": "Federation for Children with Special Needs: Parent Training & Information Center (free IEP help)",
+      "audience": [
+        "all"
+      ],
+      "format": "hybrid",
+      "city": "Boston",
+      "state": "MA",
+      "schedule": "Information Center staffed 10 a.m.-3 p.m., Monday-Friday; free workshops across Massachusetts",
+      "description": "Massachusetts' Parent Training and Information Center, and the nation's first, offers free help to families, youth and young adults with questions about special education: understanding IEPs, IEP clinics, workshops and help in many languages.",
+      "url": "https://fcsn.org/pti/",
+      "real_org": true,
+      "verified_sources": [
+        "https://fcsn.org/pti/",
+        "https://fcsn.org/",
+        "https://www.parentcenterhub.org/findurcenter/page/7"
+      ]
+    },
+    {
+      "id": "group-boston-2",
+      "name": "Family TIES of Massachusetts & Parent to Parent of Massachusetts",
+      "audience": [
+        "all"
+      ],
+      "format": "virtual",
+      "city": "Boston",
+      "state": "MA",
+      "schedule": "Call or email to be matched with a support parent and to join trainings",
+      "description": "Staffed by family members with lived experience, Family TIES helps families of children birth to 26 with special health needs, disabilities or medical complexity find resources, and Parent to Parent matches you with a trained support parent who has walked a similar path.",
+      "url": "https://fcsn.org/family-ties/",
+      "real_org": true,
+      "verified_sources": [
+        "https://fcsn.org/family-ties/"
+      ]
+    },
+    {
+      "id": "group-boston-3",
+      "name": "Boston Special Education Parent Advisory Council (SpEdPAC)",
+      "audience": [
+        "all"
+      ],
+      "format": "hybrid",
+      "city": "Boston",
+      "state": "MA",
+      "schedule": "Monthly general meetings and trainings during the school year; check the SpEdPAC website for dates",
+      "description": "The independent, districtwide council of Boston Public Schools families of students with IEPs, run by parent volunteers who give families a voice and support. All families are welcome.",
+      "url": "https://www.bostonspedpac.org/",
+      "real_org": true,
+      "verified_sources": [
+        "https://www.bostonpublicschools.org/academics/specialized-services/boston-spedpac",
+        "https://www.bostonspedpac.org/"
+      ]
+    }
+  ]
+}

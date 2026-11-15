@@ -112,8 +112,8 @@ class Toolbox:
                          "best_time": a["best_time"], "caregiver_tip": a.get("caregiver_tip", ""),
                          "venue": a.get("venue", ""), "neighborhood": a.get("neighborhood", ""),
                          "schedule": a.get("schedule"), "how_to_join": a.get("how_to_join", ""),
-                         "website": a.get("website", "")})
-        rows.sort(key=lambda r: BUDGETS.index(r["cost_tier"]))
+                         "website": a.get("website", ""), "verified": bool(a.get("verified"))})
+        rows.sort(key=lambda r: (BUDGETS.index(r["cost_tier"]), not r["verified"]))
         return rows
 
     def search_activities(self, place: str | None = None, access: list[str] | None = None,

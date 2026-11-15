@@ -100,6 +100,7 @@ export default function PlayModule({ data, askCopilot, focus, clearFocus }) {
               </div>
             </div>
             <div className="flex flex-wrap gap-1.5 mt-3">
+              {a.verified && <Pill tone="navy">✓ Verified</Pill>}
               <Pill tone={a.cost_tier === 'free' ? 'forest' : 'gold'}>{BUDGET_LABELS[a.cost_tier]}</Pill>
               <Pill tone="sky">{pretty(a.setting)}</Pill>
               {a.ages.map((x) => <Pill key={x} tone="navy">{x}</Pill>)}
@@ -119,7 +120,7 @@ export default function PlayModule({ data, askCopilot, focus, clearFocus }) {
       <Sheet open={!!open} onClose={() => setOpen(null)} title={open?.name || ''}>
         {open && (
           <div>
-            <p className="label">{pretty(open.category)} · Sample listing, confirm before you go</p>
+            <p className="label">{pretty(open.category)} · {open.verified ? 'Verified listing · confirm hours before you go' : 'Sample listing, confirm before you go'}</p>
             <h3 className="font-display text-3xl text-navy mt-1">{CAT_EMOJI[open.category] || '✨'} {open.name}</h3>
             <div className="flex flex-wrap gap-1.5 mt-3">
               <Pill tone={open.cost_tier === 'free' ? 'forest' : 'gold'}>{BUDGET_LABELS[open.cost_tier]}</Pill>

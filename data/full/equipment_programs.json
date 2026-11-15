@@ -737,6 +737,202 @@
       "how_to_apply": "Browse what's available on their site or call to ask about specific equipment.",
       "url": "https://www.neatmarketplace.org",
       "real_org": true
+    },
+    {
+      "id": "prog-040",
+      "name": "MassMATCH Assistive Technology Regional Centers (hosted by Easterseals Massachusetts)",
+      "type": "loan_closet",
+      "scope": "state",
+      "states": [
+        "MA"
+      ],
+      "covers": [
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "Free device demonstrations and a lending library of equipment, software and toys, from low-tech to high-tech, that Massachusetts residents can borrow for up to 30 days. Try before you buy, or bridge a gap while insurance decides. Boston center at 89 South Street, with a second center in Worcester.",
+      "how_to_apply": "Create a free account at massmatch.at4all.com, browse the inventory and request up to 5 devices, or contact the Boston center to schedule a visit.",
+      "url": "https://massachusetts.easterseals.com/get-support/areas-of-support/assistive-technology/assistive-technology-regional-centers-atrc",
+      "real_org": true,
+      "verified_sources": [
+        "https://massachusetts.easterseals.com/get-support/areas-of-support/assistive-technology/assistive-technology-regional-centers-atrc",
+        "https://www.massmatch.org/"
+      ]
+    },
+    {
+      "id": "prog-041",
+      "name": "REquipment Durable Medical Equipment & Assistive Technology Reuse",
+      "type": "reuse",
+      "scope": "state",
+      "states": [
+        "MA"
+      ],
+      "covers": [
+        "power_wheelchair",
+        "manual_wheelchair",
+        "stander",
+        "walker",
+        "bath",
+        "home_ramp"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A program of MassMATCH (the Massachusetts Assistive Technology Act program) that cleans and restores donated home medical equipment and assistive technology and provides it free to Massachusetts residents, including children. Helpful if insurance won't cover an item, you need a backup while a chair is in the shop, or you need something short term.",
+      "how_to_apply": "Search the online inventory on the REquipment website, then call or email (info@requipmentma.org) to request an item.",
+      "url": "https://requipmentma.org/",
+      "real_org": true,
+      "verified_sources": [
+        "https://requipmentma.org/",
+        "https://www.requipmentma.org/about",
+        "https://www.mass.gov/doc/requipment-assistive-technology-at-program/download"
+      ]
+    },
+    {
+      "id": "prog-042",
+      "name": "Catastrophic Illness in Children Relief Fund (CICRF)",
+      "type": "grant",
+      "scope": "state",
+      "states": [
+        "MA"
+      ],
+      "covers": [
+        "any",
+        "vehicle"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A Massachusetts Department of Public Health fund that can help families of children and youth under 22 with medically related expenses not covered by insurance, including medical equipment and supplies. Home modifications and accessible vehicles are also considered, with limits and a sliding scale.",
+      "how_to_apply": "Review the eligibility and covered-expense pages on mass.gov, then apply after the expenses are incurred; the CICRF Commission makes the final decision.",
+      "url": "https://www.mass.gov/catastrophic-illness-in-children-relief-fund-cicrf",
+      "real_org": true,
+      "verified_sources": [
+        "https://www.mass.gov/catastrophic-illness-in-children-relief-fund-cicrf",
+        "https://www.mass.gov/info-details/check-eligibility-for-cicrf",
+        "https://www.mass.gov/info-details/what-expenses-are-covered-by-cicrf"
+      ]
+    },
+    {
+      "id": "prog-050",
+      "name": "Minnesota STAR Program device loans",
+      "type": "loan_closet",
+      "scope": "state",
+      "states": [
+        "MN"
+      ],
+      "covers": [
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "Minnesota's federally funded assistive technology program lends devices free so families can try before they buy, gather data for a funding request, or borrow while their own device is repaired. Short-term loans run up to 45 days, with a very limited number of open-ended loans.",
+      "how_to_apply": "Contact STAR or one of its partners, or browse the MN AT4ALL online lending library and submit a loan request; pick up or have the device shipped at no cost.",
+      "url": "https://mn.gov/admin/star/",
+      "real_org": true,
+      "verified_sources": [
+        "https://mn.gov/admin/star/program-services/device-loan",
+        "https://mn.gov/admin/star/program-services/"
+      ]
+    },
+    {
+      "id": "prog-051",
+      "name": "PACER Simon Technology Center Assistive Technology Lending Library",
+      "type": "loan_closet",
+      "scope": "state",
+      "states": [
+        "MN"
+      ],
+      "covers": [
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "More than 1,500 assistive technology items, including education, communication and daily living products plus iOS apps. Membership is free for Minnesota families, and families can borrow 4 items and 4 apps at a time.",
+      "how_to_apply": "Complete PACER's online membership form, then reserve items through the MyTurn library catalog; items can be mailed or picked up by appointment in Bloomington.",
+      "url": "https://www.pacer.org/assistive-technology/lending-library/",
+      "real_org": true,
+      "verified_sources": [
+        "https://www.pacer.org/assistive-technology/lending-library/",
+        "https://stclendinglibrary.myturn.com"
+      ]
+    },
+    {
+      "id": "prog-052",
+      "name": "Minnesota STAR Program assistive technology reuse and Device Exchange",
+      "type": "reuse",
+      "scope": "state",
+      "states": [
+        "MN"
+      ],
+      "covers": [
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "STAR's reuse services help pass along assistive technology a family no longer needs, by selling, exchanging or donating it, and its Device Exchange lists online sites where you can donate, sell or find used equipment.",
+      "how_to_apply": "Visit STAR's Reuse page to find the Device Exchange listings, or contact STAR for help finding used equipment.",
+      "url": "https://mn.gov/admin/star/program-services/reuse",
+      "real_org": true,
+      "verified_sources": [
+        "https://mn.gov/admin/star/program-services/reuse",
+        "https://mn.gov/admin/star/program-services/reuse/device-exchange.jsp"
+      ]
+    },
+    {
+      "id": "prog-045",
+      "name": "Washington Assistive Technology Act Program (WATAP) device lending",
+      "type": "loan_closet",
+      "scope": "state",
+      "states": [
+        "WA"
+      ],
+      "covers": [
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "Washington's statewide assistive technology program lends devices for 21 days (with short extensions) so families can try before they buy or bridge a gap during repairs, and ships anywhere in Washington. WATAP also offers device demonstrations, evaluations and training for people with disabilities and their circle of support. There is a nominal borrowing fee based on the device's value and maintenance cost.",
+      "how_to_apply": "Start at WATAP's Borrow a Device page or contact WATAP; ask about devices for your child's mobility, vision, hearing or communication needs.",
+      "url": "https://watap.org",
+      "real_org": true,
+      "verified_sources": [
+        "https://watap.org",
+        "https://watap.org/loan"
+      ]
+    },
+    {
+      "id": "prog-046",
+      "name": "Northwest Access Fund low-interest assistive technology loans",
+      "type": "grant",
+      "scope": "state",
+      "states": [
+        "WA"
+      ],
+      "covers": [
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A nonprofit serving Washington, Oregon and Idaho that offers low-interest loans (not grants) to buy assistive technology, plus free one-on-one financial coaching. WATAP partners with the Fund on AT financing.",
+      "how_to_apply": "Apply online through the Fund's AT loan page or call 1-877-428-5116 to ask about current rates, limits and whether a family member can apply on a child's behalf.",
+      "url": "https://nwaccessfund.org",
+      "real_org": true,
+      "verified_sources": [
+        "https://nwaccessfund.org",
+        "https://watap.org"
+      ]
+    },
+    {
+      "id": "prog-047",
+      "name": "Bridge Disability Ministries: Meyer Medical Equipment Center",
+      "type": "reuse",
+      "scope": "local",
+      "states": [
+        "WA"
+      ],
+      "covers": [
+        "mobility"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "An Eastside nonprofit center that provides essential mobility and medical equipment, refurbishing donated items such as wheelchairs and walkers for people who need them.",
+      "how_to_apply": "Visit Monday-Thursday, 9:30 a.m. to 5 p.m., at 15411 NE 95th St in Redmond, or call (425) 628-1751 / email equipment@bridgemin.org; ask about cost and whether pediatric sizes are available.",
+      "url": "https://www.bridgemin.org",
+      "real_org": true,
+      "verified_sources": [
+        "https://www.bridgemin.org"
+      ]
     }
   ]
 }

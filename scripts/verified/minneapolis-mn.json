@@ -1,0 +1,636 @@
+{
+  "hotspot": {
+    "id": "minneapolis-mn",
+    "city": "Minneapolis",
+    "state": "MN",
+    "region": "Midwest",
+    "aliases": [
+      "st. paul",
+      "saint paul",
+      "twin cities",
+      "minnesota",
+      "bloomington",
+      "golden valley",
+      "hennepin county",
+      "ramsey county",
+      "minneapolis mn"
+    ],
+    "lat": 44.98,
+    "lon": -93.27,
+    "scores": {
+      "transit_curb_cuts": 72,
+      "inclusive_playgrounds": 78,
+      "medicaid_waiver": 82,
+      "pediatric_specialty": 92,
+      "inclusive_schools": 72
+    },
+    "tagline": "Lake loops for rolling, a children's museum where every exhibit welcomes wheelchairs, and youth wheelchair basketball with national titles.",
+    "highlights": [
+      "Gillette Children's in St. Paul is a specialty children's hospital with a Cerebral Palsy Institute; Children's Minnesota and M Health Fairview Masonic Children's Hospital are in Minneapolis",
+      "Courage Kenny Adaptive Sports & Recreation in Golden Valley runs youth wheelchair basketball teams, power soccer and more, with a cost share/scholarship option",
+      "PACER Center in Bloomington is Minnesota's federally designated Parent Training and Information Center and runs a free-for-Minnesotans assistive technology lending library",
+      "Metro Transit light rail boards step-free, and Metro Mobility provides ADA paratransit across the metro"
+    ],
+    "pediatric_hospitals": [
+      "Gillette Children's (St. Paul)",
+      "Children's Minnesota (Minneapolis and St. Paul hospitals)",
+      "M Health Fairview University of Minnesota Masonic Children's Hospital (Minneapolis)"
+    ],
+    "inclusive_playgrounds": [
+      "Wabun Universal Access Play Area at Minnehaha Regional Park (Minneapolis' first universally accessible play area)",
+      "P.K.'s Place next to Allianz Field in St. Paul's Midway, with ramps up to the central play structure",
+      "Madison's Place in Woodbury, a fully inclusive playground at the Bielenberg Sports Center",
+      "Rosland Park in Edina, whose main structure is accessible all the way to the top"
+    ],
+    "transit_notes": "Metro Transit light rail offers step-free boarding and priority seating, and buses lower a ramp (wait 7 to 10 feet back from the curb so it can deploy). Metro Mobility is the Metropolitan Council's ADA paratransit service: apply with a two-part form that includes professional verification, and expect an eligibility decision within about 21 days.",
+    "waiver_notes": "Minnesota's Medical Assistance under the TEFRA option lets children under 19 with a certified disability qualify based on the child's own income, and Minnesota stopped charging parental fees for TEFRA and home and community-based services on July 1, 2023. Eligibility for the disability waivers (including CAC, CADI, DD and BI) is decided through a MnCHOICES assessment with your county, and Community First Services and Supports (CFSS) is replacing PCA and the Consumer Support Grant. The Family Support Grant can help eligible families who aren't on a waiver or PCA with costs such as respite. In Hennepin County, ask the county's disability services Front Door line where to start.",
+    "school_notes": "Help Me Grow is Minnesota's free referral door for children birth to 5; local school districts run Infant and Toddler Intervention and Preschool Special Education. Minneapolis Public Schools' Special Education Department handles evaluations and IEPs and has a Special Education Advisory Council (SEAC) for families. PACER Center is the free Parent Training and Information Center and helps families get ready for IEP meetings.",
+    "insider_tips": [
+      {
+        "tip": "Lake Harriet's paved walking path is about 2.75 miles around, with a separate bike path, so little wheels and big wheels each get their own lane.",
+        "from": "Joy Risers tip"
+      },
+      {
+        "tip": "At Minnesota Children's Museum, ask the box office for noise-reducing headphones, visual timers or universal cuffs; personal care attendants get in free with the person they assist.",
+        "from": "Joy Risers tip"
+      },
+      {
+        "tip": "Request Minneapolis Parks inclusion support at least two weeks before a program starts.",
+        "from": "Joy Risers tip"
+      },
+      {
+        "tip": "Three Rivers Park District keeps child-size all-terrain wheelchairs at some nature centers; contact the park early to ask.",
+        "from": "Joy Risers tip"
+      }
+    ],
+    "watch_outs": [
+      "Long, cold winters, and some regional park restrooms close for the off-season",
+      "Metro Mobility needs an application and eligibility decision before your first ride, so apply early",
+      "Family Support Grant funding is limited and there may be a waiting list"
+    ],
+    "cost_of_living": "moderate",
+    "verified_sources": [
+      "https://en.wikipedia.org/wiki/Gillette_Children%27s",
+      "https://childrensmn.org/services/care-specialties-departments/physical-rehabilitation/conditions-and-services",
+      "https://www.mhealthfairview.org/blog/decade-west-bank-m-health-fairview-masonic-childrens-hospital-celebrates-10th-anniversary",
+      "https://account.allinahealth.org/services/184",
+      "https://www.pacer.org/about/areas-of-focus/",
+      "https://www.pacer.org/assistive-technology/lending-library/",
+      "https://www.metrotransit.org/accessibility-how-to-ride",
+      "https://metrocouncil.org/Transportation/Services/Metro-Mobility-Home/Eligibility-Certifications.aspx",
+      "https://hcopub.dhs.state.mn.us/epm/2_3_6.htm",
+      "https://mn.gov/dhs/health-care/children-disability-blind/parental-fees/",
+      "https://www.fox9.com/news/medical-assistance-fees-ended-for-parents-of-children-with-disabilities",
+      "https://mn.gov/dhs/partners-and-providers/news-initiatives-reports-workgroups/long-term-services-and-supports/cfss/cfss-faq-la.jsp",
+      "https://mn.gov/dhs/disability-services/",
+      "https://mn.gov/dhs/people-we-serve/people-with-disabilities/services/home-community/programs-and-services/fsg.jsp",
+      "https://wwwprd.hennepin.us/residents/human-services/seniors-disabilities-supports",
+      "https://www.helpmegrowmn.org/HMG/Refer",
+      "https://www.mpschools.org/academics/special-education",
+      "https://www.minneapolisparks.org/news/2014/07/30/minnehaha_falls_universal_access_play_area_at_wabun_and_historic_play_area_at_north_plateau_to_be_officially_opened/",
+      "https://www.startribune.com/new-inclusive-playgrounds-allow-children-of-all-abilities-to-play/600378947",
+      "https://woodburymag.com/accessible-playground-madisons-place-inclusive-recreational-space-everyone/",
+      "https://www.startribune.com/new-inclusive-playground-opens-up-in-edina-s-rosland-park/399125541",
+      "https://www.minneapolisparks.org/parks-destinations/parks-lakes/lake_harriet_park/",
+      "https://mcm.org/accessibility/",
+      "https://www.minneapolisparks.org/activities-events/therapeutic_recreation/",
+      "https://www.threeriversparks.org/AdaptedEquipment"
+    ]
+  },
+  "activities": [
+    {
+      "id": "act-241",
+      "hotspot_id": "minneapolis-mn",
+      "city": "Minneapolis",
+      "state": "MN",
+      "name": "Courage Kenny Adaptive Sports & Recreation: youth wheelchair basketball, power soccer and more",
+      "category": "adaptive_sports",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under25",
+      "price_note": "Fees vary by program; Courage Kenny says financial barriers won't prevent participation and offers a cost share/scholarship application on request",
+      "setting": "indoor",
+      "description": "Courage Kenny's youth wheelchair basketball program has developmental, prep and junior varsity teams, and its Jr. Rolling Timberwolves have won three national championships. Power soccer (played from power wheelchairs), wheelchair lacrosse and more round out a program that welcomes kids as young as five.",
+      "accessibility_notes": [
+        "Wheelchair basketball, power soccer and wheelchair lacrosse are held at the Courage Kenny gym in Golden Valley",
+        "Teams are split by level, from developmental to junior varsity, so beginners have a place to start",
+        "Ask whether loaner sport wheelchairs are available for new players and which team fits your child's age"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Ask for the cost share/scholarship application when you first call so money never decides whether your child plays.",
+      "venue": "Courage Kenny Rehabilitation Institute (Golden Valley)",
+      "neighborhood": "Golden Valley",
+      "schedule": null,
+      "how_to_join": "Sign the participation forms and waivers, then register through CK Active online or contact Courage Kenny Sports & Recreation to ask which youth team or try-it option fits.",
+      "website": "https://www.allinahealth.org/adaptivesports",
+      "verified_sources": [
+        "https://account.allinahealth.org/services/184",
+        "https://www.allinahealth.org/allina-news/2024/09/new-season-and-new-coach-for-jr-rolling-timberwolves",
+        "https://www.allinahealth.org/allina-news/2023/08/no-boundaries-camp",
+        "https://support.doctorpodcasting.com/client/allina/item/30655-benefits-of-adaptive-sports-for-kids-with-disabilities"
+      ]
+    },
+    {
+      "id": "act-242",
+      "hotspot_id": "minneapolis-mn",
+      "city": "Minneapolis",
+      "state": "MN",
+      "name": "Minneapolis Parks Therapeutic Recreation & Inclusion support",
+      "category": "adaptive_recreation",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under25",
+      "price_note": "Program fees vary by activity; a personal assistant doesn't pay drop-in entry fees. Check current prices on their website",
+      "setting": "hybrid",
+      "description": "Every Minneapolis Park & Recreation Board program is open to people with and without disabilities, and the Inclusion Team builds individualized support so your child can join the fun. Supports can include picture schedules, sensory-friendly spaces, sign language interpretation and 1:1 staff support.",
+      "accessibility_notes": [
+        "Accommodations are individualized and follow the ADA, including sign language interpretation and 1:1 staff support",
+        "For drop-in open gym and pools, a personal assistant can come along and checks in at the front desk",
+        "Ask which recreation center near you has the program and space your child needs"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Request inclusion support at least two weeks before the program starts so staff can plan with you.",
+      "venue": "Minneapolis Park & Recreation Board recreation centers (citywide)",
+      "neighborhood": "Citywide, Minneapolis",
+      "schedule": null,
+      "how_to_join": "Register for any MPRB program and choose the inclusion support option online, tell registration staff, or email the Inclusion Team at inclusion@minneapolisparks.org.",
+      "website": "https://www.minneapolisparks.org/activities-events/therapeutic_recreation/",
+      "verified_sources": [
+        "https://www.minneapolisparks.org/activities-events/therapeutic_recreation/",
+        "https://mn.gov/adresources/search/0feb3ee7-c315-546d-b374-3de99f471b9c"
+      ]
+    },
+    {
+      "id": "act-243",
+      "hotspot_id": "minneapolis-mn",
+      "city": "Minneapolis",
+      "state": "MN",
+      "name": "Lake Harriet paved lake loop (Chain of Lakes)",
+      "category": "accessible_trail",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free to visit; a pay parking lot is available",
+      "setting": "outdoor",
+      "description": "Roll around one of Minneapolis' favorite lakes on a paved walking path of about 2.75 miles, with a separate bike path alongside. Summer brings free concerts and movies at the Lake Harriet Band Shell.",
+      "accessibility_notes": [
+        "Paved walking trail of about 2.75 miles, with a separate paved bike trail",
+        "Pay parking lot on site",
+        "Restrooms at regional park facilities close for the off-season, so plan ahead in colder months"
+      ],
+      "best_time": "Park open daily, 6 am to midnight in developed areas. Confirm on their website before you go",
+      "caregiver_tip": "The loop is long, so pick a turnaround point before you start and enjoy the lake views both ways.",
+      "venue": "Lake Harriet Park",
+      "neighborhood": "Southwest Minneapolis (Chain of Lakes)",
+      "schedule": null,
+      "how_to_join": "Just show up; no registration needed.",
+      "website": "https://www.minneapolisparks.org/parks-destinations/parks-lakes/lake_harriet_park/",
+      "verified_sources": [
+        "https://www.minneapolisparks.org/parks-destinations/parks-lakes/lake_harriet_park/",
+        "https://www.minneapolisparks.org/parks-destinations/parks-lakes/minneapolis_chain_of_lakes_regional_park/"
+      ]
+    },
+    {
+      "id": "act-244",
+      "hotspot_id": "minneapolis-mn",
+      "city": "Minneapolis",
+      "state": "MN",
+      "name": "Wabun Universal Access Play Area at Minnehaha Regional Park",
+      "category": "inclusive_playground",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free; the park has both pay and free parking lots",
+      "setting": "outdoor",
+      "description": "Minneapolis' first universally accessible play area sits near Minnehaha Falls, with cabins, tents and a play car and camper inspired by the park's history. Rubber surfacing and ramps up onto the structure let kids who roll and kids who run play side by side.",
+      "accessibility_notes": [
+        "Rubberized surfacing throughout the play area",
+        "Multiple ramps lead up onto the play structure, plus a quiet area",
+        "Ask the park board about current parking and path conditions, since construction has affected access nearby"
+      ],
+      "best_time": "Park open daily, 6 am to midnight in developed areas. Confirm on their website before you go",
+      "caregiver_tip": "Reserve one of the Wabun picnic shelters if you're bringing a big group of family and friends.",
+      "venue": "Wabun Picnic Area, Minnehaha Regional Park",
+      "neighborhood": "Minnehaha / South Minneapolis",
+      "schedule": null,
+      "how_to_join": "Just show up; picnic shelters can be reserved through the park board.",
+      "website": "https://www.minneapolisparks.org/parks-destinations/parks-lakes/minnehaha_regional_park/",
+      "verified_sources": [
+        "https://www.minneapolisparks.org/parks-destinations/parks-lakes/minnehaha_regional_park/",
+        "https://www.minneapolisparks.org/news/2014/07/30/minnehaha_falls_universal_access_play_area_at_wabun_and_historic_play_area_at_north_plateau_to_be_officially_opened/",
+        "https://metrocouncil.org/News-Events/Parks/Newsletters/Minnehaha-Regional-Park-2014.aspx"
+      ]
+    },
+    {
+      "id": "act-245",
+      "hotspot_id": "minneapolis-mn",
+      "city": "Minneapolis",
+      "state": "MN",
+      "name": "Como Park Zoo & Conservatory",
+      "category": "zoo_aquarium",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free admission; a voluntary donation ($8 adults, $5 children) is appreciated but not required. Wheelchair rental is $10/day",
+      "setting": "hybrid",
+      "description": "Say hello to animals and wander a glass conservatory full of plants, all with free admission in St. Paul. Sensory Friendly Early Entry mornings give families a calmer hour before the gates open to everyone.",
+      "accessibility_notes": [
+        "Wheelchairs ($10/day) and electric scooters ($30/day) can be rented on site; they can't be reserved ahead",
+        "A social narrative, visual schedule and sensory map are available on the website",
+        "Sensory Friendly Early Entry runs 9 to 10 AM on listed dates"
+      ],
+      "best_time": "Zoo open daily 10 AM to 4 PM; Conservatory open 10 AM to 4 PM Tuesday to Sunday through April 30, 2027. Confirm on their website before you go",
+      "caregiver_tip": "Download the sensory map and visual schedule before you go so your child knows what's coming.",
+      "venue": "Como Park Zoo & Conservatory",
+      "neighborhood": "Como Park, St. Paul",
+      "schedule": null,
+      "how_to_join": "No tickets needed; just arrive during open hours.",
+      "website": "https://comozooconservatory.org",
+      "verified_sources": [
+        "https://comozooconservatory.org/visitors/visitor-map-hours/",
+        "https://comozooconservatory.org/policies",
+        "https://comozooconservatory.org/senior-strolls-and-sensory-friendly-mornings/"
+      ]
+    },
+    {
+      "id": "act-246",
+      "hotspot_id": "minneapolis-mn",
+      "city": "Minneapolis",
+      "state": "MN",
+      "name": "Minnesota Children's Museum",
+      "category": "sensory_friendly_museum",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12"
+      ],
+      "cost_tier": "under25",
+      "price_note": "Online advance tickets $17.95 to $19.95, walk-up $24.95, income-based All Play tickets $5; personal care attendants are free with the person they assist",
+      "setting": "indoor",
+      "description": "Climb, splash, build and pretend in a museum where every exhibit is designed to be wheelchair accessible. Quiet comfort rooms and low-stimulation spaces help kids reset whenever they need a break.",
+      "accessibility_notes": [
+        "Every exhibit is designed to be wheelchair accessible",
+        "Comfort rooms on the first floor (near Shipwreck Adventures) and second floor (in Sprouts)",
+        "Visual timers, noise-reducing headphones and universal cuffs can be checked out at the box office"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Park in the World Trade Center ramp and take the skyway in, and ask about All Play pricing if you have an EBT or WIC card.",
+      "venue": "Minnesota Children's Museum",
+      "neighborhood": "Downtown St. Paul",
+      "schedule": null,
+      "how_to_join": "Buy tickets online in advance for the best price, or at the door.",
+      "website": "https://mcm.org",
+      "verified_sources": [
+        "https://mcm.org/accessibility/",
+        "https://mcm.org/visit/"
+      ]
+    },
+    {
+      "id": "act-247",
+      "hotspot_id": "minneapolis-mn",
+      "city": "Minneapolis",
+      "state": "MN",
+      "name": "Minneapolis Institute of Art (Mia)",
+      "category": "sensory_friendly_museum",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "General admission is always free; some special exhibitions and events are ticketed",
+      "setting": "indoor",
+      "description": "Explore art from around the world for free, with no tickets or reservations needed for the permanent collection. Let your child choose a favorite gallery and make it a family tradition.",
+      "accessibility_notes": [
+        "Wheelchair-accessible entrances and galleries",
+        "Wheelchairs are available first come, first served; ask Visitor Experience about reserving one ahead",
+        "The free Bloomberg Connects app offers audio content and language support"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Because it's free, short visits are perfect: see a few galleries, then head home happy.",
+      "venue": "Minneapolis Institute of Art",
+      "neighborhood": "Whittier, Minneapolis",
+      "schedule": null,
+      "how_to_join": "Walk in during open hours; no tickets needed for general admission.",
+      "website": "https://artsmia.org",
+      "verified_sources": [
+        "https://new.artsmia.org/visit",
+        "https://new.artsmia.org/accessibility-and-inclusion",
+        "https://new.artsmia.org/special-exhibition-accessibility"
+      ]
+    },
+    {
+      "id": "act-248",
+      "hotspot_id": "minneapolis-mn",
+      "city": "Minneapolis",
+      "state": "MN",
+      "name": "Children's Theatre Company accessible performances (sensory friendly, ASL and audio described)",
+      "category": "adaptive_arts",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17"
+      ],
+      "cost_tier": "under50",
+      "price_note": "Ticket prices vary by show and seat; check current prices on their website",
+      "setting": "indoor",
+      "description": "Each season, Children's Theatre Company sets aside sensory-friendly, ASL-interpreted and audio-described performances so the whole family can enjoy live theatre together. Sensory-friendly shows keep the house lights low and sound gentler, developed with Fraser and the Autism Society of Minnesota.",
+      "accessibility_notes": [
+        "Step-free wheelchair rows in both theatres (Row O on the UnitedHealth Group Stage, Row A on the Cargill Stage) and accessible restrooms",
+        "Free assistive listening headsets, ASL-interpreted and audio-described performances",
+        "Large print programs and Sensory Tours on request through the Ticket Office"
+      ],
+      "best_time": "Published accessible performances, e.g. How the Grinch Stole Christmas! sensory friendly Nov 29, 2026 at 5pm and Jan 2, 2027 at 11am, ASL/AD Dec 5, 2026 at 11am. Confirm on their website before you go",
+      "caregiver_tip": "Request wheelchair seating when you book, and read the social story together before the show.",
+      "venue": "Children's Theatre Company",
+      "neighborhood": "Whittier, Minneapolis",
+      "schedule": null,
+      "how_to_join": "Buy tickets online or through the Ticket Office and ask for any accommodations when you book.",
+      "website": "https://childrenstheatre.org/plan-your-visit/accessibility/",
+      "verified_sources": [
+        "https://childrenstheatre.org/plan-your-visit/accessibility",
+        "https://childrenstheatre.org/plan-your-visit/accessibility/sensory-friendly-programming/"
+      ]
+    },
+    {
+      "id": "act-249",
+      "hotspot_id": "minneapolis-mn",
+      "city": "Minneapolis",
+      "state": "MN",
+      "name": "Three Rivers Park District adapted equipment (all-terrain wheelchairs, sit-skis, beach wheelchairs)",
+      "category": "adaptive_recreation",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under25",
+      "price_note": "The adapted equipment page lists no fee for most items (fees are shown only for things like child trailers); confirm when you reserve",
+      "setting": "outdoor",
+      "description": "Three Rivers Park District lends adapted gear so families can explore its parks together, from all-terrain wheelchairs on nature trails to sit-skis in winter. Handcycles and supported kayaks are available through scheduled Outdoor Recreation School programs.",
+      "accessibility_notes": [
+        "Manual all-terrain wheelchairs, including child sizes at Eastman and Richardson Nature Centers",
+        "Beach wheelchairs and ADA ramps into the water at Elm Creek and Lake Minnetonka swim ponds; sit-skis at several ski chalets",
+        "Assistive listening devices at several nature centers; ask which equipment is at the park you plan to visit"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Call the specific park ahead to hold the right-size chair; early inquiry is encouraged.",
+      "venue": "Three Rivers Park District parks (e.g., Elm Creek Park Reserve, Eastman and Richardson Nature Centers)",
+      "neighborhood": "Western and southern Twin Cities suburbs (e.g., Maple Grove)",
+      "schedule": null,
+      "how_to_join": "Contact the park you plan to visit, or the Outdoor Recreation School for equipment used in scheduled programs.",
+      "website": "https://www.threeriversparks.org/AdaptedEquipment",
+      "verified_sources": [
+        "https://www.threeriversparks.org/AdaptedEquipment",
+        "https://threeriversparks.org/blog/adapted-biking-bringing-all-together-trails"
+      ]
+    },
+    {
+      "id": "act-250",
+      "hotspot_id": "minneapolis-mn",
+      "city": "Minneapolis",
+      "state": "MN",
+      "name": "MacPhail Center for Music: adaptive lessons and music therapy",
+      "category": "music_dance",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under100",
+      "price_note": "Tuition is individualized; need-based sliding-scale financial aid is available, and MacPhail can bill Fiscal Management Services for CDCS funds. Check current prices on their website",
+      "setting": "hybrid",
+      "description": "Adaptive lessons let kids who learn music differently, including those with physical disabilities, play and sing with a board-certified music therapist who tailors every lesson. No musical experience is needed, just curiosity and joy.",
+      "accessibility_notes": [
+        "Lessons are designed for students with physical, cognitive or emotional challenges",
+        "Individual sessions in person or online through MacPhail Live Online",
+        "Ask about step-free access and room setup at the location you choose"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "If your child has CDCS waiver funds, ask whether MacPhail can bill your Fiscal Management Services provider directly.",
+      "venue": "MacPhail Center for Music (Minneapolis, plus Apple Valley, Chanhassen and online)",
+      "neighborhood": "Minneapolis",
+      "schedule": null,
+      "how_to_join": "Complete the online music therapy intake form or call to schedule a short intake interview; placement with a therapist usually follows within a few days.",
+      "website": "https://www.macphail.org/meta/music-therapy/",
+      "verified_sources": [
+        "https://www.macphail.org/meta/music-therapy/"
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "id": "prog-050",
+      "name": "Minnesota STAR Program device loans",
+      "type": "loan_closet",
+      "scope": "state",
+      "states": [
+        "MN"
+      ],
+      "covers": [
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "Minnesota's federally funded assistive technology program lends devices free so families can try before they buy, gather data for a funding request, or borrow while their own device is repaired. Short-term loans run up to 45 days, with a very limited number of open-ended loans.",
+      "how_to_apply": "Contact STAR or one of its partners, or browse the MN AT4ALL online lending library and submit a loan request; pick up or have the device shipped at no cost.",
+      "url": "https://mn.gov/admin/star/",
+      "real_org": true,
+      "verified_sources": [
+        "https://mn.gov/admin/star/program-services/device-loan",
+        "https://mn.gov/admin/star/program-services/"
+      ]
+    },
+    {
+      "id": "prog-051",
+      "name": "PACER Simon Technology Center Assistive Technology Lending Library",
+      "type": "loan_closet",
+      "scope": "state",
+      "states": [
+        "MN"
+      ],
+      "covers": [
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "More than 1,500 assistive technology items, including education, communication and daily living products plus iOS apps. Membership is free for Minnesota families, and families can borrow 4 items and 4 apps at a time.",
+      "how_to_apply": "Complete PACER's online membership form, then reserve items through the MyTurn library catalog; items can be mailed or picked up by appointment in Bloomington.",
+      "url": "https://www.pacer.org/assistive-technology/lending-library/",
+      "real_org": true,
+      "verified_sources": [
+        "https://www.pacer.org/assistive-technology/lending-library/",
+        "https://stclendinglibrary.myturn.com"
+      ]
+    },
+    {
+      "id": "prog-052",
+      "name": "Minnesota STAR Program assistive technology reuse and Device Exchange",
+      "type": "reuse",
+      "scope": "state",
+      "states": [
+        "MN"
+      ],
+      "covers": [
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "STAR's reuse services help pass along assistive technology a family no longer needs, by selling, exchanging or donating it, and its Device Exchange lists online sites where you can donate, sell or find used equipment.",
+      "how_to_apply": "Visit STAR's Reuse page to find the Device Exchange listings, or contact STAR for help finding used equipment.",
+      "url": "https://mn.gov/admin/star/program-services/reuse",
+      "real_org": true,
+      "verified_sources": [
+        "https://mn.gov/admin/star/program-services/reuse",
+        "https://mn.gov/admin/star/program-services/reuse/device-exchange.jsp"
+      ]
+    }
+  ],
+  "respite_grants": [
+    {
+      "id": "respite-minneapolis-1",
+      "name": "True Friends weekend and weekday respite",
+      "scope": "local",
+      "states": [
+        "MN"
+      ],
+      "what_they_offer": "DHS-licensed short-term respite at Camp Eden Wood in Eden Prairie and Camp Friendship in Annandale, with weekend, weekday and Saturday options, so caregivers can rest while kids enjoy camp.",
+      "eligibility": "Children and adults ages five and up with developmental or physical disabilities.",
+      "how_to_apply": "Complete True Friends' online program application and health questionnaires; ask which funding sources (such as waiver funds) they can accept.",
+      "url": "https://truefriends.org/programs/respite/",
+      "real_org": true,
+      "verified_sources": [
+        "https://truefriends.org/programs/respite/",
+        "https://truefriends.org/experience-true-friends/"
+      ]
+    },
+    {
+      "id": "respite-minneapolis-2",
+      "name": "Minnesota Family Support Grant (can help pay for respite)",
+      "scope": "state",
+      "states": [
+        "MN"
+      ],
+      "what_they_offer": "A state cash grant for families raising a child with a certified disability at home; respite care is one of the listed uses.",
+      "eligibility": "Children under 25 with a certified disability living in their family home, under an income limit; generally not available alongside disability waivers, PCA/CFSS or the Consumer Support Grant. Funding is limited and there may be a waiting list.",
+      "how_to_apply": "Apply through your county or tribal human services office (in Hennepin County, start with disability services) or ask the Disability Linkage Line.",
+      "url": "https://mn.gov/dhs/people-we-serve/people-with-disabilities/services/home-community/programs-and-services/fsg.jsp",
+      "real_org": true,
+      "verified_sources": [
+        "https://mn.gov/dhs/people-we-serve/people-with-disabilities/services/home-community/programs-and-services/fsg.jsp",
+        "https://www.olmstedcounty.gov/residents/services-individuals-families/individuals-living-disability/Family-Support-Grant-FSG",
+        "https://washingtoncountymn.gov/2980/Family-Support-Grant-FSG"
+      ]
+    }
+  ],
+  "support_groups": [
+    {
+      "id": "group-minneapolis-1",
+      "name": "PACER Center: Minnesota's Parent Training & Information Center (free IEP help)",
+      "audience": [
+        "all"
+      ],
+      "format": "hybrid",
+      "city": "Bloomington",
+      "state": "MN",
+      "schedule": "Contact an advocate by phone or email; free virtual and in-person workshops",
+      "description": "Minnesota's federally designated Parent Training and Information Center and Family-to-Family Health Information Center. Advocates (in English, Spanish, Somali and other languages on request) help families of children and young adults with disabilities understand options and prepare for IEP meetings.",
+      "url": "https://www.pacer.org",
+      "real_org": true,
+      "verified_sources": [
+        "https://www.pacer.org/about/areas-of-focus/",
+        "https://www.pacer.org/ask-an-advocate/"
+      ]
+    },
+    {
+      "id": "group-minneapolis-2",
+      "name": "Family Voices of Minnesota: CONNECTED parent-to-parent support",
+      "audience": [
+        "all"
+      ],
+      "format": "virtual",
+      "city": "Statewide (Minnesota)",
+      "state": "MN",
+      "schedule": "Virtual peer-led parent support groups; call or email to request a one-on-one parent match",
+      "description": "A family-run nonprofit where parents and caregivers raising children with disabilities or special healthcare needs support each other: virtual support groups, a Parent Support Navigator, and matches with a trained parent whose child has similar needs.",
+      "url": "https://familyvoicesofminnesota.org",
+      "real_org": true,
+      "verified_sources": [
+        "https://familyvoicesofminnesota.org/",
+        "https://www.gillettechildrens.org/patient-preparation-and-support/connect-with-other-parents",
+        "https://helpmeconnect.web.health.state.mn.us/HelpMeConnect/Providers/Family_Voices_of_Minnesota/Parenting_Support_-_Children_with_Special_Health_Needs_or_Disabilities/1"
+      ]
+    }
+  ]
+}

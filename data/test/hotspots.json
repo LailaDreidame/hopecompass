@@ -265,51 +265,90 @@
       "city": "Seattle",
       "state": "WA",
       "region": "Pacific",
+      "aliases": [
+        "bellevue",
+        "king county",
+        "puget sound",
+        "washington state",
+        "redmond",
+        "issaquah",
+        "seattle wa"
+      ],
       "lat": 47.61,
       "lon": -122.33,
       "scores": {
-        "transit_curb_cuts": 74,
-        "inclusive_playgrounds": 82,
+        "transit_curb_cuts": 80,
+        "inclusive_playgrounds": 80,
         "medicaid_waiver": 72,
         "pediatric_specialty": 95,
-        "inclusive_schools": 74
+        "inclusive_schools": 70
       },
-      "tagline": "Waterfront wheel routes and a stellar kids' hospital.",
+      "tagline": "Free adaptive bikes by the lake, youth wheelchair basketball with chairs provided, and a top children's hospital in town.",
       "highlights": [
-        "Nationally known children's hospital",
-        "Accessible light rail and ferries",
-        "Strong adaptive recreation programs",
-        "Active disability advocacy"
+        "Seattle Children's Hospital has a Rehabilitation Medicine program, a Tone Management Program for spasticity and dystonia, and inpatient rehabilitation for patients up to age 21",
+        "Outdoors for All lends adaptive bikes free of charge for on-site rides at its Magnuson Park Adaptive Cycling Center during the warm-weather season",
+        "Seattle Adaptive Sports runs youth wheelchair basketball (they provide the chairs), a youth sled hockey team and power soccer",
+        "Seattle Parks and Recreation's Specialized Programs offer day camps for ages 4-21, youth weekend trips, and teen and young adult afterschool programs"
       ],
       "pediatric_hospitals": [
         "Seattle Children's Hospital"
       ],
       "inclusive_playgrounds": [
-        "Accessible playgrounds in several city parks",
-        "An inclusive playground with rubber surfacing in a large park"
+        "Seattle Children's PlayGarden at Colman Playground in South Seattle: a free, fenced, fully accessible park with turf surfacing and low, wide play structures",
+        "Inspiration Playground at Bellevue Downtown Park, a universally accessible playground built by the City of Bellevue with the Bellevue Rotary Club"
       ],
-      "transit_notes": "Light rail, buses, and ferries are accessible, and paratransit is available. The city is hilly, and rain is frequent.",
-      "waiver_notes": "Washington has Medicaid and developmental disability programs for children, and waitlists exist. Ask your care team about the state's disability services.",
-      "school_notes": "Many districts offer inclusion programs; advocacy groups can help.",
+      "transit_notes": "Every King County Metro bus has a wheelchair lift or ramp, and Sound Transit's Link light rail offers level boarding, with elevators at stations above or below street level. King County Metro's Access Transportation is the ADA paratransit service for riders ages 6 and up whose disability keeps them from using buses and light rail on their own; qualifying with one Puget Sound agency lets you ride with the others in the regional agreement. Seattle is hilly, so plan routes around the steepest streets.",
+      "waiver_notes": "Washington Apple Health for Kids gives children under 19 medical, dental, vision and mental health coverage (free or low-cost depending on household income, with no deductibles or co-pays). The DSHS Developmental Disabilities Administration (DDA, briefly called DDCS in 2025) offers services for eligible children and youth ages 0-21 and Home and Community Based waivers such as Basic Plus. For babies and toddlers, Washington's Early Support for Infants and Toddlers (ESIT) program at DCYF serves children from birth to age 3. Unpaid family caregivers can also apply for a Lifespan Respite Washington voucher.",
+      "school_notes": "Seattle Public Schools' Special Education department builds each student's IEP with the family and has a district ombudsperson for concerns not settled at school. PAVE is Washington's Parent Training and Information Center and gives free help preparing for IEP and 504 meetings, and the parent-led Seattle Special Education PTSA publishes a guide to special education in ten languages.",
       "insider_tips": [
         {
-          "tip": "Hills matter: choose neighborhoods with flatter routes.",
-          "from": "Two-mom family with a 9-year-old wheelchair user"
+          "tip": "Green Lake's 2.8-mile paved inner loop has an outside lane just for wheels, and motorized wheelchairs are the only motorized devices allowed on the path.",
+          "from": "Joy Risers tip"
         },
         {
-          "tip": "A good rain cover for the chair is a lifesaver.",
-          "from": "Grandfather raising a 6-year-old"
+          "tip": "Seattle Adaptive Sports invites families to a training session to try a sport; kids don't need to use a wheelchair every day to play wheelchair basketball, and the team provides the chairs.",
+          "from": "Joy Risers tip"
         },
         {
-          "tip": "Ferries are accessible and make fun outings.",
-          "from": "Foster parent of a teen"
+          "tip": "At Pacific Science Center, a guest's aide gets complimentary admission, and free wheelchairs and sensory kits are available at the Main Entry.",
+          "from": "Joy Risers tip"
+        },
+        {
+          "tip": "Seattle Parks' Specialized Programs say they accept DDA (DDCS) respite funds for camp where applicable, so ask your case manager before you register.",
+          "from": "Joy Risers tip"
         }
       ],
       "watch_outs": [
-        "Steep hills",
-        "High cost of living"
+        "Steep hills in many neighborhoods",
+        "High cost of living",
+        "Many outdoor programs (adaptive cycling, spray features, summer camps) are seasonal, so register early",
+        "DDA eligibility and enrollment can take time, so start early"
       ],
-      "cost_of_living": "high"
+      "cost_of_living": "high",
+      "verified_sources": [
+        "https://www.seattlechildrens.org",
+        "https://www.seattlechildrens.org/clinics/rehabilitation-medicine/",
+        "https://www.seattlechildrens.org/conditions/cerebral-palsy/",
+        "https://kingcounty.gov/en/dept/metro/rider-tools/how-to-ride/accessibility-on-buses",
+        "https://kingcounty.gov/en/dept/metro/travel-options/accessible-services/access-transportation",
+        "https://www.soundtransit.org/node/450",
+        "https://www.hca.wa.gov/free-or-low-cost-health-care/i-need-medical-dental-or-vision-care/children",
+        "https://www.dshs.wa.gov/dda",
+        "https://www.hca.wa.gov/node/36625",
+        "https://arcwa.org/2026/05/",
+        "https://www.dcyf.wa.gov/services/child-development-support/esit",
+        "https://wapave.org/parent-training-and-information-program",
+        "https://wapave.org/how-to-apply-for-respite/",
+        "https://www.seattleschools.org/departments/special-education/",
+        "https://seattlespecialeducationptsa.org",
+        "https://seattle.gov/parks/find/specialized-programs",
+        "https://www.seattle.gov/parks/parkspaces/greenlak.htm",
+        "https://www.seattleadaptivesports.org/youth-sports/",
+        "https://outdoorsforall.org/programs/recreation-programs/",
+        "https://pacificsciencecenter.org/visit/accessibility",
+        "https://www.parentmap.com/article/new-seattle-childrens-playgarden-playground-accessible-inclusive",
+        "https://bellevuewa.gov/city-government/departments/parks/planning-and-development/downtown-park/inspiration-playground"
+      ]
     }
   ]
 }

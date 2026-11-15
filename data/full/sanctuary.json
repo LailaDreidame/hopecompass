@@ -196,6 +196,111 @@
       "how_to_apply": "Ask your RCEB service coordinator to add respite to your Individual Program Plan.",
       "url": "https://www.rceb.org",
       "real_org": true
+    },
+    {
+      "id": "respite-boston-1",
+      "name": "Caregiver to Caregiver (C2C) Respite Network (Federation for Children with Special Needs)",
+      "scope": "state",
+      "states": [
+        "MA"
+      ],
+      "what_they_offer": "Matches Massachusetts families of children who need specialized support so caregivers can trade respite, based on the child's medical and support needs, location and language or cultural preferences. Staff run background checks, offer trainings and online forums, and check in with matched families at least monthly.",
+      "eligibility": "Massachusetts families of children and young people ages 0-26 who need specialized support; open to families regardless of financial resources.",
+      "how_to_apply": "Click Join / Request a Match on the C2C page or email c2crespite@fcsn.org.",
+      "url": "https://fcsn.org/c2c/",
+      "real_org": true,
+      "verified_sources": [
+        "https://fcsn.org/c2c/",
+        "https://archrespite.org/library/webinar-caregiver-to-caregiver-c2c-respite-network/"
+      ]
+    },
+    {
+      "id": "respite-boston-2",
+      "name": "Massachusetts DDS Family Support Centers: respite and flexible family support",
+      "scope": "state",
+      "states": [
+        "MA"
+      ],
+      "what_they_offer": "Department of Developmental Services-funded centers give families information, referrals and support services; eligible families can ask about respite, including flexible funds to pay respite providers they choose.",
+      "eligibility": "Information and referral are open to any family; funded respite generally requires eligibility for DDS services (intellectual and developmental disabilities).",
+      "how_to_apply": "Contact the Family Support Center for your area from the DDS directory, or ask your DDS Service Coordinator about respite.",
+      "url": "https://www.mass.gov/info-details/dds-family-support-centers",
+      "real_org": true,
+      "verified_sources": [
+        "https://www.mass.gov/info-details/dds-family-support-centers",
+        "https://www.mass.gov/info-details/about-family-support-family-support-programs-for-people-of-all-ages",
+        "https://disabilityinfo.org/fact-sheet-library/home-supports/respite-options/"
+      ]
+    },
+    {
+      "id": "respite-minneapolis-1",
+      "name": "True Friends weekend and weekday respite",
+      "scope": "local",
+      "states": [
+        "MN"
+      ],
+      "what_they_offer": "DHS-licensed short-term respite at Camp Eden Wood in Eden Prairie and Camp Friendship in Annandale, with weekend, weekday and Saturday options, so caregivers can rest while kids enjoy camp.",
+      "eligibility": "Children and adults ages five and up with developmental or physical disabilities.",
+      "how_to_apply": "Complete True Friends' online program application and health questionnaires; ask which funding sources (such as waiver funds) they can accept.",
+      "url": "https://truefriends.org/programs/respite/",
+      "real_org": true,
+      "verified_sources": [
+        "https://truefriends.org/programs/respite/",
+        "https://truefriends.org/experience-true-friends/"
+      ]
+    },
+    {
+      "id": "respite-minneapolis-2",
+      "name": "Minnesota Family Support Grant (can help pay for respite)",
+      "scope": "state",
+      "states": [
+        "MN"
+      ],
+      "what_they_offer": "A state cash grant for families raising a child with a certified disability at home; respite care is one of the listed uses.",
+      "eligibility": "Children under 25 with a certified disability living in their family home, under an income limit; generally not available alongside disability waivers, PCA/CFSS or the Consumer Support Grant. Funding is limited and there may be a waiting list.",
+      "how_to_apply": "Apply through your county or tribal human services office (in Hennepin County, start with disability services) or ask the Disability Linkage Line.",
+      "url": "https://mn.gov/dhs/people-we-serve/people-with-disabilities/services/home-community/programs-and-services/fsg.jsp",
+      "real_org": true,
+      "verified_sources": [
+        "https://mn.gov/dhs/people-we-serve/people-with-disabilities/services/home-community/programs-and-services/fsg.jsp",
+        "https://www.olmstedcounty.gov/residents/services-individuals-families/individuals-living-disability/Family-Support-Grant-FSG",
+        "https://washingtoncountymn.gov/2980/Family-Support-Grant-FSG"
+      ]
+    },
+    {
+      "id": "respite-seattle-1",
+      "name": "Lifespan Respite Washington voucher (run by PAVE)",
+      "scope": "state",
+      "states": [
+        "WA"
+      ],
+      "what_they_offer": "A voucher of up to $1,000 per household per year for short-term respite from a provider on the approved list; it usually lasts about 3-4 months, and summer camp and recreation awards start in January. Family members, friends and independent providers can't be paid with the voucher.",
+      "eligibility": "Unpaid Washington caregivers who provide 40 or more hours of care per week (including supervision), can't afford respite on their own, and aren't enrolled in another respite program (unless waitlisted and not scheduled within 30 days). The person receiving care can be any age.",
+      "how_to_apply": "Submit the online application; for help email getrespite@wapave.org or call 253-442-3214. Awards depend on available funding.",
+      "url": "https://wapave.org/how-to-apply-for-respite/",
+      "real_org": true,
+      "verified_sources": [
+        "https://wapave.org/how-to-apply-for-respite/",
+        "https://wapave.org"
+      ]
+    },
+    {
+      "id": "respite-seattle-2",
+      "name": "DSHS Developmental Disabilities Administration (DDA): respite for children and youth",
+      "scope": "state",
+      "states": [
+        "WA"
+      ],
+      "what_they_offer": "DDA serves eligible children and youth ages 0-21 with developmental disabilities so they can live at home. Ask whether respite can be part of your child's services; DDA also runs Enhanced Respite Services, short-term stays in DDA-contracted, licensed, staffed settings for some children and youth.",
+      "eligibility": "Children and youth found eligible as DDA clients; DDA decides whether a child's condition meets its developmental disability definition.",
+      "how_to_apply": "Use DDA's How to Enroll page or Service and Information Request Form; current clients can ask their Case Resource Manager about respite.",
+      "url": "https://www.dshs.wa.gov/dda",
+      "real_org": true,
+      "verified_sources": [
+        "https://www.dshs.wa.gov/dda",
+        "https://www.dshs.wa.gov/sites/default/files/DDA/dda/documents/24-1360%20DDA%20Enhance%20Respite%20for%20Children%20-%20Leg%20Report.pdf",
+        "https://seattle.gov/parks/find/specialized-programs"
+      ]
     }
   ],
   "support_groups": [
@@ -458,6 +563,135 @@
       "description": "Connecticut's statewide Parent Training and Information Center: free support for families of children with any disability, from birth to 26, including help preparing for IEP meetings.",
       "url": "https://cpacinc.org",
       "real_org": true
+    },
+    {
+      "id": "group-boston-1",
+      "name": "Federation for Children with Special Needs: Parent Training & Information Center (free IEP help)",
+      "audience": [
+        "all"
+      ],
+      "format": "hybrid",
+      "city": "Boston",
+      "state": "MA",
+      "schedule": "Information Center staffed 10 a.m.-3 p.m., Monday-Friday; free workshops across Massachusetts",
+      "description": "Massachusetts' Parent Training and Information Center, and the nation's first, offers free help to families, youth and young adults with questions about special education: understanding IEPs, IEP clinics, workshops and help in many languages.",
+      "url": "https://fcsn.org/pti/",
+      "real_org": true,
+      "verified_sources": [
+        "https://fcsn.org/pti/",
+        "https://fcsn.org/",
+        "https://www.parentcenterhub.org/findurcenter/page/7"
+      ]
+    },
+    {
+      "id": "group-boston-2",
+      "name": "Family TIES of Massachusetts & Parent to Parent of Massachusetts",
+      "audience": [
+        "all"
+      ],
+      "format": "virtual",
+      "city": "Boston",
+      "state": "MA",
+      "schedule": "Call or email to be matched with a support parent and to join trainings",
+      "description": "Staffed by family members with lived experience, Family TIES helps families of children birth to 26 with special health needs, disabilities or medical complexity find resources, and Parent to Parent matches you with a trained support parent who has walked a similar path.",
+      "url": "https://fcsn.org/family-ties/",
+      "real_org": true,
+      "verified_sources": [
+        "https://fcsn.org/family-ties/"
+      ]
+    },
+    {
+      "id": "group-boston-3",
+      "name": "Boston Special Education Parent Advisory Council (SpEdPAC)",
+      "audience": [
+        "all"
+      ],
+      "format": "hybrid",
+      "city": "Boston",
+      "state": "MA",
+      "schedule": "Monthly general meetings and trainings during the school year; check the SpEdPAC website for dates",
+      "description": "The independent, districtwide council of Boston Public Schools families of students with IEPs, run by parent volunteers who give families a voice and support. All families are welcome.",
+      "url": "https://www.bostonspedpac.org/",
+      "real_org": true,
+      "verified_sources": [
+        "https://www.bostonpublicschools.org/academics/specialized-services/boston-spedpac",
+        "https://www.bostonspedpac.org/"
+      ]
+    },
+    {
+      "id": "group-minneapolis-1",
+      "name": "PACER Center: Minnesota's Parent Training & Information Center (free IEP help)",
+      "audience": [
+        "all"
+      ],
+      "format": "hybrid",
+      "city": "Bloomington",
+      "state": "MN",
+      "schedule": "Contact an advocate by phone or email; free virtual and in-person workshops",
+      "description": "Minnesota's federally designated Parent Training and Information Center and Family-to-Family Health Information Center. Advocates (in English, Spanish, Somali and other languages on request) help families of children and young adults with disabilities understand options and prepare for IEP meetings.",
+      "url": "https://www.pacer.org",
+      "real_org": true,
+      "verified_sources": [
+        "https://www.pacer.org/about/areas-of-focus/",
+        "https://www.pacer.org/ask-an-advocate/"
+      ]
+    },
+    {
+      "id": "group-minneapolis-2",
+      "name": "Family Voices of Minnesota: CONNECTED parent-to-parent support",
+      "audience": [
+        "all"
+      ],
+      "format": "virtual",
+      "city": "Statewide (Minnesota)",
+      "state": "MN",
+      "schedule": "Virtual peer-led parent support groups; call or email to request a one-on-one parent match",
+      "description": "A family-run nonprofit where parents and caregivers raising children with disabilities or special healthcare needs support each other: virtual support groups, a Parent Support Navigator, and matches with a trained parent whose child has similar needs.",
+      "url": "https://familyvoicesofminnesota.org",
+      "real_org": true,
+      "verified_sources": [
+        "https://familyvoicesofminnesota.org/",
+        "https://www.gillettechildrens.org/patient-preparation-and-support/connect-with-other-parents",
+        "https://helpmeconnect.web.health.state.mn.us/HelpMeConnect/Providers/Family_Voices_of_Minnesota/Parenting_Support_-_Children_with_Special_Health_Needs_or_Disabilities/1"
+      ]
+    },
+    {
+      "id": "group-seattle-1",
+      "name": "PAVE Parent Training and Information Center (free IEP and 504 help)",
+      "audience": [
+        "all"
+      ],
+      "format": "hybrid",
+      "city": "Tacoma",
+      "state": "WA",
+      "schedule": "Contact PAVE for one-on-one help; live trainings are offered in person or online",
+      "description": "Washington's Parent Training and Information Center gives free one-on-one help and trainings to family caregivers and youth with disabilities (birth to 26), including help organizing concerns before IEP and Section 504 meetings. PAVE also runs Lifespan Respite Washington and the Family to Family Health Information Center.",
+      "url": "https://wapave.org/parent-training-and-information-program",
+      "real_org": true,
+      "verified_sources": [
+        "https://wapave.org",
+        "https://wapave.org/parent-training-and-information-program",
+        "https://wapave.org/?p=614",
+        "https://ospi.k12.wa.us/student-success/special-education/family-engagement-and-guidance/need-assistance"
+      ]
+    },
+    {
+      "id": "group-seattle-2",
+      "name": "The Arc of King County Parent to Parent",
+      "audience": [
+        "all"
+      ],
+      "format": "hybrid",
+      "city": "SeaTac",
+      "state": "WA",
+      "schedule": "Online support groups on Facebook and Google Groups, plus community events; email to request a Helping Parent match",
+      "description": "Peer support from parents who've walked the road before: support groups, community events and Helping Parent matches that connect you with a trained mentor parent with similar experiences. Services are offered in English and Spanish.",
+      "url": "https://arcofkingcounty.org/services/parent-to-parent",
+      "real_org": true,
+      "verified_sources": [
+        "https://arcofkingcounty.org",
+        "https://arcofkingcounty.org/services/parent-to-parent"
+      ]
     }
   ],
   "resets": [

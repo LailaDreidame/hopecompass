@@ -3,140 +3,6 @@
   "note": "Sample listings; hours and prices are illustrative — always confirm before you go.",
   "activities": [
     {
-      "id": "act-001",
-      "name": "Esplanade Roll-and-Rest Riverside Path",
-      "hotspot_id": "boston-ma",
-      "city": "Boston",
-      "state": "MA",
-      "category": "accessible_trail",
-      "access": [
-        "wheelchair",
-        "cane",
-        "walker",
-        "vision"
-      ],
-      "ages": [
-        "0-5",
-        "6-12",
-        "13-17",
-        "18-21"
-      ],
-      "cost_tier": "free",
-      "price_note": "Free",
-      "setting": "outdoor",
-      "description": "Kids cruise a smooth paved riverside path with benches, boat-watching spots, and wide turnarounds built for chairs. Pack a picnic and make a morning of ducks and sailboats.",
-      "accessibility_notes": [
-        "Wide paved path with gentle grades",
-        "Benches with companion space every few hundred feet",
-        "Accessible restrooms near main entrances"
-      ],
-      "best_time": "Weekday mornings, 8-10am, when the path is calm and quiet.",
-      "caregiver_tip": "Park near the accessible entrance and walk the flat stretch first.",
-      "venue": "Riverside path, boardwalk trailhead by the main parking lot",
-      "neighborhood": "Back Bay",
-      "schedule": {
-        "days": [
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri"
-        ],
-        "start": "08:00",
-        "end": "10:00",
-        "season": "Year-round",
-        "notes": "Drop-in; paved path is open daily, quiet hours are weekday mornings"
-      },
-      "how_to_join": "Just show up; no registration needed.",
-      "website": ""
-    },
-    {
-      "id": "act-002",
-      "name": "Harborside Science Museum Sensory Hour",
-      "hotspot_id": "boston-ma",
-      "city": "Boston",
-      "state": "MA",
-      "category": "sensory_friendly_museum",
-      "access": [
-        "wheelchair",
-        "cane",
-        "walker",
-        "vision",
-        "hearing"
-      ],
-      "ages": [
-        "0-5",
-        "6-12"
-      ],
-      "cost_tier": "under25",
-      "price_note": "$10 per child; caregivers free",
-      "setting": "indoor",
-      "description": "Before doors open to the crowds, kids explore hands-on exhibits with dimmed lights, lowered sound, and plenty of room to roll. Quiet spaces and fidget kits let everyone play at their own pace.",
-      "accessibility_notes": [
-        "Reduced lighting and sound during the hour",
-        "Ramps and elevators to every floor",
-        "Quiet room and noise-reducing headphones to borrow"
-      ],
-      "best_time": "First Sunday morning of the month, during the sensory hour.",
-      "caregiver_tip": "Ask at the desk for a visual schedule before you enter.",
-      "venue": "Science museum, ground-floor exhibit halls",
-      "neighborhood": "Central Boston",
-      "schedule": {
-        "days": [
-          "Sun"
-        ],
-        "start": "08:00",
-        "end": "10:00",
-        "season": "Year-round",
-        "notes": "First Sunday of each month; arrive 10 minutes early"
-      },
-      "how_to_join": "Reserve a free or discounted slot on the museum's website beforehand.",
-      "website": ""
-    },
-    {
-      "id": "act-003",
-      "name": "Back Bay Adaptive Swim Lessons",
-      "hotspot_id": "boston-ma",
-      "city": "Boston",
-      "state": "MA",
-      "category": "adaptive_sports",
-      "access": [
-        "wheelchair",
-        "cane",
-        "walker",
-        "hearing"
-      ],
-      "ages": [
-        "0-5",
-        "6-12",
-        "13-17"
-      ],
-      "cost_tier": "under50",
-      "price_note": "$40 per 4-week session; caregiver free",
-      "setting": "indoor",
-      "description": "Small-group lessons with trained instructors let kids float, kick, and splash with confidence. Warm water and lift-assisted pool entry make the first dip easy.",
-      "accessibility_notes": [
-        "Pool lift and zero-depth ramp entry",
-        "Accessible family changing room with adult-size table",
-        "One-to-one aide option on request"
-      ],
-      "best_time": "Saturday 9am, when the pool is calm.",
-      "caregiver_tip": "Book the session before winter break; it fills quickly.",
-      "venue": "Community pool, indoor lap and teaching pool",
-      "neighborhood": "Back Bay",
-      "schedule": {
-        "days": [
-          "Sat"
-        ],
-        "start": "09:00",
-        "end": "10:00",
-        "season": "Year-round",
-        "notes": "Eight-week sessions; registration required"
-      },
-      "how_to_join": "Register through the program a few weeks ahead.",
-      "website": ""
-    },
-    {
       "id": "act-004",
       "name": "Waterfront Inclusive Splash Pad",
       "hotspot_id": "new-york-ny",
@@ -1389,139 +1255,6 @@
         "notes": "Lower sound and lighting before opening"
       },
       "how_to_join": "Reserve tickets on the museum's website ahead of time.",
-      "website": ""
-    },
-    {
-      "id": "act-032",
-      "name": "Lake Loop Adaptive Cycling",
-      "hotspot_id": "minneapolis-mn",
-      "city": "Minneapolis",
-      "state": "MN",
-      "category": "adaptive_recreation",
-      "access": [
-        "wheelchair",
-        "cane",
-        "walker",
-        "vision",
-        "hearing"
-      ],
-      "ages": [
-        "6-12",
-        "13-17",
-        "18-21"
-      ],
-      "cost_tier": "under25",
-      "price_note": "$10 rental; caregiver free",
-      "setting": "outdoor",
-      "description": "Hand-cycles, trikes, and tandems let riders loop a scenic lake. Volunteers adjust each bike so every rider can pedal comfortably.",
-      "accessibility_notes": [
-        "Adaptive cycles available",
-        "Paved, flat loop",
-        "Accessible restrooms and parking"
-      ],
-      "best_time": "Weekend mornings in summer, 8-11am.",
-      "caregiver_tip": "Reserve a cycle in advance.",
-      "venue": "Lakeside path, bike rental and adaptive cycle pickup",
-      "neighborhood": "Chain of Lakes",
-      "schedule": {
-        "days": [
-          "Sat",
-          "Sun"
-        ],
-        "start": "08:00",
-        "end": "11:00",
-        "season": "May–September",
-        "notes": "Adaptive cycles provided; registration required"
-      },
-      "how_to_join": "Reserve a cycle with the program a week ahead.",
-      "website": ""
-    },
-    {
-      "id": "act-033",
-      "name": "Free Adaptive Skate and Sled Hockey",
-      "hotspot_id": "minneapolis-mn",
-      "city": "Minneapolis",
-      "state": "MN",
-      "category": "adaptive_sports",
-      "access": [
-        "wheelchair",
-        "walker"
-      ],
-      "ages": [
-        "6-12",
-        "13-17",
-        "18-21"
-      ],
-      "cost_tier": "free",
-      "price_note": "Free; donated equipment",
-      "setting": "indoor",
-      "description": "Open ice time with sleds and coaches, perfect for first-time players. Kids skate, scoot, and celebrate every pass.",
-      "accessibility_notes": [
-        "Sleds provided",
-        "Accessible rink",
-        "Volunteer coaches"
-      ],
-      "best_time": "Sunday afternoons in winter, 2-4pm.",
-      "caregiver_tip": "Dress warmly.",
-      "venue": "Indoor ice arena, public skate sheet",
-      "neighborhood": "Central Minneapolis",
-      "schedule": {
-        "days": [
-          "Sun"
-        ],
-        "start": "14:00",
-        "end": "16:00",
-        "season": "November–March",
-        "notes": "Free session; sleds and skates provided"
-      },
-      "how_to_join": "Just show up and ask at the rink desk.",
-      "website": ""
-    },
-    {
-      "id": "act-034",
-      "name": "Inclusive Playground and Splash Day",
-      "hotspot_id": "minneapolis-mn",
-      "city": "Minneapolis",
-      "state": "MN",
-      "category": "inclusive_splash_pad",
-      "access": [
-        "wheelchair",
-        "cane",
-        "walker",
-        "vision",
-        "hearing"
-      ],
-      "ages": [
-        "0-5",
-        "6-12"
-      ],
-      "cost_tier": "free",
-      "price_note": "Free; seasonal",
-      "setting": "outdoor",
-      "description": "Ramped structures and a splash zone let kids play together across abilities. Shaded picnic tables make a full-day outing easy.",
-      "accessibility_notes": [
-        "Poured-rubber surfacing",
-        "Ramped play structures",
-        "Accessible restrooms"
-      ],
-      "best_time": "Weekday mornings, before the midday crowd.",
-      "caregiver_tip": "Pack towels and a lunch.",
-      "venue": "Neighborhood park, playground and splash area",
-      "neighborhood": "Central Minneapolis",
-      "schedule": {
-        "days": [
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri"
-        ],
-        "start": "09:00",
-        "end": "12:00",
-        "season": "May–September",
-        "notes": "Weather dependent; quieter in the morning"
-      },
-      "how_to_join": "Just show up; it is free.",
       "website": ""
     },
     {
@@ -2852,143 +2585,6 @@
       "website": ""
     },
     {
-      "id": "act-064",
-      "name": "Ferry and Waterfront Roll",
-      "hotspot_id": "seattle-wa",
-      "city": "Seattle",
-      "state": "WA",
-      "category": "adaptive_recreation",
-      "access": [
-        "wheelchair",
-        "cane",
-        "walker",
-        "vision",
-        "hearing"
-      ],
-      "ages": [
-        "0-5",
-        "6-12",
-        "13-17",
-        "18-21"
-      ],
-      "cost_tier": "under25",
-      "price_note": "$10 ferry fare; kids reduced",
-      "setting": "hybrid",
-      "description": "Roll onto an accessible ferry and explore waterfront paths with views of mountains and sound. Kids watch gulls and ferries go by.",
-      "accessibility_notes": [
-        "Accessible ferries",
-        "Paved waterfront paths",
-        "Accessible restrooms"
-      ],
-      "best_time": "Weekday mornings, when the commuter rush has passed.",
-      "caregiver_tip": "Check the ferry schedule.",
-      "venue": "Ferry terminal and waterfront promenade",
-      "neighborhood": "Central Waterfront",
-      "schedule": {
-        "days": [
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri"
-        ],
-        "start": "09:00",
-        "end": "12:00",
-        "season": "Year-round",
-        "notes": "Ferry schedules vary; check before you go"
-      },
-      "how_to_join": "Just show up; buy a ferry ticket at the terminal.",
-      "website": ""
-    },
-    {
-      "id": "act-065",
-      "name": "Aquarium Touch-Pool Access Hours",
-      "hotspot_id": "seattle-wa",
-      "city": "Seattle",
-      "state": "WA",
-      "category": "zoo_aquarium",
-      "access": [
-        "wheelchair",
-        "cane",
-        "walker",
-        "vision",
-        "hearing"
-      ],
-      "ages": [
-        "0-5",
-        "6-12"
-      ],
-      "cost_tier": "under50",
-      "price_note": "$20 per child; caregivers discounted",
-      "setting": "indoor",
-      "description": "Low-sound access hours with tactile touch pools and soft lights. Kids meet sea stars and anemones up close.",
-      "accessibility_notes": [
-        "Low-height touch pools",
-        "Quiet room",
-        "Elevators"
-      ],
-      "best_time": "Sunday mornings, 8:30-10:30am.",
-      "caregiver_tip": "Reserve ahead.",
-      "venue": "Aquarium, touch-pool exhibit area",
-      "neighborhood": "Central Waterfront",
-      "schedule": {
-        "days": [
-          "Sun"
-        ],
-        "start": "08:30",
-        "end": "10:30",
-        "season": "Year-round",
-        "notes": "Touch pools are lowered for access; quieter before opening"
-      },
-      "how_to_join": "Buy tickets online and arrive at opening.",
-      "website": ""
-    },
-    {
-      "id": "act-066",
-      "name": "Adaptive Paddle Day",
-      "hotspot_id": "seattle-wa",
-      "city": "Seattle",
-      "state": "WA",
-      "category": "adaptive_sports",
-      "access": [
-        "wheelchair",
-        "cane",
-        "walker",
-        "vision",
-        "hearing"
-      ],
-      "ages": [
-        "6-12",
-        "13-17",
-        "18-21"
-      ],
-      "cost_tier": "under100",
-      "price_note": "$55 per paddler",
-      "setting": "outdoor",
-      "description": "Adaptive seats and trained guides help kids paddle on calm water. Seals and sailboats are optional bonuses.",
-      "accessibility_notes": [
-        "Adaptive seats",
-        "Trained guides",
-        "Accessible dock"
-      ],
-      "best_time": "Summer weekends, 9am-1pm.",
-      "caregiver_tip": "Dress in layers.",
-      "venue": "Lakeside boat launch, adaptive paddle dock",
-      "neighborhood": "Union Bay",
-      "schedule": {
-        "days": [
-          "Sat",
-          "Sun"
-        ],
-        "start": "09:00",
-        "end": "13:00",
-        "season": "June–August",
-        "notes": "Adaptive kayaks and canoes provided; registration required"
-      },
-      "how_to_join": "Register with the paddle program a week ahead.",
-      "website": ""
-    },
-    {
       "id": "act-067",
       "name": "Wetland Boardwalk Walk",
       "hotspot_id": "portland-or",
@@ -3649,133 +3245,6 @@
         "notes": "Open daily; mornings are cooler and calmer"
       },
       "how_to_join": "Just show up; no registration needed.",
-      "website": ""
-    },
-    {
-      "id": "act-081",
-      "name": "Boston Library Sensory Storytime",
-      "hotspot_id": "boston-ma",
-      "city": "Boston",
-      "state": "MA",
-      "category": "library_storytime",
-      "access": [
-        "wheelchair",
-        "walker",
-        "hearing",
-        "vision"
-      ],
-      "ages": [
-        "0-5",
-        "6-12"
-      ],
-      "cost_tier": "free",
-      "price_note": "Free",
-      "setting": "indoor",
-      "description": "Little ones wiggle, sing, and giggle through puppet stories, bubbles, and soft scarves in a calm, welcoming room. Every sound and movement is celebrated here.",
-      "accessibility_notes": [
-        "Step-free entrance and wide aisles for wheelchairs and strollers",
-        "Lights dimmed and volume kept gentle, with a quiet corner nearby",
-        "Large-print and picture-card story guides available"
-      ],
-      "best_time": "Saturday mornings, 10-11am, when the room is relaxed and welcoming.",
-      "caregiver_tip": "Arrive ten minutes early so everyone can settle in and pick a favorite spot.",
-      "venue": "Public library branch children's room",
-      "neighborhood": "Jamaica Plain",
-      "schedule": {
-        "days": [
-          "Sat"
-        ],
-        "start": "10:00",
-        "end": "11:00",
-        "season": "Year-round",
-        "notes": "Drop-in; sensory-friendly session with relaxed expectations"
-      },
-      "how_to_join": "Just show up; no registration needed.",
-      "website": ""
-    },
-    {
-      "id": "act-082",
-      "name": "Boston Free Museum Sensory Morning",
-      "hotspot_id": "boston-ma",
-      "city": "Boston",
-      "state": "MA",
-      "category": "sensory_friendly_museum",
-      "access": [
-        "wheelchair",
-        "walker",
-        "cane",
-        "hearing"
-      ],
-      "ages": [
-        "0-5",
-        "6-12",
-        "13-17"
-      ],
-      "cost_tier": "free",
-      "price_note": "Free community morning",
-      "setting": "indoor",
-      "description": "Hands-on exhibits glow and hum at a gentler pace while young explorers touch, build, and discover. Smiles and curious questions fill every gallery.",
-      "accessibility_notes": [
-        "Elevator access to every gallery and ramps at entrances",
-        "Reduced lighting and sound with a calm-down room",
-        "Seating and rest spots throughout the exhibits"
-      ],
-      "best_time": "First Sunday mornings, 9-11am, before regular crowds arrive.",
-      "caregiver_tip": "Pack headphones or a favorite comfort item just in case.",
-      "venue": "Community children's museum",
-      "neighborhood": "Dorchester",
-      "schedule": {
-        "days": [
-          "Sun"
-        ],
-        "start": "09:00",
-        "end": "11:00",
-        "season": "Year-round",
-        "notes": "Free community morning on the first Sunday of each month"
-      },
-      "how_to_join": "Just show up; no registration needed.",
-      "website": ""
-    },
-    {
-      "id": "act-083",
-      "name": "Boston Adaptive Climbing Night",
-      "hotspot_id": "boston-ma",
-      "city": "Boston",
-      "state": "MA",
-      "category": "adaptive_sports",
-      "access": [
-        "wheelchair",
-        "walker",
-        "cane",
-        "vision"
-      ],
-      "ages": [
-        "13-17",
-        "18-21"
-      ],
-      "cost_tier": "under25",
-      "price_note": "About $15-20 per session; scholarships may be available",
-      "setting": "indoor",
-      "description": "Teens and young adults clip in, reach high, and cheer each other up the wall with adaptive gear and friendly coaches. Every summit is a victory party.",
-      "accessibility_notes": [
-        "Step-free access to the climbing gym and accessible restrooms",
-        "Adaptive harnesses and wall routes with trained staff",
-        "Seated belay and spotting options available"
-      ],
-      "best_time": "Thursday evenings, 6-8pm, with a social vibe.",
-      "caregiver_tip": "Wear comfortable clothes and ask staff about gear fitting at check-in.",
-      "venue": "Indoor climbing gym adaptive program space",
-      "neighborhood": "Back Bay",
-      "schedule": {
-        "days": [
-          "Thu"
-        ],
-        "start": "18:00",
-        "end": "20:00",
-        "season": "Year-round",
-        "notes": "Weekly evening session; sign up in advance"
-      },
-      "how_to_join": "Register with the gym's adaptive program staff before your first visit.",
       "website": ""
     },
     {
@@ -4964,137 +4433,6 @@
         "notes": "Weekly drop-in class"
       },
       "how_to_join": "Sign up with the arts center front desk or just drop in.",
-      "website": ""
-    },
-    {
-      "id": "act-111",
-      "name": "Uptown Inclusive Splash Pad",
-      "hotspot_id": "minneapolis-mn",
-      "city": "Minneapolis",
-      "state": "MN",
-      "category": "inclusive_splash_pad",
-      "access": [
-        "wheelchair",
-        "walker",
-        "cane"
-      ],
-      "ages": [
-        "0-5",
-        "6-12",
-        "13-17"
-      ],
-      "cost_tier": "free",
-      "price_note": "Free",
-      "setting": "outdoor",
-      "description": "Gentle jets and bubbling fountains turn a hot day into a chorus of squeals and splashes. Kids of every ability dance through the spray together.",
-      "accessibility_notes": [
-        "Flat, slip-resistant surface with step-free access",
-        "Low-pressure jets suitable for sensitive swimmers",
-        "Shaded seating and nearby accessible restrooms"
-      ],
-      "best_time": "Summer mornings, 10am-1pm, when it is warm but not too crowded.",
-      "caregiver_tip": "Bring towels and a change of clothes, plus sunscreen.",
-      "venue": "Public park splash pad",
-      "neighborhood": "Uptown",
-      "schedule": {
-        "days": [
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
-        ],
-        "start": "10:00",
-        "end": "19:00",
-        "season": "Summer (May-September)",
-        "notes": "Open daily in season, weather permitting"
-      },
-      "how_to_join": "Just show up; no registration needed.",
-      "website": ""
-    },
-    {
-      "id": "act-112",
-      "name": "Minneapolis Adaptive Art Studio Open House",
-      "hotspot_id": "minneapolis-mn",
-      "city": "Minneapolis",
-      "state": "MN",
-      "category": "adaptive_arts",
-      "access": [
-        "wheelchair",
-        "walker",
-        "vision",
-        "hearing"
-      ],
-      "ages": [
-        "6-12",
-        "13-17",
-        "18-21"
-      ],
-      "cost_tier": "free",
-      "price_note": "Free",
-      "setting": "indoor",
-      "description": "Paint, clay, and bright fabrics spill across tables as budding artists create something wonderfully their own. The studio hums with chatter and pride.",
-      "accessibility_notes": [
-        "Adjustable-height tables with wheelchair clearance",
-        "Adaptive brushes, grips, and tools",
-        "Quiet corner and clear signed instructions"
-      ],
-      "best_time": "Wednesday afternoons, 3:30-5:30pm.",
-      "caregiver_tip": "Wear clothes that can get a little messy.",
-      "venue": "Community arts center studio",
-      "neighborhood": "Northeast",
-      "schedule": {
-        "days": [
-          "Wed"
-        ],
-        "start": "15:30",
-        "end": "17:30",
-        "season": "Year-round",
-        "notes": "Drop-in open studio"
-      },
-      "how_to_join": "Just show up; no registration needed.",
-      "website": ""
-    },
-    {
-      "id": "act-113",
-      "name": "Minneapolis Power Soccer Open Play",
-      "hotspot_id": "minneapolis-mn",
-      "city": "Minneapolis",
-      "state": "MN",
-      "category": "adaptive_sports",
-      "access": [
-        "wheelchair"
-      ],
-      "ages": [
-        "6-12",
-        "13-17",
-        "18-21"
-      ],
-      "cost_tier": "under25",
-      "price_note": "About $5-10 per session; loaner chairs available",
-      "setting": "indoor",
-      "description": "Power chairs zip and spin as players pass, score, and celebrate goals with the whole team. The gym roars with cheers.",
-      "accessibility_notes": [
-        "Flat indoor court with wide doorways",
-        "Loaner power-chair guards and soccer attachments",
-        "Accessible restrooms near the gym"
-      ],
-      "best_time": "Sunday afternoons, 2-4pm.",
-      "caregiver_tip": "Charge your chair beforehand and bring a water bottle.",
-      "venue": "Recreation center indoor court",
-      "neighborhood": "Linden Hills",
-      "schedule": {
-        "days": [
-          "Sun"
-        ],
-        "start": "14:00",
-        "end": "16:00",
-        "season": "Year-round",
-        "notes": "Weekly open play; all skill levels"
-      },
-      "how_to_join": "Ask the recreation center's adaptive program team to join the roster.",
       "website": ""
     },
     {
@@ -6394,148 +5732,6 @@
       "website": ""
     },
     {
-      "id": "act-144",
-      "name": "Green Lake Roll & Stroll Path",
-      "hotspot_id": "seattle-wa",
-      "city": "Seattle",
-      "state": "WA",
-      "category": "accessible_trail",
-      "access": [
-        "wheelchair",
-        "walker",
-        "cane",
-        "vision"
-      ],
-      "ages": [
-        "0-5",
-        "6-12",
-        "13-17",
-        "18-21"
-      ],
-      "cost_tier": "free",
-      "price_note": "Free",
-      "setting": "outdoor",
-      "description": "A smooth, shaded loop invites rolling, strolling, and spotting birds and butterflies along the way. Families linger at every bench to soak in the fresh air.",
-      "accessibility_notes": [
-        "Firm paved surface with gentle slopes",
-        "Benches with companion space along the route",
-        "Accessible restrooms near the trailhead"
-      ],
-      "best_time": "Mornings, 8-11am, when the path is cool and calm.",
-      "caregiver_tip": "Bring water and a hat, and plan a rest stop at the halfway bench.",
-      "venue": "Park loop trail near the main entrance",
-      "neighborhood": "Green Lake",
-      "schedule": {
-        "days": [
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
-        ],
-        "start": "07:00",
-        "end": "19:00",
-        "season": "Year-round",
-        "notes": "Open daily; drop-in, quietest in the morning"
-      },
-      "how_to_join": "Just show up; no registration needed.",
-      "website": ""
-    },
-    {
-      "id": "act-145",
-      "name": "Capitol Hill Inclusive Playground",
-      "hotspot_id": "seattle-wa",
-      "city": "Seattle",
-      "state": "WA",
-      "category": "inclusive_playground",
-      "access": [
-        "wheelchair",
-        "walker",
-        "cane",
-        "vision"
-      ],
-      "ages": [
-        "0-5",
-        "6-12",
-        "13-17"
-      ],
-      "cost_tier": "free",
-      "price_note": "Free",
-      "setting": "outdoor",
-      "description": "Ramps, sensory panels, and roomy swings let every child climb, spin, and shout with joy. Laughter echoes across the soft, springy surface.",
-      "accessibility_notes": [
-        "Poured rubber surfacing that rolls easily",
-        "Ramped play structures with transfer stations",
-        "Shaded seating and accessible restrooms nearby"
-      ],
-      "best_time": "Weekday mornings, 9-11am, before the afternoon rush.",
-      "caregiver_tip": "Visit early on warm days since shade fills up fast.",
-      "venue": "Neighborhood park inclusive play area",
-      "neighborhood": "Capitol Hill",
-      "schedule": {
-        "days": [
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
-        ],
-        "start": "08:00",
-        "end": "18:00",
-        "season": "Year-round",
-        "notes": "Open daily; drop-in play"
-      },
-      "how_to_join": "Just show up; no registration needed.",
-      "website": ""
-    },
-    {
-      "id": "act-146",
-      "name": "Seattle Inclusive Dance & Movement Class",
-      "hotspot_id": "seattle-wa",
-      "city": "Seattle",
-      "state": "WA",
-      "category": "music_dance",
-      "access": [
-        "wheelchair",
-        "walker",
-        "hearing",
-        "vision"
-      ],
-      "ages": [
-        "6-12",
-        "13-17",
-        "18-21"
-      ],
-      "cost_tier": "under25",
-      "price_note": "About $10-15 per class; sliding scale",
-      "setting": "indoor",
-      "description": "Music fills the studio as dancers of every ability swirl, sway, and roll in joyful rhythm. Instructors celebrate every unique way of moving.",
-      "accessibility_notes": [
-        "Step-free studio with open floor space for wheelchairs",
-        "Visual cues and signed directions for hearing differences",
-        "Chairs available for seated and standing dancers"
-      ],
-      "best_time": "Tuesday evenings, 5:30-6:30pm.",
-      "caregiver_tip": "Wear comfy clothes and bring a favorite song idea to share.",
-      "venue": "Community arts center dance studio",
-      "neighborhood": "Ballard",
-      "schedule": {
-        "days": [
-          "Tue"
-        ],
-        "start": "17:30",
-        "end": "18:30",
-        "season": "Year-round",
-        "notes": "Weekly drop-in class"
-      },
-      "how_to_join": "Sign up with the arts center front desk or just drop in.",
-      "website": ""
-    },
-    {
       "id": "act-147",
       "name": "Alberta Arts Inclusive Splash Pad",
       "hotspot_id": "portland-or",
@@ -7629,7 +6825,8 @@
         "Benches all along the way for rest stops",
         "Nearby downtown sidewalks and transit; check parking near your starting point"
       ],
-      "best_time": "Open daily; mornings are calmer"
+      "best_time": "Open daily; mornings are calmer",
+      "verified": true
     },
     {
       "id": "act-172",
@@ -7663,7 +6860,8 @@
         "Coaches experienced with wheelchair users",
         "Ask about group transportation, which BORP has offered youth participants"
       ],
-      "best_time": "Check today's hours and prices on their website before you go"
+      "best_time": "Check today's hours and prices on their website before you go",
+      "verified": true
     },
     {
       "id": "act-173",
@@ -7698,7 +6896,8 @@
         "Trained volunteers on group youth rides",
         "Hours are seasonal; book ahead"
       ],
-      "best_time": "Check today's hours and prices on their website before you go"
+      "best_time": "Check today's hours and prices on their website before you go",
+      "verified": true
     },
     {
       "id": "act-174",
@@ -7730,7 +6929,8 @@
         "Power soccer designed for power-chair users",
         "Also ask about Jr. Adventures, BORP's non-competitive outings"
       ],
-      "best_time": "Check today's hours and prices on their website before you go"
+      "best_time": "Check today's hours and prices on their website before you go",
+      "verified": true
     },
     {
       "id": "act-175",
@@ -7763,7 +6963,8 @@
         "Lakeside location next to the flat Lake Merritt path",
         "Call ahead about accessible restrooms and changing space"
       ],
-      "best_time": "Check today's hours and prices on their website before you go"
+      "best_time": "Check today's hours and prices on their website before you go",
+      "verified": true
     },
     {
       "id": "act-176",
@@ -7799,7 +7000,8 @@
         "Some paths are steep; ask for an accessibility map",
         "Check their website for accessibility services and sensory resources"
       ],
-      "best_time": "Check today's hours and prices on their website before you go"
+      "best_time": "Check today's hours and prices on their website before you go",
+      "verified": true
     },
     {
       "id": "act-177",
@@ -7833,7 +7035,8 @@
         "Planetarium shows can be loud and dark; ask about seating near exits",
         "Check their site for sensory-friendly events"
       ],
-      "best_time": "Check today's hours and prices on their website before you go"
+      "best_time": "Check today's hours and prices on their website before you go",
+      "verified": true
     },
     {
       "id": "act-178",
@@ -7867,7 +7070,8 @@
         "Libraries can often help with large print and audiobooks",
         "Check the branch calendar for sensory-friendly storytimes"
       ],
-      "best_time": "Check your branch's storytime calendar"
+      "best_time": "Check your branch's storytime calendar",
+      "verified": true
     },
     {
       "id": "act-179",
@@ -7903,7 +7107,8 @@
         "Smooth surfacing for wheelchairs and walkers",
         "Several locations; check which is closest"
       ],
-      "best_time": "Check today's hours and prices on their website before you go"
+      "best_time": "Check today's hours and prices on their website before you go",
+      "verified": true
     },
     {
       "id": "act-180",
@@ -7939,7 +7144,8 @@
         "Accessible parking at Whitney Avenue & Humphrey Street (lot 22v)",
         "Sighted guides available on request in advance by email"
       ],
-      "best_time": "Check today's hours on their website before you go"
+      "best_time": "Check today's hours on their website before you go",
+      "verified": true
     },
     {
       "id": "act-181",
@@ -7973,7 +7179,8 @@
         "Quiet galleries with room to roll",
         "Ask at the desk about seating and rest spots"
       ],
-      "best_time": "Check today's hours on their website before you go"
+      "best_time": "Check today's hours on their website before you go",
+      "verified": true
     },
     {
       "id": "act-182",
@@ -8007,7 +7214,8 @@
         "Galleries are spacious and calm",
         "Ask about family activity guides"
       ],
-      "best_time": "Check today's hours on their website before you go"
+      "best_time": "Check today's hours on their website before you go",
+      "verified": true
     },
     {
       "id": "act-183",
@@ -8041,7 +7249,8 @@
         "Libraries can help with large print and audiobooks",
         "Check the calendar for sensory-friendly events"
       ],
-      "best_time": "Check your branch's storytime calendar"
+      "best_time": "Check your branch's storytime calendar",
+      "verified": true
     },
     {
       "id": "act-184",
@@ -8091,7 +7300,8 @@
         "Benches around the edges",
         "Watch for snow and ice on curb cuts in winter"
       ],
-      "best_time": "Open daily; sunny afternoons are lovely"
+      "best_time": "Open daily; sunny afternoons are lovely",
+      "verified": true
     },
     {
       "id": "act-185",
@@ -8125,7 +7335,1212 @@
         "Adaptive equipment through the program",
         "Recreational and competitive options year-round"
       ],
-      "best_time": "Sled hockey season runs roughly September to May; check their calendar"
+      "best_time": "Sled hockey season runs roughly September to May; check their calendar",
+      "verified": true
+    },
+    {
+      "id": "act-201",
+      "hotspot_id": "boston-ma",
+      "city": "Boston",
+      "state": "MA",
+      "name": "Spaulding Sledgehogs Youth Sled Hockey",
+      "category": "adaptive_sports",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "6-12",
+        "13-17"
+      ],
+      "cost_tier": "under25",
+      "price_note": "Fees apply to some sled hockey sessions; check current prices with Spaulding",
+      "setting": "indoor",
+      "description": "Spaulding Adaptive Sports Centers' Sledgehogs is greater Boston's youth sled hockey team, with youth-only practices plus clinics and games around the region and beyond. Kids of all abilities glide, pass and score from the seat of a sled, and teammates quickly become a second family.",
+      "accessibility_notes": [
+        "Coaching and sleds/equipment are provided in Spaulding sled hockey sessions",
+        "Offers both recreational and competitive levels of play",
+        "Ask which rink this season's practices use and about accessible locker rooms and parking"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Pack extra layers, a blanket and warm gloves for both the player and the bench crew; rinks are chilly.",
+      "venue": "Greater Boston ice rinks (Spaulding Adaptive Sports Centers program)",
+      "neighborhood": "Greater Boston (rink varies by session)",
+      "schedule": null,
+      "how_to_join": "Pre-register for practices on the Spaulding Adaptive Sports Centers sled hockey page, or email spauldingsledhockey@partners.org to ask about a first try.",
+      "website": "https://sasc.spauldingrehab.org/hockey.aspx",
+      "verified_sources": [
+        "https://sasc.spauldingrehab.org/hockey.aspx",
+        "https://sasc.spauldingrehab.org/",
+        "https://itemlive.com/2025/02/24/hockey-is-for-all-in-saugus-and-beyond/"
+      ],
+      "verified": true
+    },
+    {
+      "id": "act-202",
+      "hotspot_id": "boston-ma",
+      "city": "Boston",
+      "state": "MA",
+      "name": "Miracle League of Massachusetts Baseball",
+      "category": "adaptive_sports",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free to players; the league says it is provided at no cost to families",
+      "setting": "outdoor",
+      "description": "Every player gets to bat, run the bases and hear the crowd cheer on the Joseph Lalli Miracle Field, a specially built field at NARA Park. Volunteer buddies help where needed, so the whole afternoon is about joy, not keeping score.",
+      "accessibility_notes": [
+        "The Miracle Field has a flat, rubberized surface so players using wheelchairs and walkers can move around the bases",
+        "Youth league for players about ages 5 to 21, plus a separate adult league",
+        "Ask about accessible parking and restrooms at NARA Park when you register"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Bring sunscreen, water and a folding chair for the sidelines, and let the volunteer buddies take a turn while you cheer.",
+      "venue": "Joseph Lalli Miracle Field, NARA Park",
+      "neighborhood": "Acton",
+      "schedule": null,
+      "how_to_join": "Register through the Youth registration form on the league's website before the season starts.",
+      "website": "https://miracleleaguema.org/",
+      "verified_sources": [
+        "https://miracleleaguema.org/",
+        "https://patch.com/massachusetts/acton/miracle-field-opens-saturday-in-acton",
+        "https://www.actonexchange.org/miracle-league-of-massachusetts-completes-resurfacing-of-miracle-field-at-nara-park/"
+      ],
+      "verified": true
+    },
+    {
+      "id": "act-203",
+      "hotspot_id": "boston-ma",
+      "city": "Boston",
+      "state": "MA",
+      "name": "DCR Adaptive Ice Skating at Porrazzo Memorial Rink",
+      "category": "adaptive_recreation",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free: entry and equipment are free of charge (DCR Universal Access Program)",
+      "setting": "indoor",
+      "description": "The state's Universal Access Program turns a public rink into a place where everyone gets on the ice, whether in their own wheelchair, an ice sled or a skate walker. Families, friends and support staff are welcome to skate alongside.",
+      "accessibility_notes": [
+        "Skaters can use a wheelchair, an ice sled, a skate walker, ice grippers or regular skates on the ice",
+        "Adaptive equipment is provided free",
+        "Pre-registration is required; ask about age guidelines for younger children when you sign up"
+      ],
+      "best_time": "Winter 2026-27 Wednesday sessions listed by DCR, e.g. Dec. 9, 2026, 11 a.m.-1:30 p.m.; further dates listed for Jan. 6, Feb. 3 and Mar. 3, 2027. Confirm on their website before you go",
+      "caregiver_tip": "Bring a winter coat, hat and gloves; the rink is cold even for people watching from the boards.",
+      "venue": "Porrazzo Memorial Rink, 199 Coleridge St",
+      "neighborhood": "East Boston",
+      "schedule": null,
+      "how_to_join": "Pre-register with the DCR Universal Access Program (DCR.UniversalAccess@mass.gov); groups submit a registration sheet and release forms a week ahead.",
+      "website": "https://www.mass.gov/accessible-ice-skating",
+      "verified_sources": [
+        "https://www.mass.gov/event/dec-9-adaptive-ice-skating-at-porrazzo-memorial-rink-12-09-2026",
+        "https://www.mass.gov/event/jan-6-adaptive-ice-skating-at-porrazzo-memorial-rink-01-06-2027",
+        "https://www.mass.gov/info-details/dcr-universal-access-program-winter-2025-2026-schedule"
+      ],
+      "verified": true
+    },
+    {
+      "id": "act-204",
+      "hotspot_id": "boston-ma",
+      "city": "Boston",
+      "state": "MA",
+      "name": "Martin's Park",
+      "category": "inclusive_playground",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free public park",
+      "setting": "outdoor",
+      "description": "Built in memory of Martin Richard, this waterfront playground in the Seaport was designed so children of every ability can climb, explore and play together, including on its big play ship. Sloping paths, gardens and water play make it a favorite stop next to Boston Children's Museum.",
+      "accessibility_notes": [
+        "Sloping paths and hills let children with mobility disabilities reach the top of the play areas",
+        "Signs point out the inclusive routes and play elements",
+        "Quieter, plant-filled corners offer a break for kids who get overstimulated; the park has no dedicated parking lot, so plan on a nearby garage"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Pair it with a Boston Children's Museum visit next door so you can trade between indoor and outdoor play.",
+      "venue": "Martin's Park at Children's Wharf Park, 64 Sleeper Street",
+      "neighborhood": "Seaport / Fort Point",
+      "schedule": null,
+      "how_to_join": "Just show up; no registration needed.",
+      "website": "https://martinsparkboston.org/",
+      "verified_sources": [
+        "https://martinsparkboston.org/",
+        "https://www.boston.gov/departments/parks-and-recreation/martins-park",
+        "https://www.asla.org/focus-areas/diversity%2C-equity%2C-inclusion/universal-design-guide/universal-design-guide-playgrounds"
+      ],
+      "verified": true
+    },
+    {
+      "id": "act-205",
+      "hotspot_id": "boston-ma",
+      "city": "Boston",
+      "state": "MA",
+      "name": "Gronk Playground on the Esplanade",
+      "category": "inclusive_playground",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free public playground",
+      "setting": "outdoor",
+      "description": "Opened in 2025 on the old Charlesbank Playground site, this riverside playground was built to be fully ADA-accessible, with mini duck boats, small Boston landmarks and a 40-yard dash. It sits right next to the Alfond Spray Deck and Teddy Ebersol's Red Sox Fields, so there is plenty to do in one stop.",
+      "accessibility_notes": [
+        "Described by the Esplanade Association and DCR as a fully ADA-accessible playground",
+        "Design plans included rubberized surfacing and a ground-level merry-go-round for wheelchair access",
+        "Accessible portable restrooms are next to Teddy Ebersol's Red Sox Fields and the Alfond Spray Deck (seasonal); ask the Esplanade Association about current restroom hours"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Use the four accessible parking spaces at the Blossom Street entrance, or take the T to Science Park/West End.",
+      "venue": "Gronk Playground, Charles River Esplanade",
+      "neighborhood": "West End / Charles River Esplanade",
+      "schedule": null,
+      "how_to_join": "Just show up; no registration needed.",
+      "website": "https://esplanade.org/playgrounds/",
+      "verified_sources": [
+        "https://esplanade.org/playgrounds/",
+        "https://beaconhilltimes.com/2025/08/28/rob-gronkowski-celebrates-opening-of-gronk-playground-on-esplanade/",
+        "https://www.cbsnews.com/boston/news/gronk-playground-boston-design-plan-patriots",
+        "https://esplanade.org/know-before-you-go/"
+      ],
+      "verified": true
+    },
+    {
+      "id": "act-206",
+      "hotspot_id": "boston-ma",
+      "city": "Boston",
+      "state": "MA",
+      "name": "Charles River Esplanade Paths",
+      "category": "accessible_trail",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free public park",
+      "setting": "outdoor",
+      "description": "Three miles of riverside park with more than five miles of paved paths, sailboats on the Charles and skyline views at every turn. Roll as far as you like, then rest at a playground, the Hatch Shell or the water's edge.",
+      "accessibility_notes": [
+        "Over five miles of paved paths; width and smoothness vary, but the Esplanade Association calls them largely welcoming to all visitors",
+        "The Frances Appleton Pedestrian Bridge at Charles Circle is the most accessible way in; there are also at-grade entrances at each end of the park",
+        "Four accessible parking spaces at the Blossom Street entrance; Charles/MGH is the nearby T station with an ADA footbridge"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Restrooms are typically open dawn to dusk from mid-April to mid-October, so plan longer outings for the warmer months.",
+      "venue": "Charles River Esplanade",
+      "neighborhood": "Back Bay / Beacon Hill",
+      "schedule": null,
+      "how_to_join": "Just show up; no registration needed.",
+      "website": "https://esplanade.org/know-before-you-go/",
+      "verified_sources": [
+        "https://esplanade.org/know-before-you-go/",
+        "https://esplanade.org/"
+      ],
+      "verified": true
+    },
+    {
+      "id": "act-207",
+      "hotspot_id": "boston-ma",
+      "city": "Boston",
+      "state": "MA",
+      "name": "Story Times at the Boston Public Library Children's Library",
+      "category": "library_storytime",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free; the library says all of its programs are free and open to the public",
+      "setting": "indoor",
+      "description": "The Children's Library at the Central Library in Copley Square hosts story times for little ones (recent listings include ages 0-5 and 0-7), full of songs, rhymes and picture books. It is a cozy, welcoming way to spend a morning or afternoon together.",
+      "accessibility_notes": [
+        "The 700 Boylston Street entrance is at sidewalk level, and the Glass and West elevators reach the second-floor Children's Library",
+        "Request ASL or other interpretation in advance through the contact on the event listing",
+        "Magnifiers and an adaptive computer station are available, and staff can help with a Perkins Library application for Braille and accessible materials"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Ask for accommodations well before the event; the library recommends contacting the Children's Room ahead of time.",
+      "venue": "Boston Public Library, Central Library in Copley Square (Children's Library)",
+      "neighborhood": "Back Bay",
+      "schedule": null,
+      "how_to_join": "Check the BPL events calendar for current story times; most are drop-in.",
+      "website": "https://www.bpl.org/services-central-library/childrens-library-at-the-central-library/",
+      "verified_sources": [
+        "https://www.bpl.org/services-central-library/childrens-library-at-the-central-library/",
+        "https://www.bpl.org/accessibility-at-the-boston-public-library/",
+        "https://www.bpl.org/locations/central/"
+      ],
+      "verified": true
+    },
+    {
+      "id": "act-208",
+      "hotspot_id": "boston-ma",
+      "city": "Boston",
+      "state": "MA",
+      "name": "Boston Children's Museum: Morningstar Access",
+      "category": "sensory_friendly_museum",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12"
+      ],
+      "cost_tier": "under25",
+      "price_note": "General admission is listed at $24 for ages 1 and up (under 12 months free); check Morningstar Access pricing when you pre-register",
+      "setting": "indoor",
+      "description": "Morningstar Access opens the museum at quieter times for children with special or medical needs and their families, with a cap of 100 guests. Kids can climb, splash and pretend at their own pace without the usual crowds.",
+      "accessibility_notes": [
+        "Building and exhibits are wheelchair accessible, and the main elevator serves all three floors",
+        "Free child and adult manual wheelchairs to borrow, plus sound-reducing earmuffs and assistive listening devices at the Admissions Desk",
+        "Wheelchair-accessible family restrooms on every floor and a height-adjustable adult changing table in the first aid room (staff unlock it on request)"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Grab the museum's pre-visit Social Story to help your child know what to expect, then head next door to Martin's Park afterward.",
+      "venue": "Boston Children's Museum",
+      "neighborhood": "Seaport / Fort Point",
+      "schedule": null,
+      "how_to_join": "Pre-register for a monthly Morningstar Access date on the museum's website; registration is required.",
+      "website": "https://bostonchildrensmuseum.org/visit/accessibility/",
+      "verified_sources": [
+        "https://bostonchildrensmuseum.org/visit/accessibility/",
+        "https://annualreports.bostonchildrensmuseum.org/annual-report-2025/access-programs/"
+      ],
+      "verified": true
+    },
+    {
+      "id": "act-209",
+      "hotspot_id": "boston-ma",
+      "city": "Boston",
+      "state": "MA",
+      "name": "Museum of Science, Boston",
+      "category": "sensory_friendly_museum",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under50",
+      "price_note": "Listed at $33 adults and $28 ages 3-11 (under 3 free); personal care assistants accompanying a visitor with a disability get in free. Check current prices on their website",
+      "setting": "indoor",
+      "description": "From live science shows to the Planetarium, the Museum of Science is a big, hands-on adventure for curious kids of every age. Its Access Hours and quieter weekend mornings make it easier to explore at your own pace.",
+      "accessibility_notes": [
+        "Free loans of manual, pediatric and bariatric wheelchairs, strollers and scooters at the Information Desk",
+        "Audio description for pre-recorded Omni and 4-D Theater shows and free Aira sighted-guide service",
+        "ASL interpretation for live shows (in-person interpreters with two weeks' notice); Access Hours every other month and Soft Light, Soft Sound Planetarium shows"
+      ],
+      "best_time": "Weekend mornings 9-11 a.m. or weekday afternoons after 2 p.m. during the school year are usually quieter",
+      "caregiver_tip": "Email the Accessibility Coordinator before your visit to plan seating for shows and ask about the next Access Hours.",
+      "venue": "Museum of Science (Science Park)",
+      "neighborhood": "Science Park / West End",
+      "schedule": null,
+      "how_to_join": "Buy timed tickets online; contact the accessibility team in advance for interpreters.",
+      "website": "https://www.mos.org/visit/accessibility",
+      "verified_sources": [
+        "https://www.mos.org/visit/accessibility",
+        "https://www.mos.org/visit/faq"
+      ],
+      "verified": true
+    },
+    {
+      "id": "act-210",
+      "hotspot_id": "boston-ma",
+      "city": "Boston",
+      "state": "MA",
+      "name": "New England Aquarium",
+      "category": "zoo_aquarium",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under50",
+      "price_note": "Free for visitors using their own wheelchairs and for visitors with visual impairments; other family members pay regular admission (listed at $39.95 adults, $30.95 ages 3-11, 2 and under free). Check current prices on their website",
+      "setting": "indoor",
+      "description": "Ocean animals of every shape and size wait on Boston's waterfront, and kids who use their own wheelchairs get in free. The Aquarium is KultureCity certified, so staff are trained to welcome visitors with sensory needs.",
+      "accessibility_notes": [
+        "Free wheelchair loans for ticketed guests (ID required) and elevators in the Tropical Gallery and West Wing",
+        "Sensory kits with noise-canceling headphones, fidget tools and picture-communication cards, plus quiet spaces in the lower West Wing and first-aid room",
+        "Description panels throughout for visitors who are deaf or hard of hearing; assistive listening and captioning devices in the Simons Theatre"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Sign up on the accessibility page for alerts about the Aquarium's Sensory Events with smaller crowds and lower noise.",
+      "venue": "New England Aquarium",
+      "neighborhood": "Downtown Waterfront",
+      "schedule": null,
+      "how_to_join": "Buy tickets online or at the door; ask at the Information Desk for wheelchairs or sensory kits.",
+      "website": "https://www.neaq.org/visit/accessibility/",
+      "verified_sources": [
+        "https://www.neaq.org/visit/accessibility/",
+        "https://www.neaq.org/tickets"
+      ],
+      "verified": true
+    },
+    {
+      "id": "act-241",
+      "hotspot_id": "minneapolis-mn",
+      "city": "Minneapolis",
+      "state": "MN",
+      "name": "Courage Kenny Adaptive Sports & Recreation: youth wheelchair basketball, power soccer and more",
+      "category": "adaptive_sports",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under25",
+      "price_note": "Fees vary by program; Courage Kenny says financial barriers won't prevent participation and offers a cost share/scholarship application on request",
+      "setting": "indoor",
+      "description": "Courage Kenny's youth wheelchair basketball program has developmental, prep and junior varsity teams, and its Jr. Rolling Timberwolves have won three national championships. Power soccer (played from power wheelchairs), wheelchair lacrosse and more round out a program that welcomes kids as young as five.",
+      "accessibility_notes": [
+        "Wheelchair basketball, power soccer and wheelchair lacrosse are held at the Courage Kenny gym in Golden Valley",
+        "Teams are split by level, from developmental to junior varsity, so beginners have a place to start",
+        "Ask whether loaner sport wheelchairs are available for new players and which team fits your child's age"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Ask for the cost share/scholarship application when you first call so money never decides whether your child plays.",
+      "venue": "Courage Kenny Rehabilitation Institute (Golden Valley)",
+      "neighborhood": "Golden Valley",
+      "schedule": null,
+      "how_to_join": "Sign the participation forms and waivers, then register through CK Active online or contact Courage Kenny Sports & Recreation to ask which youth team or try-it option fits.",
+      "website": "https://www.allinahealth.org/adaptivesports",
+      "verified_sources": [
+        "https://account.allinahealth.org/services/184",
+        "https://www.allinahealth.org/allina-news/2024/09/new-season-and-new-coach-for-jr-rolling-timberwolves",
+        "https://www.allinahealth.org/allina-news/2023/08/no-boundaries-camp",
+        "https://support.doctorpodcasting.com/client/allina/item/30655-benefits-of-adaptive-sports-for-kids-with-disabilities"
+      ],
+      "verified": true
+    },
+    {
+      "id": "act-242",
+      "hotspot_id": "minneapolis-mn",
+      "city": "Minneapolis",
+      "state": "MN",
+      "name": "Minneapolis Parks Therapeutic Recreation & Inclusion support",
+      "category": "adaptive_recreation",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under25",
+      "price_note": "Program fees vary by activity; a personal assistant doesn't pay drop-in entry fees. Check current prices on their website",
+      "setting": "hybrid",
+      "description": "Every Minneapolis Park & Recreation Board program is open to people with and without disabilities, and the Inclusion Team builds individualized support so your child can join the fun. Supports can include picture schedules, sensory-friendly spaces, sign language interpretation and 1:1 staff support.",
+      "accessibility_notes": [
+        "Accommodations are individualized and follow the ADA, including sign language interpretation and 1:1 staff support",
+        "For drop-in open gym and pools, a personal assistant can come along and checks in at the front desk",
+        "Ask which recreation center near you has the program and space your child needs"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Request inclusion support at least two weeks before the program starts so staff can plan with you.",
+      "venue": "Minneapolis Park & Recreation Board recreation centers (citywide)",
+      "neighborhood": "Citywide, Minneapolis",
+      "schedule": null,
+      "how_to_join": "Register for any MPRB program and choose the inclusion support option online, tell registration staff, or email the Inclusion Team at inclusion@minneapolisparks.org.",
+      "website": "https://www.minneapolisparks.org/activities-events/therapeutic_recreation/",
+      "verified_sources": [
+        "https://www.minneapolisparks.org/activities-events/therapeutic_recreation/",
+        "https://mn.gov/adresources/search/0feb3ee7-c315-546d-b374-3de99f471b9c"
+      ],
+      "verified": true
+    },
+    {
+      "id": "act-243",
+      "hotspot_id": "minneapolis-mn",
+      "city": "Minneapolis",
+      "state": "MN",
+      "name": "Lake Harriet paved lake loop (Chain of Lakes)",
+      "category": "accessible_trail",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free to visit; a pay parking lot is available",
+      "setting": "outdoor",
+      "description": "Roll around one of Minneapolis' favorite lakes on a paved walking path of about 2.75 miles, with a separate bike path alongside. Summer brings free concerts and movies at the Lake Harriet Band Shell.",
+      "accessibility_notes": [
+        "Paved walking trail of about 2.75 miles, with a separate paved bike trail",
+        "Pay parking lot on site",
+        "Restrooms at regional park facilities close for the off-season, so plan ahead in colder months"
+      ],
+      "best_time": "Park open daily, 6 am to midnight in developed areas. Confirm on their website before you go",
+      "caregiver_tip": "The loop is long, so pick a turnaround point before you start and enjoy the lake views both ways.",
+      "venue": "Lake Harriet Park",
+      "neighborhood": "Southwest Minneapolis (Chain of Lakes)",
+      "schedule": null,
+      "how_to_join": "Just show up; no registration needed.",
+      "website": "https://www.minneapolisparks.org/parks-destinations/parks-lakes/lake_harriet_park/",
+      "verified_sources": [
+        "https://www.minneapolisparks.org/parks-destinations/parks-lakes/lake_harriet_park/",
+        "https://www.minneapolisparks.org/parks-destinations/parks-lakes/minneapolis_chain_of_lakes_regional_park/"
+      ],
+      "verified": true
+    },
+    {
+      "id": "act-244",
+      "hotspot_id": "minneapolis-mn",
+      "city": "Minneapolis",
+      "state": "MN",
+      "name": "Wabun Universal Access Play Area at Minnehaha Regional Park",
+      "category": "inclusive_playground",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free; the park has both pay and free parking lots",
+      "setting": "outdoor",
+      "description": "Minneapolis' first universally accessible play area sits near Minnehaha Falls, with cabins, tents and a play car and camper inspired by the park's history. Rubber surfacing and ramps up onto the structure let kids who roll and kids who run play side by side.",
+      "accessibility_notes": [
+        "Rubberized surfacing throughout the play area",
+        "Multiple ramps lead up onto the play structure, plus a quiet area",
+        "Ask the park board about current parking and path conditions, since construction has affected access nearby"
+      ],
+      "best_time": "Park open daily, 6 am to midnight in developed areas. Confirm on their website before you go",
+      "caregiver_tip": "Reserve one of the Wabun picnic shelters if you're bringing a big group of family and friends.",
+      "venue": "Wabun Picnic Area, Minnehaha Regional Park",
+      "neighborhood": "Minnehaha / South Minneapolis",
+      "schedule": null,
+      "how_to_join": "Just show up; picnic shelters can be reserved through the park board.",
+      "website": "https://www.minneapolisparks.org/parks-destinations/parks-lakes/minnehaha_regional_park/",
+      "verified_sources": [
+        "https://www.minneapolisparks.org/parks-destinations/parks-lakes/minnehaha_regional_park/",
+        "https://www.minneapolisparks.org/news/2014/07/30/minnehaha_falls_universal_access_play_area_at_wabun_and_historic_play_area_at_north_plateau_to_be_officially_opened/",
+        "https://metrocouncil.org/News-Events/Parks/Newsletters/Minnehaha-Regional-Park-2014.aspx"
+      ],
+      "verified": true
+    },
+    {
+      "id": "act-245",
+      "hotspot_id": "minneapolis-mn",
+      "city": "Minneapolis",
+      "state": "MN",
+      "name": "Como Park Zoo & Conservatory",
+      "category": "zoo_aquarium",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free admission; a voluntary donation ($8 adults, $5 children) is appreciated but not required. Wheelchair rental is $10/day",
+      "setting": "hybrid",
+      "description": "Say hello to animals and wander a glass conservatory full of plants, all with free admission in St. Paul. Sensory Friendly Early Entry mornings give families a calmer hour before the gates open to everyone.",
+      "accessibility_notes": [
+        "Wheelchairs ($10/day) and electric scooters ($30/day) can be rented on site; they can't be reserved ahead",
+        "A social narrative, visual schedule and sensory map are available on the website",
+        "Sensory Friendly Early Entry runs 9 to 10 AM on listed dates"
+      ],
+      "best_time": "Zoo open daily 10 AM to 4 PM; Conservatory open 10 AM to 4 PM Tuesday to Sunday through April 30, 2027. Confirm on their website before you go",
+      "caregiver_tip": "Download the sensory map and visual schedule before you go so your child knows what's coming.",
+      "venue": "Como Park Zoo & Conservatory",
+      "neighborhood": "Como Park, St. Paul",
+      "schedule": null,
+      "how_to_join": "No tickets needed; just arrive during open hours.",
+      "website": "https://comozooconservatory.org",
+      "verified_sources": [
+        "https://comozooconservatory.org/visitors/visitor-map-hours/",
+        "https://comozooconservatory.org/policies",
+        "https://comozooconservatory.org/senior-strolls-and-sensory-friendly-mornings/"
+      ],
+      "verified": true
+    },
+    {
+      "id": "act-246",
+      "hotspot_id": "minneapolis-mn",
+      "city": "Minneapolis",
+      "state": "MN",
+      "name": "Minnesota Children's Museum",
+      "category": "sensory_friendly_museum",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12"
+      ],
+      "cost_tier": "under25",
+      "price_note": "Online advance tickets $17.95 to $19.95, walk-up $24.95, income-based All Play tickets $5; personal care attendants are free with the person they assist",
+      "setting": "indoor",
+      "description": "Climb, splash, build and pretend in a museum where every exhibit is designed to be wheelchair accessible. Quiet comfort rooms and low-stimulation spaces help kids reset whenever they need a break.",
+      "accessibility_notes": [
+        "Every exhibit is designed to be wheelchair accessible",
+        "Comfort rooms on the first floor (near Shipwreck Adventures) and second floor (in Sprouts)",
+        "Visual timers, noise-reducing headphones and universal cuffs can be checked out at the box office"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Park in the World Trade Center ramp and take the skyway in, and ask about All Play pricing if you have an EBT or WIC card.",
+      "venue": "Minnesota Children's Museum",
+      "neighborhood": "Downtown St. Paul",
+      "schedule": null,
+      "how_to_join": "Buy tickets online in advance for the best price, or at the door.",
+      "website": "https://mcm.org",
+      "verified_sources": [
+        "https://mcm.org/accessibility/",
+        "https://mcm.org/visit/"
+      ],
+      "verified": true
+    },
+    {
+      "id": "act-247",
+      "hotspot_id": "minneapolis-mn",
+      "city": "Minneapolis",
+      "state": "MN",
+      "name": "Minneapolis Institute of Art (Mia)",
+      "category": "sensory_friendly_museum",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "General admission is always free; some special exhibitions and events are ticketed",
+      "setting": "indoor",
+      "description": "Explore art from around the world for free, with no tickets or reservations needed for the permanent collection. Let your child choose a favorite gallery and make it a family tradition.",
+      "accessibility_notes": [
+        "Wheelchair-accessible entrances and galleries",
+        "Wheelchairs are available first come, first served; ask Visitor Experience about reserving one ahead",
+        "The free Bloomberg Connects app offers audio content and language support"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Because it's free, short visits are perfect: see a few galleries, then head home happy.",
+      "venue": "Minneapolis Institute of Art",
+      "neighborhood": "Whittier, Minneapolis",
+      "schedule": null,
+      "how_to_join": "Walk in during open hours; no tickets needed for general admission.",
+      "website": "https://artsmia.org",
+      "verified_sources": [
+        "https://new.artsmia.org/visit",
+        "https://new.artsmia.org/accessibility-and-inclusion",
+        "https://new.artsmia.org/special-exhibition-accessibility"
+      ],
+      "verified": true
+    },
+    {
+      "id": "act-248",
+      "hotspot_id": "minneapolis-mn",
+      "city": "Minneapolis",
+      "state": "MN",
+      "name": "Children's Theatre Company accessible performances (sensory friendly, ASL and audio described)",
+      "category": "adaptive_arts",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17"
+      ],
+      "cost_tier": "under50",
+      "price_note": "Ticket prices vary by show and seat; check current prices on their website",
+      "setting": "indoor",
+      "description": "Each season, Children's Theatre Company sets aside sensory-friendly, ASL-interpreted and audio-described performances so the whole family can enjoy live theatre together. Sensory-friendly shows keep the house lights low and sound gentler, developed with Fraser and the Autism Society of Minnesota.",
+      "accessibility_notes": [
+        "Step-free wheelchair rows in both theatres (Row O on the UnitedHealth Group Stage, Row A on the Cargill Stage) and accessible restrooms",
+        "Free assistive listening headsets, ASL-interpreted and audio-described performances",
+        "Large print programs and Sensory Tours on request through the Ticket Office"
+      ],
+      "best_time": "Published accessible performances, e.g. How the Grinch Stole Christmas! sensory friendly Nov 29, 2026 at 5pm and Jan 2, 2027 at 11am, ASL/AD Dec 5, 2026 at 11am. Confirm on their website before you go",
+      "caregiver_tip": "Request wheelchair seating when you book, and read the social story together before the show.",
+      "venue": "Children's Theatre Company",
+      "neighborhood": "Whittier, Minneapolis",
+      "schedule": null,
+      "how_to_join": "Buy tickets online or through the Ticket Office and ask for any accommodations when you book.",
+      "website": "https://childrenstheatre.org/plan-your-visit/accessibility/",
+      "verified_sources": [
+        "https://childrenstheatre.org/plan-your-visit/accessibility",
+        "https://childrenstheatre.org/plan-your-visit/accessibility/sensory-friendly-programming/"
+      ],
+      "verified": true
+    },
+    {
+      "id": "act-249",
+      "hotspot_id": "minneapolis-mn",
+      "city": "Minneapolis",
+      "state": "MN",
+      "name": "Three Rivers Park District adapted equipment (all-terrain wheelchairs, sit-skis, beach wheelchairs)",
+      "category": "adaptive_recreation",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under25",
+      "price_note": "The adapted equipment page lists no fee for most items (fees are shown only for things like child trailers); confirm when you reserve",
+      "setting": "outdoor",
+      "description": "Three Rivers Park District lends adapted gear so families can explore its parks together, from all-terrain wheelchairs on nature trails to sit-skis in winter. Handcycles and supported kayaks are available through scheduled Outdoor Recreation School programs.",
+      "accessibility_notes": [
+        "Manual all-terrain wheelchairs, including child sizes at Eastman and Richardson Nature Centers",
+        "Beach wheelchairs and ADA ramps into the water at Elm Creek and Lake Minnetonka swim ponds; sit-skis at several ski chalets",
+        "Assistive listening devices at several nature centers; ask which equipment is at the park you plan to visit"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Call the specific park ahead to hold the right-size chair; early inquiry is encouraged.",
+      "venue": "Three Rivers Park District parks (e.g., Elm Creek Park Reserve, Eastman and Richardson Nature Centers)",
+      "neighborhood": "Western and southern Twin Cities suburbs (e.g., Maple Grove)",
+      "schedule": null,
+      "how_to_join": "Contact the park you plan to visit, or the Outdoor Recreation School for equipment used in scheduled programs.",
+      "website": "https://www.threeriversparks.org/AdaptedEquipment",
+      "verified_sources": [
+        "https://www.threeriversparks.org/AdaptedEquipment",
+        "https://threeriversparks.org/blog/adapted-biking-bringing-all-together-trails"
+      ],
+      "verified": true
+    },
+    {
+      "id": "act-250",
+      "hotspot_id": "minneapolis-mn",
+      "city": "Minneapolis",
+      "state": "MN",
+      "name": "MacPhail Center for Music: adaptive lessons and music therapy",
+      "category": "music_dance",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under100",
+      "price_note": "Tuition is individualized; need-based sliding-scale financial aid is available, and MacPhail can bill Fiscal Management Services for CDCS funds. Check current prices on their website",
+      "setting": "hybrid",
+      "description": "Adaptive lessons let kids who learn music differently, including those with physical disabilities, play and sing with a board-certified music therapist who tailors every lesson. No musical experience is needed, just curiosity and joy.",
+      "accessibility_notes": [
+        "Lessons are designed for students with physical, cognitive or emotional challenges",
+        "Individual sessions in person or online through MacPhail Live Online",
+        "Ask about step-free access and room setup at the location you choose"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "If your child has CDCS waiver funds, ask whether MacPhail can bill your Fiscal Management Services provider directly.",
+      "venue": "MacPhail Center for Music (Minneapolis, plus Apple Valley, Chanhassen and online)",
+      "neighborhood": "Minneapolis",
+      "schedule": null,
+      "how_to_join": "Complete the online music therapy intake form or call to schedule a short intake interview; placement with a therapist usually follows within a few days.",
+      "website": "https://www.macphail.org/meta/music-therapy/",
+      "verified_sources": [
+        "https://www.macphail.org/meta/music-therapy/"
+      ],
+      "verified": true
+    },
+    {
+      "id": "act-221",
+      "hotspot_id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "name": "Outdoors for All Adaptive Cycling at Magnuson Park",
+      "category": "adaptive_recreation",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "On-site daily adaptive bike rentals at Magnuson Park are free during the season; taking a bike off-site or overnight carries standard rental fees",
+      "setting": "outdoor",
+      "description": "Outdoors for All runs one of the country's biggest adaptive bike fleets, with hand- and foot-powered trikes so kids can feel the wind off Lake Washington on wheels that fit their body. During the season the Magnuson Park center lends bikes free for on-site rides, and its sister center at Lake Sammamish State Park in Issaquah is free for riders with disabilities ages 7 and up.",
+      "accessibility_notes": [
+        "Hand- and foot-powered trikes are available for children ages 7 and up",
+        "Every rider must wear a helmet; bikes are first-come, first-served",
+        "Ask whether staff can help with transfers; at the Lake Sammamish center's free TrackChair, staff can't assist with transfers, so bring a support person"
+      ],
+      "best_time": "Seasonal: in 2026 the Magnuson center ran May 1 to October 18, 7 days a week, 10 a.m. to 6 p.m., with some holiday and Sunday closures. Confirm on their website before you go",
+      "caregiver_tip": "Arrive early on sunny weekends since bikes are first-come, first-served, and pack a helmet that fits your rider.",
+      "venue": "Magnuson Park Adaptive Cycling Center (Outdoors for All), 6344 NE 74th St",
+      "neighborhood": "Magnuson Park / Sand Point, Seattle",
+      "schedule": null,
+      "how_to_join": "Drop in during the season for an on-site rental, or email acc-magnuson@outdoorsforall.org with questions; register on their site for camps and Learn to Ride a Bike sessions.",
+      "website": "https://outdoorsforall.org/programs/recreation-programs/",
+      "verified_sources": [
+        "https://outdoorsforall.org",
+        "https://outdoorsforall.org/programs/recreation-programs/"
+      ],
+      "verified": true
+    },
+    {
+      "id": "act-222",
+      "hotspot_id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "name": "Seattle Adaptive Sports Youth Wheelchair Basketball, Sled Hockey and Power Soccer",
+      "category": "adaptive_sports",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under25",
+      "price_note": "Fees aren't published online; ask Seattle Adaptive Sports about current costs",
+      "setting": "indoor",
+      "description": "Seattle Adaptive Sports, a Paralympic Sport Club, fields coed youth wheelchair basketball teams from the Micro Sonics (ages 4-7) up through Prep and Varsity, plus a new youth sled hockey team for ages 8-18. Power soccer has no age limit, so the whole crew can find a court where they shine.",
+      "accessibility_notes": [
+        "Wheelchair basketball chairs are provided, and regular wheelchair use isn't required to play",
+        "Sled hockey needs no prior hockey experience or equipment; ask whether sleds are provided",
+        "Power soccer players need to operate the equipment independently; ask about chair availability"
+      ],
+      "best_time": "Power soccer: Saturdays 10 a.m. to noon at Meadowbrook Community Center; wheelchair basketball practices weekly during the school year (ask for location). Confirm on their website before you go",
+      "caregiver_tip": "Email ahead to set up a visit to a training session so your athlete can meet the coaches and teammates first.",
+      "venue": "Various Seattle gyms and rinks; power soccer meets at Meadowbrook Community Center",
+      "neighborhood": "Citywide, Seattle (power soccer in Meadowbrook)",
+      "schedule": null,
+      "how_to_join": "Email info@seattleadaptivesports.org and ask to attend a training session to try a sport.",
+      "website": "https://www.seattleadaptivesports.org/youth-sports/",
+      "verified_sources": [
+        "https://www.seattleadaptivesports.org",
+        "https://www.seattleadaptivesports.org/youth-sports/",
+        "https://adaptiverechub.org/programs/seattle-adaptive-sports/"
+      ],
+      "verified": true
+    },
+    {
+      "id": "act-223",
+      "hotspot_id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "name": "Seattle Parks and Recreation Specialized Programs",
+      "category": "adaptive_recreation",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under100",
+      "price_note": "Fees vary by program; scholarships may be available with proof of income, and the program says it accepts DDA (DDCS) respite funds where applicable. Check current prices on their website",
+      "setting": "hybrid",
+      "description": "The City of Seattle's own recreation team for people with disabilities runs summer day camps for ages 4-21, overnight camp for ages 6-21, youth weekend programs and trips, and teen and young adult afterschool programs. It's a wonderful way for kids to make friends, try new things and give caregivers a little breathing room.",
+      "accessibility_notes": [
+        "Run by Seattle Parks' dedicated Specialized Programs unit for people with disabilities",
+        "Ask about staff-to-participant ratios and help with transfers, feeding or personal care",
+        "Ask whether outings and trips use wheelchair-accessible transportation"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Seasonal registration opens early (fall 2026 registration began September 1), so mark the brochure release on your calendar.",
+      "venue": "Specialized Programs office, Magnuson Park Building 30, 6310 NE 74th St",
+      "neighborhood": "Magnuson Park / Sand Point, Seattle (programs run citywide)",
+      "schedule": null,
+      "how_to_join": "Call (206) 684-4950 or email PKS_Specialized_Programs@seattle.gov; camp registration uses the Camp Registration and Participant Information forms on their page.",
+      "website": "https://seattle.gov/parks/find/specialized-programs",
+      "verified_sources": [
+        "https://seattle.gov/parks/find/specialized-programs"
+      ],
+      "verified": true
+    },
+    {
+      "id": "act-224",
+      "hotspot_id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "name": "Seattle Children's PlayGarden Free Play",
+      "category": "inclusive_playground",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free and open to the public; no registration for Free Play",
+      "setting": "outdoor",
+      "description": "This one-acre, fully fenced garden and playground was built so kids with disabilities can play side by side with siblings and friends, with friendly staff on site during open play. A 2026 renovation swapped wood chips for turf, so wheels, walkers and bare feet can roam everywhere.",
+      "accessibility_notes": [
+        "Artificial turf replaced wood chips, making it wheelchair and stroller friendly",
+        "Play structures are low and wide, so it's easy to lift a child from a wheelchair onto a ride; the seesaw and spinning ring work for kids in chairs",
+        "Ask about accessible restrooms and parking when you visit"
+      ],
+      "best_time": "Outside summer camp season the PlayGarden is open daily, sunrise to sunset (summer hours differ). Confirm on their website before you go",
+      "caregiver_tip": "In summer, ask about the free Saturday wheelchair basketball the PlayGarden has hosted with Seattle Adaptive Sports and Rainier Adaptive Sports.",
+      "venue": "Seattle Children's PlayGarden (Seattle PlayGarden), 1745 24th Ave S at Colman Playground",
+      "neighborhood": "South Seattle (Colman Playground)",
+      "schedule": null,
+      "how_to_join": "Just come play; call (206) 325-5576 about camps (ages 3.5-21), preschool and young adult programs.",
+      "website": "https://seattleplaygarden.org",
+      "verified_sources": [
+        "https://seattleplaygarden.org",
+        "https://www.parentmap.com/article/new-seattle-childrens-playgarden-playground-accessible-inclusive",
+        "https://www.seattleschild.com/?p=94491"
+      ],
+      "verified": true
+    },
+    {
+      "id": "act-225",
+      "hotspot_id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "name": "Inspiration Playground at Bellevue Downtown Park",
+      "category": "inclusive_playground",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision"
+      ],
+      "ages": [
+        "0-5",
+        "6-12"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free public park",
+      "setting": "outdoor",
+      "description": "Bellevue built this universally accessible playground with the Bellevue Rotary Club so kids of every ability can play and explore at their own pace. Its features engage sight, sound, scent and touch, and in summer the water spray adds a splash of joy.",
+      "accessibility_notes": [
+        "The City of Bellevue describes it as a universally accessible play experience with features that engage the senses",
+        "A reviewer notes multiple inclusive swing options and a braille map at the entrance",
+        "Restrooms are next to the playground; a reviewer noted some parking curb cuts don't line up with access aisles, so scout your path"
+      ],
+      "best_time": "Open year-round; water spray typically runs from the Friday of Memorial Day weekend through Labor Day, 10 a.m. to 8 p.m. daily. Confirm on their website before you go",
+      "caregiver_tip": "Bring a towel and a change of clothes in summer; the water spray is hard to resist.",
+      "venue": "Bellevue Downtown Park, 10201 NE 4th St",
+      "neighborhood": "Downtown Bellevue",
+      "schedule": null,
+      "how_to_join": "Drop in; no registration needed.",
+      "website": "https://bellevuewa.gov/city-government/departments/parks/planning-and-development/downtown-park/inspiration-playground",
+      "verified_sources": [
+        "https://bellevuewa.gov/city-government/departments/parks/planning-and-development/downtown-park/inspiration-playground",
+        "https://adapted-design.com/blogs/park-reviews-5/bellevue-downtown-park"
+      ],
+      "verified": true
+    },
+    {
+      "id": "act-226",
+      "hotspot_id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "name": "Green Lake Park Inner Loop",
+      "category": "accessible_trail",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free public park",
+      "setting": "outdoor",
+      "description": "Green Lake's 2.8-mile paved inner loop is one of Seattle's favorite car-free paths, with lake views, ducks and plenty of company. Roll a lap, stop for a picnic, or simply turn back whenever your crew is ready.",
+      "accessibility_notes": [
+        "The 2.8-mile inner loop is paved",
+        "Wheeled users have the outside lane (one way, follow the arrows, 10 mph limit); motorized wheelchairs are the only motorized devices allowed",
+        "Restrooms are listed among park amenities; ask Seattle Parks which ones are accessible"
+      ],
+      "best_time": "Park open daily, 4 a.m. to 11:30 p.m. Confirm on their website before you go",
+      "caregiver_tip": "On busy weekends, follow the lane arrows and pull aside at a wide spot when you need a break.",
+      "venue": "Green Lake Park, 7201 E Green Lake Dr N",
+      "neighborhood": "Green Lake, Seattle",
+      "schedule": null,
+      "how_to_join": "Just show up; no registration needed.",
+      "website": "https://www.seattle.gov/parks/parkspaces/greenlak.htm",
+      "verified_sources": [
+        "https://www.seattle.gov/parks/parkspaces/greenlak.htm",
+        "https://www.wta.org/go-hiking/hikes/green-lake-seattle"
+      ],
+      "verified": true
+    },
+    {
+      "id": "act-227",
+      "hotspot_id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "name": "Woodland Park Zoo",
+      "category": "zoo_aquarium",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under50",
+      "price_note": "Check current prices on their website; interpreters and one-to-one aides get free admission (except ticketed events like ZooTunes)",
+      "setting": "hybrid",
+      "description": "Seattle's zoo has published an Accessibility Guide with a trail-conditions map and a Sensory Map pointing to quiet spots to relax and lively spots to romp. Blind and low-vision guests can even request a trained volunteer sighted guide for a day of animal wonder.",
+      "accessibility_notes": [
+        "Manual wheelchairs and electric scooters can be rented at Guest Services (first come, first served); EBT/Washington Quest, WIC and foster and kinship families get 50% off manual wheelchair rentals",
+        "Request a sighted guide with 14 days' notice, or a certified sign language interpreter through the zoo's request form",
+        "An adult-sized changing table is in the family restroom near the West Guest Entry/ZooStore; accessible stalls are marked on the Accessibility Map"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Download the Accessibility Guide before your visit to plan the smoothest paths around the hills.",
+      "venue": "Woodland Park Zoo",
+      "neighborhood": "Phinney Ridge, Seattle",
+      "schedule": null,
+      "how_to_join": "Buy tickets online and use the zoo's access page to request a sighted guide or interpreter.",
+      "website": "https://www.zoo.org/access",
+      "verified_sources": [
+        "https://www.zoo.org/access"
+      ],
+      "verified": true
+    },
+    {
+      "id": "act-228",
+      "hotspot_id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "name": "Pacific Science Center Sensory-Friendly Hours",
+      "category": "sensory_friendly_museum",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "ParentMap reports admission to Sensory-Friendly Hours is free; confirm when you reserve tickets",
+      "setting": "indoor",
+      "description": "About once a month, Pacific Science Center opens early or stays late with softer lighting, lower noise and hands-on exhibits adjusted for a calmer visit. It's a relaxed way for curious kids to explore science without the crowds.",
+      "accessibility_notes": [
+        "Free wheelchairs at the Main Entry Information Desk (ID required as a deposit); restrooms are wheelchair accessible",
+        "Free sensory kits with noise-cancelling headphones, fidgets and sunglasses, plus a Sensory Lounge in Exhibits East",
+        "A guest's aide receives complimentary admission"
+      ],
+      "best_time": "Monthly 2026-27 series: Dec 30, 2026 and Jan 31, Feb 18, Apr 15 and May 22, 2027 (8-10 a.m.); Mar 27 and Jun 24, 2027 (5-7 p.m.). Confirm on their website before you go",
+      "caregiver_tip": "Request a wheelchair ahead of time if you can, especially for busier visits.",
+      "venue": "Pacific Science Center",
+      "neighborhood": "Seattle Center, Seattle",
+      "schedule": null,
+      "how_to_join": "Reserve tickets through the Sensory-Friendly Hours event page or email gs@pacsci.org.",
+      "website": "https://pacificsciencecenter.org/events/sensory-hours/",
+      "verified_sources": [
+        "https://pacificsciencecenter.org/events/sensory-hours/",
+        "https://pacificsciencecenter.org/visit/accessibility",
+        "https://www.parentmap.com/calendar/sensory-hours-pacific-science-center"
+      ],
+      "verified": true
+    },
+    {
+      "id": "act-229",
+      "hotspot_id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "name": "Seattle Children's Theatre Access and Sensory-Friendly Performances",
+      "category": "adaptive_arts",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17"
+      ],
+      "cost_tier": "under100",
+      "price_note": "Check current prices on their website; complimentary Personal Care Attendant tickets are available",
+      "setting": "indoor",
+      "description": "Seattle Children's Theatre's Access performances are sensory-friendly shows that also include ASL interpreting and audio description, and every Mainstage show has a Relaxed or Sensory-Friendly performance plus at least one ASL-interpreted date. It's live theater where every young audience member belongs.",
+      "accessibility_notes": [
+        "Both theatres are accessible to patrons who use wheelchairs or have limited mobility; the accessible entrance is through the Charlotte Martin Theatre lobby on the north side",
+        "A hearing loop is installed in both theatres and both Quiet Rooms, with receivers available from the Box Office",
+        "Audio description by headphones at Access performances; request Audio Description On Demand at least two weeks ahead"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Ask for seats in the ASL section or near the aisle when you book, and call the Box Office on the day of the show for special accommodations.",
+      "venue": "Seattle Children's Theatre",
+      "neighborhood": "Seattle Center, Seattle",
+      "schedule": null,
+      "how_to_join": "Book through sct.org or the Box Office at tickets@sct.org or 206.441.3322 and ask which dates are Access, Sensory-Friendly or ASL performances.",
+      "website": "https://www.sct.org/accessibility-offerings/",
+      "verified_sources": [
+        "https://www.sct.org/accessibility-offerings/",
+        "https://www.sct.org/accessibility-offerings/access-performances/"
+      ],
+      "verified": true
+    },
+    {
+      "id": "act-230",
+      "hotspot_id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "name": "Multisensory Storytime at the Washington Talking Book & Braille Library",
+      "category": "library_storytime",
+      "access": [
+        "wheelchair",
+        "vision"
+      ],
+      "ages": [
+        "0-5"
+      ],
+      "cost_tier": "free",
+      "price_note": "No cost is listed; confirm with the library",
+      "setting": "indoor",
+      "description": "Washington's state library for readers who can't use standard print hosts a storytime for children 0-5 of all abilities: 30 minutes of stories, songs and dance, then 30 minutes of play. Its Children's Room is designed for multisensory exploration, with tactile toys and print/braille board books.",
+      "accessibility_notes": [
+        "Designed for children who are blind or have low vision, with print/braille and large-print board books",
+        "Families who can't attend can watch on WTBBL's YouTube channel or request a Storytime Kit mailed home (ages 0-5)",
+        "Ask about the accessible entrance and route to the Conference Room before your first visit"
+      ],
+      "best_time": "Check today's hours on their website before you go",
+      "caregiver_tip": "Youth patrons under 18 need a signed Parental Acknowledgment Form on file to use WTBBL services, so send it in early.",
+      "venue": "Washington Talking Book & Braille Library, 2021 9th Ave",
+      "neighborhood": "South Lake Union / Denny Triangle, Seattle",
+      "schedule": null,
+      "how_to_join": "Their Youth Services page lists Wednesdays 11 a.m. to noon, but other library pages list Fridays, so call WTBBL at 206-615-0400 to confirm the day.",
+      "website": "https://www.sos.wa.gov/washington-talking-book-braille-library",
+      "verified_sources": [
+        "https://sos.wa.gov/node/11941",
+        "https://www.sos.wa.gov/washington-talking-book-braille-library/about-wtbbl/calendar-events"
+      ],
+      "verified": true
     }
   ]
 }
