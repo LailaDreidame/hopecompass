@@ -52,7 +52,8 @@ export default function IEPModule({ data, askCopilot }) {
         From Early Intervention to the transition years. Build accommodation language grounded in federal law, prep for the meeting, and walk in knowing your rights. Grandparents, foster and kinship caregivers: under IDEA, you can count as the “parent” too.
       </ModuleHeader>
 
-      <p className="font-semibold text-navy -mb-6">👇 Tap your child's stage. Your accommodation builder opens below.</p>
+      <div>
+      <p className="font-semibold text-navy mb-3">👇 Tap your child's stage. Your accommodation builder opens below.</p>
       <ol className="grid md:grid-cols-4 gap-3" aria-label="Plan stages">
         {STAGES.map(([k, t, ages, d]) => (
           <li key={k}>
@@ -66,6 +67,7 @@ export default function IEPModule({ data, askCopilot }) {
           </li>
         ))}
       </ol>
+      </div>
 
       <section ref={builderRef} className="card p-6 md:p-8 scroll-mt-28" aria-labelledby="iepb">
         <p className="label">Accommodation & Meeting Prep Builder</p>

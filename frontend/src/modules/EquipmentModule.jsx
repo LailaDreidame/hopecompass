@@ -46,7 +46,8 @@ export default function EquipmentModule({ data, askCopilot, focus, clearFocus })
         Custom chairs, power chairs, canes, standers, ramps and bath chairs, with the exact questions to ask, a Letter of Medical Necessity decoder, and where to borrow, swap or get help paying.
       </ModuleHeader>
 
-      <p className="font-semibold text-navy -mb-6">👇 Tap a piece of equipment. Its step-by-step guide opens below.</p>
+      <div>
+      <p className="font-semibold text-navy mb-3">👇 Tap a piece of equipment. Its step-by-step guide opens below.</p>
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3" role="group" aria-label="Choose equipment">
         {equipment.map((e) => (
           <button key={e.id} onClick={() => { setEqId(e.id); setTimeout(() => guideRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 120) }} aria-pressed={e.id === eqId} className={`card p-4 text-left transition ${e.id === eqId ? '!bg-forest text-cream !border-forest' : 'hover:-translate-y-0.5'}`}>
@@ -55,6 +56,7 @@ export default function EquipmentModule({ data, askCopilot, focus, clearFocus })
             {e.id === eqId && <p className="text-xs mt-1 text-marigold-soft font-semibold">Selected ✓ · guide below ↓</p>}
           </button>
         ))}
+      </div>
       </div>
 
       <section ref={guideRef} className="card p-6 md:p-8 grid lg:grid-cols-3 gap-8 scroll-mt-28" aria-labelledby="eqname" aria-live="polite">
