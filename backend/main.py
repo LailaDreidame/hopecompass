@@ -47,7 +47,7 @@ class CopilotRequest(BaseModel):
     message: str = ""
     dataset: Optional[str] = None
     redteam: Optional[str] = None
-    lang: Optional[str] = None      # UI language; the Co-Pilot answers caregivers in it
+    lang: Optional[str] = None      # UI language; Joy Compass answers caregivers in it
 
 
 def client_ip(request: Request) -> Optional[str]:

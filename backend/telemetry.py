@@ -1,6 +1,6 @@
 """Tokenomics: cost per model call / run, projections for 100 and 10,000 users, and a run log.
 
-Every Co-Pilot run is appended to logs/telemetry.jsonl so the report can quote real measured
+Every Joy Compass run is appended to logs/telemetry.jsonl so the report can quote real measured
 numbers (input, cached and output tokens, latency, cost).
 """
 
@@ -13,7 +13,7 @@ from statistics import mean
 from .config import LOG_DIR, PRICES
 
 LOG_FILE = LOG_DIR / "telemetry.jsonl"
-RUNS_PER_USER_PER_MONTH = 12     # assumption: about three Co-Pilot questions a week per family
+RUNS_PER_USER_PER_MONTH = 12     # assumption: about three Joy Compass questions a week per family
 _lock = threading.Lock()
 
 

@@ -15,7 +15,7 @@ import { LANGS, getLang, setLang, onLangChange } from './i18n.js'
 
 export const NAV = [
   ['home', 'Home'], ['map', 'Places to Thrive'], ['play', 'Joy & Play'], ['equipment', 'Gear Navigator'],
-  ['iep', 'IEP & 504'], ['providers', 'Providers'], ['sanctuary', 'Sanctuary'], ['copilot', 'Co-Pilot ✨'],
+  ['iep', 'IEP & 504'], ['providers', 'Providers'], ['sanctuary', 'Sanctuary'], ['copilot', 'Joy Compass 🧭'],
 ]
 
 const pageFromHash = () => {
@@ -23,7 +23,7 @@ const pageFromHash = () => {
   return NAV.some(([k]) => k === h) || h === 'search' ? h : 'home'
 }
 
-// Shared Co-Pilot state so the Co-Pilot page and the Telemetry drawer see the same live run.
+// Shared Joy Compass state so Joy Compass page and the Telemetry drawer see the same live run.
 function useCopilot(dataset) {
   const [state, setState] = useState({ running: false, steps: {}, events: [], result: null, error: null, message: '' })
   const [history, setHistory] = useState([])
@@ -91,24 +91,18 @@ export default function App() {
     <div className="min-h-screen flex flex-col">
       <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 btn-gold z-50">Skip to content</a>
       <header className="sticky top-0 z-30 bg-cream/90 backdrop-blur border-b border-sand">
-        <div className="max-w-7xl mx-auto px-4 md:px-6 py-3 flex items-center gap-4">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 py-3 flex items-center gap-2 sm:gap-4">
           <button onClick={() => go('home')} className="flex items-center gap-2.5 shrink-0" aria-label="Joy Risers home">
-            <svg viewBox="0 0 64 64" className="w-10 h-10" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#1F4D3A" /><path d="M14 40 Q32 8 50 40" stroke="#E8A317" strokeWidth="6" fill="none" strokeLinecap="round" /><circle cx="32" cy="44" r="6" fill="#FBF6EC" /></svg>
-            <span className="font-display text-2xl text-forest font-semibold" translate="no">Joy Risers</span>
+            <svg viewBox="0 0 64 64" className="w-9 h-9 sm:w-10 sm:h-10 shrink-0" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#1F4D3A" /><path d="M14 40 Q32 8 50 40" stroke="#E8A317" strokeWidth="6" fill="none" strokeLinecap="round" /><circle cx="32" cy="44" r="6" fill="#FBF6EC" /></svg>
+            <span className="font-display text-xl sm:text-2xl text-forest font-semibold whitespace-nowrap max-[379px]:hidden" translate="no">Joy Risers</span>
           </button>
-          <nav aria-label="Modules" className="hidden xl:flex flex-1 justify-center gap-0.5">
-            {NAV.slice(1).map(([k, t]) => (
-              <button key={k} data-nav={k} onClick={() => go(k)} aria-current={page === k ? 'page' : undefined}
-                className={`px-3 py-2 rounded-full text-sm font-semibold whitespace-nowrap transition ${page === k ? 'bg-forest text-cream' : 'text-navy hover:bg-cream-2'}`}>{t}</button>
-            ))}
-          </nav>
-          <div className="ml-auto flex items-center gap-2">
+          <div className="ml-auto flex items-center gap-1.5 sm:gap-2">
             <button onClick={() => go('search')} className={`chip ${page === 'search' ? 'chip-on' : 'chip-off'} !py-1.5`} aria-label="Search the whole site">
               <span aria-hidden="true">🔍</span><span className="hidden md:inline">Search</span>
             </button>
             <label className="flex items-center gap-1 text-xs font-semibold text-navy" title="Language">
               <span aria-hidden="true">🌐</span>
-              <select aria-label="Language" translate="no" className="rounded-full border border-sand bg-white px-2 py-1 max-w-[7.5rem]" value={uiLang} onChange={(e) => setLang(e.target.value)}>
+              <select aria-label="Language" translate="no" className="rounded-full border border-sand bg-white px-2 py-1 max-w-[5.8rem] sm:max-w-[7.5rem]" value={uiLang} onChange={(e) => setLang(e.target.value)}>
                 {LANGS.map(([k, label]) => <option key={k} value={k}>{label}</option>)}
               </select>
             </label>
@@ -118,12 +112,12 @@ export default function App() {
                 <option value="full">Full (nationwide)</option><option value="test">Test (small)</option>
               </select>
             </label>
-            <button onClick={() => setDrawer(true)} className="btn-gold !px-4 !py-2 text-sm whitespace-nowrap" aria-haspopup="dialog">
-              <span aria-hidden="true">🔍</span> How it works
+            <button onClick={() => setDrawer(true)} className="btn-gold !px-3 sm:!px-4 !py-2 text-sm whitespace-nowrap" aria-haspopup="dialog" aria-label="How it works: telemetry and safety">
+              <span aria-hidden="true">🛡️</span><span className="hidden sm:inline">How it works</span>
             </button>
           </div>
         </div>
-        <nav aria-label="Modules (mobile)" className="xl:hidden flex gap-1 overflow-x-auto px-4 pb-2">
+        <nav aria-label="Modules" className="max-w-7xl mx-auto flex gap-1.5 overflow-x-auto px-4 md:px-6 pb-2.5 lg:justify-center">
           {NAV.slice(1).map(([k, t]) => (
             <button key={k} data-nav={k} onClick={() => go(k)} className={`shrink-0 px-3 py-1.5 rounded-full text-sm font-semibold ${page === k ? 'bg-forest text-cream' : 'bg-white text-navy border border-sand'}`}>{t}</button>
           ))}
@@ -138,6 +132,8 @@ export default function App() {
       </header>
 
       <main id="main" className="flex-1 w-full max-w-7xl mx-auto px-4 md:px-6 py-8 md:py-12">
+        {/* Every page gets a top-level heading for screen readers (Home shows its own visible h1) */}
+        {page !== 'home' && <h1 className="sr-only">{page === 'search' ? 'Search' : NAV.find(([k]) => k === page)?.[1]} · Joy Risers</h1>}
         {!data && page !== 'copilot' ? <Loading /> : (
           <>
             {page === 'home' && <Home {...props} />}

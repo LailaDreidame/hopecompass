@@ -1,5 +1,5 @@
 # Joy Risers 🌅
-**A joyful digital sanctuary and multi-agent AI Co-Pilot for every caregiver raising a child or young adult (ages 0–21) with a physical disability.**
+**A joyful digital sanctuary and multi-agent AI guide, Joy Compass, for every caregiver raising a child or young adult (ages 0–21) with a physical disability.**
 
 🌐 **Live app: [https://joy-risers.onrender.com](https://joy-risers.onrender.com)** · if it has been idle, the first visit can take about a minute to wake up.
 
@@ -13,7 +13,7 @@ Grandparents, aunts and uncles, foster, resource and kinship families, legal gua
 | 📚 **IEP & 504 Powerhouse** | IFSP → IEP/504 → transition. An **Accommodation & Meeting Prep Builder** writes legally grounded accommodation language (adaptive PE, field-trip transport, evacuation plans, passing time, assistive tech…) with citations, plus a pre-meeting checklist. |
 | 🩺 **Inclusive Provider Finder** | Disability-competent, culturally responsive pediatricians, physiatrists, PTs, OTs and orthotists with Medicaid/insurance, language and telehealth filters, plus **Green Flag Questions** for visit one. |
 | 🌿 **Caregiver Sanctuary** | Respite grants, support circles for grandparents, foster/resource, BIPOC and male caregivers, and guided 5-minute resets. After 30 minutes of active use, a gentle ding-ding-ding breathing break appears. |
-| ✨ **Multi-Agent Co-Pilot** | 4 agents with structured JSON outputs, tool calling, prompt caching, a live **Agent Telemetry & Safety Inspector** and one-click red-team tests. |
+| ✨ **Multi-Agent Joy Compass** | 4 agents with structured JSON outputs, tool calling, prompt caching, a live **Agent Telemetry & Safety Inspector** and one-click red-team tests. |
 
 ---
 
@@ -40,7 +40,7 @@ cp .env.example .env               # then paste PORTKEY_API_KEY=... (or OPENAI_A
 ```
 - `PORTKEY_API_KEY` → calls **gpt-6-luna** through Portkey's OpenAI-compatible endpoint `https://api.portkey.ai/v1` (used first).
 - `OPENAI_API_KEY` → fallback, calls **gpt-6-luna** directly at OpenAI.
-- No key? The whole site still works and the Co-Pilot runs in **offline mode** (local data only, 0 tokens).
+- No key? The whole site still works and Joy Compass runs in **offline mode** (local data only, 0 tokens).
 
 **3. Start the app**
 ```bash
@@ -134,7 +134,7 @@ One **Web Service** is enough: FastAPI serves the prebuilt React site from `fron
    - Build: `pip install -r requirements.txt`
    - Start: `uvicorn backend.main:app --host 0.0.0.0 --port $PORT`
    - Environment: `PYTHON_VERSION=3.12.7`, and your `PORTKEY_API_KEY` (entered in Render, never committed)
-3. Public-use guards (in `backend/config.py`): 15 Co-Pilot questions per visitor per hour, and a $2.00 per day ceiling for the whole site, on top of the per-session limits.
+3. Public-use guards (in `backend/config.py`): 15 Joy Compass questions per visitor per hour, and a $2.00 per day ceiling for the whole site, on top of the per-session limits.
 
 ## 🎨 Changing the frontend (optional)
 ```bash

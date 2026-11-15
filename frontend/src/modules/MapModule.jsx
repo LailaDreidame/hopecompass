@@ -140,7 +140,7 @@ export default function MapModule({ data, askCopilot, focus, clearFocus }) {
           </div>
           <div className="mt-6 flex flex-wrap gap-3">
             <button className="btn-primary" onClick={() => setCompare((c) => (c.includes(sel.id) ? c : [...c, sel.id].slice(-3)))}>＋ Add to comparison</button>
-            <button className="btn-ghost" onClick={() => askCopilot(`We're thinking about moving to ${sel.city}, ${sel.state}. Our child uses a wheelchair. What should we know, and what's fun to do there on a budget?`)}>Ask the Co-Pilot about {sel.city}</button>
+            <button className="btn-ghost" onClick={() => askCopilot(`We're thinking about moving to ${sel.city}, ${sel.state}. Our child uses a wheelchair. What should we know, and what's fun to do there on a budget?`)}>Ask Joy Compass about {sel.city}</button>
           </div>
         </section>
       )}
@@ -156,7 +156,7 @@ export default function MapModule({ data, askCopilot, focus, clearFocus }) {
               ))}
             </tbody>
           </table>
-          {compare.length >= 2 && <button className="btn-gold mt-4" onClick={() => askCopilot(`Compare ${compare.map((id) => { const h = ranked.find((x) => x.id === id); return `${h.city}, ${h.state}` }).join(' vs ')} for a family whose child uses a power wheelchair. Which fits better and why?`)}>Ask the Co-Pilot to compare these ✨</button>}
+          {compare.length >= 2 && <button className="btn-gold mt-4" onClick={() => askCopilot(`Compare ${compare.map((id) => { const h = ranked.find((x) => x.id === id); return `${h.city}, ${h.state}` }).join(' vs ')} for a family whose child uses a power wheelchair. Which fits better and why?`)}>Ask Joy Compass to compare these 🧭</button>}
         </section>
       )}
     </div>

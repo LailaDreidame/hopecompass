@@ -53,7 +53,7 @@ if PORTKEY_API_KEY:
 elif OPENAI_API_KEY:
     PROVIDER = "openai"
 else:
-    PROVIDER = "offline"   # no key: the app still runs; the Co-Pilot answers from local data only
+    PROVIDER = "offline"   # no key: the app still runs; Joy Compass answers from local data only
 
 # --- dataset toggle (full vs. small test set) --------------------------------
 DEFAULT_DATASET = os.getenv("JOY_DATASET", "full").strip().lower()
@@ -63,14 +63,14 @@ if DEFAULT_DATASET not in ("full", "test"):
 # --- budget / circuit-breaker limits (anti-overspending defense) ------------
 LIMITS = {
     "max_message_chars": 2_000,        # longer messages are refused before any model call
-    "max_turns_per_session": 25,       # Co-Pilot questions per browser session
+    "max_turns_per_session": 25,       # Joy Compass questions per browser session
     "max_tokens_per_session": 150_000, # input + output tokens per session (all agents)
     "max_model_calls_per_run": 10,     # across all four agents in one run
     "max_tool_rounds_per_agent": 4,    # tool-calling loop cap per specialist agent
     "max_output_tokens_per_call": 8_000,  # reasoning tokens count toward this cap
     "max_usd_per_session": 0.25,       # hard dollar ceiling per session
     # site-wide guards for the public online version (anyone with the link shares one course key)
-    "max_runs_per_ip_per_hour": 15,    # Co-Pilot questions per visitor (IP address) per hour
+    "max_runs_per_ip_per_hour": 15,    # Joy Compass questions per visitor (IP address) per hour
     "max_usd_per_day_site": 2.00,      # whole-site dollar ceiling per UTC day (~1,000 typical runs)
 }
 

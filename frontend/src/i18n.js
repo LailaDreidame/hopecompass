@@ -2,7 +2,7 @@
 // We walk the visible text (and placeholders / aria-labels / alt text), ask the backend for
 // translations (served from a pre-translated cache; new strings are translated once by gpt-6-luna),
 // and swap them in. A MutationObserver keeps up as React re-renders. Anything inside an element with
-// translate="no" stays as-is (e.g. the Co-Pilot answer already written in the caregiver's language,
+// translate="no" stays as-is (e.g. Joy Compass answer already written in the caregiver's language,
 // or IEP letters meant for the school). Switching back to English restores the originals.
 
 export const LANGS = [

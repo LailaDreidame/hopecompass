@@ -98,7 +98,7 @@ $0.01/1M instead of $0.10/1M. The Inspector shows cached tokens and the % saved 
 | Limit | Value |
 |---|---|
 | Message length | 2,000 characters |
-| Co-Pilot turns per session | 25 |
+| Joy Compass turns per session | 25 |
 | Tokens per session (all agents) | 150,000 |
 | Dollar ceiling per session | $0.25 |
 | Model calls per run | 10 |

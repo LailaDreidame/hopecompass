@@ -89,10 +89,10 @@ export default function SearchModule({ data, q, setQ, openResult, askCopilot }) 
       {q.trim() ? (
         <section className="card p-6 bg-sky-soft !border-sky grid md:grid-cols-[1fr_auto] gap-4 items-center">
           <div>
-            <p className="font-display text-xl text-navy">{results.length ? 'Want a plan built around this?' : 'No exact matches, but the Co-Pilot can help.'}</p>
-            <p className="mt-1">The Co-Pilot understands questions in your own words, in any language, and searches everything for you.</p>
+            <p className="font-display text-xl text-navy">{results.length ? 'Want a plan built around this?' : 'No exact matches, but Joy Compass can help.'}</p>
+            <p className="mt-1">Joy Compass understands questions in your own words, in any language, and searches everything for you.</p>
           </div>
-          <button className="btn-primary" onClick={() => askCopilot(q.trim())}>Ask the Co-Pilot ✨</button>
+          <button className="btn-primary" onClick={() => askCopilot(q.trim())}>Ask Joy Compass 🧭</button>
         </section>
       ) : (
         <div className="flex flex-wrap gap-2">
