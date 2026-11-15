@@ -120,6 +120,7 @@ export default function Copilot({ copilot, prefill, setPrefill, openDrawer, conf
           <button className="btn-compass" disabled={running || !text.trim()}>{running ? 'Agents at work…' : 'Ask Joy Compass 🧭'}</button>
           <span className="text-sm text-ink/85">{text.length}/2000 · Press Enter to send · Shift + Enter for a new line</span>
         </div>
+        <p className="mt-3 text-sm text-ink/85">🔒 Please don't include names, birthdays or medical record details. Your question goes to our AI providers (Portkey and OpenAI) to write your answer, and we keep a temporary record for safety and cost. <a href="#privacy" className="underline font-semibold">Privacy note</a></p>
         {(!asked || showIdeas) ? (
           <div className="mt-4">
             {asked && <p className="label mb-2">Example questions</p>}

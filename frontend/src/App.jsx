@@ -9,6 +9,7 @@ import ProvidersModule from './modules/ProvidersModule.jsx'
 import SanctuaryModule from './modules/SanctuaryModule.jsx'
 import Copilot from './modules/Copilot.jsx'
 import SearchModule from './modules/SearchModule.jsx'
+import Privacy from './modules/Privacy.jsx'
 import TelemetryDrawer from './components/TelemetryDrawer.jsx'
 import BreathePopup from './components/BreathePopup.jsx'
 import { LANGS, getLang, setLang, onLangChange } from './i18n.js'
@@ -20,7 +21,7 @@ export const NAV = [
 
 const pageFromHash = () => {
   const h = window.location.hash.replace('#', '')
-  return NAV.some(([k]) => k === h) || h === 'search' ? h : 'home'
+  return NAV.some(([k]) => k === h) || h === 'search' || h === 'privacy' ? h : 'home'
 }
 
 // Shared Joy Compass state so Joy Compass page and the Telemetry drawer see the same live run.
@@ -92,21 +93,22 @@ export default function App() {
       <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 btn-gold z-50">Skip to content</a>
       <header className="sticky top-0 z-30 bg-cream/90 backdrop-blur border-b border-sand">
         <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 py-3 flex items-center gap-2 sm:gap-4">
-          <button onClick={() => go('home')} className="flex items-center gap-2.5 shrink-0" aria-label="Joy Risers home">
-            <svg viewBox="0 0 64 64" className="w-9 h-9 sm:w-10 sm:h-10 shrink-0" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#1F4D3A" /><path d="M14 40 Q32 8 50 40" stroke="#E8A317" strokeWidth="6" fill="none" strokeLinecap="round" /><circle cx="32" cy="44" r="6" fill="#FBF6EC" /></svg>
+          <button onClick={() => go('home')} className="flex items-center gap-1.5 sm:gap-2.5 shrink-0">
+            <svg viewBox="0 0 64 64" className="w-8 h-8 sm:w-10 sm:h-10 shrink-0" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#1F4D3A" /><path d="M14 40 Q32 8 50 40" stroke="#E8A317" strokeWidth="6" fill="none" strokeLinecap="round" /><circle cx="32" cy="44" r="6" fill="#FBF6EC" /></svg>
             <span className="font-display text-xl sm:text-2xl text-forest font-semibold whitespace-nowrap max-[379px]:hidden" translate="no">Joy Risers</span>
+            {' '}<span translate="no" className="rounded-full bg-marigold-soft text-navy text-[10px] sm:text-[11px] font-bold uppercase tracking-wider px-1.5 sm:px-2 py-0.5 border border-marigold" title="Joy Risers is new and still growing">Beta</span><span className="sr-only">, home</span>
           </button>
           <div className="ml-auto flex items-center gap-1.5 sm:gap-2">
             <button onClick={() => go('search')} className={`chip ${page === 'search' ? 'chip-on' : 'chip-off'} !py-1.5`} aria-label="Search the whole site">
-              <span aria-hidden="true">🔍</span><span className="hidden md:inline">Search</span>
+              <span aria-hidden="true">🔍</span><span className="hidden lg:inline">Search</span>
             </button>
             <label className="flex items-center gap-1 text-xs font-semibold text-navy" title="Language">
-              <span aria-hidden="true">🌐</span>
-              <select aria-label="Language" translate="no" className="rounded-full border border-sand bg-white px-2 py-1 max-w-[5.8rem] sm:max-w-[7.5rem]" value={uiLang} onChange={(e) => setLang(e.target.value)}>
+              <span aria-hidden="true" className="hidden sm:inline">🌐</span>
+              <select aria-label="Language" translate="no" className="rounded-full border border-sand bg-white px-2 py-1 max-w-[5rem] sm:max-w-[7.5rem]" value={uiLang} onChange={(e) => setLang(e.target.value)}>
                 {LANGS.map(([k, label]) => <option key={k} value={k}>{label}</option>)}
               </select>
             </label>
-            <label className="hidden md:flex items-center gap-2 text-xs font-semibold text-navy">
+            <label className="hidden lg:flex items-center gap-2 text-xs font-semibold text-navy">
               <span>Data</span>
               <select aria-label="Dataset" className="rounded-full border border-sand bg-white px-2 py-1" value={dataset || ''} onChange={(e) => setDataset(e.target.value)}>
                 <option value="full">Full (nationwide)</option><option value="test">Test (small)</option>
@@ -136,8 +138,8 @@ export default function App() {
 
       <main id="main" className="flex-1 w-full max-w-7xl mx-auto px-4 md:px-6 py-8 md:py-12">
         {/* Every page gets a top-level heading for screen readers (Home shows its own visible h1) */}
-        {page !== 'home' && <h1 className="sr-only">{page === 'search' ? 'Search' : NAV.find(([k]) => k === page)?.[1]} · Joy Risers</h1>}
-        {!data && page !== 'copilot' ? <Loading /> : (
+        {page !== 'home' && <h1 className="sr-only">{page === 'search' ? 'Search' : page === 'privacy' ? 'Privacy' : NAV.find(([k]) => k === page)?.[1]} · Joy Risers</h1>}
+        {!data && page !== 'copilot' && page !== 'privacy' ? <Loading /> : (
           <>
             {page === 'home' && <Home {...props} />}
             {page === 'map' && <MapModule {...props} />}
@@ -146,6 +148,7 @@ export default function App() {
             {page === 'iep' && <IEPModule {...props} />}
             {page === 'providers' && <ProvidersModule {...props} />}
             {page === 'sanctuary' && <SanctuaryModule {...props} />}
+            {page === 'privacy' && <Privacy go={go} />}
             {page === 'search' && <SearchModule data={data} q={searchQ} setQ={setSearchQ} openResult={openResult} askCopilot={askCopilot} />}
             {page === 'copilot' && <Copilot copilot={copilot} prefill={prefill} setPrefill={setPrefill} openDrawer={() => setDrawer(true)} config={config} />}
           </>
@@ -163,7 +166,9 @@ export default function App() {
             <p>Directory listings are curated demo data: national programs are real organizations; local listings, providers, hours, prices and scores are illustrative. Always confirm.</p>
           </div>
           <div className="text-cream/90">
-            <p>MGT 409 · AI Foundations for Managers · Final Project</p>
+            <p><strong>Beta:</strong> Joy Risers is new and still growing, so some listings are samples. Always confirm details.</p>
+            <p className="mt-2"><button className="underline font-semibold" onClick={() => go('privacy')}>Privacy note</button></p>
+            <p className="mt-2">MGT 409 · AI Foundations for Managers · Final Project</p>
             <p className="mt-1">Model: {config?.model || 'gpt-6-luna'} via {config?.provider || '…'} · dataset: {dataset}</p>
           </div>
         </div>

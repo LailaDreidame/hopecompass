@@ -142,6 +142,12 @@ cd frontend && npm install && npm run dev     # http://localhost:5173 (proxies /
 npm run build                                 # rewrites frontend/dist for the FastAPI server
 ```
 
+## 🔒 Privacy (beta)
+The app has a plain-language **Privacy note** (footer link, `#privacy`) and a reminder above the Joy Compass box. In short:
+- No accounts, ads, tracking cookies or analytics.
+- Joy Compass questions go through Portkey to an OpenAI model; the server keeps a temporary run record (question excerpt, answer, cost and safety details) in `logs/telemetry.jsonl`, which is cleared on hosts with temporary disks (like Render's free tier).
+- Language, dataset, checklist and breathing-timer choices stay in the browser; a per-tab session id and the visitor's IP are used only for fair-use limits.
+
 ## ⚖️ About the data
 - **National programs and laws are real** (e.g., IDEA, Section 504, ADA Title II, Medicaid EPSDT, ABLE; AT Act programs, AMBUCS Amtryke, Variety, Easterseals, ARCH Respite, Parent to Parent USA). Citations are general information, **not legal advice**.
 - **Providers are fictional sample listings.** City scores, local activities, hours and prices are **illustrative** demo data. Every card says so, and you should always confirm.
