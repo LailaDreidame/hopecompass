@@ -19,7 +19,7 @@ Grandparents, aunts and uncles, foster, resource and kinship families, legal gua
 
 ## ▶️ Run it locally (about 3 minutes)
 
-You need **Python 3.10+**. Node is **not** needed: the built frontend is already in `frontend/dist/`.
+You need **Python 3.9 or newer**. Node is **not** needed: the built frontend is already in `frontend/dist/`.
 
 **1. Get the code and install the Python packages**
 ```bash

@@ -1,4 +1,4 @@
-# Python 3.10+   Install:  pip install -r requirements.txt
+# Python 3.9+   Install:  pip install -r requirements.txt
 fastapi>=0.110
 uvicorn>=0.29
 openai>=1.60
