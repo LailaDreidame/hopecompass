@@ -117,9 +117,12 @@ export default function App() {
             </button>
           </div>
         </div>
-        <nav aria-label="Modules" className="max-w-7xl mx-auto flex gap-1.5 overflow-x-auto px-4 md:px-6 pb-2.5 lg:justify-center">
+        <nav aria-label="Modules" className="max-w-7xl mx-auto flex items-center gap-1.5 overflow-x-auto px-4 md:px-6 pt-1.5 pb-2.5 lg:justify-center">
           {NAV.slice(1).map(([k, t]) => (
-            <button key={k} data-nav={k} onClick={() => go(k)} className={`shrink-0 px-3 py-1.5 rounded-full text-sm font-semibold ${page === k ? 'bg-forest text-cream' : 'bg-white text-navy border border-sand'}`}>{t}</button>
+            <button key={k} data-nav={k} onClick={() => go(k)} aria-current={page === k ? 'page' : undefined}
+              className={k === 'copilot'
+                ? `shrink-0 max-lg:order-first px-4 py-1 rounded-full text-[19px] leading-tight font-bold bg-dodger text-navy hover:brightness-95 ${page === k ? 'ring-[3px] ring-navy ring-offset-2 ring-offset-cream' : ''}`
+                : `shrink-0 px-3 py-1.5 rounded-full text-sm font-semibold ${page === k ? 'bg-forest text-cream' : 'bg-white text-navy border border-sand'}`}>{t}</button>
           ))}
         </nav>
         <div className="brand-ribbon" aria-hidden="true" />

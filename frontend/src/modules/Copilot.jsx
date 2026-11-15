@@ -117,7 +117,7 @@ export default function Copilot({ copilot, prefill, setPrefill, openDrawer, conf
           onKeyDown={(e) => { if (e.key === 'Enter' && !e.shiftKey && !e.nativeEvent.isComposing) submit(e) }}
           placeholder="e.g. My grandson uses a walker. What's fun and free near Chicago this Saturday?" />
         <div className="flex flex-wrap items-center gap-3 mt-3">
-          <button className="btn-primary text-lg" disabled={running || !text.trim()}>{running ? 'Agents at work…' : 'Ask Joy Compass 🧭'}</button>
+          <button className="btn-compass" disabled={running || !text.trim()}>{running ? 'Agents at work…' : 'Ask Joy Compass 🧭'}</button>
           <span className="text-sm text-ink/85">{text.length}/2000 · Press Enter to send · Shift + Enter for a new line</span>
         </div>
         {(!asked || showIdeas) ? (

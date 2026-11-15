@@ -92,7 +92,7 @@ export default function SearchModule({ data, q, setQ, openResult, askCopilot }) 
             <p className="font-display text-xl text-navy">{results.length ? 'Want a plan built around this?' : 'No exact matches, but Joy Compass can help.'}</p>
             <p className="mt-1">Joy Compass understands questions in your own words, in any language, and searches everything for you.</p>
           </div>
-          <button className="btn-primary" onClick={() => askCopilot(q.trim())}>Ask Joy Compass 🧭</button>
+          <button className="btn-compass" onClick={() => askCopilot(q.trim())}>Ask Joy Compass 🧭</button>
         </section>
       ) : (
         <div className="flex flex-wrap gap-2">

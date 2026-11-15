@@ -28,7 +28,7 @@ export default function Home({ data, go, askCopilot }) {
             Find something fun for Saturday, the right gear, a doctor who gets it, and the words for your next IEP meeting, all in one spot.
           </p>
           <div className="mt-7 flex flex-wrap gap-3">
-            <button className="btn-primary text-lg" onClick={() => go('copilot')}>Ask Joy Compass 🧭</button>
+            <button className="btn-compass" onClick={() => go('copilot')}>Ask Joy Compass 🧭</button>
             <button className="btn-ghost text-lg" onClick={() => go('play')}>Find something fun this weekend</button>
           </div>
           <p className="mt-4 text-sm text-ink/80">Ask a question in your own words and get a clear, kind response in about 30 seconds. We double-check every answer for safety and accuracy.</p>

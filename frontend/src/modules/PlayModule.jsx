@@ -138,7 +138,7 @@ export default function PlayModule({ data, askCopilot, focus, clearFocus }) {
             <ul className="space-y-1">{open.accessibility_notes.map((n) => <li key={n}>✓ {n}</li>)}</ul>
             <p className="mt-2 text-sm text-ink/80">Good for: {open.access.map((x) => ACCESS_LABELS[x]).join(' · ')}</p>
             {open.caregiver_tip && <p className="mt-4 rounded-xl bg-marigold-soft p-3">💡 {open.caregiver_tip}</p>}
-            <button className="btn-primary mt-5" onClick={() => { setOpen(null); askCopilot(`Help me plan a visit to "${open.name}" in ${open.city}, ${open.state} (${whenText(open)}). What should I know and bring?`) }}>Plan this visit with Joy Compass 🧭</button>
+            <button className="btn-compass mt-5" onClick={() => { setOpen(null); askCopilot(`Help me plan a visit to "${open.name}" in ${open.city}, ${open.state} (${whenText(open)}). What should I know and bring?`) }}>Plan this visit with Joy Compass 🧭</button>
           </div>
         )}
       </Sheet>
