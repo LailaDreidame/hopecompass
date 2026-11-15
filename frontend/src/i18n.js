@@ -54,16 +54,36 @@ function englishOf(node) {
   return original.get(node)
 }
 
+const post = (strings, ai) => fetch('/api/translate', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({ lang, strings, ai }) }).then((r) => r.json()).then((j) => j.translations || {})
+const aiPending = new Set()
+
+// Two steps so nothing waits on the slowest string: (1) everything already translated comes from the cache
+// instantly; (2) brand-new text (e.g. a fresh Joy Compass answer) is translated by AI in the background,
+// then the page is re-applied.
 async function fetchMissing(strings) {
   const m = (memo[lang] ||= new Map())
-  const need = [...new Set(strings)].filter((s) => !m.has(s))
+  const need = [...new Set(strings)].filter((s) => !m.has(s) && !aiPending.has(s))
+  const fresh = []
   for (let i = 0; i < need.length; i += 150) {
     const chunk = need.slice(i, i + 150)
     try {
-      const r = await fetch('/api/translate', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ lang, strings: chunk }) })
-      const { translations = {} } = await r.json()
-      chunk.forEach((s) => m.set(s, translations[s] ?? s))
+      const t = await post(chunk, false)
+      chunk.forEach((s) => (t[s] !== undefined ? m.set(s, t[s]) : fresh.push(s)))
     } catch { chunk.forEach((s) => m.set(s, s)) }
+  }
+  if (fresh.length) {
+    const want = lang
+    fresh.forEach((s) => aiPending.add(s))
+    ;(async () => {
+      for (let i = 0; i < fresh.length; i += 60) {
+        const chunk = fresh.slice(i, i + 60)
+        try { const t = await post(chunk, true); chunk.forEach((s) => (memo[want] ||= new Map()).set(s, t[s] ?? s)) }
+        catch { chunk.forEach((s) => (memo[want] ||= new Map()).set(s, s)) }
+        chunk.forEach((s) => aiPending.delete(s))
+      }
+      if (lang === want) schedule(collect(document.body))
+    })()
   }
   return m
 }

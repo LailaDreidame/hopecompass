@@ -64,13 +64,14 @@ def languages():
 class TranslateRequest(BaseModel):
     lang: str
     strings: list = []
+    ai: bool = True          # False = answer from the cache only (instant)
 
 
 @app.post("/api/translate")
 def translate(req: TranslateRequest, request: Request):
     if req.lang not in i18n.LANGS:
         return JSONResponse({"error": "unsupported language"}, status_code=400)
-    return i18n.translate(req.lang, [s for s in req.strings if isinstance(s, str)], ip=client_ip(request))
+    return i18n.translate(req.lang, [s for s in req.strings if isinstance(s, str)], ip=client_ip(request), allow_ai=req.ai)
 
 
 @app.post("/api/copilot")
