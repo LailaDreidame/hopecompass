@@ -1,11 +1,11 @@
-import { useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { ModuleHeader, Chips, Select, Pill, CopyButton, WebLinks, pretty } from '../components/ui.jsx'
 
 const SAMPLE_LMN = `To Whom It May Concern: I am writing to document the medical necessity of a power wheelchair with tilt-in-space for my patient, age 9, who has spastic quadriplegic cerebral palsy. Her functional limitation prevents safe self-propulsion of a manual chair, limiting MRADLs at home and school. A least costly alternative (manual chair with attendant) was trialed and was insufficient. Tilt-in-space is required to manage pressure injury risk during a 7-hour school day. Seat-to-floor height must allow transfers. Please include a growth kit. A home assessment confirmed access. HCPCS codes are attached for prior authorization.`
 
 const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 
-export default function EquipmentModule({ data, askCopilot }) {
+export default function EquipmentModule({ data, askCopilot, focus, clearFocus }) {
   const { equipment, roles, lmn_glossary: glossary } = data.equipment
   const programs = data.equipment_programs.programs
   const [eqId, setEqId] = useState(equipment[0].id)
@@ -16,6 +16,7 @@ export default function EquipmentModule({ data, askCopilot }) {
   const [pstate, setPstate] = useState(null)
   const eq = equipment.find((e) => e.id === eqId)
   const guideRef = useRef(null)
+  useEffect(() => { if (focus?.module === 'equipment' && equipment.some((e) => e.id === focus.id)) { setEqId(focus.id); setTimeout(() => guideRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 300); clearFocus() } }, [focus])
   const name = child.trim() || 'my child'
 
   const script = useMemo(() => picked.map((rid) => {
@@ -51,7 +52,7 @@ export default function EquipmentModule({ data, askCopilot }) {
           <button key={e.id} onClick={() => { setEqId(e.id); setTimeout(() => guideRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 120) }} aria-pressed={e.id === eqId} className={`card p-4 text-left transition ${e.id === eqId ? '!bg-forest text-cream !border-forest' : 'hover:-translate-y-0.5'}`}>
             <span className="text-3xl" aria-hidden="true">{e.emoji}</span>
             <p className="font-semibold mt-1">{e.name}</p>
-            {e.id === eqId && <p className="text-xs mt-1 text-marigold font-semibold">Selected ✓ · guide below ↓</p>}
+            {e.id === eqId && <p className="text-xs mt-1 text-marigold-soft font-semibold">Selected ✓ · guide below ↓</p>}
           </button>
         ))}
       </div>
@@ -80,7 +81,8 @@ export default function EquipmentModule({ data, askCopilot }) {
           <label className="block"><span className="label block mb-1">Your child's first name (optional)</span><input className="input" value={child} onChange={(e) => setChild(e.target.value)} placeholder="e.g. Amani" /></label>
           <div><p className="label mb-2">Who are you talking to?</p><Chips multi label="Care team roles" value={picked} onChange={setPicked} options={roles.map((r) => [r.id, r.label])} /></div>
         </div>
-        <pre className="mt-5 whitespace-pre-wrap rounded-2xl bg-cream-2 p-5 text-[15px] leading-relaxed font-sans max-h-[460px] overflow-auto" aria-live="polite">{script || 'Pick at least one person to talk to.'}</pre>
+        {document.documentElement.lang !== 'en' && <p className="mt-4 text-sm">This script stays in English so you can use it with your care team.</p>}
+        <pre tabIndex={0} className="mt-5 whitespace-pre-wrap rounded-2xl bg-cream-2 p-5 text-[15px] leading-relaxed font-sans max-h-[460px] overflow-auto" aria-live="polite">{script || 'Pick at least one person to talk to.'}</pre>
         <div className="flex flex-wrap gap-3 mt-4">
           <CopyButton text={script} label="Copy script" />
           <button className="btn-ghost !py-1.5 !px-3 text-sm" onClick={() => { const w = window.open('', '_blank'); w.document.write(`<pre style="font:15px/1.5 system-ui;white-space:pre-wrap;padding:24px">${script.replace(/</g, '&lt;')}</pre>`); w.print() }}>Print</button>
@@ -98,9 +100,9 @@ export default function EquipmentModule({ data, askCopilot }) {
         </div>
         <div>
           <p className="label mb-2">{lmn ? `${found.length} terms found in your letter` : 'Glossary'}</p>
-          <div className="space-y-3 max-h-[560px] overflow-auto pr-1">
+          <div tabIndex={0} aria-label="Scrollable list" className="space-y-3 max-h-[560px] overflow-auto pr-1">
             {(lmn ? found : glossary).map((g) => (
-              <div key={g.term} className="rounded-2xl bg-cream-2 p-4"><p className="font-semibold text-navy">{g.term}</p><p className="mt-1">{g.plain}</p><p className="mt-1 text-sm text-forest font-medium">Why it matters: {g.why_it_matters}</p></div>
+              <div key={g.term} data-id={`gloss-${glossary.indexOf(g)}`} className="rounded-2xl bg-cream-2 p-4"><p className="font-semibold text-navy">{g.term}</p><p className="mt-1">{g.plain}</p><p className="mt-1 text-sm text-forest font-medium">Why it matters: {g.why_it_matters}</p></div>
             ))}
             {lmn && !found.length && <p>No insurance terms spotted. That may mean the letter needs more detail; compare it to the “strong LMN” list above.</p>}
           </div>
@@ -115,12 +117,12 @@ export default function EquipmentModule({ data, askCopilot }) {
         </div>
         <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-5 mt-5">
           {progRows.map((p) => (
-            <article key={p.id} className="card p-5">
+            <article key={p.id} data-id={p.id} className="card p-5">
               <div className="flex flex-wrap gap-1.5"><Pill tone="gold">{pretty(p.type)}</Pill><Pill tone="sky">{p.scope === 'national' ? 'National' : p.states.join(', ')}</Pill>{p.real_org ? <Pill tone="forest">Real organization</Pill> : <Pill tone="terra">Sample listing</Pill>}</div>
               <h4 className="font-display text-xl text-navy mt-2">{p.name}</h4>
               <p className="mt-1">{p.what_they_offer}</p>
               <p className="mt-2 text-sm"><strong>How to apply:</strong> {p.how_to_apply}</p>
-              <p className="mt-2 text-xs text-ink/75">Covers: {p.covers.map(pretty).join(', ')}</p>
+              <p className="mt-2 text-xs text-ink/85">Covers: {p.covers.map(pretty).join(', ')}</p>
               <WebLinks className="mt-3" url={p.url} name={p.name} real={p.real_org} place={p.scope === 'national' ? '' : p.states.join(', ')} similar={p.real_org ? null : `${pretty(p.type).toLowerCase()} pediatric ${p.covers.map(pretty).join(' ').toLowerCase()} ${p.states.filter((x) => x !== 'ALL').join(' ')}`} />
             </article>
           ))}

@@ -8,8 +8,10 @@ import IEPModule from './modules/IEPModule.jsx'
 import ProvidersModule from './modules/ProvidersModule.jsx'
 import SanctuaryModule from './modules/SanctuaryModule.jsx'
 import Copilot from './modules/Copilot.jsx'
+import SearchModule from './modules/SearchModule.jsx'
 import TelemetryDrawer from './components/TelemetryDrawer.jsx'
 import BreathePopup from './components/BreathePopup.jsx'
+import { LANGS, getLang, setLang, onLangChange } from './i18n.js'
 
 export const NAV = [
   ['home', 'Home'], ['map', 'Places to Thrive'], ['play', 'Joy & Play'], ['equipment', 'Gear Navigator'],
@@ -18,7 +20,7 @@ export const NAV = [
 
 const pageFromHash = () => {
   const h = window.location.hash.replace('#', '')
-  return NAV.some(([k]) => k === h) ? h : 'home'
+  return NAV.some(([k]) => k === h) || h === 'search' ? h : 'home'
 }
 
 // Shared Co-Pilot state so the Co-Pilot page and the Telemetry drawer see the same live run.
@@ -30,7 +32,7 @@ function useCopilot(dataset) {
     setLast({ message, redteam })
     setState({ running: true, steps: {}, events: [], result: null, error: null, message: message || '' })
     try {
-      await runCopilot({ message, dataset, redteam }, (ev) => {
+      await runCopilot({ message, dataset, redteam, lang: getLang() }, (ev) => {
         setState((s) => {
           if (ev.type === 'step') return { ...s, steps: { ...s.steps, [ev.step.id]: ev.step } }
           if (ev.type === 'tool') {
@@ -61,7 +63,11 @@ export default function App() {
   const [config, setConfig] = useState(null)
   const [drawer, setDrawer] = useState(false)
   const [prefill, setPrefill] = useState('')
+  const [searchQ, setSearchQ] = useState('')
+  const [focus, setFocus] = useState(null)   // {module, id}: what a search result should open
   const copilot = useCopilot(dataset)
+  const [uiLang, setUiLang] = useState(getLang())
+  useEffect(() => onLangChange(setUiLang), [])
 
   useEffect(() => { const f = () => setPage(pageFromHash()); window.addEventListener('hashchange', f); return () => window.removeEventListener('hashchange', f) }, [])
   useEffect(() => { getJSON('/api/health').then((c) => { setConfig(c); if (!dataset) setDataset(c.dataset) }).catch(() => setConfig({ provider: 'unreachable' })) }, [])
@@ -70,7 +76,17 @@ export default function App() {
   const go = (p) => { window.location.hash = p; window.scrollTo({ top: 0, behavior: 'smooth' }) }
   const askCopilot = (text) => { setPrefill(text); go('copilot') }
 
-  const props = { data, go, askCopilot }
+  const openResult = (r) => { setFocus({ module: r.module, id: r.id }); go(r.module) }
+  // Generic fallback for search results: scroll to the card with data-id and highlight it briefly.
+  useEffect(() => {
+    if (!focus || page !== focus.module || !data) return
+    const t = setTimeout(() => {
+      const el = document.querySelector(`[data-id="${focus.id}"]`)
+      if (el) { el.scrollIntoView({ behavior: 'smooth', block: 'center' }); el.classList.add('search-hit'); setTimeout(() => el.classList.remove('search-hit'), 2600) }
+    }, 450)
+    return () => clearTimeout(t)
+  }, [focus, page, data])
+  const props = { data, go, askCopilot, focus, clearFocus: () => setFocus(null) }
   return (
     <div className="min-h-screen flex flex-col">
       <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 btn-gold z-50">Skip to content</a>
@@ -78,15 +94,24 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 md:px-6 py-3 flex items-center gap-4">
           <button onClick={() => go('home')} className="flex items-center gap-2.5 shrink-0" aria-label="Joy Risers home">
             <svg viewBox="0 0 64 64" className="w-10 h-10" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#1F4D3A" /><path d="M14 40 Q32 8 50 40" stroke="#E8A317" strokeWidth="6" fill="none" strokeLinecap="round" /><circle cx="32" cy="44" r="6" fill="#FBF6EC" /></svg>
-            <span className="font-display text-2xl text-forest font-semibold">Joy Risers</span>
+            <span className="font-display text-2xl text-forest font-semibold" translate="no">Joy Risers</span>
           </button>
           <nav aria-label="Modules" className="hidden xl:flex flex-1 justify-center gap-0.5">
             {NAV.slice(1).map(([k, t]) => (
-              <button key={k} onClick={() => go(k)} aria-current={page === k ? 'page' : undefined}
+              <button key={k} data-nav={k} onClick={() => go(k)} aria-current={page === k ? 'page' : undefined}
                 className={`px-3 py-2 rounded-full text-sm font-semibold whitespace-nowrap transition ${page === k ? 'bg-forest text-cream' : 'text-navy hover:bg-cream-2'}`}>{t}</button>
             ))}
           </nav>
           <div className="ml-auto flex items-center gap-2">
+            <button onClick={() => go('search')} className={`chip ${page === 'search' ? 'chip-on' : 'chip-off'} !py-1.5`} aria-label="Search the whole site">
+              <span aria-hidden="true">🔍</span><span className="hidden md:inline">Search</span>
+            </button>
+            <label className="flex items-center gap-1 text-xs font-semibold text-navy" title="Language">
+              <span aria-hidden="true">🌐</span>
+              <select aria-label="Language" translate="no" className="rounded-full border border-sand bg-white px-2 py-1 max-w-[7.5rem]" value={uiLang} onChange={(e) => setLang(e.target.value)}>
+                {LANGS.map(([k, label]) => <option key={k} value={k}>{label}</option>)}
+              </select>
+            </label>
             <label className="hidden md:flex items-center gap-2 text-xs font-semibold text-navy">
               <span>Data</span>
               <select aria-label="Dataset" className="rounded-full border border-sand bg-white px-2 py-1" value={dataset || ''} onChange={(e) => setDataset(e.target.value)}>
@@ -100,10 +125,16 @@ export default function App() {
         </div>
         <nav aria-label="Modules (mobile)" className="xl:hidden flex gap-1 overflow-x-auto px-4 pb-2">
           {NAV.slice(1).map(([k, t]) => (
-            <button key={k} onClick={() => go(k)} className={`shrink-0 px-3 py-1.5 rounded-full text-sm font-semibold ${page === k ? 'bg-forest text-cream' : 'bg-white text-navy border border-sand'}`}>{t}</button>
+            <button key={k} data-nav={k} onClick={() => go(k)} className={`shrink-0 px-3 py-1.5 rounded-full text-sm font-semibold ${page === k ? 'bg-forest text-cream' : 'bg-white text-navy border border-sand'}`}>{t}</button>
           ))}
         </nav>
         <div className="brand-ribbon" aria-hidden="true" />
+        {uiLang !== 'en' && (
+          <p className="bg-dodger-soft text-dodger-ink text-xs md:text-sm text-center px-4 py-1.5">
+            Translated by AI and may contain errors. Names of laws, programs and places stay in English so you can look them up.
+            <button className="underline ml-2" onClick={() => setLang('en')}>English</button>
+          </p>
+        )}
       </header>
 
       <main id="main" className="flex-1 w-full max-w-7xl mx-auto px-4 md:px-6 py-8 md:py-12">
@@ -116,6 +147,7 @@ export default function App() {
             {page === 'iep' && <IEPModule {...props} />}
             {page === 'providers' && <ProvidersModule {...props} />}
             {page === 'sanctuary' && <SanctuaryModule {...props} />}
+            {page === 'search' && <SearchModule data={data} q={searchQ} setQ={setSearchQ} openResult={openResult} askCopilot={askCopilot} />}
             {page === 'copilot' && <Copilot copilot={copilot} prefill={prefill} setPrefill={setPrefill} openDrawer={() => setDrawer(true)} config={config} />}
           </>
         )}

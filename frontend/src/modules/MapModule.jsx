@@ -17,14 +17,17 @@ const FACTORS = [
   ['pediatric_specialty', 'Pediatric specialty care'],
   ['inclusive_schools', 'Inclusive school districts'],
 ]
-const color = (v) => (v >= 78 ? '#1F4D3A' : v >= 70 ? '#4A90C2' : v >= 60 ? '#E8A317' : '#C8553D')
+const color = (v) => (v >= 78 ? '#1F4D3A' : v >= 70 ? '#4A90C2' : v >= 60 ? '#E8A317' : '#C8553D')       // map dots (graphics)
+// Darker shades for text and score badges so every number meets WCAG AAA (7:1+)
+const ink = (v) => (v >= 78 ? '#1F4D3A' : v >= 70 ? '#1A4E73' : v >= 60 ? '#6B4700' : '#8A2F1C')
 
-export default function MapModule({ data, askCopilot }) {
+export default function MapModule({ data, askCopilot, focus, clearFocus }) {
   const hotspots = data.hotspots.hotspots
   const [weights, setWeights] = useState(Object.fromEntries(FACTORS.map(([k]) => [k, 3])))
   const [selected, setSelected] = useState(null)
   const [compare, setCompare] = useState([])
   const dossierRef = useRef(null)
+  useEffect(() => { if (focus?.module === 'map') { setSelected(focus.id); clearFocus() } }, [focus])
   useEffect(() => { if (selected) setTimeout(() => dossierRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 60) }, [selected])
 
   const ranked = useMemo(() => {
@@ -51,7 +54,7 @@ export default function MapModule({ data, askCopilot }) {
               const isSel = h.id === selected
               return (
                 <g key={h.id} transform={`translate(${p[0]},${p[1]})`} className="cursor-pointer" tabIndex={0} role="button"
-                  aria-label={`${h.city}, ${h.state}: score ${h.score}, rank ${rank(h.id)}`}
+                  aria-label={`${h.city} · ${h.score}, ${h.state}, rank ${rank(h.id)}`}
                   onClick={() => setSelected(h.id)} onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && setSelected(h.id)}>
                   <circle r="6" fill={color(h.score)} className="pulse-ring" style={{ animationDelay: `${(rank(h.id) % 7) * 0.3}s` }} />
                   {isSel && <circle r="18" fill="none" stroke="#1E90FF" strokeWidth="3" strokeDasharray="4 3" className="anim-wheel" style={{ animationDuration: '8s' }} />}
@@ -91,7 +94,7 @@ export default function MapModule({ data, askCopilot }) {
                   <button onClick={() => setSelected(h.id)} className={`w-full flex items-center gap-3 rounded-2xl px-3 py-2 text-left transition ${selected === h.id ? 'bg-forest text-cream' : 'hover:bg-cream-2'}`}>
                     <span className="font-display text-lg w-6">{i + 1}</span>
                     <span className="flex-1 font-semibold">{h.city}, {h.state}</span>
-                    <span className="rounded-full px-2 py-0.5 text-sm font-bold text-white" style={{ background: color(h.score) }}>{h.score}</span>
+                    <span className="rounded-full px-2 py-0.5 text-sm font-bold text-white" style={{ background: ink(h.score) }}>{h.score}</span>
                   </button>
                 </li>
               ))}
@@ -108,7 +111,7 @@ export default function MapModule({ data, askCopilot }) {
               <h3 id="dossier" className="font-display text-4xl text-navy mt-1">{sel.city}, {sel.state}</h3>
               <p className="text-lg mt-2 text-ink/90">{sel.tagline}</p>
             </div>
-            <div className="text-center"><div className="font-display text-5xl" style={{ color: color(sel.score) }}>{sel.score}</div><div className="text-sm">your weighted score</div></div>
+            <div className="text-center"><div className="font-display text-5xl" style={{ color: ink(sel.score) }}>{sel.score}</div><div className="text-sm">your weighted score</div></div>
           </div>
           <div className="grid lg:grid-cols-3 gap-6 mt-6">
             <div className="space-y-3">{FACTORS.map(([k, l]) => <ScoreBar key={k} label={l} value={sel.scores[k]} />)}
@@ -149,7 +152,7 @@ export default function MapModule({ data, askCopilot }) {
             <thead><tr><th className="py-2">Factor</th>{compare.map((id) => { const h = ranked.find((x) => x.id === id); return <th key={id} className="py-2">{h.city}</th> })}</tr></thead>
             <tbody>
               {[...FACTORS, ['score', 'Your weighted score']].map(([k, l]) => (
-                <tr key={k} className="border-t border-sand"><td className="py-2 pr-4">{l}</td>{compare.map((id) => { const h = ranked.find((x) => x.id === id); const v = k === 'score' ? h.score : h.scores[k]; return <td key={id} className="py-2 font-semibold" style={{ color: color(v) }}>{v}</td> })}</tr>
+                <tr key={k} className="border-t border-sand"><td className="py-2 pr-4">{l}</td>{compare.map((id) => { const h = ranked.find((x) => x.id === id); const v = k === 'score' ? h.score : h.scores[k]; return <td key={id} className="py-2 font-semibold" style={{ color: ink(v) }}>{v}</td> })}</tr>
               ))}
             </tbody>
           </table>

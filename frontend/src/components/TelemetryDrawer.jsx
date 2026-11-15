@@ -44,11 +44,11 @@ export default function TelemetryDrawer({ open, onClose, copilot, config, go }) 
   return (
     <>
       <div className={`fixed inset-0 bg-navy/40 z-40 transition ${open ? 'opacity-100' : 'opacity-0 pointer-events-none'}`} onClick={onClose} aria-hidden="true" />
-      <aside role="dialog" aria-modal="true" aria-label="Agent Telemetry and Safety Inspector"
+      <div role="dialog" aria-modal="true" aria-label="Agent Telemetry and Safety Inspector" translate="no"
         className={`fixed top-0 right-0 h-full w-full max-w-[640px] bg-cream z-50 shadow-2xl border-l border-sand overflow-y-auto transition-transform duration-300 ${open ? 'translate-x-0' : 'translate-x-full'}`}>
         <div className="sticky top-0 bg-forest text-cream px-5 py-4 flex items-start gap-3 z-10">
           <div className="flex-1">
-            <p className="text-[11px] font-bold tracking-[0.16em] text-marigold">MGT 409 · AGENT TELEMETRY & SAFETY INSPECTOR</p>
+            <p className="text-[11px] font-bold tracking-[0.16em] text-marigold-soft">MGT 409 · AGENT TELEMETRY & SAFETY INSPECTOR</p>
             <p className="text-sm mt-1 text-cream/90">Model <strong>{config?.model}</strong> via <strong>{config?.provider}</strong> · env: {config?.env_file} · data: {config?.dataset}</p>
           </div>
           <button onClick={onClose} className="rounded-full bg-cream/15 hover:bg-cream/25 w-9 h-9 text-xl" aria-label="Close inspector">×</button>
@@ -99,7 +99,7 @@ export default function TelemetryDrawer({ open, onClose, copilot, config, go }) 
                       <tr key={i} className="border-t border-sand"><td className="py-1 pr-2 font-sans">{c.label.split('·')[0]}· {c.agent} r{c.round}</td><td>{fmtInt(c.input_tokens)}</td><td>{fmtInt(c.cached_tokens)}</td><td>{fmtInt(c.output_tokens)}</td><td>{c.latency_ms}</td><td>{fmtUSD(c.cost_usd, 6)}</td></tr>
                     ))}</tbody>
                   </table>
-                  <p className="text-[11px] mt-1 text-ink/75">Model reported: {[...new Set(allCalls.map((c) => c.model_reported))].join(', ')}</p>
+                  <p className="text-[11px] mt-1 text-ink/85">Model reported: {[...new Set(allCalls.map((c) => c.model_reported))].join(', ')}</p>
                 </div>
               )}
               {p && (
@@ -172,10 +172,10 @@ export default function TelemetryDrawer({ open, onClose, copilot, config, go }) 
             </section>
           )}
 
-          {r && <details className="rounded-2xl bg-white border border-sand p-3"><summary className="cursor-pointer font-semibold">Raw run JSON (for the report)</summary><pre className="text-[11px] mt-2 overflow-auto max-h-80">{JSON.stringify({ ...r, answer: undefined }, null, 2)}</pre></details>}
+          {r && <details className="rounded-2xl bg-white border border-sand p-3"><summary className="cursor-pointer font-semibold">Raw run JSON (for the report)</summary><pre tabIndex={0} className="text-[11px] mt-2 overflow-auto max-h-80">{JSON.stringify({ ...r, answer: undefined }, null, 2)}</pre></details>}
           {!r && !copilot.running && <p className="text-ink/80">Run a question on the <button className="underline" onClick={() => { onClose(); go('copilot') }}>Co-Pilot page</button>, or click a red-team test above. Each run shows its tokens, cost, routing and blocked attacks here.</p>}
         </div>
-      </aside>
+      </div>
     </>
   )
 }

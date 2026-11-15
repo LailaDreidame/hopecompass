@@ -32,9 +32,9 @@ export const PIPELINE = [
 
 const STATUS = {
   running: ['bg-dodger-soft border-dodger', 'Working…'], done: ['bg-forest text-cream border-forest', 'Done'],
-  blocked: ['bg-terracotta text-white border-terracotta', 'Blocked'], skipped: ['bg-cream-2 border-sand text-ink/70', 'Skipped'],
+  blocked: ['bg-terracotta text-white border-terracotta', 'Blocked'], skipped: ['bg-cream-2 border-sand text-ink/85', 'Skipped'],
   error: ['bg-terracotta-soft border-terracotta', 'Error'], idle: ['bg-white border-sand', 'Waiting'],
-  notrun: ['bg-cream-2 border-sand text-ink/70 border-dashed', 'Not run'],
+  notrun: ['bg-cream-2 border-sand text-ink/85 border-dashed', 'Not run'],
 }
 
 export function PipelineView({ steps, compact = false, finished = false, plain = false }) {
@@ -118,7 +118,7 @@ export default function Copilot({ copilot, prefill, setPrefill, openDrawer, conf
           placeholder="e.g. My grandson uses a walker. What's fun and free near Chicago this Saturday?" />
         <div className="flex flex-wrap items-center gap-3 mt-3">
           <button className="btn-primary text-lg" disabled={running || !text.trim()}>{running ? 'Agents at work…' : 'Ask the Co-Pilot ✨'}</button>
-          <span className="text-sm text-ink/75">{text.length}/2000 · Press Enter to send · Shift + Enter for a new line</span>
+          <span className="text-sm text-ink/85">{text.length}/2000 · Press Enter to send · Shift + Enter for a new line</span>
         </div>
         {(!asked || showIdeas) ? (
           <div className="mt-4">
@@ -152,17 +152,19 @@ export default function Copilot({ copilot, prefill, setPrefill, openDrawer, conf
             {ans.mode === 'offline' && <Pill tone="gold">Offline mode</Pill>}
             {ans.sources?.length > 0 && <Pill tone="forest">From {ans.sources.length} trusted listings</Pill>}
           </div>
+          <div translate={ans.lang && ans.lang !== 'en' ? 'no' : undefined}>
           <h3 className="font-display text-3xl text-navy">{ans.headline}</h3>
           <div className="mt-3 text-[17px]"><Markdown text={ans.message_markdown} /></div>
+          </div>
           {ans.draft_email && (
-            <div className="mt-6 rounded-2xl border-2 border-dashed border-forest p-5 bg-white">
+            <div className="mt-6 rounded-2xl border-2 border-dashed border-forest p-5 bg-white" translate="no">
               <div className="flex items-center justify-between gap-3"><p className="label">Draft email · review before sending</p><CopyButton text={`Subject: ${ans.draft_email.subject}\n\n${ans.draft_email.body}`} label="Copy email" /></div>
               <p className="font-semibold mt-2">Subject: {ans.draft_email.subject}</p>
               <pre className="whitespace-pre-wrap font-sans mt-2 leading-relaxed">{ans.draft_email.body}</pre>
             </div>
           )}
           {ans.action_checklist?.length > 0 && (
-            <div className="mt-6"><p className="label mb-2">Your next steps</p>
+            <div className="mt-6" translate={ans.lang && ans.lang !== 'en' ? 'no' : undefined}><p className="label mb-2">Your next steps</p>
               <ul className="space-y-1.5">{ans.action_checklist.map((a) => <li key={a}><label className="flex gap-3 items-start"><input type="checkbox" className="mt-1 w-5 h-5 accent-[#1F4D3A]" /><span>{a}</span></label></li>)}</ul>
             </div>
           )}

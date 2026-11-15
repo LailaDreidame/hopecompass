@@ -42,7 +42,7 @@ export default function ProvidersModule({ data, askCopilot }) {
         <p className="mb-3 font-semibold text-navy" aria-live="polite">{rows.length} providers · <span className="font-normal text-ink/80">fictional sample listings for this demo</span></p>
         <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-5">
           {rows.map((p) => (
-            <article key={p.id} className="card p-5 flex flex-col">
+            <article key={p.id} data-id={p.id} className="card p-5 flex flex-col">
               <div className="flex flex-wrap gap-1.5"><Pill tone="navy">{SPECIALTY_LABELS[p.specialty]}</Pill>{p.accepting_new && <Pill tone="forest">Accepting new</Pill>}{p.telehealth && <Pill tone="sky">Telehealth</Pill>}</div>
               <h3 className="font-display text-xl text-navy mt-2">{p.name}, {p.credentials}</h3>
               <p className="text-sm">{p.practice} · {p.city}, {p.state}</p>

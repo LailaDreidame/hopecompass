@@ -18,8 +18,8 @@ export async function resetSession() {
 }
 
 // Streams NDJSON events from the multi-agent pipeline: step / tool / safety / result / error.
-export async function runCopilot({ message, dataset, redteam }, onEvent) {
-  const r = await fetch('/api/copilot', { method: 'POST', headers, body: JSON.stringify({ message, dataset, redteam }) })
+export async function runCopilot({ message, dataset, redteam, lang }, onEvent) {
+  const r = await fetch('/api/copilot', { method: 'POST', headers, body: JSON.stringify({ message, dataset, redteam, lang }) })
   const reader = r.body.getReader()
   const dec = new TextDecoder()
   let buf = ''

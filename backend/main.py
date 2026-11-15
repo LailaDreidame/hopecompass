@@ -18,7 +18,7 @@ from fastapi.responses import FileResponse, JSONResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
-from . import data_store, orchestrator, safety, telemetry
+from . import data_store, i18n, orchestrator, safety, telemetry
 from .config import FRONTEND_DIST, public_config
 
 app = FastAPI(title="Joy Risers API", version="1.0")
@@ -47,20 +47,42 @@ class CopilotRequest(BaseModel):
     message: str = ""
     dataset: Optional[str] = None
     redteam: Optional[str] = None
+    lang: Optional[str] = None      # UI language; the Co-Pilot answers caregivers in it
+
+
+def client_ip(request: Request) -> Optional[str]:
+    # Behind Render's proxy the visitor's IP is the first X-Forwarded-For entry.
+    fwd = request.headers.get("x-forwarded-for", "")
+    return fwd.split(",")[0].strip() if fwd else (request.client.host if request.client else None)
+
+
+@app.get("/api/languages")
+def languages():
+    return {"languages": {"en": {"name": "English", "native": "English", "dir": "ltr"}, **i18n.LANGS}}
+
+
+class TranslateRequest(BaseModel):
+    lang: str
+    strings: list = []
+
+
+@app.post("/api/translate")
+def translate(req: TranslateRequest, request: Request):
+    if req.lang not in i18n.LANGS:
+        return JSONResponse({"error": "unsupported language"}, status_code=400)
+    return i18n.translate(req.lang, [s for s in req.strings if isinstance(s, str)], ip=client_ip(request))
 
 
 @app.post("/api/copilot")
 def copilot(req: CopilotRequest, request: Request, x_session_id: Optional[str] = Header(None)):
     """Runs the 4-agent pipeline and streams NDJSON events: step / tool / safety / result."""
     sid = (x_session_id or uuid.uuid4().hex)[:64]
-    # Behind Render's proxy the visitor's IP is the first X-Forwarded-For entry.
-    fwd = request.headers.get("x-forwarded-for", "")
-    ip = fwd.split(",")[0].strip() if fwd else (request.client.host if request.client else None)
+    ip = client_ip(request)
     q: queue.Queue = queue.Queue()
 
     def worker():
         try:
-            orchestrator.run_copilot(req.message, sid, req.dataset, q.put, redteam=req.redteam, ip=ip)
+            orchestrator.run_copilot(req.message, sid, req.dataset, q.put, redteam=req.redteam, ip=ip, lang=req.lang)
         except Exception as e:  # last-resort guard so the stream always ends
             q.put({"type": "error", "message": f"{type(e).__name__}: {e}"})
         finally:

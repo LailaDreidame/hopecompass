@@ -58,10 +58,10 @@ export default function IEPModule({ data, askCopilot }) {
           <li key={k}>
             <button onClick={() => { setStage(k); setChosen(null); setCats([...new Set(accommodations.filter((a) => a.stages.includes(k)).map((a) => a.category))].slice(0, 5)); goToBuilder() }}
               aria-pressed={stage === k} className={`card w-full h-full p-4 text-left transition ${stage === k ? '!bg-forest text-cream !border-forest' : 'hover:-translate-y-0.5'}`}>
-              <span className={`text-xs font-bold ${stage === k ? 'text-marigold' : 'text-forest'}`}>AGES {ages}</span>
+              <span className={`text-xs font-bold ${stage === k ? 'text-marigold-soft' : 'text-forest'}`}>AGES {ages}</span>
               <p className="font-display text-lg mt-1">{t}</p>
               <p className={`text-sm mt-1 ${stage === k ? 'text-cream/90' : 'text-ink/85'}`}>{d}</p>
-              <p className={`text-sm mt-2 font-semibold ${stage === k ? 'text-marigold' : 'text-forest'}`}>{stage === k ? 'Selected ✓ · see your builder below ↓' : 'Tap to choose →'}</p>
+              <p className={`text-sm mt-2 font-semibold ${stage === k ? 'text-marigold-soft' : 'text-forest'}`}>{stage === k ? 'Selected ✓ · see your builder below ↓' : 'Tap to choose →'}</p>
             </button>
           </li>
         ))}
@@ -75,9 +75,9 @@ export default function IEPModule({ data, askCopilot }) {
           <div><p className="label mb-2">Areas to cover</p><Chips multi label="Accommodation areas" value={cats} onChange={(v) => { setCats(v); setChosen(null) }} options={catOptions.map((c) => [c, pretty(c)])} /></div>
         </div>
         <div className="grid lg:grid-cols-2 gap-6 mt-6">
-          <div className="space-y-3 max-h-[560px] overflow-auto pr-1">
+          <div tabIndex={0} aria-label="Scrollable list" className="space-y-3 max-h-[560px] overflow-auto pr-1">
             {visible.map((a) => (
-              <label key={a.id} className={`block rounded-2xl border p-4 cursor-pointer transition ${selectedIds.includes(a.id) ? 'border-forest bg-forest/5' : 'border-sand bg-white'}`}>
+              <label key={a.id} data-id={a.id} className={`block rounded-2xl border p-4 cursor-pointer transition ${selectedIds.includes(a.id) ? 'border-forest bg-forest/5' : 'border-sand bg-white'}`}>
                 <div className="flex gap-3">
                   <input type="checkbox" className="mt-1 w-5 h-5 accent-[#1F4D3A]" checked={selectedIds.includes(a.id)} onChange={() => setChosen(selectedIds.includes(a.id) ? selectedIds.filter((x) => x !== a.id) : [...selectedIds, a.id])} />
                   <div>
@@ -93,7 +93,8 @@ export default function IEPModule({ data, askCopilot }) {
           </div>
           <div>
             <p className="label mb-2">Your draft ({picked.length} items)</p>
-            <pre className="whitespace-pre-wrap rounded-2xl bg-cream-2 p-5 text-[15px] leading-relaxed font-sans max-h-[460px] overflow-auto">{doc}</pre>
+            {document.documentElement.lang !== 'en' && <p className="text-sm mb-2">This draft stays in English so you can share it with your school.</p>}
+            <pre tabIndex={0} className="whitespace-pre-wrap rounded-2xl bg-cream-2 p-5 text-[15px] leading-relaxed font-sans max-h-[460px] overflow-auto">{doc}</pre>
             <div className="flex flex-wrap gap-3 mt-3">
               <CopyButton text={doc} label="Copy accommodations" />
               <button className="btn-primary !py-1.5 text-sm" onClick={() => askCopilot(`Draft a warm, firm email requesting an ${stage === '504' ? 'Section 504' : stage.toUpperCase()} meeting for ${child.trim() || 'my child'} to discuss: ${picked.map((a) => a.label).join('; ')}. Cite the relevant federal rights.`)}>Draft my meeting-request email ✨</button>
@@ -106,7 +107,7 @@ export default function IEPModule({ data, askCopilot }) {
         <h3 id="chk" className="font-display text-2xl text-navy">Pre-meeting checklist · {STAGES.find((s) => s[0] === stage)[1]}</h3>
         <ul className="mt-4 grid md:grid-cols-2 gap-x-8 gap-y-2">
           {(checklists[stage] || []).map((c) => (
-            <li key={c}><label className="flex gap-3 items-start cursor-pointer"><input type="checkbox" className="mt-1 w-5 h-5 accent-[#1F4D3A]" checked={done.includes(c)} onChange={() => setDone(done.includes(c) ? done.filter((x) => x !== c) : [...done, c])} /><span className={done.includes(c) ? 'line-through text-ink/60' : ''}>{c}</span></label></li>
+            <li key={c}><label className="flex gap-3 items-start cursor-pointer"><input type="checkbox" className="mt-1 w-5 h-5 accent-[#1F4D3A]" checked={done.includes(c)} onChange={() => setDone(done.includes(c) ? done.filter((x) => x !== c) : [...done, c])} /><span className={done.includes(c) ? 'line-through text-ink/80' : ''}>{c}</span></label></li>
           ))}
         </ul>
       </section>
@@ -119,7 +120,7 @@ export default function IEPModule({ data, askCopilot }) {
         </div>
         <div className="grid md:grid-cols-2 gap-5 mt-5">
           {polRows.map((p) => (
-            <article key={p.id} className="card p-5">
+            <article key={p.id} data-id={p.id} className="card p-5">
               <div className="flex flex-wrap gap-1.5"><Pill tone="navy">{p.law}</Pill><Pill tone="gold">Ages {p.ages}</Pill></div>
               <h4 className="font-display text-xl text-navy mt-2">{p.title}</h4>
               <p className="text-sm font-semibold text-forest">{p.citation}</p>

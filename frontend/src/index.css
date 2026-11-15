@@ -12,15 +12,15 @@
   --color-marigold: #E8A317;
   --color-marigold-soft: #FBE7B5;
   --color-terracotta: #C8553D;
-  --color-terracotta-ink: #8A2F1C;
+  --color-terracotta-ink: #702615;
   --color-terracotta-soft: #F6D8CF;
   --color-sky: #4A90C2;
   --color-sky-ink: #1A4E73;
   --color-sky-soft: #D7E9F5;
   /* Dodger Blue accent: pure #1E90FF is decorative only (3:1 on cream);
-     dodger-ink (7.5:1) is for text, dodger-soft (12.8:1 with navy text) for tinted chips */
+     dodger-ink (10:1 on cream, 8.7:1 on dodger-soft) is for text, dodger-soft (12.8:1 with navy text) for tinted chips */
   --color-dodger: #1E90FF;
-  --color-dodger-ink: #0B4F9C;
+  --color-dodger-ink: #073D78;
   --color-dodger-soft: #D2E9FF;
   --font-display: "Fraunces Variable", Georgia, "Times New Roman", serif;
   --font-sans: "Inter Variable", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -65,6 +65,8 @@ h1, h2, h3, .font-display { font-family: var(--font-display); letter-spacing: -0
 .anim-breathe { animation: breathe 8s ease-in-out infinite; }
 .anim-pop { animation: pop-in .45s cubic-bezier(.2,.8,.2,1) both; }
 .shimmer { background: linear-gradient(90deg, transparent, rgba(30,144,255,.28), transparent); background-size: 200% 100%; animation: shimmer 1.6s linear infinite; }
+.nav-glow { outline: 3px solid #1E90FF; outline-offset: 2px; box-shadow: 0 0 0 6px rgba(30,144,255,.18); }
+.search-hit { outline: 4px solid #1E90FF; outline-offset: 4px; border-radius: 24px; transition: outline-color .4s; }
 .pulse-ring { animation: pulse-ring 2.2s ease-out infinite; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition: none !important; }

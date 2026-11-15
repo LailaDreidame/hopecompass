@@ -32,6 +32,7 @@ from typing import Callable
 
 from . import llm, prompts, safety, schemas, telemetry
 from .config import LIMITS, MODEL_NAME, PROVIDER
+from .i18n import LANGS
 from .tools import ADVOCATE_TOOLS, SCOUT_TOOLS, Toolbox
 
 Emit = Callable[[dict], None]
@@ -86,6 +87,10 @@ BLOCK_COPY = {
               "The Co-Pilot couldn't finish this answer. Please try again in a moment; every directory "
               "and builder still works offline."),
 }
+
+
+def answer_language(lang: str | None) -> str:
+    return LANGS[lang]["name"] if lang in LANGS else "the language the caregiver wrote in (English if unclear)"
 
 
 def _now() -> str:
@@ -248,7 +253,7 @@ def _verify(run: Run, final: dict, drafts: dict) -> dict:
 
 # --------------------------------------------------------------------------- main entry
 def run_copilot(message: str, session_id: str, dataset: str | None, emit: Emit,
-                redteam: str | None = None, ip: str | None = None) -> dict:
+                redteam: str | None = None, ip: str | None = None, lang: str | None = None) -> dict:
     preset = RED_TEAM.get(redteam or "")
     if preset:
         message = preset["message"]
@@ -357,6 +362,7 @@ def run_copilot(message: str, session_id: str, dataset: str | None, emit: Emit,
                        "profile": intake["profile"]},
             "drafts": drafts,
             "ALLOWED_SOURCE_IDS": sorted(run.toolbox.cited),
+            "ANSWER_LANGUAGE": answer_language(lang),
         }, ensure_ascii=False)
         final, calls, _ = llm.run_agent(agent="editor", instructions=prompts.EDITOR, user_input=editor_input,
                                         schema=schemas.EDITOR_SCHEMA, schema_name="final_answer", budget=run.budget)
@@ -369,6 +375,7 @@ def run_copilot(message: str, session_id: str, dataset: str | None, emit: Emit,
         run.step("verify", "running", label="Layer 5 · Code verification (sources, clinical, secrets)")
         answer = _verify(run, final, drafts)
         answer["mode"] = "safe_redirect" if medical else answer["mode"]
+        answer["lang"] = lang if lang in LANGS else "en"
         run.step("verify", "done", summary=f"{len(answer['sources'])} verified sources")
         return run.finish(answer, blocked=("prompt_injection" if answer["mode"] == "blocked" else None))
 

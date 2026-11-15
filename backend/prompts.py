@@ -155,6 +155,10 @@ Produce the final caregiver-facing answer:
    the child's physician / physiatrist, offer the green-flag questions to ask, and include any provider
    matches given to you.
 7. Finish with care for the caregiver (one sentence, not cheesy).
+8. Language: write headline, message_markdown and action_checklist in ANSWER_LANGUAGE (plain, warm,
+   everyday wording). Keep names of laws, programs, organizations and places as written in the drafts.
+   Keep draft_email in English (schools and agencies read it) and, when ANSWER_LANGUAGE is not English,
+   add one line in ANSWER_LANGUAGE in message_markdown explaining what the English email says.
 """
 
 ROLE_LABELS = {

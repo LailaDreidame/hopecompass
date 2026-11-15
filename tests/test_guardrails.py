@@ -103,3 +103,16 @@ def test_site_guard_limits_per_visitor_and_per_day():
     assert g.gate("5.6.7.8") == []       # other visitors unaffected
     g.add_cost(config.LIMITS["max_usd_per_day_site"])
     assert g.gate("9.9.9.9")             # whole site paused after the daily ceiling
+
+
+def test_translation_uses_cache_and_rejects_unknown_languages(monkeypatch):
+    from backend import i18n
+    monkeypatch.setitem(i18n._cache, "es", {"Free admission": "Entrada gratis"})
+    out = i18n.translate("es", ["Free admission", "Not cached yet", "x" * (i18n.MAX_LEN + 1)], allow_ai=False)
+    assert out["translations"] == {"Free admission": "Entrada gratis"}      # cache hit; others stay English
+    assert out["ai_batches"] == 0 and out["cost_usd"] == 0
+    try:
+        i18n.translate("klingon", ["hi"], allow_ai=False)
+        assert False, "unsupported language should raise"
+    except ValueError:
+        pass

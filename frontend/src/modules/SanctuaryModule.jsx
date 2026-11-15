@@ -61,7 +61,7 @@ export default function SanctuaryModule({ data, askCopilot }) {
         <div className="mt-4"><Chips label="Audience" value={aud} onChange={setAud} options={AUD} /></div>
         <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-5 mt-5">
           {rows.map((g) => (
-            <article key={g.id} className="card p-5">
+            <article key={g.id} data-id={g.id} className="card p-5">
               <div className="flex flex-wrap gap-1.5"><Pill tone="sky">{pretty(g.format)}</Pill>{g.real_org ? <Pill tone="forest">Real organization</Pill> : <Pill tone="terra">Sample listing</Pill>}</div>
               <h4 className="font-display text-xl text-navy mt-2">{g.name}</h4>
               <p className="text-sm text-ink/85">{[g.city, g.state].filter(Boolean).join(', ') || 'Online'} · {g.schedule}</p>
@@ -77,7 +77,7 @@ export default function SanctuaryModule({ data, askCopilot }) {
         <h3 id="respite" className="font-display text-3xl text-navy">Respite care grant finder</h3>
         <div className="grid md:grid-cols-2 gap-5 mt-5">
           {respite.map((r) => (
-            <article key={r.id} className="card p-5">
+            <article key={r.id} data-id={r.id} className="card p-5">
               <div className="flex flex-wrap gap-1.5"><Pill tone="gold">{r.scope === 'national' ? 'National' : r.states.join(', ')}</Pill>{r.real_org ? <Pill tone="forest">Real organization</Pill> : <Pill tone="terra">Sample listing</Pill>}</div>
               <h4 className="font-display text-xl text-navy mt-2">{r.name}</h4>
               <p className="mt-1">{r.what_they_offer}</p>

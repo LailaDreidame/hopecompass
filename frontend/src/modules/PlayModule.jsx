@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { ModuleHeader, Chips, Select, Pill, WebLinks, Sheet, ACCESS_LABELS, AGE_LABELS, BUDGET_LABELS, pretty } from '../components/ui.jsx'
 
 const ORDER = ['free', 'under25', 'under50', 'under100', 'over100']
@@ -48,7 +48,7 @@ const CHECKLIST = [
   'Plan a caregiver break: who holds the bags while you sip a coffee?',
 ]
 
-export default function PlayModule({ data, askCopilot }) {
+export default function PlayModule({ data, askCopilot, focus, clearFocus }) {
   const acts = data.activities.activities
   const [access, setAccess] = useState([])
   const [age, setAge] = useState(null)
@@ -57,6 +57,7 @@ export default function PlayModule({ data, askCopilot }) {
   const [city, setCity] = useState(null)
   const [q, setQ] = useState('')
   const [open, setOpen] = useState(null)
+  useEffect(() => { if (focus?.module === 'play') { const a = acts.find((x) => x.id === focus.id); if (a) setOpen(a); clearFocus() } }, [focus])
   const [checked, setChecked] = useState(() => JSON.parse(localStorage.getItem('jr-kbyg') || '[]'))
   const cities = useMemo(() => [...new Map(acts.map((a) => [a.hotspot_id, `${a.city}, ${a.state}`])).entries()].sort((a, b) => a[1].localeCompare(b[1])), [acts])
 
@@ -148,7 +149,7 @@ export default function PlayModule({ data, askCopilot }) {
           <p className="text-sm text-ink/80">Saved on this device.</p>
           <ul className="mt-4 space-y-2">
             {CHECKLIST.map((c, i) => (
-              <li key={c}><label className="flex gap-3 items-start cursor-pointer"><input type="checkbox" className="mt-1 w-5 h-5 accent-[#1F4D3A]" checked={checked.includes(i)} onChange={() => toggle(i)} /><span className={checked.includes(i) ? 'line-through text-ink/60' : ''}>{c}</span></label></li>
+              <li key={c}><label className="flex gap-3 items-start cursor-pointer"><input type="checkbox" className="mt-1 w-5 h-5 accent-[#1F4D3A]" checked={checked.includes(i)} onChange={() => toggle(i)} /><span className={checked.includes(i) ? 'line-through text-ink/80' : ''}>{c}</span></label></li>
             ))}
           </ul>
         </section>
