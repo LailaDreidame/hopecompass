@@ -18,6 +18,10 @@ from .telemetry import call_cost
 
 _client: OpenAI | None = None
 
+# Settings the cost experiment (scripts/cost_experiment.py) can switch; the app always uses these defaults.
+REASONING_EFFORT = "low"     # cheapest effort that still passes our quality checks
+PROMPT_CACHING = True        # False = ask the API not to cache (prompt_cache_options mode "explicit")
+
 
 def client() -> OpenAI:
     global _client
@@ -69,8 +73,12 @@ def run_agent(*, agent: str, instructions: str, user_input: str, schema: dict, s
         last_round = round_no == max_rounds
         kwargs = dict(model=MODEL_NAME, instructions=instructions, input=items,
                       text={"format": {"type": "json_schema", "name": schema_name, "schema": schema, "strict": True}},
-                      max_output_tokens=LIMITS["max_output_tokens_per_call"], reasoning={"effort": "low"},
-                      prompt_cache_key=f"joy-risers-{agent}", store=False, include=["reasoning.encrypted_content"])
+                      max_output_tokens=LIMITS["max_output_tokens_per_call"], reasoning={"effort": REASONING_EFFORT},
+                      store=False, include=["reasoning.encrypted_content"])
+        if PROMPT_CACHING:
+            kwargs["prompt_cache_key"] = f"joy-risers-{agent}"
+        else:
+            kwargs["extra_body"] = {"prompt_cache_options": {"mode": "explicit"}}   # no breakpoints = no caching
         if tools:
             kwargs["tools"] = tools
             kwargs["tool_choice"] = "none" if last_round else "auto"   # last round: must answer
