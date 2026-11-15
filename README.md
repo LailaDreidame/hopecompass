@@ -1,7 +1,7 @@
 # Joy Risers 🌅
 **A joyful digital sanctuary and multi-agent AI Co-Pilot for every caregiver raising a child or young adult (ages 0–21) with a physical disability.**
 
-🌐 **Live app:** _coming soon (Render link goes here)_ · free hosting sleeps when idle, so the first visit can take about a minute to wake up.
+🌐 **Live app: [https://joy-risers.onrender.com](https://joy-risers.onrender.com)** · if it has been idle, the first visit can take about a minute to wake up.
 
 Grandparents, aunts and uncles, foster, resource and kinship families, legal guardians, and parents of every shape can:
 
