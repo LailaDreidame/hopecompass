@@ -1,0 +1,338 @@
+{
+  "version": "1.0",
+  "policies": [
+    {
+      "id": "idea-parent-definition",
+      "title": "Who counts as a 'parent' under IDEA",
+      "law": "IDEA Part B",
+      "citation": "34 CFR §300.30",
+      "ages": "0-21",
+      "topics": [
+        "caregiver_rights",
+        "iep",
+        "ifsp"
+      ],
+      "plain_language": "IDEA's definition of 'parent' is wide on purpose. It includes biological and adoptive parents, foster parents (unless state law says otherwise), legal guardians, and anyone acting in the place of a parent, such as a grandparent, aunt, uncle, or other relative the child lives with, or someone legally responsible for the child's welfare. If you are the grown-up raising this child, you very likely have a seat at the table.",
+      "use_it_when": "A school or program questions whether you, as a grandparent, relative, foster parent, or guardian, can sign forms, attend meetings, or receive notices.",
+      "sample_language": "I am [Child's name]'s [grandmother/uncle/resource parent], and [Child's name] lives with me. Under 34 CFR §300.30, I meet the definition of 'parent' and request that I receive all notices and be included as a member of the IEP team."
+    },
+    {
+      "id": "part-c-early-intervention",
+      "title": "Early intervention for babies and toddlers (Part C)",
+      "law": "IDEA Part C",
+      "citation": "20 U.S.C. §1431 et seq.; 34 CFR Part 303 (natural environments: 34 CFR §303.126)",
+      "ages": "0-3",
+      "topics": [
+        "ifsp",
+        "caregiver_rights",
+        "equipment"
+      ],
+      "plain_language": "Every state runs an early intervention program for infants and toddlers with developmental delays or diagnosed conditions likely to cause delays, from birth until age 3. Services such as physical, occupational, and speech therapy are provided, to the maximum extent appropriate, in natural environments: the home and community settings where a child this age would typically spend the day. Anyone, including a caregiver, can make a referral.",
+      "use_it_when": "You have concerns about a baby's or toddler's movement, hearing, vision, or development and want an evaluation without waiting for a school-age program.",
+      "sample_language": "I am referring [Child's name], age [__] months, for an early intervention evaluation under IDEA Part C, and I request that services be provided in our home or other natural environments as described in 34 CFR §303.126."
+    },
+    {
+      "id": "part-c-ifsp",
+      "title": "The Individualized Family Service Plan (IFSP)",
+      "law": "IDEA Part C",
+      "citation": "34 CFR §303.340–303.346",
+      "ages": "0-3",
+      "topics": [
+        "ifsp",
+        "caregiver_rights",
+        "transition"
+      ],
+      "plain_language": "The IFSP is a written plan built around both the child and the family. It covers the child's present levels of development, the outcomes the family wants, the services and where they happen, and, with the family's agreement, the family's own resources, priorities, and concerns. It is reviewed at least every six months and evaluated annually, and it must include steps to support the transition out of early intervention around age 3.",
+      "use_it_when": "You are preparing for an initial IFSP meeting, a six-month review, or the transition to preschool services.",
+      "sample_language": "Under 34 CFR §303.342, I am requesting an IFSP review to update [Child's name]'s outcomes and to begin planning the transition steps described in 34 CFR §303.344."
+    },
+    {
+      "id": "idea-fape",
+      "title": "A free appropriate public education, through age 21 in many states",
+      "law": "IDEA Part B",
+      "citation": "34 CFR §300.17; 34 CFR §300.101",
+      "ages": "3-21",
+      "topics": [
+        "iep",
+        "caregiver_rights",
+        "school_access"
+      ],
+      "plain_language": "Children with disabilities who are eligible under IDEA have a right to a free appropriate public education (FAPE): special education and related services at public expense, provided under an IEP. States must make FAPE available to eligible children from age 3 up through age 21, though state law sets the exact age eligibility ends, so check your state's rule. FAPE continues until the student graduates with a regular high school diploma or ages out.",
+      "use_it_when": "You need to remind a district that services must meet your child's individual needs at no cost to your family, or you want to confirm how long eligibility lasts in your state.",
+      "sample_language": "Under 34 CFR §300.101, [Child's name] is entitled to a free appropriate public education. Please confirm in writing the age through which our state provides eligibility so we can plan for the years ahead."
+    },
+    {
+      "id": "idea-iee",
+      "title": "Independent educational evaluation (IEE) at public expense",
+      "law": "IDEA Part B",
+      "citation": "34 CFR §300.502",
+      "ages": "3-21",
+      "topics": [
+        "iep",
+        "caregiver_rights",
+        "assistive_tech",
+        "pe"
+      ],
+      "plain_language": "If you disagree with an evaluation the school conducted, you can ask for an independent educational evaluation by a qualified examiner who does not work for the district, at public expense. The district must either pay for the IEE without unnecessary delay or file for a due process hearing to show its evaluation was appropriate. Even a privately paid evaluation must be considered by the team.",
+      "use_it_when": "The school's evaluation missed something important, such as motor, seating, vision, or assistive technology needs.",
+      "sample_language": "I disagree with the district's [motor/AT/vision] evaluation dated [date]. Under 34 CFR §300.502, I am requesting an independent educational evaluation at public expense."
+    },
+    {
+      "id": "idea-iep-content",
+      "title": "What an IEP must contain",
+      "law": "IDEA Part B",
+      "citation": "34 CFR §300.320",
+      "ages": "3-21",
+      "topics": [
+        "iep",
+        "school_access",
+        "transition"
+      ],
+      "plain_language": "An IEP must include your child's present levels of academic achievement and functional performance, measurable annual goals, how progress will be measured and reported, the special education, related services, supplementary aids, and supports the school will provide, and how your child will participate with peers without disabilities in academic, extracurricular, and nonacademic activities. Functional needs like mobility and self-care belong here too, not just academics.",
+      "use_it_when": "You are reviewing a draft IEP and want to make sure mobility, access, and participation needs are actually written in.",
+      "sample_language": "Under 34 CFR §300.320, I request that [Child's name]'s present levels include functional mobility, and that the IEP state the supports needed for full participation in extracurricular and nonacademic activities."
+    },
+    {
+      "id": "idea-iep-team-participation",
+      "title": "Your seat on the IEP team",
+      "law": "IDEA Part B",
+      "citation": "34 CFR §300.321; 34 CFR §300.322",
+      "ages": "3-21",
+      "topics": [
+        "iep",
+        "caregiver_rights",
+        "transition"
+      ],
+      "plain_language": "Parents (in IDEA's broad sense) are required members of the IEP team. Schools must take steps to ensure you can participate, including scheduling at a mutually agreed time and place, giving notice early, and offering other ways to join, like a phone or video call. You may also invite other people who know your child, such as an advocate, therapist, or trusted family member, and the student is invited when transition is discussed.",
+      "use_it_when": "A meeting is scheduled at a time you cannot make, or you want to bring an advocate, therapist, or family member.",
+      "sample_language": "Under 34 CFR §300.322, I request that the IEP meeting be rescheduled to a mutually agreed time, and under 34 CFR §300.321 I will be bringing [name], who has knowledge of [Child's name]'s needs."
+    },
+    {
+      "id": "idea-special-factors",
+      "title": "Special factors: braille, communication, and assistive technology",
+      "law": "IDEA Part B",
+      "citation": "34 CFR §300.324(a)(2)",
+      "ages": "3-21",
+      "topics": [
+        "iep",
+        "assistive_tech",
+        "school_access"
+      ],
+      "plain_language": "When developing an IEP, the team must consider certain special factors. For a child who is blind or visually impaired, the team must provide instruction in braille unless it determines braille is not appropriate after evaluation. For a child who is deaf or hard of hearing, the team must consider language and communication needs, including direct communication with peers and staff. For every child, the team must consider whether assistive technology is needed.",
+      "use_it_when": "Your child has vision or hearing needs and you want braille, communication access, or AT considered on the record.",
+      "sample_language": "Under 34 CFR §300.324(a)(2), I ask that the IEP team document its consideration of [Child's name]'s [braille instruction / communication needs / assistive technology needs] and the evaluation data supporting its decision."
+    },
+    {
+      "id": "idea-assistive-technology",
+      "title": "Assistive technology devices and services",
+      "law": "IDEA Part B",
+      "citation": "34 CFR §300.5; 34 CFR §300.6; 34 CFR §300.105",
+      "ages": "3-21",
+      "topics": [
+        "assistive_tech",
+        "equipment",
+        "iep"
+      ],
+      "plain_language": "An assistive technology device is any item or equipment used to increase, maintain, or improve a child's functional capabilities. AT services include evaluation, acquiring the device, fitting and customizing it, maintaining and repairing it, and training for the child, family, and staff. Schools must make AT available when the IEP team says it is needed, and must allow school-purchased devices to be used at home if the team decides it is needed for FAPE.",
+      "use_it_when": "Your child needs a device such as a communication tool, adapted keyboard, switch access, or positioning equipment, or needs it to come home for homework.",
+      "sample_language": "Under 34 CFR §300.105, I am requesting an assistive technology evaluation for [Child's name], including the training and maintenance services defined in 34 CFR §300.6."
+    },
+    {
+      "id": "idea-physical-education",
+      "title": "Physical education, including adapted PE",
+      "law": "IDEA Part B",
+      "citation": "34 CFR §300.108; 34 CFR §300.39(b)(2)",
+      "ages": "3-21",
+      "topics": [
+        "pe",
+        "iep",
+        "school_access"
+      ],
+      "plain_language": "Physical education is part of special education under IDEA, and specially designed PE (often called adapted PE) is included in the definition. Each child with a disability must have the chance to participate in the regular PE program available to peers unless the child needs specially designed PE as written in the IEP. If a child needs specially designed PE, the school must provide it directly or arrange for it.",
+      "use_it_when": "Your child is being sidelined, given a 'helper' job, or excused from PE instead of being actively included.",
+      "sample_language": "Under 34 CFR §300.108, [Child's name] is entitled to physical education. I request an adapted PE evaluation and that specially designed PE be written into the IEP if appropriate."
+    },
+    {
+      "id": "idea-transportation",
+      "title": "Transportation as a related service",
+      "law": "IDEA Part B",
+      "citation": "34 CFR §300.34(c)(16)",
+      "ages": "3-21",
+      "topics": [
+        "transportation",
+        "field_trips",
+        "iep",
+        "equipment"
+      ],
+      "plain_language": "Transportation is a related service under IDEA. It includes travel to and from school and between schools, travel in and around school buildings, and specialized equipment such as adapted buses, lifts, and ramps when needed. If the IEP team decides transportation is needed, it is provided at no cost to the family.",
+      "use_it_when": "Your child needs a lift-equipped bus, wheelchair securement, an aide on the bus, or help moving around a large campus.",
+      "sample_language": "Under 34 CFR §300.34(c)(16), I request that the IEP include transportation as a related service, including a lift-equipped vehicle and proper four-point wheelchair securement for [Child's name]."
+    },
+    {
+      "id": "idea-nonacademic-extracurricular",
+      "title": "Nonacademic and extracurricular activities, including field trips",
+      "law": "IDEA Part B",
+      "citation": "34 CFR §300.107; 34 CFR §300.117",
+      "ages": "3-21",
+      "topics": [
+        "field_trips",
+        "school_access",
+        "iep",
+        "transportation"
+      ],
+      "plain_language": "Schools must take steps, including providing supplementary aids and services the IEP team decides are necessary, so children with disabilities have an equal opportunity to participate in nonacademic and extracurricular activities. These include meals, recess, clubs, athletics, and recreational activities, and in practice field trips and school events. Children should participate alongside peers without disabilities to the maximum extent appropriate.",
+      "use_it_when": "A field trip, club, dance, or after-school activity is planned without accessible transportation or the support your child needs.",
+      "sample_language": "Under 34 CFR §300.107 and §300.117, I request that the IEP team plan the supports [Child's name] needs to attend the [field trip/club] with classmates, including accessible transportation."
+    },
+    {
+      "id": "idea-lre",
+      "title": "Least restrictive environment",
+      "law": "IDEA Part B",
+      "citation": "34 CFR §300.114–300.116",
+      "ages": "3-21",
+      "topics": [
+        "iep",
+        "school_access"
+      ],
+      "plain_language": "Children with disabilities must be educated with children who do not have disabilities to the maximum extent appropriate. Removal to separate classes or schools should happen only when the nature or severity of the disability means education in regular classes, even with supplementary aids and services, cannot be achieved satisfactorily. Placement is decided by a group that includes the parent, is reviewed at least annually, and should be as close as possible to home.",
+      "use_it_when": "The team suggests a separate setting because of physical access issues that supports or building changes could solve.",
+      "sample_language": "Under 34 CFR §300.114, I request that the team document which supplementary aids and services were considered to support [Child's name] in the general education classroom before any more restrictive placement."
+    },
+    {
+      "id": "idea-prior-written-notice",
+      "title": "Prior written notice",
+      "law": "IDEA Part B",
+      "citation": "34 CFR §300.503",
+      "ages": "3-21",
+      "topics": [
+        "iep",
+        "caregiver_rights"
+      ],
+      "plain_language": "The school must give you written notice a reasonable time before it proposes or refuses to change your child's identification, evaluation, placement, or services. The notice must describe what is being proposed or refused, explain why, describe the evaluations or records it relied on, and list other options considered. It turns hallway 'no's into decisions on paper.",
+      "use_it_when": "A request you made, such as for an aide, adapted PE, or a device, is turned down verbally or informally.",
+      "sample_language": "Under 34 CFR §300.503, please provide prior written notice explaining the district's refusal of my request for [service], including the data relied upon and the other options considered."
+    },
+    {
+      "id": "idea-transition-services",
+      "title": "Transition services starting by age 16",
+      "law": "IDEA Part B",
+      "citation": "34 CFR §300.320(b); 34 CFR §300.43",
+      "ages": "14-21",
+      "topics": [
+        "transition",
+        "iep"
+      ],
+      "plain_language": "Beginning with the first IEP in effect when the student turns 16, or younger if the team decides it is appropriate, the IEP must include measurable postsecondary goals for training or education, employment, and, where appropriate, independent living skills, along with the transition services needed to reach them. Transition services are a coordinated set of activities based on the student's strengths, preferences, and interests. Many states start earlier, so ask.",
+      "use_it_when": "Your teen is approaching 14 to 16 and you want planning for life after high school, including travel, work, and independent living, to start now.",
+      "sample_language": "Under 34 CFR §300.320(b), I request that [Child's name]'s IEP include measurable postsecondary goals and transition services, including travel training and work experiences, based on age-appropriate transition assessments."
+    },
+    {
+      "id": "idea-age-of-majority",
+      "title": "Age of majority and transfer of rights",
+      "law": "IDEA Part B",
+      "citation": "34 CFR §300.520; 34 CFR §300.320(c)",
+      "ages": "17-21",
+      "topics": [
+        "transition",
+        "caregiver_rights",
+        "iep"
+      ],
+      "plain_language": "In states that transfer educational rights at the age of majority (often 18), IDEA rights move from the parent to the student unless the student has been determined incompetent under state law. Beginning at least one year before that age, the IEP must state that the student has been informed of the rights that will transfer. This is a natural moment to explore options like supported decision-making that keep your young adult in the driver's seat with you beside them.",
+      "use_it_when": "Your teen is about a year from your state's age of majority and you want to plan for decision-making together.",
+      "sample_language": "Under 34 CFR §300.320(c), please confirm that [Child's name] will be informed of the rights that transfer at the age of majority, and add a discussion of supported decision-making to the next IEP meeting agenda."
+    },
+    {
+      "id": "section-504-fape",
+      "title": "Section 504: nondiscrimination and FAPE",
+      "law": "Section 504",
+      "citation": "29 U.S.C. §794; 34 CFR §104.33; 34 CFR §104.35",
+      "ages": "3-21",
+      "topics": [
+        "504",
+        "school_access",
+        "caregiver_rights"
+      ],
+      "plain_language": "Section 504 of the Rehabilitation Act prohibits disability discrimination in programs that receive federal funds, which includes public schools. Schools must provide a free appropriate public education, meaning regular or special education and related aids and services designed to meet the student's needs as adequately as the needs of students without disabilities are met. An evaluation is required before initial placement and before any significant change in placement.",
+      "use_it_when": "Your child needs accommodations, such as extra passing time, elevator access, or accessible seating, but does not qualify for or does not need an IEP.",
+      "sample_language": "Under Section 504 (29 U.S.C. §794) and 34 CFR §104.35, I am requesting an evaluation of [Child's name] and the development of a 504 plan to address mobility and access needs."
+    },
+    {
+      "id": "section-504-nonacademic",
+      "title": "Section 504: equal access to nonacademic services",
+      "law": "Section 504",
+      "citation": "34 CFR §104.37",
+      "ages": "3-21",
+      "topics": [
+        "504",
+        "field_trips",
+        "pe",
+        "transportation",
+        "school_access"
+      ],
+      "plain_language": "Schools must provide nonacademic and extracurricular services and activities in a way that gives students with disabilities an equal opportunity to participate. This covers things like physical recreational athletics, transportation, health services, recreational activities, special interest groups, and clubs. Students must be able to take part with nondisabled peers to the maximum extent appropriate.",
+      "use_it_when": "Your child with a 504 plan is left out of a trip, club, sport, or event because of physical access.",
+      "sample_language": "Under 34 CFR §104.37, I request that the school provide the supports and accessible transportation [Child's name] needs to participate equally in [activity]."
+    },
+    {
+      "id": "ada-title-ii",
+      "title": "ADA Title II: access to public programs",
+      "law": "ADA Title II",
+      "citation": "42 U.S.C. §12131 et seq.; 28 CFR Part 35",
+      "ages": "0-21",
+      "topics": [
+        "school_access",
+        "field_trips",
+        "transportation",
+        "caregiver_rights"
+      ],
+      "plain_language": "Title II of the Americans with Disabilities Act prohibits disability discrimination by state and local governments, including public schools, parks and recreation programs, public libraries, and public transit. Programs must make reasonable modifications to policies and ensure effective communication, and their services must be accessible. It applies whether or not your child has an IEP or 504 plan, and it also protects caregivers with disabilities.",
+      "use_it_when": "A public program, such as a city camp, library event, school performance, or public transit, is not accessible to your child or to you.",
+      "sample_language": "Under Title II of the ADA (28 CFR Part 35), I am requesting a reasonable modification so that [Child's name] can participate in [program], specifically [accessible entrance / seating / transportation]."
+    },
+    {
+      "id": "evacuation-emergency-planning",
+      "title": "Individualized evacuation and emergency plans",
+      "law": "Section 504",
+      "citation": "29 U.S.C. §794; 34 CFR Part 104; 42 U.S.C. §12131 et seq.; 28 CFR Part 35",
+      "ages": "3-21",
+      "topics": [
+        "evacuation",
+        "504",
+        "iep",
+        "school_access"
+      ],
+      "plain_language": "There is no single federal 'evacuation statute' for students, but Section 504 and ADA Title II require schools to provide their programs, including safety procedures, without discriminating on the basis of disability. Emergency drills and plans that work for everyone except your child are an access gap. The IEP or 504 plan is the right place to document an individualized emergency evacuation plan: who assists, which route and equipment are used, and how drills are practiced.",
+      "use_it_when": "Your child uses a wheelchair, walker, or cane, or cannot hear alarms, and the school has no written plan for fire drills, lockdowns, or upper-floor evacuation.",
+      "sample_language": "Consistent with Section 504 and ADA Title II, I request that [Child's name]'s [IEP/504 plan] include an individualized emergency evacuation plan naming trained staff, evacuation equipment, routes, and a practice schedule for drills."
+    },
+    {
+      "id": "medicaid-epsdt",
+      "title": "Medicaid EPSDT for children and youth under 21",
+      "law": "Medicaid EPSDT",
+      "citation": "42 U.S.C. §1396d(r)",
+      "ages": "0-21",
+      "topics": [
+        "medicaid",
+        "equipment",
+        "funding"
+      ],
+      "plain_language": "Medicaid's Early and Periodic Screening, Diagnostic, and Treatment benefit covers children and young people enrolled in Medicaid until age 21. It includes screenings, vision, hearing, and dental services, and any medically necessary service within the federal Medicaid categories needed to correct or ameliorate a condition, even if the state does not cover that service for adults. This can matter for wheelchairs, seating, therapies, and hearing aids.",
+      "use_it_when": "A Medicaid plan denies a wheelchair, seating system, therapy, or hearing device for a child or youth under 21.",
+      "sample_language": "[Child's name] is under 21 and enrolled in Medicaid. Under EPSDT (42 U.S.C. §1396d(r)), I request review of this denial based on medical necessity to correct or ameliorate [Child's name]'s condition."
+    },
+    {
+      "id": "able-accounts",
+      "title": "ABLE accounts for saving without losing benefits",
+      "law": "ABLE Act",
+      "citation": "26 U.S.C. §529A",
+      "ages": "0-21",
+      "topics": [
+        "funding",
+        "transition"
+      ],
+      "plain_language": "ABLE accounts are tax-advantaged savings accounts for people whose disability began before a qualifying age (age 26 originally, expanded to age 46 beginning in 2026). Money can be used for qualified disability expenses such as education, housing, transportation, assistive technology, and health, and balances generally do not count against eligibility for means-tested programs like Medicaid, with special rules for SSI. Family, friends, and the young person can all contribute, within an annual limit tied to the federal gift tax exclusion.",
+      "use_it_when": "Relatives want to help financially, or your young adult is starting to earn money and needs to protect benefit eligibility.",
+      "sample_language": "We would like to open an ABLE account under 26 U.S.C. §529A for [Child's name] so family members can contribute toward qualified disability expenses such as a wheelchair-accessible vehicle and assistive technology."
+    }
+  ]
+}

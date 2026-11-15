@@ -1,0 +1,454 @@
+{
+  "version": "1.0",
+  "note": "Fictional sample listings for demo purposes.",
+  "providers": [
+    {
+      "id": "prov-001",
+      "name": "Dr. Amara Okafor",
+      "credentials": "MD, FAAP",
+      "specialty": "pediatrician",
+      "practice": "Bright Path Pediatrics",
+      "hotspot_id": "denver-co",
+      "city": "Denver",
+      "state": "CO",
+      "insurance": [
+        "Medicaid",
+        "CHIP",
+        "BCBS",
+        "Aetna",
+        "Sliding scale"
+      ],
+      "languages": [
+        "English",
+        "Spanish",
+        "Igbo"
+      ],
+      "telehealth": true,
+      "accepting_new": true,
+      "ages_served": "0-21",
+      "green_flags": [
+        "Height-adjustable exam table and ceiling lift",
+        "Speaks to your child first, then to you",
+        "Double-length first visits",
+        "Sensory-friendly waiting room"
+      ],
+      "care_philosophy": "We see your child as the expert on their own body and your family as the experts on their life. Our job is to make the path smoother and the days brighter.",
+      "sample": true
+    },
+    {
+      "id": "prov-002",
+      "name": "Dr. Mei-Lin Zhao",
+      "credentials": "MD",
+      "specialty": "physiatrist",
+      "practice": "Cascade Movement Medicine",
+      "hotspot_id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "insurance": [
+        "Medicaid",
+        "CHIP",
+        "UnitedHealthcare",
+        "Cigna",
+        "BCBS"
+      ],
+      "languages": [
+        "English",
+        "Mandarin",
+        "Cantonese"
+      ],
+      "telehealth": true,
+      "accepting_new": true,
+      "ages_served": "0-21",
+      "green_flags": [
+        "Seating and mobility clinic on site",
+        "Writes equipment letters with your goals in the child's own words",
+        "Welcomes grandparents and foster caregivers as full partners",
+        "Accessible scale and floor mat tables"
+      ],
+      "care_philosophy": "We plan around what your young person wants to do, then work backwards to the gear and supports. Every goal, big or small, deserves a real plan.",
+      "sample": true
+    },
+    {
+      "id": "prov-008",
+      "name": "Sofia Villanueva",
+      "credentials": "DPT, PCS",
+      "specialty": "physical_therapist",
+      "practice": "Live Oak Kids Physical Therapy",
+      "hotspot_id": "austin-tx",
+      "city": "Austin",
+      "state": "TX",
+      "insurance": [
+        "Medicaid",
+        "CHIP",
+        "BCBS",
+        "Aetna",
+        "Cigna"
+      ],
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "telehealth": true,
+      "accepting_new": true,
+      "ages_served": "0-21",
+      "green_flags": [
+        "Outdoor accessible play yard for therapy",
+        "Trial equipment loans before you commit",
+        "Teaches kids to advocate for their own gear",
+        "Bilingual written home programs"
+      ],
+      "care_philosophy": "We build strong bodies and even stronger self-advocates. Your child gets a real say in every goal we set.",
+      "sample": true
+    },
+    {
+      "id": "prov-012",
+      "name": "Dr. Jerome Abernathy",
+      "credentials": "MD",
+      "specialty": "physiatrist",
+      "practice": "Lakeshore Mobility and Rehab Group",
+      "hotspot_id": "chicago-il",
+      "city": "Chicago",
+      "state": "IL",
+      "insurance": [
+        "Medicaid",
+        "CHIP",
+        "Aetna",
+        "BCBS",
+        "Cigna"
+      ],
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "telehealth": true,
+      "accepting_new": true,
+      "ages_served": "0-21",
+      "green_flags": [
+        "Same-day seating clinic with therapist and vendor present",
+        "Medicaid and appeals paperwork support",
+        "Looks at your child and asks what they want to do",
+        "Coordinates with school IEP teams"
+      ],
+      "care_philosophy": "We pair medical expertise with a fierce belief in what your young person can do. Paperwork should never stand between a child and the gear they need.",
+      "sample": true
+    },
+    {
+      "id": "prov-015",
+      "name": "Dr. Tamika Holloway",
+      "credentials": "CPO",
+      "specialty": "orthotist",
+      "practice": "Peach Tree Orthotics for Kids",
+      "hotspot_id": "atlanta-ga",
+      "city": "Atlanta",
+      "state": "GA",
+      "insurance": [
+        "Medicaid",
+        "CHIP",
+        "BCBS",
+        "Aetna",
+        "UnitedHealthcare"
+      ],
+      "languages": [
+        "English"
+      ],
+      "telehealth": false,
+      "accepting_new": true,
+      "ages_served": "0-21",
+      "green_flags": [
+        "Floor-level fitting area with toys and music",
+        "Same-week adjustments for growth spurts",
+        "Clear conversation with the child about their device",
+        "Staff who help with prior authorizations"
+      ],
+      "care_philosophy": "We make devices your child is proud to wear. Comfort, style, and confidence all go into every fitting.",
+      "sample": true
+    },
+    {
+      "id": "prov-021",
+      "name": "Dr. Ruth Abramowitz-Cole",
+      "credentials": "MD",
+      "specialty": "physiatrist",
+      "practice": "Liberty Bell Pediatric Mobility Clinic",
+      "hotspot_id": "philadelphia-pa",
+      "city": "Philadelphia",
+      "state": "PA",
+      "insurance": [
+        "Medicaid",
+        "CHIP",
+        "Aetna",
+        "Cigna",
+        "UnitedHealthcare"
+      ],
+      "languages": [
+        "English",
+        "Yiddish (basic)",
+        "Spanish"
+      ],
+      "telehealth": true,
+      "accepting_new": true,
+      "ages_served": "0-21",
+      "green_flags": [
+        "Monthly seating and mobility clinic day",
+        "Letters of medical necessity written with your child's real daily life in mind",
+        "Respectful of every family structure",
+        "Active in appeals for denied equipment"
+      ],
+      "care_philosophy": "We stand beside your family in appeals as well as appointments. A no from insurance is just a starting point.",
+      "sample": true
+    },
+    {
+      "id": "prov-026",
+      "name": "Dr. Jamila Rashid",
+      "credentials": "MD",
+      "specialty": "physiatrist",
+      "practice": "Mile High Pediatric Rehab Partners",
+      "hotspot_id": "denver-co",
+      "city": "Denver",
+      "state": "CO",
+      "insurance": [
+        "Medicaid",
+        "CHIP",
+        "BCBS",
+        "Cigna",
+        "UnitedHealthcare"
+      ],
+      "languages": [
+        "English",
+        "Arabic",
+        "Urdu"
+      ],
+      "telehealth": true,
+      "accepting_new": true,
+      "ages_served": "0-21",
+      "green_flags": [
+        "Altitude-aware activity planning",
+        "Prior authorization coordinator on staff",
+        "Interpreters for Arabic and Urdu",
+        "Transition clinic for ages 16 to 21"
+      ],
+      "care_philosophy": "We plan for the whole young adult, including school, friendships, and what comes after. Your family will never have to fight alone.",
+      "sample": true
+    },
+    {
+      "id": "prov-027",
+      "name": "Hannah Sorensen-Begay",
+      "credentials": "DPT, PCS",
+      "specialty": "physical_therapist",
+      "practice": "Emerald City Little Strides PT",
+      "hotspot_id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "insurance": [
+        "Medicaid",
+        "CHIP",
+        "Aetna",
+        "Kaiser",
+        "Sliding scale"
+      ],
+      "languages": [
+        "English",
+        "Navajo (basic)",
+        "Norwegian"
+      ],
+      "telehealth": true,
+      "accepting_new": true,
+      "ages_served": "0-21",
+      "green_flags": [
+        "Pool and land therapy options",
+        "Home program videos",
+        "Comes to school and daycare",
+        "Accessible parking and drop-off lane"
+      ],
+      "care_philosophy": "We meet kids where they are, in the pool, at school, or on the living room floor. Joy is part of the treatment plan.",
+      "sample": true
+    },
+    {
+      "id": "prov-033",
+      "name": "Dr. Yasmin Haddad",
+      "credentials": "MD, FAAP",
+      "specialty": "pediatrician",
+      "practice": "Bluebonnet Family Pediatrics",
+      "hotspot_id": "austin-tx",
+      "city": "Austin",
+      "state": "TX",
+      "insurance": [
+        "Medicaid",
+        "CHIP",
+        "BCBS",
+        "Cigna",
+        "Sliding scale"
+      ],
+      "languages": [
+        "English",
+        "Arabic",
+        "Spanish"
+      ],
+      "telehealth": true,
+      "accepting_new": true,
+      "ages_served": "0-21",
+      "green_flags": [
+        "Accessible exam rooms with floor space for chairs",
+        "Longer first visits",
+        "Respectful of multi-generation households",
+        "Care coordination between specialists"
+      ],
+      "care_philosophy": "We welcome your whole household to the visit. Everyone who cares for your child has a voice here.",
+      "sample": true
+    },
+    {
+      "id": "prov-037",
+      "name": "Dr. Renata Kowalczyk",
+      "credentials": "CPO",
+      "specialty": "orthotist",
+      "practice": "Windy City Little Steps Orthotics",
+      "hotspot_id": "chicago-il",
+      "city": "Chicago",
+      "state": "IL",
+      "insurance": [
+        "Medicaid",
+        "CHIP",
+        "BCBS",
+        "Aetna",
+        "Cigna"
+      ],
+      "languages": [
+        "English",
+        "Polish",
+        "Spanish"
+      ],
+      "telehealth": false,
+      "accepting_new": true,
+      "ages_served": "0-21",
+      "green_flags": [
+        "Orders and adjustments fit around school hours",
+        "Bright and custom designs chosen by kids",
+        "Rapid repairs",
+        "Transit-accessible office"
+      ],
+      "care_philosophy": "A good fit means a child who forgets they are wearing it. We aim for that every time.",
+      "sample": true
+    },
+    {
+      "id": "prov-040",
+      "name": "Ebony Washington-Price",
+      "credentials": "DPT, PCS",
+      "specialty": "physical_therapist",
+      "practice": "Southern Spark Pediatric PT",
+      "hotspot_id": "atlanta-ga",
+      "city": "Atlanta",
+      "state": "GA",
+      "insurance": [
+        "Medicaid",
+        "CHIP",
+        "BCBS",
+        "UnitedHealthcare",
+        "Sliding scale"
+      ],
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "telehealth": true,
+      "accepting_new": true,
+      "ages_served": "0-21",
+      "green_flags": [
+        "Gait trainer and stander trial program",
+        "Kinship caregiver coaching",
+        "Music-based therapy sessions",
+        "Works with local schools on equipment needs"
+      ],
+      "care_philosophy": "We bring music, laughter, and expert strength training to every session. Your child will want to come back.",
+      "sample": true
+    },
+    {
+      "id": "prov-045",
+      "name": "Brianna Castellano",
+      "credentials": "DPT, PCS",
+      "specialty": "physical_therapist",
+      "practice": "Brotherly Love Kids PT",
+      "hotspot_id": "philadelphia-pa",
+      "city": "Philadelphia",
+      "state": "PA",
+      "insurance": [
+        "Medicaid",
+        "CHIP",
+        "Aetna",
+        "UnitedHealthcare",
+        "Sliding scale"
+      ],
+      "languages": [
+        "English",
+        "Italian",
+        "Spanish"
+      ],
+      "telehealth": true,
+      "accepting_new": true,
+      "ages_served": "0-21",
+      "green_flags": [
+        "Home and school visits",
+        "Adaptive bike trials",
+        "Explains gear in kid-friendly words",
+        "Family sessions with siblings welcome"
+      ],
+      "care_philosophy": "We turn practice into play. Your child works hard and laughs harder.",
+      "sample": true
+    }
+  ],
+  "green_flag_questions": [
+    {
+      "category": "Access & the physical space",
+      "why": "A practice that is truly ready for your child has thought about the building, the equipment, and the schedule before you arrive.",
+      "questions": [
+        "Do you have a height-adjustable exam table, and a lift or transfer help if my child needs it?",
+        "Can my child stay in their own wheelchair or seating system during the exam?",
+        "Is there an accessible scale, accessible restroom, and a quiet or sensory-friendly space to wait?",
+        "Are there accessible parking or a drop-off zone close to the door?",
+        "Can we book a longer first visit so no one feels rushed?"
+      ]
+    },
+    {
+      "category": "Respect & communication",
+      "why": "Your child is a person first, and every adult who loves and cares for them deserves a seat at the table.",
+      "questions": [
+        "Will you talk to my child directly, in a way that fits their communication style?",
+        "How do you include grandparents, foster caregivers, kinship caregivers, or legal guardians in decisions?",
+        "How do you handle it when my child and I see things differently?",
+        "What is your approach to a child who communicates without speech or with assistive technology?",
+        "How do you describe a child's strengths in notes and letters?"
+      ]
+    },
+    {
+      "category": "Cultural responsiveness & language",
+      "why": "Care works better when it fits your language, your traditions, and the way your family makes decisions.",
+      "questions": [
+        "Do you provide professional interpreters, including ASL, at no cost to us, and can we book one ahead?",
+        "Are written materials and home programs available in my family's language?",
+        "How do you work with family and community members who help care for my child?",
+        "Can the visit schedule and activities respect our faith and cultural practices?",
+        "Is there a staff member who can help us with questions in our language?"
+      ]
+    },
+    {
+      "category": "Coordination with school & therapy team",
+      "why": "The best care carries across the pediatrician's office, the clinic, and the classroom so your child is not starting over each time.",
+      "questions": [
+        "Will you share records and letters with my child's school team and therapists, with my permission?",
+        "Can you join an IEP or 504 meeting, by phone or in writing, when equipment or access are on the table?",
+        "Do you visit schools or homes for seating, ramps, or bathroom evaluations?",
+        "Who on your team is my main point of contact for questions between visits?",
+        "How do you work with the other specialists and therapists on my child's team?"
+      ]
+    },
+    {
+      "category": "Insurance, Medicaid & paperwork help",
+      "why": "The paperwork is often the hardest part, and a practice with real experience can save your family months.",
+      "questions": [
+        "Do you accept my child's Medicaid, CHIP, or private plan, and do you accept our coverage as primary or secondary?",
+        "Do you have someone who handles prior authorizations and Letters of Medical Necessity for equipment?",
+        "What is your process if insurance denies a request, and do you help with appeals?",
+        "Do you offer a sliding scale or payment plan if we run into a gap?",
+        "Can you explain what Medicaid covers for children under 21, including EPSDT?"
+      ]
+    }
+  ]
+}

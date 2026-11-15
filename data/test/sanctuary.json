@@ -1,0 +1,307 @@
+{
+  "version": "1.0",
+  "note": "National organizations are real; local listings are illustrative samples.",
+  "respite_grants": [
+    {
+      "id": "respite-arch-locator",
+      "name": "ARCH National Respite Network and Resource Center",
+      "scope": "national",
+      "states": [
+        "ALL"
+      ],
+      "what_they_offer": "A national respite locator that helps caregivers find respite providers and programs in their state, plus guides on choosing and paying for respite.",
+      "eligibility": "Open to any family caregiver looking for respite options.",
+      "how_to_apply": "Use the respite locator on the ARCH website to search by state and type of care, then contact listed programs directly.",
+      "url": "https://archrespite.org",
+      "real_org": true
+    },
+    {
+      "id": "respite-lifespan-state",
+      "name": "State Lifespan Respite Programs",
+      "scope": "state",
+      "states": [
+        "ALL"
+      ],
+      "what_they_offer": "Many states run Lifespan Respite programs that coordinate respite resources across ages and disabilities, and some offer short-term respite vouchers or caregiver-directed respite funds.",
+      "eligibility": "Varies by state; many programs serve family caregivers of children and adults with disabilities or special needs.",
+      "how_to_apply": "Search for your state's Lifespan Respite program through ARCH, or ask your state's aging and disability resource center.",
+      "url": "https://archrespite.org",
+      "real_org": true
+    },
+    {
+      "id": "respite-medicaid-waiver",
+      "name": "Medicaid home and community-based waiver respite",
+      "scope": "state",
+      "states": [
+        "ALL"
+      ],
+      "what_they_offer": "Many state Medicaid home and community-based services waivers include respite hours as a covered service for eligible children and young adults with disabilities.",
+      "eligibility": "Varies by state and waiver; some waivers look only at the child's needs and income, and many have waiting lists.",
+      "how_to_apply": "Contact your state Medicaid agency or developmental disabilities agency and ask which waivers include respite and how to join the waiting list.",
+      "url": "https://www.medicaid.gov",
+      "real_org": true
+    },
+    {
+      "id": "respite-easterseals",
+      "name": "Easterseals local affiliates",
+      "scope": "national",
+      "states": [
+        "ALL"
+      ],
+      "what_they_offer": "Easterseals affiliates across the country offer disability services, and many provide respite, day programs, or camps for children and young adults with disabilities.",
+      "eligibility": "Varies by affiliate and program.",
+      "how_to_apply": "Find your nearest affiliate on the Easterseals website and ask about respite or camp programs.",
+      "url": "https://www.easterseals.com",
+      "real_org": true
+    },
+    {
+      "id": "respite-the-arc",
+      "name": "The Arc chapters",
+      "scope": "national",
+      "states": [
+        "ALL"
+      ],
+      "what_they_offer": "Local chapters of The Arc support people with intellectual and developmental disabilities and their families; some chapters offer respite, family support, or help navigating waiver services.",
+      "eligibility": "Varies by chapter; focuses on intellectual and developmental disabilities.",
+      "how_to_apply": "Find your local chapter on The Arc's website and ask about family support and respite.",
+      "url": "https://thearc.org",
+      "real_org": true
+    },
+    {
+      "id": "respite-nfcsp",
+      "name": "National Family Caregiver Support Program (through Area Agencies on Aging)",
+      "scope": "national",
+      "states": [
+        "ALL"
+      ],
+      "what_they_offer": "Federally funded caregiver support delivered locally, which can include respite, counseling, training, and information. It specifically includes older relatives, such as grandparents, raising children.",
+      "eligibility": "Includes grandparents and other relatives age 55 and older caring for a child, among other caregiver groups; details vary by local agency.",
+      "how_to_apply": "Find your local Area Agency on Aging through the Eldercare Locator and ask about family caregiver support and respite.",
+      "url": "https://eldercare.acl.gov",
+      "real_org": true
+    },
+    {
+      "id": "respite-pti-centers",
+      "name": "Parent Training and Information Centers",
+      "scope": "state",
+      "states": [
+        "ALL"
+      ],
+      "what_they_offer": "Every state has at least one federally funded Parent Training and Information Center that helps families of children with disabilities understand their rights and find local resources, including respite programs.",
+      "eligibility": "Families and caregivers of children and youth with disabilities, birth through 26.",
+      "how_to_apply": "Find your state's center through the Center for Parent Information and Resources and call or email for help.",
+      "url": "https://www.parentcenterhub.org",
+      "real_org": true
+    },
+    {
+      "id": "respite-sample-golden-hour",
+      "name": "Golden Hour Respite Fund (sample listing)",
+      "scope": "local",
+      "states": [
+        "GA"
+      ],
+      "what_they_offer": "Sample listing: small grants to pay a trained respite provider for a few hours each month so caregivers can rest, run errands, or simply sit in the sun.",
+      "eligibility": "Sample listing: caregivers of children 0 to 21 with physical disabilities living in the metro Atlanta area.",
+      "how_to_apply": "Sample listing: short online form plus a letter from any provider who knows the child.",
+      "url": "",
+      "real_org": false
+    }
+  ],
+  "support_groups": [
+    {
+      "id": "group-p2pusa",
+      "name": "Parent to Parent USA",
+      "audience": [
+        "all"
+      ],
+      "format": "virtual",
+      "city": "",
+      "state": "ALL",
+      "schedule": "One-to-one matches arranged on request through local and statewide programs.",
+      "description": "A national network of Parent to Parent programs that match caregivers of children with disabilities or special health care needs with a trained volunteer who has walked a similar road.",
+      "url": "https://www.p2pusa.org",
+      "real_org": true
+    },
+    {
+      "id": "group-gu-grandfamilies",
+      "name": "Generations United GrandFamilies",
+      "audience": [
+        "grandparents",
+        "kinship"
+      ],
+      "format": "virtual",
+      "city": "",
+      "state": "ALL",
+      "schedule": "Ongoing resources and network events; see website.",
+      "description": "Generations United's grandfamilies work supports grandparents and other relatives raising children, with resources, policy updates, and connections to kinship support in your area.",
+      "url": "https://www.gu.org",
+      "real_org": true
+    },
+    {
+      "id": "group-little-lobbyists",
+      "name": "Little Lobbyists",
+      "audience": [
+        "all"
+      ],
+      "format": "virtual",
+      "city": "",
+      "state": "ALL",
+      "schedule": "Ongoing online community and advocacy actions.",
+      "description": "A family-led group advocating for children with complex medical needs and disabilities, helping caregivers share their stories and connect with each other.",
+      "url": "https://littlelobbyists.org",
+      "real_org": true
+    },
+    {
+      "id": "group-wa-fathers-network",
+      "name": "Washington State Fathers Network",
+      "audience": [
+        "male_caregivers"
+      ],
+      "format": "hybrid",
+      "city": "",
+      "state": "WA",
+      "schedule": "Groups meet on varying schedules across Washington; contact the network for current times.",
+      "description": "A long-running network supporting fathers and father figures of children with special health care needs and developmental disabilities.",
+      "url": "",
+      "real_org": true
+    },
+    {
+      "id": "group-sample-rooted-and-rising",
+      "name": "Rooted and Rising: BIPOC Caregiver Circle (sample listing)",
+      "audience": [
+        "bipoc"
+      ],
+      "format": "virtual",
+      "city": "",
+      "state": "ALL",
+      "schedule": "Sample listing: every other Sunday, 7:00 p.m. Eastern.",
+      "description": "Sample listing: a space for Black, Indigenous, Latine, Asian American, and other caregivers of color to talk about raising disabled children while navigating bias in schools and medical settings, with lots of joy in the room.",
+      "url": "",
+      "real_org": false
+    },
+    {
+      "id": "group-sample-dads-and-uncles",
+      "name": "The Pit Crew: Dads, Granddads and Uncles (sample listing)",
+      "audience": [
+        "male_caregivers"
+      ],
+      "format": "virtual",
+      "city": "",
+      "state": "ALL",
+      "schedule": "Sample listing: Wednesdays, 8:30 p.m. Eastern, after bedtime.",
+      "description": "Sample listing: fathers, grandfathers, uncles, and other men raising kids with physical disabilities talk wheelchair repairs, adaptive sports, and the feelings no one asks them about.",
+      "url": "",
+      "real_org": false
+    },
+    {
+      "id": "group-sample-familias-en-movimiento",
+      "name": "Familias en Movimiento (sample listing)",
+      "audience": [
+        "spanish_speaking"
+      ],
+      "format": "hybrid",
+      "city": "San Antonio",
+      "state": "TX",
+      "schedule": "Sample listing: Saturdays, 10:00 a.m., in Spanish.",
+      "description": "Sample listing: a Spanish-language group for caregivers of children with disabilities, covering IEP rights, Medicaid, and community, with snacks and music.",
+      "url": "",
+      "real_org": false
+    },
+    {
+      "id": "group-sample-rainbow-rollers",
+      "name": "Rainbow Rollers Family Circle (sample listing)",
+      "audience": [
+        "lgbtq"
+      ],
+      "format": "virtual",
+      "city": "",
+      "state": "ALL",
+      "schedule": "Sample listing: last Friday of each month, 7:00 p.m. Pacific.",
+      "description": "Sample listing: LGBTQ+ caregivers, including two-mom and two-dad families, raising children with disabilities, sharing everything from school forms that fit your family to Pride parade wheelchair routes.",
+      "url": "",
+      "real_org": false
+    },
+    {
+      "id": "group-sample-next-steps",
+      "name": "Next Steps: Transition Caregivers Group (sample listing)",
+      "audience": [
+        "young_adult_transition"
+      ],
+      "format": "virtual",
+      "city": "",
+      "state": "ALL",
+      "schedule": "Sample listing: first Monday, 7:30 p.m. Eastern.",
+      "description": "Sample listing: caregivers of teens and young adults 14 to 21 explore transition IEPs, supported decision-making, ABLE accounts, and cheering on first jobs.",
+      "url": "",
+      "real_org": false
+    },
+    {
+      "id": "group-sample-joy-circle",
+      "name": "Joy Circle Open Gathering (sample listing)",
+      "audience": [
+        "all"
+      ],
+      "format": "hybrid",
+      "city": "Atlanta",
+      "state": "GA",
+      "schedule": "Sample listing: Thursdays, 7:00 p.m., in person with a video link.",
+      "description": "Sample listing: an open-door group for every kind of caregiver, starting each session with a win of the week.",
+      "url": "",
+      "real_org": false
+    }
+  ],
+  "resets": [
+    {
+      "id": "reset-carline-box-breathing",
+      "title": "Box breathing in the car line",
+      "minutes": 5,
+      "best_for": "Waiting in the school pickup line before a hard conversation or a big after-school transition.",
+      "steps": [
+        "Put the car in park and rest both hands on the wheel.",
+        "Breathe in through your nose for a count of four.",
+        "Hold gently for four.",
+        "Breathe out slowly for four, then hold for four.",
+        "Repeat the box for about five minutes, letting your shoulders drop a little each round."
+      ]
+    },
+    {
+      "id": "reset-waiting-room-54321",
+      "title": "5-4-3-2-1 in the waiting room",
+      "minutes": 5,
+      "best_for": "Therapy, specialist, or IEP meeting waiting rooms when your mind is racing ahead.",
+      "steps": [
+        "Name five things you can see, including one that is a color you love.",
+        "Name four things you can feel, like your feet on the floor.",
+        "Name three things you can hear.",
+        "Name two things you can smell, or two scents you love.",
+        "Name one thing you are proud of your child for this week."
+      ]
+    },
+    {
+      "id": "reset-wheelchair-push-meditation",
+      "title": "Rolling walk meditation",
+      "minutes": 5,
+      "best_for": "A stroll with your child in a wheelchair or stroller, or walking beside them as they roll or use a walker.",
+      "steps": [
+        "Pick a short, easy route and agree to go slow.",
+        "Match your breath to the rhythm of wheels or steps.",
+        "Notice three things in the sky, then three things at ground level.",
+        "Point out one beautiful thing to each other.",
+        "End with a high five or a fist bump."
+      ]
+    },
+    {
+      "id": "reset-joy-jar",
+      "title": "Joy jar note",
+      "minutes": 5,
+      "best_for": "The end of a long day, especially one that felt like all paperwork.",
+      "steps": [
+        "Grab a scrap of paper and a pen.",
+        "Write one moment today that made you laugh or smile.",
+        "Add one thing your child did that delighted you.",
+        "Fold it and drop it in a jar on the counter.",
+        "On rough days, pull out three notes and read them out loud."
+      ]
+    }
+  ]
+}

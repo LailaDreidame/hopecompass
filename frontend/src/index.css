@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+/* Brand palette — text colors chosen for WCAG AAA (≥7:1) on cream */
+@theme {
+  --color-cream: #FBF6EC;
+  --color-cream-2: #F4EBDA;
+  --color-sand: #EADBC2;
+  --color-forest: #1F4D3A;
+  --color-forest-2: #163A2B;
+  --color-navy: #14213D;
+  --color-ink: #1B2333;
+  --color-marigold: #E8A317;
+  --color-marigold-soft: #FBE7B5;
+  --color-terracotta: #C8553D;
+  --color-terracotta-ink: #8A2F1C;
+  --color-terracotta-soft: #F6D8CF;
+  --color-sky: #4A90C2;
+  --color-sky-ink: #1A4E73;
+  --color-sky-soft: #D7E9F5;
+  /* Dodger Blue accent: pure #1E90FF is decorative only (3:1 on cream);
+     dodger-ink (7.5:1) is for text, dodger-soft (12.8:1 with navy text) for tinted chips */
+  --color-dodger: #1E90FF;
+  --color-dodger-ink: #0B4F9C;
+  --color-dodger-soft: #D2E9FF;
+  --font-display: "Fraunces Variable", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter Variable", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+body { @apply bg-cream text-ink font-sans antialiased; }
+h1, h2, h3, .font-display { font-family: var(--font-display); letter-spacing: -0.01em; }
+:focus-visible { outline: 3px solid var(--color-sky-ink); outline-offset: 2px; border-radius: 6px; }
+
+@utility card { @apply bg-white/80 rounded-3xl border border-sand shadow-[0_1px_0_rgba(20,33,61,0.04),0_12px_30px_-18px_rgba(20,33,61,0.35)]; }
+@utility chip { @apply inline-flex items-center gap-1 rounded-full px-3 py-1 text-sm font-medium border transition; }
+@utility chip-on { @apply bg-forest text-cream border-forest; }
+@utility chip-off { @apply bg-white text-navy border-sand hover:border-forest; }
+@utility btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 font-semibold transition active:scale-[.98]; }
+@utility btn-primary { @apply btn bg-forest text-cream hover:bg-forest-2; }
+@utility btn-gold { @apply btn bg-marigold text-navy hover:brightness-95; }
+@utility btn-ghost { @apply btn bg-white text-navy border border-sand hover:border-forest; }
+/* thin joyful ribbon under the sticky header */
+.brand-ribbon { height: 4px; background: linear-gradient(90deg, #1F4D3A 0%, #1E90FF 30%, #E8A317 60%, #C8553D 100%); }
+@utility label { @apply text-xs font-semibold uppercase tracking-[0.14em] text-forest; }
+@utility input { @apply w-full rounded-2xl border border-sand bg-white px-4 py-2.5 text-ink placeholder:text-ink/60 focus:border-forest; }
+.prose-joy h3 { @apply font-display text-xl text-forest mt-4 mb-1; }
+.prose-joy ul { @apply list-disc pl-5 space-y-1; }
+.prose-joy p { @apply my-2 leading-relaxed; }
+
+/* ---- playful micro-animations ---- */
+@keyframes spin-wheel { to { transform: rotate(360deg); } }
+@keyframes roll { 0% { transform: translateX(-6px); } 50% { transform: translateX(6px); } 100% { transform: translateX(-6px); } }
+@keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+@keyframes wave { 0%,100% { transform: rotate(0deg); } 50% { transform: rotate(-18deg); } }
+@keyframes float-up { 0% { transform: translateY(0) rotate(0); opacity: 0; } 15% { opacity: 1; } 100% { transform: translateY(-120px) rotate(20deg); opacity: 0; } }
+@keyframes pulse-ring { 0% { r: 6; opacity: .65; } 100% { r: 20; opacity: 0; } }
+@keyframes breathe { 0%,100% { transform: scale(.72); } 50% { transform: scale(1); } }
+@keyframes shimmer { 0% { background-position: -200% 0; } 100% { background-position: 200% 0; } }
+@keyframes pop-in { 0% { transform: translateY(16px) scale(.96); opacity: 0; } 100% { transform: none; opacity: 1; } }
+.anim-wheel { animation: spin-wheel 3s linear infinite; transform-box: fill-box; transform-origin: center; }
+.anim-roll { animation: roll 4s ease-in-out infinite; }
+.anim-bob { animation: bob 3.2s ease-in-out infinite; }
+.anim-wave { animation: wave 1.6s ease-in-out infinite; transform-box: fill-box; transform-origin: 10% 90%; }
+.anim-float { animation: float-up 6s ease-in infinite; }
+.anim-breathe { animation: breathe 8s ease-in-out infinite; }
+.anim-pop { animation: pop-in .45s cubic-bezier(.2,.8,.2,1) both; }
+.shimmer { background: linear-gradient(90deg, transparent, rgba(30,144,255,.28), transparent); background-size: 200% 100%; animation: shimmer 1.6s linear infinite; }
+.pulse-ring { animation: pulse-ring 2.2s ease-out infinite; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition: none !important; }
+}

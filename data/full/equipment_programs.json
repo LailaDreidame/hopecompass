@@ -1,0 +1,674 @@
+{
+  "version": "1.0",
+  "note": "National programs are real organizations; local listings are illustrative samples. Always confirm current eligibility.",
+  "programs": [
+    {
+      "id": "prog-001",
+      "name": "State Assistive Technology Act Programs",
+      "type": "reuse",
+      "scope": "national",
+      "states": [
+        "ALL"
+      ],
+      "covers": [
+        "manual_wheelchair",
+        "power_wheelchair",
+        "cane",
+        "walker",
+        "stander",
+        "bath",
+        "communication_device",
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "Every U.S. state and territory has an Assistive Technology Act program. Many offer device demonstrations, short-term loans, and used-equipment reuse or exchange services, and offerings differ by state.",
+      "how_to_apply": "Find your state's program through the Association of Assistive Technology Act Programs and ask about loans, demos, and reuse. Availability and eligibility vary by state.",
+      "url": "https://www.ataporg.org",
+      "real_org": true
+    },
+    {
+      "id": "prog-002",
+      "name": "Pass It On Center",
+      "type": "reuse",
+      "scope": "national",
+      "states": [
+        "ALL"
+      ],
+      "covers": [
+        "manual_wheelchair",
+        "power_wheelchair",
+        "walker",
+        "stander",
+        "bath",
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A national center that supports assistive technology reuse programs across the U.S. and helps families learn about device reuse, exchange, and recycling options.",
+      "how_to_apply": "Visit the website to learn about device reuse and to find reuse programs in your state. Contact them to ask for current guidance.",
+      "url": "http://passitoncenter.org",
+      "real_org": true
+    },
+    {
+      "id": "prog-003",
+      "name": "Variety - the Children's Charity",
+      "type": "grant",
+      "scope": "national",
+      "states": [
+        "ALL"
+      ],
+      "covers": [
+        "manual_wheelchair",
+        "power_wheelchair",
+        "adaptive_bike",
+        "communication_device",
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A children's charity with local chapters that supports children with disabilities, including adaptive equipment and mobility programs. Award amounts and programs vary by chapter, so check current guidelines.",
+      "how_to_apply": "Find your regional chapter through the website and ask about current programs, eligibility, and application steps.",
+      "url": "https://www.variety.org",
+      "real_org": true
+    },
+    {
+      "id": "prog-004",
+      "name": "Challenged Athletes Foundation",
+      "type": "grant",
+      "scope": "national",
+      "states": [
+        "ALL"
+      ],
+      "covers": [
+        "adaptive_bike",
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A national nonprofit that provides grants for adaptive sports equipment and training for people with physical disabilities, including young athletes. Grant amounts vary, so check current guidelines.",
+      "how_to_apply": "Review the grant information on the website and submit an application with the information requested. Confirm current eligibility and deadlines.",
+      "url": "https://www.challengedathletes.org",
+      "real_org": true
+    },
+    {
+      "id": "prog-005",
+      "name": "UnitedHealthcare Children's Foundation",
+      "type": "grant",
+      "scope": "national",
+      "states": [
+        "ALL"
+      ],
+      "covers": [
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A nonprofit that offers grants to help families pay for health-related services and items not covered, or not fully covered, by insurance. Eligibility, items, and amounts vary, so check current guidelines.",
+      "how_to_apply": "Read the current eligibility requirements on the website and apply online if your family qualifies. Confirm deadlines and what is covered before applying.",
+      "url": "https://www.uhccf.org",
+      "real_org": true
+    },
+    {
+      "id": "prog-006",
+      "name": "Chive Charities",
+      "type": "grant",
+      "scope": "national",
+      "states": [
+        "ALL"
+      ],
+      "covers": [
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A charity that gives grants to individuals and organizations, including some that support children facing medical or mobility needs. Programs and amounts vary, so check current guidelines.",
+      "how_to_apply": "Visit the website to review current grant categories and application instructions. Confirm eligibility before applying.",
+      "url": "https://chivecharities.org",
+      "real_org": true
+    },
+    {
+      "id": "prog-007",
+      "name": "Easterseals Local Affiliates",
+      "type": "loan_closet",
+      "scope": "national",
+      "states": [
+        "ALL"
+      ],
+      "covers": [
+        "manual_wheelchair",
+        "walker",
+        "cane",
+        "bath",
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "Easterseals is a national disability services organization with local affiliates. Some affiliates offer equipment loan or assistive technology services, and offerings vary by location.",
+      "how_to_apply": "Use the website to find your local Easterseals affiliate and call to ask whether they have an equipment loan or assistive technology program.",
+      "url": "https://www.easterseals.com",
+      "real_org": true
+    },
+    {
+      "id": "prog-008",
+      "name": "Lions Clubs (local clubs)",
+      "type": "loan_closet",
+      "scope": "national",
+      "states": [
+        "ALL"
+      ],
+      "covers": [
+        "cane",
+        "manual_wheelchair",
+        "walker",
+        "bath",
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "Many local Lions Clubs run community service projects, and some keep loan closets or help with vision-related needs. Offerings vary by club.",
+      "how_to_apply": "Find a nearby club through the website, then contact the club and ask whether they lend equipment or can help with your need.",
+      "url": "https://www.lionsclubs.org",
+      "real_org": true
+    },
+    {
+      "id": "prog-009",
+      "name": "Rotary Clubs (local clubs)",
+      "type": "grant",
+      "scope": "national",
+      "states": [
+        "ALL"
+      ],
+      "covers": [
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "Some local Rotary clubs support community projects and individual families in need. Support and amounts vary by club, so check current guidelines.",
+      "how_to_apply": "Find a nearby club through the website and contact the club about whether they offer help with equipment or local projects.",
+      "url": "https://www.rotary.org",
+      "real_org": true
+    },
+    {
+      "id": "prog-010",
+      "name": "Kiwanis Clubs (local clubs)",
+      "type": "grant",
+      "scope": "national",
+      "states": [
+        "ALL"
+      ],
+      "covers": [
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "Kiwanis is a service organization focused on children and communities, and some local clubs may help with family needs or community projects. Support varies by club.",
+      "how_to_apply": "Find a local club through the website and contact it to ask whether they support equipment requests.",
+      "url": "https://www.kiwanis.org",
+      "real_org": true
+    },
+    {
+      "id": "prog-011",
+      "name": "Friends of Man",
+      "type": "grant",
+      "scope": "national",
+      "states": [
+        "ALL"
+      ],
+      "covers": [
+        "manual_wheelchair",
+        "power_wheelchair",
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A charitable organization that has helped people with disabilities with mobility and adaptive equipment needs. Offerings and amounts vary, so check current guidelines.",
+      "how_to_apply": "Search for the organization's official site and confirm current eligibility and the application process before applying.",
+      "url": "",
+      "real_org": true
+    },
+    {
+      "id": "prog-012",
+      "name": "Front Range Gear Swap",
+      "type": "swap",
+      "scope": "local",
+      "states": [
+        "CO"
+      ],
+      "covers": [
+        "manual_wheelchair",
+        "stander",
+        "walker",
+        "bath",
+        "adaptive_bike"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A sample community swap where Denver-area families trade outgrown wheelchairs, standers, and adaptive bikes. Volunteers help check fit and basic safety.",
+      "how_to_apply": "Sample listing for demonstration. In a real program you would post what you have and what you need and arrange a fitting with your therapist.",
+      "url": "",
+      "real_org": false
+    },
+    {
+      "id": "prog-013",
+      "name": "Puget Sound Loan Closet",
+      "type": "loan_closet",
+      "scope": "local",
+      "states": [
+        "WA"
+      ],
+      "covers": [
+        "manual_wheelchair",
+        "power_wheelchair",
+        "walker",
+        "bath",
+        "cane"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A sample Seattle-area loan closet offering short-term loans of mobility and bath equipment while families wait for insurance approval.",
+      "how_to_apply": "Sample listing for demonstration. A real program would ask for a therapist's note and a pickup appointment.",
+      "url": "",
+      "real_org": false
+    },
+    {
+      "id": "prog-014",
+      "name": "Rose City Mobility Share",
+      "type": "reuse",
+      "scope": "local",
+      "states": [
+        "OR"
+      ],
+      "covers": [
+        "manual_wheelchair",
+        "power_wheelchair",
+        "stander",
+        "walker"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A sample Portland reuse program that refurbishes donated equipment and matches it to growing kids, with a therapist checking the fit.",
+      "how_to_apply": "Sample listing for demonstration. A real program would ask for a clinician's measurements and a short intake form.",
+      "url": "",
+      "real_org": false
+    },
+    {
+      "id": "prog-015",
+      "name": "Bay Area Adaptive Swap",
+      "type": "swap",
+      "scope": "local",
+      "states": [
+        "CA"
+      ],
+      "covers": [
+        "manual_wheelchair",
+        "adaptive_bike",
+        "stander",
+        "bath",
+        "walker"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A sample San Francisco swap meet where families exchange outgrown adaptive gear, with an OT on site for questions.",
+      "how_to_apply": "Sample listing for demonstration. Real swaps typically ask you to register ahead and bring item details and photos.",
+      "url": "",
+      "real_org": false
+    },
+    {
+      "id": "prog-016",
+      "name": "Sunshine State of Mind Equipment Fund",
+      "type": "grant",
+      "scope": "local",
+      "states": [
+        "CA"
+      ],
+      "covers": [
+        "power_wheelchair",
+        "manual_wheelchair",
+        "vehicle",
+        "home_ramp",
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A sample Los Angeles-area fund that helps families cover gaps after insurance for equipment and access modifications. Amounts vary — check current guidelines.",
+      "how_to_apply": "Sample listing for demonstration. A real fund would ask for a denial letter or cost estimate and a clinician's note.",
+      "url": "",
+      "real_org": false
+    },
+    {
+      "id": "prog-017",
+      "name": "Harbor Light Loan Closet",
+      "type": "loan_closet",
+      "scope": "local",
+      "states": [
+        "CA"
+      ],
+      "covers": [
+        "manual_wheelchair",
+        "walker",
+        "cane",
+        "bath",
+        "stander"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A sample San Diego loan closet with wheelchairs, walkers, and bath chairs available for up to several months while you wait for your own.",
+      "how_to_apply": "Sample listing for demonstration. A real program would ask for a short intake and a therapist's measurements.",
+      "url": "",
+      "real_org": false
+    },
+    {
+      "id": "prog-018",
+      "name": "Desert Sky Reuse Exchange",
+      "type": "reuse",
+      "scope": "local",
+      "states": [
+        "AZ"
+      ],
+      "covers": [
+        "manual_wheelchair",
+        "power_wheelchair",
+        "walker",
+        "stander",
+        "bath"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A sample Phoenix-area exchange that cleans, repairs, and matches used equipment to children and young adults.",
+      "how_to_apply": "Sample listing for demonstration. A real exchange would ask for a clinician's recommendation.",
+      "url": "",
+      "real_org": false
+    },
+    {
+      "id": "prog-019",
+      "name": "Live Oak Little Wheels Swap",
+      "type": "swap",
+      "scope": "local",
+      "states": [
+        "TX"
+      ],
+      "covers": [
+        "manual_wheelchair",
+        "adaptive_bike",
+        "stander",
+        "walker"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A sample Austin swap where families trade outgrown kids' mobility gear and share fitting tips.",
+      "how_to_apply": "Sample listing for demonstration. A real swap would ask you to register and list your equipment.",
+      "url": "",
+      "real_org": false
+    },
+    {
+      "id": "prog-020",
+      "name": "Bayou Ramp Builders Fund",
+      "type": "grant",
+      "scope": "local",
+      "states": [
+        "TX"
+      ],
+      "covers": [
+        "home_ramp",
+        "vehicle",
+        "bath"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A sample Houston-area fund that supports volunteer-built ramps and small home access projects. Amounts vary — check current guidelines.",
+      "how_to_apply": "Sample listing for demonstration. A real program would ask for a home assessment and proof of ownership or landlord approval.",
+      "url": "",
+      "real_org": false
+    },
+    {
+      "id": "prog-021",
+      "name": "North Star Equipment Library",
+      "type": "loan_closet",
+      "scope": "local",
+      "states": [
+        "MN"
+      ],
+      "covers": [
+        "manual_wheelchair",
+        "power_wheelchair",
+        "walker",
+        "bath",
+        "cane"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A sample Minneapolis equipment library where families borrow gear for weeks or months, including winter-friendly options.",
+      "how_to_apply": "Sample listing for demonstration. A real library would ask for a referral and an appointment for fitting.",
+      "url": "",
+      "real_org": false
+    },
+    {
+      "id": "prog-022",
+      "name": "Lakeshore Gear Swap",
+      "type": "swap",
+      "scope": "local",
+      "states": [
+        "IL"
+      ],
+      "covers": [
+        "manual_wheelchair",
+        "stander",
+        "adaptive_bike",
+        "bath",
+        "walker"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A sample Chicago swap meet where caregivers trade outgrown adaptive equipment and meet other families.",
+      "how_to_apply": "Sample listing for demonstration. A real swap would ask you to register ahead of the event.",
+      "url": "",
+      "real_org": false
+    },
+    {
+      "id": "prog-023",
+      "name": "Buckeye Reuse Collective",
+      "type": "reuse",
+      "scope": "local",
+      "states": [
+        "OH"
+      ],
+      "covers": [
+        "manual_wheelchair",
+        "power_wheelchair",
+        "stander",
+        "walker",
+        "bath"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A sample Columbus reuse collective that refurbishes and redistributes donated equipment to children and young adults.",
+      "how_to_apply": "Sample listing for demonstration. A real program would ask for a therapist's recommendation and measurements.",
+      "url": "",
+      "real_org": false
+    },
+    {
+      "id": "prog-024",
+      "name": "Huron Valley Loan Closet",
+      "type": "loan_closet",
+      "scope": "local",
+      "states": [
+        "MI"
+      ],
+      "covers": [
+        "manual_wheelchair",
+        "walker",
+        "stander",
+        "bath",
+        "cane"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A sample Ann Arbor loan closet with short-term loans of mobility and bath equipment while families wait for insurance.",
+      "how_to_apply": "Sample listing for demonstration. A real closet would ask for a short intake and an appointment.",
+      "url": "",
+      "real_org": false
+    },
+    {
+      "id": "prog-025",
+      "name": "Peach State Mobility Fund",
+      "type": "grant",
+      "scope": "local",
+      "states": [
+        "GA"
+      ],
+      "covers": [
+        "manual_wheelchair",
+        "power_wheelchair",
+        "stander",
+        "home_ramp",
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A sample Atlanta-area fund that helps families cover the gap between insurance and the cost of mobility equipment. Amounts vary — check current guidelines.",
+      "how_to_apply": "Sample listing for demonstration. A real fund would ask for an estimate and a clinician's letter.",
+      "url": "",
+      "real_org": false
+    },
+    {
+      "id": "prog-026",
+      "name": "Music City Loan Closet",
+      "type": "loan_closet",
+      "scope": "local",
+      "states": [
+        "TN"
+      ],
+      "covers": [
+        "manual_wheelchair",
+        "walker",
+        "bath",
+        "cane",
+        "stander"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A sample Nashville loan closet with wheelchairs, walkers, and bath chairs available on short-term loan.",
+      "how_to_apply": "Sample listing for demonstration. A real program would ask for a short form and a therapist's note.",
+      "url": "",
+      "real_org": false
+    },
+    {
+      "id": "prog-027",
+      "name": "Triangle Little Movers Swap",
+      "type": "swap",
+      "scope": "local",
+      "states": [
+        "NC"
+      ],
+      "covers": [
+        "manual_wheelchair",
+        "stander",
+        "adaptive_bike",
+        "walker"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A sample Raleigh-area swap where families trade outgrown mobility gear and share growth tips.",
+      "how_to_apply": "Sample listing for demonstration. A real swap would ask you to register and share photos of your item.",
+      "url": "",
+      "real_org": false
+    },
+    {
+      "id": "prog-028",
+      "name": "Capital Region Reuse Exchange",
+      "type": "reuse",
+      "scope": "local",
+      "states": [
+        "DC"
+      ],
+      "covers": [
+        "manual_wheelchair",
+        "power_wheelchair",
+        "walker",
+        "stander",
+        "bath"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A sample Washington, DC exchange that repairs and redistributes donated equipment to children and young adults.",
+      "how_to_apply": "Sample listing for demonstration. A real program would ask for a clinician's recommendation and an appointment.",
+      "url": "",
+      "real_org": false
+    },
+    {
+      "id": "prog-029",
+      "name": "Liberty Bell Access Fund",
+      "type": "grant",
+      "scope": "local",
+      "states": [
+        "PA"
+      ],
+      "covers": [
+        "home_ramp",
+        "vehicle",
+        "manual_wheelchair",
+        "bath",
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A sample Philadelphia fund that helps families with access modifications and equipment not fully covered by insurance. Amounts vary — check current guidelines.",
+      "how_to_apply": "Sample listing for demonstration. A real fund would ask for a quote and a clinician's letter.",
+      "url": "",
+      "real_org": false
+    },
+    {
+      "id": "prog-030",
+      "name": "Beantown Gear Swap",
+      "type": "swap",
+      "scope": "local",
+      "states": [
+        "MA"
+      ],
+      "covers": [
+        "manual_wheelchair",
+        "stander",
+        "adaptive_bike",
+        "walker",
+        "bath"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A sample Boston swap where caregivers trade outgrown adaptive equipment and share advice on school and home setups.",
+      "how_to_apply": "Sample listing for demonstration. A real swap would ask you to register ahead and bring item details.",
+      "url": "",
+      "real_org": false
+    },
+    {
+      "id": "prog-031",
+      "name": "National AMBUCS — Amtryke therapeutic tricycle program",
+      "type": "grant",
+      "scope": "national",
+      "states": [
+        "ALL"
+      ],
+      "covers": [
+        "adaptive_bike"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "Local AMBUCS chapters fundraise to provide Amtryke adaptive tricycles to riders who can't ride a standard bike; a family's ability to pay is not what decides eligibility.",
+      "how_to_apply": "Ask your child's PT or OT for an evaluation and recommendation (required), then contact your nearest AMBUCS chapter through the national chapter directory.",
+      "url": "https://ambucs.org",
+      "real_org": true
+    },
+    {
+      "id": "prog-032",
+      "name": "Wheel to Walk Foundation",
+      "type": "grant",
+      "scope": "state",
+      "states": [
+        "WA",
+        "OR",
+        "ID",
+        "CA"
+      ],
+      "covers": [
+        "adaptive_bike",
+        "manual_wheelchair",
+        "power_wheelchair",
+        "walker",
+        "stander",
+        "bath",
+        "communication_device"
+      ],
+      "ages": "0-20",
+      "what_they_offer": "Helps children 20 and under with a documented disability get equipment and therapies insurance won't cover, paying the vendor directly. Does not cover deductibles, co-pays, or home/vehicle modifications.",
+      "how_to_apply": "Apply online with a therapist or physician letter of medical necessity, the vendor quote, and the insurance denial letter. Serves families in the Pacific Northwest and California; confirm current eligibility.",
+      "url": "",
+      "real_org": true
+    },
+    {
+      "id": "prog-033",
+      "name": "McLindon Family Foundation (adaptive bikes)",
+      "type": "grant",
+      "scope": "state",
+      "states": [
+        "LA"
+      ],
+      "covers": [
+        "adaptive_bike"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "A Baton Rouge nonprofit that gives free adaptive bikes fitted to each child, working with pediatric rehab clinics, and swaps in a bigger bike when a child outgrows theirs.",
+      "how_to_apply": "Apply through the foundation's website with your child's therapist; check whether they currently serve families outside Louisiana.",
+      "url": "",
+      "real_org": true
+    }
+  ]
+}

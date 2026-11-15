@@ -1,0 +1,624 @@
+{
+  "version": "1.0",
+  "accommodations": [
+    {
+      "id": "acc-adaptive-pe-1",
+      "category": "adaptive_pe",
+      "label": "Specially designed adapted PE",
+      "stages": [
+        "iep"
+      ],
+      "language": "{child} will receive specially designed adaptive physical education 3x weekly for 30 minutes, delivered by a certified adapted PE teacher, with goals aligned to the general PE curriculum.",
+      "legal_basis": [
+        "idea-physical-education",
+        "idea-iep-content"
+      ],
+      "data_to_bring": [
+        "Adapted PE or motor evaluation results",
+        "Notes or photos showing how {child} is currently included (or sidelined) in PE"
+      ]
+    },
+    {
+      "id": "acc-adaptive-pe-2",
+      "category": "adaptive_pe",
+      "label": "Modified equipment and rules in general PE",
+      "stages": [
+        "iep",
+        "504"
+      ],
+      "language": "{child} will participate in general physical education with modified equipment (e.g., lightweight or larger balls, lowered targets, ramps for bowling) and adapted rules so that {child} is an active participant, not a scorekeeper or observer.",
+      "legal_basis": [
+        "idea-physical-education",
+        "section-504-nonacademic"
+      ],
+      "data_to_bring": [
+        "List of PE units for the semester",
+        "Suggestions from {child}'s PT or OT on safe equipment"
+      ]
+    },
+    {
+      "id": "acc-adaptive-pe-3",
+      "category": "adaptive_pe",
+      "label": "Adaptive sports and athletics access",
+      "stages": [
+        "iep",
+        "504"
+      ],
+      "language": "{child} will have an equal opportunity to participate in school athletics and intramurals, including information about adaptive and unified sports options, with reasonable modifications and accessible facilities for practices and events.",
+      "legal_basis": [
+        "section-504-nonacademic",
+        "idea-nonacademic-extracurricular",
+        "ada-title-ii"
+      ],
+      "data_to_bring": [
+        "Sports or clubs {child} is interested in",
+        "Any local adaptive sports program information"
+      ]
+    },
+    {
+      "id": "acc-field-trip-transport-1",
+      "category": "field_trip_transport",
+      "label": "Accessible field trip transportation",
+      "stages": [
+        "iep",
+        "504"
+      ],
+      "language": "For all field trips and off-campus activities, {child} will ride with classmates on a wheelchair-accessible, lift-equipped vehicle with four-point wheelchair securement and an occupant restraint; separate transportation will not be used unless the caregiver agrees.",
+      "legal_basis": [
+        "idea-transportation",
+        "idea-nonacademic-extracurricular",
+        "section-504-nonacademic"
+      ],
+      "data_to_bring": [
+        "Past field trip notices and how {child} was transported",
+        "Wheelchair make and model for securement planning"
+      ]
+    },
+    {
+      "id": "acc-field-trip-transport-2",
+      "category": "field_trip_transport",
+      "label": "Advance accessibility check of destinations",
+      "stages": [
+        "iep",
+        "504"
+      ],
+      "language": "Staff will confirm accessibility of each field trip destination (entrances, restrooms, routes, and changing facilities) at least 10 school days in advance and share the access plan with {child}'s caregiver.",
+      "legal_basis": [
+        "idea-nonacademic-extracurricular",
+        "section-504-nonacademic",
+        "ada-title-ii"
+      ],
+      "data_to_bring": [
+        "A sample access checklist you would like staff to use"
+      ]
+    },
+    {
+      "id": "acc-field-trip-transport-3",
+      "category": "field_trip_transport",
+      "label": "Trained support staff on trips",
+      "stages": [
+        "iep",
+        "504"
+      ],
+      "language": "A trained adult familiar with {child}'s mobility, personal care, and health plan will accompany {child} on all field trips; caregivers will not be required to attend as a condition of {child}'s participation.",
+      "legal_basis": [
+        "idea-nonacademic-extracurricular",
+        "section-504-nonacademic"
+      ],
+      "data_to_bring": [
+        "Any emails asking you to chaperone so {child} could attend"
+      ]
+    },
+    {
+      "id": "acc-evacuation-1",
+      "category": "evacuation",
+      "label": "Individualized emergency evacuation plan",
+      "stages": [
+        "iep",
+        "504"
+      ],
+      "language": "{child} will have a written individualized emergency evacuation plan naming two trained staff members (primary and backup), the evacuation route, any evacuation equipment, and the designated area of rescue assistance; the plan will be reviewed with {child}'s caregiver at the start of each school year.",
+      "legal_basis": [
+        "evacuation-emergency-planning",
+        "section-504-fape",
+        "ada-title-ii"
+      ],
+      "data_to_bring": [
+        "Map of {child}'s classrooms and floors",
+        "Questions about elevator use during alarms"
+      ]
+    },
+    {
+      "id": "acc-evacuation-2",
+      "category": "evacuation",
+      "label": "Evacuation drills practiced with real equipment",
+      "stages": [
+        "iep",
+        "504"
+      ],
+      "language": "{child} will participate in every fire, lockdown, and shelter drill using the actual evacuation route and equipment in the plan, and staff will document each drill and any barriers found.",
+      "legal_basis": [
+        "evacuation-emergency-planning",
+        "section-504-fape"
+      ],
+      "data_to_bring": [
+        "Notes from past drills where {child} was left behind or excused"
+      ]
+    },
+    {
+      "id": "acc-evacuation-3",
+      "category": "evacuation",
+      "label": "Visual and tactile alerts",
+      "stages": [
+        "iep",
+        "504"
+      ],
+      "language": "{child} will receive emergency alerts in an accessible format (visual strobe alerts, a tactile or vibrating pager, or a designated staff buddy) so that {child} is notified of drills and emergencies at the same time as peers.",
+      "legal_basis": [
+        "evacuation-emergency-planning",
+        "ada-title-ii",
+        "idea-special-factors"
+      ],
+      "data_to_bring": [
+        "Audiology or vision report",
+        "Description of how {child} currently learns about alarms"
+      ]
+    },
+    {
+      "id": "acc-passing-time-1",
+      "category": "passing_time",
+      "label": "Early release between classes",
+      "stages": [
+        "iep",
+        "504"
+      ],
+      "language": "{child} will be released 3 to 5 minutes early from each class to travel to the next location before hallways are crowded, with a peer or staff member of {child}'s choosing as needed.",
+      "legal_basis": [
+        "section-504-fape",
+        "idea-iep-content"
+      ],
+      "data_to_bring": [
+        "{child}'s class schedule with room locations",
+        "Timed notes of how long transitions currently take"
+      ]
+    },
+    {
+      "id": "acc-passing-time-2",
+      "category": "passing_time",
+      "label": "Elevator access and key",
+      "stages": [
+        "iep",
+        "504"
+      ],
+      "language": "{child} will have independent elevator access (key or card) and a backup plan if the elevator is out of service, including classroom relocation so that no instruction is missed.",
+      "legal_basis": [
+        "section-504-fape",
+        "ada-title-ii"
+      ],
+      "data_to_bring": [
+        "Dates the elevator was out of service and what happened"
+      ]
+    },
+    {
+      "id": "acc-passing-time-3",
+      "category": "passing_time",
+      "label": "No penalty for tardiness and a second set of books",
+      "stages": [
+        "iep",
+        "504"
+      ],
+      "language": "{child} will not be marked tardy or penalized for arrival times related to mobility, and will have a second set of textbooks at home to reduce weight carried between classes.",
+      "legal_basis": [
+        "section-504-fape",
+        "idea-iep-content"
+      ],
+      "data_to_bring": [
+        "Attendance or tardy records",
+        "Weight of {child}'s current backpack"
+      ]
+    },
+    {
+      "id": "acc-assistive-tech-1",
+      "category": "assistive_tech",
+      "label": "Assistive technology evaluation",
+      "stages": [
+        "iep",
+        "504"
+      ],
+      "language": "{child} will receive a comprehensive assistive technology evaluation by a qualified AT specialist, including trials of devices in real classroom settings, with results reviewed by the team within 30 days of completion.",
+      "legal_basis": [
+        "idea-assistive-technology",
+        "idea-special-factors"
+      ],
+      "data_to_bring": [
+        "Work samples showing writing or access challenges",
+        "Apps or tools {child} already uses at home"
+      ]
+    },
+    {
+      "id": "acc-assistive-tech-2",
+      "category": "assistive_tech",
+      "label": "Device use at home and training",
+      "stages": [
+        "iep"
+      ],
+      "language": "{child}'s school-provided assistive technology device will go home daily for homework, and {child}, {child}'s caregivers, and classroom staff will receive training on its use, maintenance, and troubleshooting.",
+      "legal_basis": [
+        "idea-assistive-technology"
+      ],
+      "data_to_bring": [
+        "List of homework tasks that require the device"
+      ]
+    },
+    {
+      "id": "acc-assistive-tech-3",
+      "category": "assistive_tech",
+      "label": "Alternative computer access",
+      "stages": [
+        "iep",
+        "504"
+      ],
+      "language": "{child} will have alternative computer access as needed (e.g., speech-to-text, word prediction, switch access, adapted keyboard or trackball) for all written work and assessments.",
+      "legal_basis": [
+        "idea-assistive-technology",
+        "section-504-fape"
+      ],
+      "data_to_bring": [
+        "OT report on fine motor skills",
+        "Examples of work that took far longer than peers"
+      ]
+    },
+    {
+      "id": "acc-seating-positioning-1",
+      "category": "seating_positioning",
+      "label": "Positioning equipment and schedule",
+      "stages": [
+        "iep",
+        "504"
+      ],
+      "language": "{child} will have access to appropriate positioning equipment (adapted chair, stander, or floor seating) and a position-change schedule developed with {child}'s physical therapist, with staff trained on safe transfers.",
+      "legal_basis": [
+        "idea-assistive-technology",
+        "idea-iep-content"
+      ],
+      "data_to_bring": [
+        "PT recommendations on positioning",
+        "Photos of positioning that works at home"
+      ]
+    },
+    {
+      "id": "acc-personal-care-1",
+      "category": "personal_care",
+      "label": "Private, dignified personal care",
+      "stages": [
+        "iep",
+        "504"
+      ],
+      "language": "{child} will have access to an accessible, private restroom or changing area with appropriate equipment, and personal care will be provided by trained staff in a manner that protects {child}'s privacy and builds independence.",
+      "legal_basis": [
+        "section-504-fape",
+        "ada-title-ii"
+      ],
+      "data_to_bring": [
+        "{child}'s care routine and preferences",
+        "Doctor's orders for any health procedures"
+      ]
+    },
+    {
+      "id": "acc-transportation-1",
+      "category": "transportation",
+      "label": "Daily accessible transportation",
+      "stages": [
+        "iep"
+      ],
+      "language": "{child} will receive daily door-to-door transportation as a related service on a lift-equipped vehicle, with a ride time no longer than that of peers on comparable routes and a driver and aide trained in wheelchair securement.",
+      "legal_basis": [
+        "idea-transportation"
+      ],
+      "data_to_bring": [
+        "Current pickup and drop-off times",
+        "Wheelchair specs and any transit-tested seating information"
+      ]
+    },
+    {
+      "id": "acc-recess-playground-1",
+      "category": "recess_playground",
+      "label": "Inclusive recess",
+      "stages": [
+        "iep",
+        "504"
+      ],
+      "language": "{child} will have full recess time with peers on an accessible surface, with access to adapted play equipment and adult facilitation of inclusive games as needed; recess will not be withheld for therapy or to make up work.",
+      "legal_basis": [
+        "idea-nonacademic-extracurricular",
+        "section-504-nonacademic"
+      ],
+      "data_to_bring": [
+        "Photos of the playground surface and equipment",
+        "Notes on how often {child} misses recess"
+      ]
+    },
+    {
+      "id": "acc-testing-1",
+      "category": "testing",
+      "label": "Testing accommodations",
+      "stages": [
+        "iep",
+        "504"
+      ],
+      "language": "{child} will receive extended time (1.5x), breaks for repositioning, an accessible testing location, and use of the same assistive technology used during instruction for all classroom and standardized assessments, as permitted by testing rules.",
+      "legal_basis": [
+        "idea-iep-content",
+        "section-504-fape"
+      ],
+      "data_to_bring": [
+        "Recent test scores with notes on fatigue or time",
+        "Upcoming state or district test dates"
+      ]
+    },
+    {
+      "id": "acc-vision-1",
+      "category": "vision",
+      "label": "Orientation and mobility instruction",
+      "stages": [
+        "iep"
+      ],
+      "language": "{child} will receive orientation and mobility instruction from a certified O&M specialist 2x weekly for 45 minutes, including white cane skills, campus routes, and community travel.",
+      "legal_basis": [
+        "idea-special-factors",
+        "idea-iep-content"
+      ],
+      "data_to_bring": [
+        "Functional vision assessment",
+        "O&M evaluation or a request for one"
+      ]
+    },
+    {
+      "id": "acc-vision-2",
+      "category": "vision",
+      "label": "Braille instruction and materials",
+      "stages": [
+        "iep"
+      ],
+      "language": "{child} will receive braille instruction from a teacher of students with visual impairments, and all classroom materials will be provided in braille at the same time peers receive print materials.",
+      "legal_basis": [
+        "idea-special-factors",
+        "idea-assistive-technology"
+      ],
+      "data_to_bring": [
+        "Learning media assessment",
+        "Examples of materials that arrived late"
+      ]
+    },
+    {
+      "id": "acc-vision-3",
+      "category": "vision",
+      "label": "Large print and magnification",
+      "stages": [
+        "iep",
+        "504"
+      ],
+      "language": "{child} will receive materials in large print (minimum 18-point font or as recommended), access to digital magnification and screen-reading tools, and preferential seating with reduced glare.",
+      "legal_basis": [
+        "idea-special-factors",
+        "section-504-fape"
+      ],
+      "data_to_bring": [
+        "Eye report with recommended print size",
+        "Samples of materials {child} can and cannot read"
+      ]
+    },
+    {
+      "id": "acc-hearing-1",
+      "category": "hearing",
+      "label": "FM/DM remote microphone system",
+      "stages": [
+        "iep",
+        "504"
+      ],
+      "language": "{child} will use a remote microphone (FM/DM) system paired with {child}'s hearing aids in all instructional settings, including assemblies and PE, with daily equipment checks by trained staff.",
+      "legal_basis": [
+        "idea-assistive-technology",
+        "idea-special-factors"
+      ],
+      "data_to_bring": [
+        "Audiologist recommendation",
+        "Hearing aid make and model"
+      ]
+    },
+    {
+      "id": "acc-hearing-2",
+      "category": "hearing",
+      "label": "Captioning for all media",
+      "stages": [
+        "iep",
+        "504"
+      ],
+      "language": "All videos, recorded lessons, and live virtual instruction used with {child} will include accurate captions, and transcripts will be provided when captioning is unavailable.",
+      "legal_basis": [
+        "ada-title-ii",
+        "idea-special-factors",
+        "section-504-fape"
+      ],
+      "data_to_bring": [
+        "Examples of uncaptioned media used in class"
+      ]
+    },
+    {
+      "id": "acc-hearing-3",
+      "category": "hearing",
+      "label": "Qualified interpreter",
+      "stages": [
+        "iep",
+        "504"
+      ],
+      "language": "{child} will have a qualified sign language interpreter for instruction, extracurricular activities, and school events, and caregivers who need interpreting will receive it for meetings and conferences.",
+      "legal_basis": [
+        "idea-special-factors",
+        "ada-title-ii",
+        "section-504-nonacademic"
+      ],
+      "data_to_bring": [
+        "{child}'s preferred language and communication mode",
+        "Events where interpreting was not provided"
+      ]
+    },
+    {
+      "id": "acc-transition-1",
+      "category": "transition",
+      "label": "Travel training",
+      "stages": [
+        "iep",
+        "transition"
+      ],
+      "language": "{child} will receive community-based travel training, including accessible public transit, paratransit applications, and route planning, with the goal of traveling independently to work or school destinations.",
+      "legal_basis": [
+        "idea-transition-services",
+        "ada-title-ii"
+      ],
+      "data_to_bring": [
+        "Places {child} wants to get to on their own",
+        "Local transit and paratransit information"
+      ]
+    },
+    {
+      "id": "acc-transition-2",
+      "category": "transition",
+      "label": "Job sampling and work experience",
+      "stages": [
+        "iep",
+        "transition"
+      ],
+      "language": "{child} will participate in at least three job sampling experiences per school year in fields aligned with {child}'s interests, with accessible worksites and any needed job accommodations.",
+      "legal_basis": [
+        "idea-transition-services",
+        "idea-iep-content"
+      ],
+      "data_to_bring": [
+        "Interest inventory or career assessment",
+        "Hobbies and strengths {child} is proud of"
+      ]
+    },
+    {
+      "id": "acc-transition-3",
+      "category": "transition",
+      "label": "Self-advocacy and student-led IEP",
+      "stages": [
+        "iep",
+        "504",
+        "transition"
+      ],
+      "language": "{child} will receive instruction in self-advocacy, including explaining {child}'s disability and accommodation needs, and will help lead part of each IEP or 504 meeting with support.",
+      "legal_basis": [
+        "idea-transition-services",
+        "idea-iep-team-participation"
+      ],
+      "data_to_bring": [
+        "A short statement or video from {child} about goals"
+      ]
+    },
+    {
+      "id": "acc-transition-4",
+      "category": "transition",
+      "label": "Age of majority and supported decision-making",
+      "stages": [
+        "iep",
+        "transition"
+      ],
+      "language": "At least one year before the age of majority, {child} and {child}'s caregivers will be informed of the rights that transfer, and the team will provide information on decision-making options, including supported decision-making and less restrictive alternatives to guardianship.",
+      "legal_basis": [
+        "idea-age-of-majority",
+        "idea-transition-services"
+      ],
+      "data_to_bring": [
+        "Your state's age of majority",
+        "Questions about decision-making supports"
+      ]
+    },
+    {
+      "id": "acc-early-intervention-1",
+      "category": "early_intervention",
+      "label": "Physical therapy in the home",
+      "stages": [
+        "ifsp"
+      ],
+      "language": "{child} will receive physical therapy in the family home and other natural environments 1x weekly for 60 minutes, embedded in daily routines such as play, bath time, and outings.",
+      "legal_basis": [
+        "part-c-early-intervention",
+        "part-c-ifsp"
+      ],
+      "data_to_bring": [
+        "A typical day's routine",
+        "Videos of {child} moving and playing at home"
+      ]
+    },
+    {
+      "id": "acc-early-intervention-2",
+      "category": "early_intervention",
+      "label": "Family coaching",
+      "stages": [
+        "ifsp"
+      ],
+      "language": "{child}'s caregivers, including grandparents or other relatives who provide daily care, will receive coaching from {child}'s therapists during each visit so strategies can be practiced throughout the week.",
+      "legal_basis": [
+        "part-c-ifsp",
+        "idea-parent-definition"
+      ],
+      "data_to_bring": [
+        "Names of all regular caregivers who would benefit from coaching"
+      ]
+    }
+  ],
+  "checklists": {
+    "ifsp": [
+      "Write down your family's priorities and concerns in your own words before the meeting",
+      "List everyone who cares for your child day to day so they can be included in coaching",
+      "Describe your child's typical day so services can fit real routines",
+      "Request copies of all evaluation reports before the meeting",
+      "Ask where services will happen and request natural environments like your home or child care",
+      "Bring short videos of your child moving, playing, and communicating",
+      "Ask what equipment, such as seating or a stander, may be available",
+      "Ask about service coordination and who your service coordinator will be",
+      "Ask when transition planning for age 3 will begin",
+      "You may bring a support person, interpreter, or advocate"
+    ],
+    "iep": [
+      "Request a draft of the IEP and any new evaluation reports at least 2 days before the meeting",
+      "Bring a one-page 'All About Me' with a joyful photo of your child",
+      "Write your top three priorities for the year on one page",
+      "Review last year's goals and progress reports and note what worked",
+      "Bring outside reports from therapists, doctors, or audiologists",
+      "Ask whether assistive technology has been considered and write down the answer",
+      "Check that PE, recess, field trips, and transportation are addressed",
+      "Ask for an individualized emergency evacuation plan if your child needs one",
+      "Ask how progress will be measured and how often you will receive reports",
+      "You may bring a support person or advocate",
+      "Ask for prior written notice for any request that is refused",
+      "You do not have to sign at the meeting; you may take the IEP home to review"
+    ],
+    "504": [
+      "Write a short list of daily barriers your child faces at school",
+      "Bring medical or therapy documentation describing your child's needs",
+      "Request copies of any school evaluation before the meeting",
+      "Walk the campus route your child uses and note access problems",
+      "Ask about passing time, elevator access, and accessible seating",
+      "Ask how field trips, clubs, and athletics will be made accessible",
+      "Ask for a written emergency evacuation plan",
+      "Ask who will share the plan with every teacher, including substitutes",
+      "Ask when the plan will be reviewed and how to request changes",
+      "You may bring a support person or advocate"
+    ],
+    "transition": [
+      "Ask your young person what they dream about doing after high school",
+      "Request age-appropriate transition assessments in writing",
+      "Invite your young person to attend and lead part of the meeting",
+      "Ask which outside agencies, such as vocational rehabilitation, can be invited",
+      "Check that goals cover education or training, employment, and independent living",
+      "Ask about travel training and paratransit eligibility",
+      "Ask about job sampling and paid work experiences",
+      "Learn your state's age of majority and when rights transfer",
+      "Explore supported decision-making before considering guardianship",
+      "Ask about ABLE accounts and how earnings may affect benefits"
+    ]
+  }
+}

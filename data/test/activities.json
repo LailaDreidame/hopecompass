@@ -1,0 +1,1626 @@
+{
+  "version": "1.0",
+  "note": "Sample listings; hours and prices are illustrative — always confirm before you go.",
+  "activities": [
+    {
+      "id": "act-007",
+      "name": "Riverfront Sensory Science Hour",
+      "hotspot_id": "philadelphia-pa",
+      "city": "Philadelphia",
+      "state": "PA",
+      "category": "sensory_friendly_museum",
+      "access": [
+        "wheelchair",
+        "cane",
+        "walker",
+        "vision"
+      ],
+      "ages": [
+        "0-5",
+        "6-12"
+      ],
+      "cost_tier": "under25",
+      "price_note": "$8 per child; caregivers free",
+      "setting": "indoor",
+      "description": "A quiet morning with dimmed exhibits, tactile stations, and a calm room for breaks. Kids build, pour, and press buttons at their own pace.",
+      "accessibility_notes": [
+        "Tactile exhibits with large labels",
+        "Elevator access throughout",
+        "Sensory kits to borrow at the desk"
+      ],
+      "best_time": "Second Saturday, 9-11am, before the museum opens to everyone.",
+      "caregiver_tip": "Arrive at open to snag the quiet room.",
+      "venue": "Science center, ground-floor galleries",
+      "neighborhood": "Central Philadelphia",
+      "schedule": {
+        "days": [
+          "Sat"
+        ],
+        "start": "09:00",
+        "end": "11:00",
+        "season": "Year-round",
+        "notes": "Second Saturday of each month; before regular opening"
+      },
+      "how_to_join": "Reserve a spot on the museum's website a week ahead.",
+      "website": ""
+    },
+    {
+      "id": "act-008",
+      "name": "Schuylkill Banks Smooth-Path Stroll",
+      "hotspot_id": "philadelphia-pa",
+      "city": "Philadelphia",
+      "state": "PA",
+      "category": "accessible_trail",
+      "access": [
+        "wheelchair",
+        "cane",
+        "walker",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free",
+      "setting": "outdoor",
+      "description": "A paved riverside trail with skyline views, lawn picnic spots, and room for side-by-side rolling. Teens love the sunset light on the water.",
+      "accessibility_notes": [
+        "Paved, mostly flat route",
+        "Benches and rest areas along the way",
+        "Accessible restrooms at trailheads"
+      ],
+      "best_time": "Weekday sunsets, when it is cooler and quieter.",
+      "caregiver_tip": "Start at the accessible entrance to avoid steep ramps.",
+      "venue": "Riverside trail, boardwalk section by the main trailhead",
+      "neighborhood": "Center City",
+      "schedule": {
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri"
+        ],
+        "start": "17:00",
+        "end": "20:00",
+        "season": "April–October",
+        "notes": "Path is open daily dawn to dusk; sunset strolls are best"
+      },
+      "how_to_join": "Just show up; no registration needed.",
+      "website": ""
+    },
+    {
+      "id": "act-009",
+      "name": "Beep Baseball Clinic for Blind and Low-Vision Players",
+      "hotspot_id": "philadelphia-pa",
+      "city": "Philadelphia",
+      "state": "PA",
+      "category": "adaptive_sports",
+      "access": [
+        "vision",
+        "cane"
+      ],
+      "ages": [
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free; equipment provided",
+      "setting": "outdoor",
+      "description": "Players swing at a beeping ball and race to a buzzing base, guided by sound and teamwork. Sighted volunteers wear blindfolds, so everybody plays on the same terms.",
+      "accessibility_notes": [
+        "Audible bases and beeping ball",
+        "Sighted guides available",
+        "Accessible parking and restrooms"
+      ],
+      "best_time": "Saturday afternoons, April to June.",
+      "caregiver_tip": "Wear sunscreen and a hat; sound carries best on calm days.",
+      "venue": "Community ball field, baseball diamond",
+      "neighborhood": "South Philadelphia",
+      "schedule": {
+        "days": [
+          "Sat"
+        ],
+        "start": "13:00",
+        "end": "15:00",
+        "season": "April–June",
+        "notes": "Spring clinic series; registration required"
+      },
+      "how_to_join": "Register with the league organizers before the season starts.",
+      "website": ""
+    },
+    {
+      "id": "act-017",
+      "name": "Intown Zoo Sensory Saturday",
+      "hotspot_id": "atlanta-ga",
+      "city": "Atlanta",
+      "state": "GA",
+      "category": "zoo_aquarium",
+      "access": [
+        "wheelchair",
+        "cane",
+        "walker",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12"
+      ],
+      "cost_tier": "under25",
+      "price_note": "$12 child; caregivers free",
+      "setting": "outdoor",
+      "description": "Animal encounters with lower crowds, quieter paths, and keeper talks that kids can touch and feel. Pause at shaded benches between exhibits.",
+      "accessibility_notes": [
+        "Paved, wide paths",
+        "Quiet areas marked on the map",
+        "Accessible restrooms throughout"
+      ],
+      "best_time": "Saturday morning sensory hours, 9-11am.",
+      "caregiver_tip": "Bring noise-reducing headphones.",
+      "venue": "Zoo, main entrance and walking paths",
+      "neighborhood": "Grant Park",
+      "schedule": {
+        "days": [
+          "Sat"
+        ],
+        "start": "09:00",
+        "end": "11:00",
+        "season": "Year-round",
+        "notes": "Reduced noise and crowds during sensory hours"
+      },
+      "how_to_join": "Buy a ticket online and arrive at opening.",
+      "website": ""
+    },
+    {
+      "id": "act-018",
+      "name": "Midtown Inclusive Playground",
+      "hotspot_id": "atlanta-ga",
+      "city": "Atlanta",
+      "state": "GA",
+      "category": "inclusive_playground",
+      "access": [
+        "wheelchair",
+        "cane",
+        "walker",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free",
+      "setting": "outdoor",
+      "description": "Ramped play structures, sensory panels, and wide paths let kids climb, spin, and slide together. Shade sails keep sticky afternoons comfortable.",
+      "accessibility_notes": [
+        "Poured-rubber surfacing to the top deck",
+        "Ground-level sensory panels",
+        "Fenced with a single gate"
+      ],
+      "best_time": "Weekday mornings, before the playground fills up.",
+      "caregiver_tip": "Bring water; the splash area is a favorite.",
+      "venue": "Neighborhood park, inclusive playground",
+      "neighborhood": "Midtown",
+      "schedule": {
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri"
+        ],
+        "start": "08:30",
+        "end": "11:30",
+        "season": "Year-round",
+        "notes": "Park open daily; mornings are less crowded"
+      },
+      "how_to_join": "Just show up; it is free to play.",
+      "website": ""
+    },
+    {
+      "id": "act-019",
+      "name": "Power Soccer Skills Clinic",
+      "hotspot_id": "atlanta-ga",
+      "city": "Atlanta",
+      "state": "GA",
+      "category": "adaptive_sports",
+      "access": [
+        "wheelchair"
+      ],
+      "ages": [
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under25",
+      "price_note": "$15 per clinic; chairs provided",
+      "setting": "indoor",
+      "description": "Players zip power chairs around a gym floor, passing and shooting oversized balls. Coaches build skills with drills and loud cheers.",
+      "accessibility_notes": [
+        "Loaner soccer-ready chairs",
+        "Accessible gym",
+        "Coaches trained in adaptive sports"
+      ],
+      "best_time": "Sunday afternoons, 2-4pm.",
+      "caregiver_tip": "Charge your power chair the night before.",
+      "venue": "Rec center gymnasium (main court)",
+      "neighborhood": "Central Atlanta",
+      "schedule": {
+        "days": [
+          "Sun"
+        ],
+        "start": "14:00",
+        "end": "16:00",
+        "season": "Year-round",
+        "notes": "Loaner power chairs available; registration required"
+      },
+      "how_to_join": "Contact the program organizers a week ahead to reserve a chair.",
+      "website": ""
+    },
+    {
+      "id": "act-029",
+      "name": "Lakefront Beach Day with Mobility Mats",
+      "hotspot_id": "chicago-il",
+      "city": "Chicago",
+      "state": "IL",
+      "category": "adaptive_recreation",
+      "access": [
+        "wheelchair",
+        "cane",
+        "walker",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free; mats and beach chairs free",
+      "setting": "outdoor",
+      "description": "Beach mats and floating chairs make sand and shallow water accessible. Kids splash, dig, and build castles alongside friends.",
+      "accessibility_notes": [
+        "Beach mats to the shoreline",
+        "Floating chairs available",
+        "Accessible restrooms and changing rooms"
+      ],
+      "best_time": "Summer weekday mornings, 9am-noon.",
+      "caregiver_tip": "Call ahead to confirm chairs are available.",
+      "venue": "Lakefront beach, mobility mat entrance by the lifeguard station",
+      "neighborhood": "Lakefront",
+      "schedule": {
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri"
+        ],
+        "start": "09:00",
+        "end": "12:00",
+        "season": "Memorial Day–Labor Day",
+        "notes": "Mats and beach chairs available; weather dependent"
+      },
+      "how_to_join": "Just show up and ask a lifeguard for the mat access point.",
+      "website": ""
+    },
+    {
+      "id": "act-030",
+      "name": "Sled Hockey Learn-to-Play",
+      "hotspot_id": "chicago-il",
+      "city": "Chicago",
+      "state": "IL",
+      "category": "adaptive_sports",
+      "access": [
+        "wheelchair",
+        "walker"
+      ],
+      "ages": [
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under25",
+      "price_note": "$20 per session; equipment provided",
+      "setting": "indoor",
+      "description": "Kids glide across the ice on sleds with mini sticks and big grins. Volunteers and coaches help every player score a first goal.",
+      "accessibility_notes": [
+        "Adaptive sleds provided",
+        "Accessible rink entrance",
+        "Coaches trained in adaptive hockey"
+      ],
+      "best_time": "Saturday mornings in winter, 8-10am.",
+      "caregiver_tip": "Bring warm layers; it is cold.",
+      "venue": "Indoor ice rink, main sheet",
+      "neighborhood": "Central Chicago",
+      "schedule": {
+        "days": [
+          "Sat"
+        ],
+        "start": "08:00",
+        "end": "10:00",
+        "season": "November–March",
+        "notes": "Sleds and gear provided; registration required"
+      },
+      "how_to_join": "Register with the hockey program a week ahead.",
+      "website": ""
+    },
+    {
+      "id": "act-031",
+      "name": "Museum Sensory Sundays",
+      "hotspot_id": "chicago-il",
+      "city": "Chicago",
+      "state": "IL",
+      "category": "sensory_friendly_museum",
+      "access": [
+        "wheelchair",
+        "cane",
+        "walker",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12"
+      ],
+      "cost_tier": "under50",
+      "price_note": "$18 child; caregivers discounted",
+      "setting": "indoor",
+      "description": "Quiet hours with lowered volume and calmer lighting invite kids to explore tactile exhibits. A calm room offers a breather.",
+      "accessibility_notes": [
+        "Calm room",
+        "Elevators and ramps",
+        "Sensory kits to borrow"
+      ],
+      "best_time": "Sunday mornings, 8-10am.",
+      "caregiver_tip": "Reserve timed tickets.",
+      "venue": "Museum, ground-floor galleries",
+      "neighborhood": "Central Chicago",
+      "schedule": {
+        "days": [
+          "Sun"
+        ],
+        "start": "08:00",
+        "end": "10:00",
+        "season": "Year-round",
+        "notes": "Lower sound and lighting before opening"
+      },
+      "how_to_join": "Reserve tickets on the museum's website ahead of time.",
+      "website": ""
+    },
+    {
+      "id": "act-047",
+      "name": "Lake Hike-and-Bike Boardwalk",
+      "hotspot_id": "austin-tx",
+      "city": "Austin",
+      "state": "TX",
+      "category": "accessible_trail",
+      "access": [
+        "wheelchair",
+        "cane",
+        "walker",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free",
+      "setting": "outdoor",
+      "description": "A boardwalk circles the lake with views of skyline and sunsets. Kids can watch rowers and paddlers go by.",
+      "accessibility_notes": [
+        "Boardwalk with railings",
+        "Benches",
+        "Accessible restrooms"
+      ],
+      "best_time": "Sunrise or sunset, when it is cool and beautiful.",
+      "caregiver_tip": "Bring water; shade is limited.",
+      "venue": "Lakeside hike-and-bike boardwalk, trailhead parking lot",
+      "neighborhood": "Central Austin",
+      "schedule": {
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ],
+        "start": "06:00",
+        "end": "20:00",
+        "season": "Year-round",
+        "notes": "Open daily; sunrise and sunset are the best times"
+      },
+      "how_to_join": "Just show up; no registration needed.",
+      "website": ""
+    },
+    {
+      "id": "act-048",
+      "name": "Adaptive Dance and Drum Class",
+      "hotspot_id": "austin-tx",
+      "city": "Austin",
+      "state": "TX",
+      "category": "music_dance",
+      "access": [
+        "wheelchair",
+        "cane",
+        "walker",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17"
+      ],
+      "cost_tier": "under25",
+      "price_note": "$12 per class",
+      "setting": "indoor",
+      "description": "Rhythm, movement, and joy for every body, with instructors adapting each routine. Kids drum, dance, and perform at the end.",
+      "accessibility_notes": [
+        "Accessible studio",
+        "ASL interpreter on request",
+        "Adaptive instruments"
+      ],
+      "best_time": "Tuesday evenings, 6-7:30pm.",
+      "caregiver_tip": "Bring a water bottle.",
+      "venue": "Community studio, dance room",
+      "neighborhood": "South Austin",
+      "schedule": {
+        "days": [
+          "Tue"
+        ],
+        "start": "18:00",
+        "end": "19:30",
+        "season": "School year",
+        "notes": "Eight-week sessions; registration required"
+      },
+      "how_to_join": "Register with the studio a week ahead.",
+      "website": ""
+    },
+    {
+      "id": "act-049",
+      "name": "Adaptive Rowing Intro",
+      "hotspot_id": "austin-tx",
+      "city": "Austin",
+      "state": "TX",
+      "category": "adaptive_sports",
+      "access": [
+        "wheelchair",
+        "cane",
+        "walker",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under100",
+      "price_note": "$50 per session; financial aid available",
+      "setting": "outdoor",
+      "description": "Teens and young adults learn to row on calm water with stabilizers and coaches. A sunrise row on the lake is unforgettable.",
+      "accessibility_notes": [
+        "Adaptive boats",
+        "Trained coaches",
+        "Accessible dock"
+      ],
+      "best_time": "Saturday sunrise, 6:30-9am.",
+      "caregiver_tip": "Wear sunscreen.",
+      "venue": "Lakeside rowing dock, boathouse",
+      "neighborhood": "Central Austin",
+      "schedule": {
+        "days": [
+          "Sat"
+        ],
+        "start": "06:30",
+        "end": "09:00",
+        "season": "March–November",
+        "notes": "Adaptive boats and coaches provided; registration required"
+      },
+      "how_to_join": "Sign up with the rowing program a week ahead.",
+      "website": ""
+    },
+    {
+      "id": "act-055",
+      "name": "Adaptive Ski and Snowboard Day",
+      "hotspot_id": "denver-co",
+      "city": "Denver",
+      "state": "CO",
+      "category": "adaptive_sports",
+      "access": [
+        "wheelchair",
+        "cane",
+        "walker",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "over100",
+      "price_note": "$150 per day; scholarships available",
+      "setting": "outdoor",
+      "description": "Sit-skis, outriggers, and expert instructors take kids down the mountain. Everyone leaves with a story.",
+      "accessibility_notes": [
+        "Adaptive equipment provided",
+        "Trained instructors",
+        "Accessible base lodge"
+      ],
+      "best_time": "Winter weekends, 9am-3pm.",
+      "caregiver_tip": "Register in autumn.",
+      "venue": "Mountain resort, adaptive ski school meeting area",
+      "neighborhood": "Front Range",
+      "schedule": {
+        "days": [
+          "Sat",
+          "Sun"
+        ],
+        "start": "09:00",
+        "end": "15:00",
+        "season": "December–March",
+        "notes": "Adaptive gear and instructors provided; reservation required"
+      },
+      "how_to_join": "Book a lesson with the adaptive ski program weeks ahead.",
+      "website": ""
+    },
+    {
+      "id": "act-056",
+      "name": "Museum Sensory-Friendly Hours",
+      "hotspot_id": "denver-co",
+      "city": "Denver",
+      "state": "CO",
+      "category": "sensory_friendly_museum",
+      "access": [
+        "wheelchair",
+        "cane",
+        "walker",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12"
+      ],
+      "cost_tier": "under25",
+      "price_note": "$10 per child; caregivers free",
+      "setting": "indoor",
+      "description": "Lower sound and light levels make exhibits friendly. Kids explore hands-on stations with room to roll.",
+      "accessibility_notes": [
+        "Quiet room",
+        "Elevators and ramps",
+        "Sensory kits"
+      ],
+      "best_time": "First Sunday morning of the month, 8-10am.",
+      "caregiver_tip": "Reserve ahead.",
+      "venue": "Museum, ground-floor galleries",
+      "neighborhood": "Central Denver",
+      "schedule": {
+        "days": [
+          "Sun"
+        ],
+        "start": "08:00",
+        "end": "10:00",
+        "season": "Year-round",
+        "notes": "First Sunday of each month; before regular opening"
+      },
+      "how_to_join": "Reserve tickets on the museum's website ahead of time.",
+      "website": ""
+    },
+    {
+      "id": "act-057",
+      "name": "Creekside Trail Roll",
+      "hotspot_id": "denver-co",
+      "city": "Denver",
+      "state": "CO",
+      "category": "accessible_trail",
+      "access": [
+        "wheelchair",
+        "cane",
+        "walker",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free",
+      "setting": "outdoor",
+      "description": "A paved creekside trail with bridges and mountain views. Kids spot ducks and wave to cyclists.",
+      "accessibility_notes": [
+        "Paved trail",
+        "Benches",
+        "Accessible restrooms"
+      ],
+      "best_time": "Mornings, when the creek is peaceful.",
+      "caregiver_tip": "Bring sunscreen; the sun is strong.",
+      "venue": "Creekside trail, paved section by the trailhead",
+      "neighborhood": "Central Denver",
+      "schedule": {
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ],
+        "start": "06:30",
+        "end": "19:00",
+        "season": "Year-round",
+        "notes": "Open daily dawn to dusk; mornings are quiet"
+      },
+      "how_to_join": "Just show up; no registration needed.",
+      "website": ""
+    },
+    {
+      "id": "act-064",
+      "name": "Ferry and Waterfront Roll",
+      "hotspot_id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "category": "adaptive_recreation",
+      "access": [
+        "wheelchair",
+        "cane",
+        "walker",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under25",
+      "price_note": "$10 ferry fare; kids reduced",
+      "setting": "hybrid",
+      "description": "Roll onto an accessible ferry and explore waterfront paths with views of mountains and sound. Kids watch gulls and ferries go by.",
+      "accessibility_notes": [
+        "Accessible ferries",
+        "Paved waterfront paths",
+        "Accessible restrooms"
+      ],
+      "best_time": "Weekday mornings, when the commuter rush has passed.",
+      "caregiver_tip": "Check the ferry schedule.",
+      "venue": "Ferry terminal and waterfront promenade",
+      "neighborhood": "Central Waterfront",
+      "schedule": {
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri"
+        ],
+        "start": "09:00",
+        "end": "12:00",
+        "season": "Year-round",
+        "notes": "Ferry schedules vary; check before you go"
+      },
+      "how_to_join": "Just show up; buy a ferry ticket at the terminal.",
+      "website": ""
+    },
+    {
+      "id": "act-065",
+      "name": "Aquarium Touch-Pool Access Hours",
+      "hotspot_id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "category": "zoo_aquarium",
+      "access": [
+        "wheelchair",
+        "cane",
+        "walker",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12"
+      ],
+      "cost_tier": "under50",
+      "price_note": "$20 per child; caregivers discounted",
+      "setting": "indoor",
+      "description": "Low-sound access hours with tactile touch pools and soft lights. Kids meet sea stars and anemones up close.",
+      "accessibility_notes": [
+        "Low-height touch pools",
+        "Quiet room",
+        "Elevators"
+      ],
+      "best_time": "Sunday mornings, 8:30-10:30am.",
+      "caregiver_tip": "Reserve ahead.",
+      "venue": "Aquarium, touch-pool exhibit area",
+      "neighborhood": "Central Waterfront",
+      "schedule": {
+        "days": [
+          "Sun"
+        ],
+        "start": "08:30",
+        "end": "10:30",
+        "season": "Year-round",
+        "notes": "Touch pools are lowered for access; quieter before opening"
+      },
+      "how_to_join": "Buy tickets online and arrive at opening.",
+      "website": ""
+    },
+    {
+      "id": "act-066",
+      "name": "Adaptive Paddle Day",
+      "hotspot_id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "category": "adaptive_sports",
+      "access": [
+        "wheelchair",
+        "cane",
+        "walker",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under100",
+      "price_note": "$55 per paddler",
+      "setting": "outdoor",
+      "description": "Adaptive seats and trained guides help kids paddle on calm water. Seals and sailboats are optional bonuses.",
+      "accessibility_notes": [
+        "Adaptive seats",
+        "Trained guides",
+        "Accessible dock"
+      ],
+      "best_time": "Summer weekends, 9am-1pm.",
+      "caregiver_tip": "Dress in layers.",
+      "venue": "Lakeside boat launch, adaptive paddle dock",
+      "neighborhood": "Union Bay",
+      "schedule": {
+        "days": [
+          "Sat",
+          "Sun"
+        ],
+        "start": "09:00",
+        "end": "13:00",
+        "season": "June–August",
+        "notes": "Adaptive kayaks and canoes provided; registration required"
+      },
+      "how_to_join": "Register with the paddle program a week ahead.",
+      "website": ""
+    },
+    {
+      "id": "act-087",
+      "name": "Fairmount Inclusive Splash Pad",
+      "hotspot_id": "philadelphia-pa",
+      "city": "Philadelphia",
+      "state": "PA",
+      "category": "inclusive_splash_pad",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free",
+      "setting": "outdoor",
+      "description": "Gentle jets and bubbling fountains turn a hot day into a chorus of squeals and splashes. Kids of every ability dance through the spray together.",
+      "accessibility_notes": [
+        "Flat, slip-resistant surface with step-free access",
+        "Low-pressure jets suitable for sensitive swimmers",
+        "Shaded seating and nearby accessible restrooms"
+      ],
+      "best_time": "Summer mornings, 10am-1pm, when it is warm but not too crowded.",
+      "caregiver_tip": "Bring towels and a change of clothes, plus sunscreen.",
+      "venue": "Public park splash pad",
+      "neighborhood": "Fairmount",
+      "schedule": {
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ],
+        "start": "10:00",
+        "end": "19:00",
+        "season": "Summer (May-September)",
+        "notes": "Open daily in season, weather permitting"
+      },
+      "how_to_join": "Just show up; no registration needed.",
+      "website": ""
+    },
+    {
+      "id": "act-088",
+      "name": "Philadelphia Adaptive Art Studio Open House",
+      "hotspot_id": "philadelphia-pa",
+      "city": "Philadelphia",
+      "state": "PA",
+      "category": "adaptive_arts",
+      "access": [
+        "wheelchair",
+        "walker",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free",
+      "setting": "indoor",
+      "description": "Paint, clay, and bright fabrics spill across tables as budding artists create something wonderfully their own. The studio hums with chatter and pride.",
+      "accessibility_notes": [
+        "Adjustable-height tables with wheelchair clearance",
+        "Adaptive brushes, grips, and tools",
+        "Quiet corner and clear signed instructions"
+      ],
+      "best_time": "Wednesday afternoons, 3:30-5:30pm.",
+      "caregiver_tip": "Wear clothes that can get a little messy.",
+      "venue": "Community arts center studio",
+      "neighborhood": "South Philadelphia",
+      "schedule": {
+        "days": [
+          "Wed"
+        ],
+        "start": "15:30",
+        "end": "17:30",
+        "season": "Year-round",
+        "notes": "Drop-in open studio"
+      },
+      "how_to_join": "Just show up; no registration needed.",
+      "website": ""
+    },
+    {
+      "id": "act-089",
+      "name": "Philadelphia Power Soccer Open Play",
+      "hotspot_id": "philadelphia-pa",
+      "city": "Philadelphia",
+      "state": "PA",
+      "category": "adaptive_sports",
+      "access": [
+        "wheelchair"
+      ],
+      "ages": [
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under25",
+      "price_note": "About $5-10 per session; loaner chairs available",
+      "setting": "indoor",
+      "description": "Power chairs zip and spin as players pass, score, and celebrate goals with the whole team. The gym roars with cheers.",
+      "accessibility_notes": [
+        "Flat indoor court with wide doorways",
+        "Loaner power-chair guards and soccer attachments",
+        "Accessible restrooms near the gym"
+      ],
+      "best_time": "Sunday afternoons, 2-4pm.",
+      "caregiver_tip": "Charge your chair beforehand and bring a water bottle.",
+      "venue": "Recreation center indoor court",
+      "neighborhood": "Germantown",
+      "schedule": {
+        "days": [
+          "Sun"
+        ],
+        "start": "14:00",
+        "end": "16:00",
+        "season": "Year-round",
+        "notes": "Weekly open play; all skill levels"
+      },
+      "how_to_join": "Ask the recreation center's adaptive program team to join the roster.",
+      "website": ""
+    },
+    {
+      "id": "act-096",
+      "name": "Midtown Roll & Stroll Path",
+      "hotspot_id": "atlanta-ga",
+      "city": "Atlanta",
+      "state": "GA",
+      "category": "accessible_trail",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free",
+      "setting": "outdoor",
+      "description": "A smooth, shaded loop invites rolling, strolling, and spotting birds and butterflies along the way. Families linger at every bench to soak in the fresh air.",
+      "accessibility_notes": [
+        "Firm paved surface with gentle slopes",
+        "Benches with companion space along the route",
+        "Accessible restrooms near the trailhead"
+      ],
+      "best_time": "Mornings, 8-11am, when the path is cool and calm.",
+      "caregiver_tip": "Bring water and a hat, and plan a rest stop at the halfway bench.",
+      "venue": "Park loop trail near the main entrance",
+      "neighborhood": "Midtown",
+      "schedule": {
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ],
+        "start": "07:00",
+        "end": "19:00",
+        "season": "Year-round",
+        "notes": "Open daily; drop-in, quietest in the morning"
+      },
+      "how_to_join": "Just show up; no registration needed.",
+      "website": ""
+    },
+    {
+      "id": "act-097",
+      "name": "Decatur Inclusive Playground",
+      "hotspot_id": "atlanta-ga",
+      "city": "Atlanta",
+      "state": "GA",
+      "category": "inclusive_playground",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free",
+      "setting": "outdoor",
+      "description": "Ramps, sensory panels, and roomy swings let every child climb, spin, and shout with joy. Laughter echoes across the soft, springy surface.",
+      "accessibility_notes": [
+        "Poured rubber surfacing that rolls easily",
+        "Ramped play structures with transfer stations",
+        "Shaded seating and accessible restrooms nearby"
+      ],
+      "best_time": "Weekday mornings, 9-11am, before the afternoon rush.",
+      "caregiver_tip": "Visit early on warm days since shade fills up fast.",
+      "venue": "Neighborhood park inclusive play area",
+      "neighborhood": "Decatur",
+      "schedule": {
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ],
+        "start": "08:00",
+        "end": "18:00",
+        "season": "Year-round",
+        "notes": "Open daily; drop-in play"
+      },
+      "how_to_join": "Just show up; no registration needed.",
+      "website": ""
+    },
+    {
+      "id": "act-098",
+      "name": "Atlanta Inclusive Dance & Movement Class",
+      "hotspot_id": "atlanta-ga",
+      "city": "Atlanta",
+      "state": "GA",
+      "category": "music_dance",
+      "access": [
+        "wheelchair",
+        "walker",
+        "hearing",
+        "vision"
+      ],
+      "ages": [
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under25",
+      "price_note": "About $10-15 per class; sliding scale",
+      "setting": "indoor",
+      "description": "Music fills the studio as dancers of every ability swirl, sway, and roll in joyful rhythm. Instructors celebrate every unique way of moving.",
+      "accessibility_notes": [
+        "Step-free studio with open floor space for wheelchairs",
+        "Visual cues and signed directions for hearing differences",
+        "Chairs available for seated and standing dancers"
+      ],
+      "best_time": "Tuesday evenings, 5:30-6:30pm.",
+      "caregiver_tip": "Wear comfy clothes and bring a favorite song idea to share.",
+      "venue": "Community arts center dance studio",
+      "neighborhood": "Grant Park",
+      "schedule": {
+        "days": [
+          "Tue"
+        ],
+        "start": "17:30",
+        "end": "18:30",
+        "season": "Year-round",
+        "notes": "Weekly drop-in class"
+      },
+      "how_to_join": "Sign up with the arts center front desk or just drop in.",
+      "website": ""
+    },
+    {
+      "id": "act-108",
+      "name": "Lincoln Park Roll & Stroll Path",
+      "hotspot_id": "chicago-il",
+      "city": "Chicago",
+      "state": "IL",
+      "category": "accessible_trail",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free",
+      "setting": "outdoor",
+      "description": "A smooth, shaded loop invites rolling, strolling, and spotting birds and butterflies along the way. Families linger at every bench to soak in the fresh air.",
+      "accessibility_notes": [
+        "Firm paved surface with gentle slopes",
+        "Benches with companion space along the route",
+        "Accessible restrooms near the trailhead"
+      ],
+      "best_time": "Mornings, 8-11am, when the path is cool and calm.",
+      "caregiver_tip": "Bring water and a hat, and plan a rest stop at the halfway bench.",
+      "venue": "Park loop trail near the main entrance",
+      "neighborhood": "Lincoln Park",
+      "schedule": {
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ],
+        "start": "07:00",
+        "end": "19:00",
+        "season": "Year-round",
+        "notes": "Open daily; drop-in, quietest in the morning"
+      },
+      "how_to_join": "Just show up; no registration needed.",
+      "website": ""
+    },
+    {
+      "id": "act-109",
+      "name": "Hyde Park Inclusive Playground",
+      "hotspot_id": "chicago-il",
+      "city": "Chicago",
+      "state": "IL",
+      "category": "inclusive_playground",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free",
+      "setting": "outdoor",
+      "description": "Ramps, sensory panels, and roomy swings let every child climb, spin, and shout with joy. Laughter echoes across the soft, springy surface.",
+      "accessibility_notes": [
+        "Poured rubber surfacing that rolls easily",
+        "Ramped play structures with transfer stations",
+        "Shaded seating and accessible restrooms nearby"
+      ],
+      "best_time": "Weekday mornings, 9-11am, before the afternoon rush.",
+      "caregiver_tip": "Visit early on warm days since shade fills up fast.",
+      "venue": "Neighborhood park inclusive play area",
+      "neighborhood": "Hyde Park",
+      "schedule": {
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ],
+        "start": "08:00",
+        "end": "18:00",
+        "season": "Year-round",
+        "notes": "Open daily; drop-in play"
+      },
+      "how_to_join": "Just show up; no registration needed.",
+      "website": ""
+    },
+    {
+      "id": "act-110",
+      "name": "Chicago Inclusive Dance & Movement Class",
+      "hotspot_id": "chicago-il",
+      "city": "Chicago",
+      "state": "IL",
+      "category": "music_dance",
+      "access": [
+        "wheelchair",
+        "walker",
+        "hearing",
+        "vision"
+      ],
+      "ages": [
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under25",
+      "price_note": "About $10-15 per class; sliding scale",
+      "setting": "indoor",
+      "description": "Music fills the studio as dancers of every ability swirl, sway, and roll in joyful rhythm. Instructors celebrate every unique way of moving.",
+      "accessibility_notes": [
+        "Step-free studio with open floor space for wheelchairs",
+        "Visual cues and signed directions for hearing differences",
+        "Chairs available for seated and standing dancers"
+      ],
+      "best_time": "Tuesday evenings, 5:30-6:30pm.",
+      "caregiver_tip": "Wear comfy clothes and bring a favorite song idea to share.",
+      "venue": "Community arts center dance studio",
+      "neighborhood": "Logan Square",
+      "schedule": {
+        "days": [
+          "Tue"
+        ],
+        "start": "17:30",
+        "end": "18:30",
+        "season": "Year-round",
+        "notes": "Weekly drop-in class"
+      },
+      "how_to_join": "Sign up with the arts center front desk or just drop in.",
+      "website": ""
+    },
+    {
+      "id": "act-126",
+      "name": "Austin Little Movers Free Play Hour",
+      "hotspot_id": "austin-tx",
+      "city": "Austin",
+      "state": "TX",
+      "category": "adaptive_recreation",
+      "access": [
+        "wheelchair",
+        "walker",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "0-5"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free",
+      "setting": "indoor",
+      "description": "Soft mats, tunnels, and music invite little ones to crawl, tumble, and cheer at their own pace. Happy squeals echo off the padded walls.",
+      "accessibility_notes": [
+        "Step-free entrance with space for mobility devices",
+        "Soft flooring and low-sensory time slots",
+        "Seating for caregivers at floor level and chair height"
+      ],
+      "best_time": "Friday mornings, 9:30-10:30am.",
+      "caregiver_tip": "Bring socks for little feet and a favorite blanket.",
+      "venue": "Community recreation center playroom",
+      "neighborhood": "Zilker",
+      "schedule": {
+        "days": [
+          "Fri"
+        ],
+        "start": "09:30",
+        "end": "10:30",
+        "season": "Year-round",
+        "notes": "Weekly drop-in free play"
+      },
+      "how_to_join": "Just show up; no registration needed.",
+      "website": ""
+    },
+    {
+      "id": "act-127",
+      "name": "Austin Free Museum Sensory Morning",
+      "hotspot_id": "austin-tx",
+      "city": "Austin",
+      "state": "TX",
+      "category": "sensory_friendly_museum",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "hearing"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free community morning",
+      "setting": "indoor",
+      "description": "Hands-on exhibits glow and hum at a gentler pace while young explorers touch, build, and discover. Smiles and curious questions fill every gallery.",
+      "accessibility_notes": [
+        "Elevator access to every gallery and ramps at entrances",
+        "Reduced lighting and sound with a calm-down room",
+        "Seating and rest spots throughout the exhibits"
+      ],
+      "best_time": "First Sunday mornings, 9-11am, before regular crowds arrive.",
+      "caregiver_tip": "Pack headphones or a favorite comfort item just in case.",
+      "venue": "Community children's museum",
+      "neighborhood": "Hyde Park",
+      "schedule": {
+        "days": [
+          "Sun"
+        ],
+        "start": "09:00",
+        "end": "11:00",
+        "season": "Year-round",
+        "notes": "Free community morning on the first Sunday of each month"
+      },
+      "how_to_join": "Just show up; no registration needed.",
+      "website": ""
+    },
+    {
+      "id": "act-128",
+      "name": "Austin Wheelchair Rugby Intro Clinic",
+      "hotspot_id": "austin-tx",
+      "city": "Austin",
+      "state": "TX",
+      "category": "adaptive_sports",
+      "access": [
+        "wheelchair"
+      ],
+      "ages": [
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free intro clinic; loaner chairs provided",
+      "setting": "indoor",
+      "description": "Players crash, spin, and race in sturdy sport chairs while teammates cheer from every corner of the court. First-timers leave grinning and ready for more.",
+      "accessibility_notes": [
+        "Loaner sport wheelchairs provided",
+        "Accessible gym entrance and locker areas",
+        "Coaches adapt drills to different abilities"
+      ],
+      "best_time": "Saturday afternoons, 1-3pm.",
+      "caregiver_tip": "Wear athletic clothes and bring a water bottle.",
+      "venue": "Community recreation center gym",
+      "neighborhood": "East Austin",
+      "schedule": {
+        "days": [
+          "Sat"
+        ],
+        "start": "13:00",
+        "end": "15:00",
+        "season": "Fall through spring",
+        "notes": "Intro clinic; no experience needed"
+      },
+      "how_to_join": "Contact the recreation center's adaptive sports desk to reserve a spot.",
+      "website": ""
+    },
+    {
+      "id": "act-135",
+      "name": "Capitol Hill Inclusive Splash Pad",
+      "hotspot_id": "denver-co",
+      "city": "Denver",
+      "state": "CO",
+      "category": "inclusive_splash_pad",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free",
+      "setting": "outdoor",
+      "description": "Gentle jets and bubbling fountains turn a hot day into a chorus of squeals and splashes. Kids of every ability dance through the spray together.",
+      "accessibility_notes": [
+        "Flat, slip-resistant surface with step-free access",
+        "Low-pressure jets suitable for sensitive swimmers",
+        "Shaded seating and nearby accessible restrooms"
+      ],
+      "best_time": "Summer mornings, 10am-1pm, when it is warm but not too crowded.",
+      "caregiver_tip": "Bring towels and a change of clothes, plus sunscreen.",
+      "venue": "Public park splash pad",
+      "neighborhood": "Capitol Hill",
+      "schedule": {
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ],
+        "start": "10:00",
+        "end": "19:00",
+        "season": "Summer (May-September)",
+        "notes": "Open daily in season, weather permitting"
+      },
+      "how_to_join": "Just show up; no registration needed.",
+      "website": ""
+    },
+    {
+      "id": "act-136",
+      "name": "Denver Adaptive Art Studio Open House",
+      "hotspot_id": "denver-co",
+      "city": "Denver",
+      "state": "CO",
+      "category": "adaptive_arts",
+      "access": [
+        "wheelchair",
+        "walker",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free",
+      "setting": "indoor",
+      "description": "Paint, clay, and bright fabrics spill across tables as budding artists create something wonderfully their own. The studio hums with chatter and pride.",
+      "accessibility_notes": [
+        "Adjustable-height tables with wheelchair clearance",
+        "Adaptive brushes, grips, and tools",
+        "Quiet corner and clear signed instructions"
+      ],
+      "best_time": "Wednesday afternoons, 3:30-5:30pm.",
+      "caregiver_tip": "Wear clothes that can get a little messy.",
+      "venue": "Community arts center studio",
+      "neighborhood": "Washington Park",
+      "schedule": {
+        "days": [
+          "Wed"
+        ],
+        "start": "15:30",
+        "end": "17:30",
+        "season": "Year-round",
+        "notes": "Drop-in open studio"
+      },
+      "how_to_join": "Just show up; no registration needed.",
+      "website": ""
+    },
+    {
+      "id": "act-137",
+      "name": "Denver Power Soccer Open Play",
+      "hotspot_id": "denver-co",
+      "city": "Denver",
+      "state": "CO",
+      "category": "adaptive_sports",
+      "access": [
+        "wheelchair"
+      ],
+      "ages": [
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under25",
+      "price_note": "About $5-10 per session; loaner chairs available",
+      "setting": "indoor",
+      "description": "Power chairs zip and spin as players pass, score, and celebrate goals with the whole team. The gym roars with cheers.",
+      "accessibility_notes": [
+        "Flat indoor court with wide doorways",
+        "Loaner power-chair guards and soccer attachments",
+        "Accessible restrooms near the gym"
+      ],
+      "best_time": "Sunday afternoons, 2-4pm.",
+      "caregiver_tip": "Charge your chair beforehand and bring a water bottle.",
+      "venue": "Recreation center indoor court",
+      "neighborhood": "Highland",
+      "schedule": {
+        "days": [
+          "Sun"
+        ],
+        "start": "14:00",
+        "end": "16:00",
+        "season": "Year-round",
+        "notes": "Weekly open play; all skill levels"
+      },
+      "how_to_join": "Ask the recreation center's adaptive program team to join the roster.",
+      "website": ""
+    },
+    {
+      "id": "act-144",
+      "name": "Green Lake Roll & Stroll Path",
+      "hotspot_id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "category": "accessible_trail",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free",
+      "setting": "outdoor",
+      "description": "A smooth, shaded loop invites rolling, strolling, and spotting birds and butterflies along the way. Families linger at every bench to soak in the fresh air.",
+      "accessibility_notes": [
+        "Firm paved surface with gentle slopes",
+        "Benches with companion space along the route",
+        "Accessible restrooms near the trailhead"
+      ],
+      "best_time": "Mornings, 8-11am, when the path is cool and calm.",
+      "caregiver_tip": "Bring water and a hat, and plan a rest stop at the halfway bench.",
+      "venue": "Park loop trail near the main entrance",
+      "neighborhood": "Green Lake",
+      "schedule": {
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ],
+        "start": "07:00",
+        "end": "19:00",
+        "season": "Year-round",
+        "notes": "Open daily; drop-in, quietest in the morning"
+      },
+      "how_to_join": "Just show up; no registration needed.",
+      "website": ""
+    },
+    {
+      "id": "act-145",
+      "name": "Capitol Hill Inclusive Playground",
+      "hotspot_id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "category": "inclusive_playground",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free",
+      "setting": "outdoor",
+      "description": "Ramps, sensory panels, and roomy swings let every child climb, spin, and shout with joy. Laughter echoes across the soft, springy surface.",
+      "accessibility_notes": [
+        "Poured rubber surfacing that rolls easily",
+        "Ramped play structures with transfer stations",
+        "Shaded seating and accessible restrooms nearby"
+      ],
+      "best_time": "Weekday mornings, 9-11am, before the afternoon rush.",
+      "caregiver_tip": "Visit early on warm days since shade fills up fast.",
+      "venue": "Neighborhood park inclusive play area",
+      "neighborhood": "Capitol Hill",
+      "schedule": {
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ],
+        "start": "08:00",
+        "end": "18:00",
+        "season": "Year-round",
+        "notes": "Open daily; drop-in play"
+      },
+      "how_to_join": "Just show up; no registration needed.",
+      "website": ""
+    },
+    {
+      "id": "act-146",
+      "name": "Seattle Inclusive Dance & Movement Class",
+      "hotspot_id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "category": "music_dance",
+      "access": [
+        "wheelchair",
+        "walker",
+        "hearing",
+        "vision"
+      ],
+      "ages": [
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under25",
+      "price_note": "About $10-15 per class; sliding scale",
+      "setting": "indoor",
+      "description": "Music fills the studio as dancers of every ability swirl, sway, and roll in joyful rhythm. Instructors celebrate every unique way of moving.",
+      "accessibility_notes": [
+        "Step-free studio with open floor space for wheelchairs",
+        "Visual cues and signed directions for hearing differences",
+        "Chairs available for seated and standing dancers"
+      ],
+      "best_time": "Tuesday evenings, 5:30-6:30pm.",
+      "caregiver_tip": "Wear comfy clothes and bring a favorite song idea to share.",
+      "venue": "Community arts center dance studio",
+      "neighborhood": "Ballard",
+      "schedule": {
+        "days": [
+          "Tue"
+        ],
+        "start": "17:30",
+        "end": "18:30",
+        "season": "Year-round",
+        "notes": "Weekly drop-in class"
+      },
+      "how_to_join": "Sign up with the arts center front desk or just drop in.",
+      "website": ""
+    }
+  ]
+}

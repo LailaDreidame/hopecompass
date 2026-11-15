@@ -1,0 +1,5 @@
+# Python 3.10+   Install:  pip install -r requirements.txt
+fastapi>=0.110
+uvicorn>=0.29
+openai>=1.60
+python-dotenv>=1.0

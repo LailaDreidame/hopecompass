@@ -1,0 +1,1548 @@
+{
+  "version": "1.0",
+  "note": "Illustrative inclusion scores for demo purposes; verify locally.",
+  "hotspots": [
+    {
+      "id": "boston-ma",
+      "city": "Boston",
+      "state": "MA",
+      "region": "Northeast",
+      "lat": 42.36,
+      "lon": -71.06,
+      "scores": {
+        "transit_curb_cuts": 72,
+        "inclusive_playgrounds": 74,
+        "medicaid_waiver": 82,
+        "pediatric_specialty": 97,
+        "inclusive_schools": 80
+      },
+      "tagline": "World-class care meets a city that loves a good parade of wheels.",
+      "highlights": [
+        "Deep bench of pediatric specialists in one compact metro",
+        "Strong state Medicaid coverage for children with disabilities",
+        "Many museums run sensory-friendly hours",
+        "Active adaptive sports programs year-round"
+      ],
+      "pediatric_hospitals": [
+        "Boston Children's Hospital",
+        "Spaulding Rehabilitation Hospital"
+      ],
+      "inclusive_playgrounds": [
+        "Accessible play areas in several neighborhood parks with rubber surfacing",
+        "A waterfront park with ramped play structures"
+      ],
+      "transit_notes": "The T has accessible stations, but older ones can have broken elevators, so check alerts before you leave. The RIDE paratransit service covers the core area; sidewalks in historic neighborhoods can be bumpy.",
+      "waiver_notes": "Massachusetts has several Medicaid pathways for children with significant disabilities, though some programs have waitlists. Call the state's Medicaid office or your hospital social worker to ask which options fit your family.",
+      "school_notes": "Many districts offer inclusion classrooms and strong special education advocacy networks. Boston-area parent advisory councils can help you navigate IEP meetings.",
+      "insider_tips": [
+        {
+          "tip": "Check elevator status on the transit app before every trip; it saves you from stranded-at-the-station moments.",
+          "from": "Grandmother raising a 7-year-old walker user"
+        },
+        {
+          "tip": "Ask the hospital's family resource center for a care coordinator; they know which programs have openings.",
+          "from": "Single dad of a teen with cerebral palsy"
+        },
+        {
+          "tip": "Winter slush hides curb cuts, so carry a small shovel or brush in the van.",
+          "from": "Two-mom family with a power-chair-using 10-year-old"
+        }
+      ],
+      "watch_outs": [
+        "Cold, icy winters make wheeling hard",
+        "Housing costs are among the highest in the country"
+      ],
+      "cost_of_living": "high"
+    },
+    {
+      "id": "new-york-ny",
+      "city": "New York",
+      "state": "NY",
+      "region": "Northeast",
+      "lat": 40.71,
+      "lon": -74.01,
+      "scores": {
+        "transit_curb_cuts": 61,
+        "inclusive_playgrounds": 76,
+        "medicaid_waiver": 78,
+        "pediatric_specialty": 96,
+        "inclusive_schools": 70
+      },
+      "tagline": "Every borough has a stage, a museum, and a family who knows the shortcuts.",
+      "highlights": [
+        "Countless sensory-friendly performances and museum hours",
+        "Top pediatric specialty hospitals",
+        "Dense adaptive arts and dance scene",
+        "Accessible buses on every route"
+      ],
+      "pediatric_hospitals": [
+        "NewYork-Presbyterian Morgan Stanley Children's Hospital",
+        "Hospital for Special Surgery"
+      ],
+      "inclusive_playgrounds": [
+        "Many city parks have playgrounds with accessible ramps and rubber surfacing",
+        "Waterfront parks with accessible play areas"
+      ],
+      "transit_notes": "All buses are accessible, but only a portion of subway stations have elevators, so plan routes ahead. Access-A-Ride paratransit exists but needs advance booking and patience.",
+      "waiver_notes": "New York has multiple waiver and early intervention pathways, and the process can be paperwork-heavy. Ask your care team or a family advocacy group to help you apply early.",
+      "school_notes": "The city has a wide range of specialized and inclusive programs, but placement can be a negotiation. Parent training and advocacy centers can walk you through it.",
+      "insider_tips": [
+        {
+          "tip": "Map your subway elevators ahead of time and keep a bus backup plan.",
+          "from": "Aunt raising a 12-year-old wheelchair user"
+        },
+        {
+          "tip": "Ask theaters about sensory-friendly performances; many do them a few times a season.",
+          "from": "Foster parent of a child with hearing loss"
+        },
+        {
+          "tip": "Join a neighborhood parent group to learn which buildings truly have working ramps.",
+          "from": "Grandfather caring for a 6-year-old with limited mobility"
+        }
+      ],
+      "watch_outs": [
+        "Many older buildings lack elevators",
+        "Cost of living and apartment sizes are a squeeze"
+      ],
+      "cost_of_living": "high"
+    },
+    {
+      "id": "philadelphia-pa",
+      "city": "Philadelphia",
+      "state": "PA",
+      "region": "Northeast",
+      "lat": 39.95,
+      "lon": -75.17,
+      "scores": {
+        "transit_curb_cuts": 58,
+        "inclusive_playgrounds": 68,
+        "medicaid_waiver": 66,
+        "pediatric_specialty": 94,
+        "inclusive_schools": 64
+      },
+      "tagline": "Big-city specialists, small-neighborhood warmth.",
+      "highlights": [
+        "Leading pediatric hospitals within a few miles",
+        "Affordable compared to other Northeast cities",
+        "Strong adaptive sports and arts nonprofits",
+        "Rowhouse neighborhoods with tight-knit support"
+      ],
+      "pediatric_hospitals": [
+        "Children's Hospital of Philadelphia",
+        "Shriners Children's Philadelphia"
+      ],
+      "inclusive_playgrounds": [
+        "Several rec centers with accessible play areas",
+        "A riverfront trail with smooth surfaces and play stops"
+      ],
+      "transit_notes": "SEPTA buses have lifts and some rail stations are accessible, though not all. Paratransit is available; brick sidewalks in older areas can be rough.",
+      "waiver_notes": "Pennsylvania has home and community-based options for children, and some include waitlists. Ask your pediatric team for a referral to a service coordinator.",
+      "school_notes": "The district and nearby suburbs differ a lot; ask about inclusion models and transportation. Parent advocacy groups are active.",
+      "insider_tips": [
+        {
+          "tip": "Rowhouse stoops are a pain, so look for first-floor units with a ramp-friendly entry.",
+          "from": "Kinship caregiver for a 9-year-old"
+        },
+        {
+          "tip": "Ask CHOP's social work team about community resources; they know the local programs.",
+          "from": "Grandmother raising twins, one with cerebral palsy"
+        },
+        {
+          "tip": "Museum membership often includes access passes for caregivers.",
+          "from": "Uncle guardian of a 15-year-old"
+        }
+      ],
+      "watch_outs": [
+        "Uneven sidewalks and old rowhouses",
+        "Rail station accessibility is patchy"
+      ],
+      "cost_of_living": "moderate"
+    },
+    {
+      "id": "pittsburgh-pa",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "region": "Northeast",
+      "lat": 40.44,
+      "lon": -79.99,
+      "scores": {
+        "transit_curb_cuts": 50,
+        "inclusive_playgrounds": 66,
+        "medicaid_waiver": 65,
+        "pediatric_specialty": 88,
+        "inclusive_schools": 68
+      },
+      "tagline": "Hills, bridges, and a community that shows up.",
+      "highlights": [
+        "Strong pediatric hospital system",
+        "Lower cost of living than coastal metros",
+        "Active riverfront trails",
+        "Friendly neighborhood parent networks"
+      ],
+      "pediatric_hospitals": [
+        "UPMC Children's Hospital of Pittsburgh"
+      ],
+      "inclusive_playgrounds": [
+        "Accessible playground areas in several city parks",
+        "A riverside trail system with smooth surfaces"
+      ],
+      "transit_notes": "Buses are accessible and light rail has some accessible stops. Steep hills and stairs-as-streets in some neighborhoods make wheeling a workout.",
+      "waiver_notes": "Pennsylvania offers home and community-based programs; waitlists vary. Ask your hospital team to connect you with a county service coordinator.",
+      "school_notes": "Quality varies by district; many suburbs have solid special education teams. Plan school visits before settling on a neighborhood.",
+      "insider_tips": [
+        {
+          "tip": "Choose neighborhoods by slope, not just school ratings.",
+          "from": "Foster parent of a power-chair user"
+        },
+        {
+          "tip": "River trail days are a free, flat outing; go early before bikes crowd it.",
+          "from": "Single dad of a 7-year-old with a walker"
+        },
+        {
+          "tip": "Ask neighbors about snow plow habits before you rent.",
+          "from": "Grandmother guardian of a teen"
+        }
+      ],
+      "watch_outs": [
+        "Steep hills and winter ice",
+        "Older housing stock rarely has accessible entries"
+      ],
+      "cost_of_living": "low"
+    },
+    {
+      "id": "washington-dc",
+      "city": "Washington",
+      "state": "DC",
+      "region": "Northeast",
+      "lat": 38.91,
+      "lon": -77.04,
+      "scores": {
+        "transit_curb_cuts": 82,
+        "inclusive_playgrounds": 72,
+        "medicaid_waiver": 70,
+        "pediatric_specialty": 93,
+        "inclusive_schools": 66
+      },
+      "tagline": "Free museums, step-free Metro, and advocacy in the water.",
+      "highlights": [
+        "Most Metro stations have elevators",
+        "Many free museums with accessibility programs",
+        "Strong disability advocacy community",
+        "Nearby specialty pediatric care"
+      ],
+      "pediatric_hospitals": [
+        "Children's National Hospital"
+      ],
+      "inclusive_playgrounds": [
+        "Accessible play areas in several neighborhood parks",
+        "Inclusive playground options across the metro area"
+      ],
+      "transit_notes": "Metro is one of the more accessible systems, and buses have lifts. Elevator outages happen, so check status first.",
+      "waiver_notes": "The District and neighboring states each have their own Medicaid pathways for children with disabilities. Moving across the DC, Maryland, or Virginia lines can change your options, so ask before you rent.",
+      "school_notes": "The city offers public, charter, and specialized programs, with active parent advocacy groups. Ask about transportation supports.",
+      "insider_tips": [
+        {
+          "tip": "Smithsonian museums offer sensory and access programs; check their calendars.",
+          "from": "Grandfather raising a 5-year-old with vision loss"
+        },
+        {
+          "tip": "Compare state lines before you choose a home; waivers differ.",
+          "from": "Aunt guardian of a young adult with CP"
+        },
+        {
+          "tip": "Ask Metro for a Metro Access eligibility form early.",
+          "from": "Two-dad family with a teen cane user"
+        }
+      ],
+      "watch_outs": [
+        "Summer heat and humidity",
+        "Rents are high near the center"
+      ],
+      "cost_of_living": "high"
+    },
+    {
+      "id": "atlanta-ga",
+      "city": "Atlanta",
+      "state": "GA",
+      "region": "Southeast",
+      "lat": 33.75,
+      "lon": -84.39,
+      "scores": {
+        "transit_curb_cuts": 55,
+        "inclusive_playgrounds": 70,
+        "medicaid_waiver": 55,
+        "pediatric_specialty": 92,
+        "inclusive_schools": 62
+      },
+      "tagline": "Sunny, spread-out, and full of wheel-friendly celebrations.",
+      "highlights": [
+        "Leading pediatric hospital network",
+        "Many accessible parks and trails",
+        "Active adaptive sports community",
+        "Warm climate for outdoor play"
+      ],
+      "pediatric_hospitals": [
+        "Children's Healthcare of Atlanta Scottish Rite",
+        "Children's Healthcare of Atlanta Egleston"
+      ],
+      "inclusive_playgrounds": [
+        "Accessible playground areas in several metro parks",
+        "A large inclusive playground in a suburban county park"
+      ],
+      "transit_notes": "MARTA rail stations are accessible and buses have lifts, but the metro is car-dependent. Paratransit is available within service areas.",
+      "waiver_notes": "Georgia has waiver programs, and waitlists can be long. Get on lists early and ask your care team for help.",
+      "school_notes": "Suburban districts vary widely. Visit and ask about inclusion models before you pick a neighborhood.",
+      "insider_tips": [
+        {
+          "tip": "Put your name on every waiver waitlist immediately, even if you think you do not need it yet.",
+          "from": "Grandmother raising a 10-year-old"
+        },
+        {
+          "tip": "Park in the first-row accessible spots early; events fill fast.",
+          "from": "Single dad of a power-chair user"
+        },
+        {
+          "tip": "Ask the hospital's family program about equipment loan closets.",
+          "from": "Kinship caregiver for a 7-year-old"
+        }
+      ],
+      "watch_outs": [
+        "Sprawl makes car ownership nearly essential",
+        "Waiver waitlists can be long"
+      ],
+      "cost_of_living": "moderate"
+    },
+    {
+      "id": "charlotte-nc",
+      "city": "Charlotte",
+      "state": "NC",
+      "region": "Southeast",
+      "lat": 35.23,
+      "lon": -80.84,
+      "scores": {
+        "transit_curb_cuts": 58,
+        "inclusive_playgrounds": 74,
+        "medicaid_waiver": 62,
+        "pediatric_specialty": 84,
+        "inclusive_schools": 66
+      },
+      "tagline": "Greenways, growth, and room to roll.",
+      "highlights": [
+        "Extensive greenway trail system",
+        "Growing pediatric specialty care",
+        "Newer buildings are often accessible",
+        "Affordable compared with the coasts"
+      ],
+      "pediatric_hospitals": [
+        "Levine Children's Hospital"
+      ],
+      "inclusive_playgrounds": [
+        "Accessible play areas in county parks",
+        "A greenway-connected inclusive playground"
+      ],
+      "transit_notes": "The light rail and buses are accessible, and paratransit is available. Newer areas have good curb cuts, but older ones are patchy.",
+      "waiver_notes": "North Carolina has home and community-based pathways for children, and waitlists exist. Ask your care team about early registration.",
+      "school_notes": "The large district offers programs across the spectrum; ask about inclusive options and bus accessibility.",
+      "insider_tips": [
+        {
+          "tip": "Newer neighborhoods tend to have better sidewalks; ask your realtor about that, not just school zones.",
+          "from": "Two-mom family with a 9-year-old wheelchair user"
+        },
+        {
+          "tip": "Greenways are a free, flat outing.",
+          "from": "Grandfather raising a grandson with a walker"
+        },
+        {
+          "tip": "Ask for a school accessibility walkthrough before enrolling.",
+          "from": "Aunt guardian of a teen"
+        }
+      ],
+      "watch_outs": [
+        "Car-dependent layout",
+        "Rapid growth is pushing up housing costs"
+      ],
+      "cost_of_living": "moderate"
+    },
+    {
+      "id": "orlando-fl",
+      "city": "Orlando",
+      "state": "FL",
+      "region": "Southeast",
+      "lat": 28.54,
+      "lon": -81.38,
+      "scores": {
+        "transit_curb_cuts": 56,
+        "inclusive_playgrounds": 80,
+        "medicaid_waiver": 52,
+        "pediatric_specialty": 85,
+        "inclusive_schools": 60
+      },
+      "tagline": "Theme parks that plan for wheels, and sunshine all year.",
+      "highlights": [
+        "Theme parks with disability access services",
+        "Warm weather for year-round outdoor fun",
+        "Strong pediatric hospital options",
+        "Many accessible hotels and venues"
+      ],
+      "pediatric_hospitals": [
+        "Nemours Children's Hospital, Florida",
+        "Arnold Palmer Hospital for Children"
+      ],
+      "inclusive_playgrounds": [
+        "Accessible playgrounds in several city parks",
+        "A splash-pad-equipped inclusive play area"
+      ],
+      "transit_notes": "LYNX buses have lifts, and paratransit is available. The area is car-oriented, and summer heat and storms affect travel.",
+      "waiver_notes": "Florida has waiver programs for people with developmental disabilities, and waitlists can be long. Ask early and keep your paperwork organized.",
+      "school_notes": "Choice programs and magnet options exist. Ask about inclusion supports and transportation.",
+      "insider_tips": [
+        {
+          "tip": "Ask park guest services about disability access passes before you buy tickets.",
+          "from": "Grandmother raising a 6-year-old"
+        },
+        {
+          "tip": "Go early in the day, before afternoon storms and heat.",
+          "from": "Single dad of a power-chair user"
+        },
+        {
+          "tip": "Keep a cooling towel in the bag; metal wheelchair parts get hot.",
+          "from": "Foster parent of two kids"
+        }
+      ],
+      "watch_outs": [
+        "Heat, humidity, and hurricane season",
+        "Waiver waitlists"
+      ],
+      "cost_of_living": "moderate"
+    },
+    {
+      "id": "nashville-tn",
+      "city": "Nashville",
+      "state": "TN",
+      "region": "Southeast",
+      "lat": 36.16,
+      "lon": -86.78,
+      "scores": {
+        "transit_curb_cuts": 48,
+        "inclusive_playgrounds": 68,
+        "medicaid_waiver": 58,
+        "pediatric_specialty": 90,
+        "inclusive_schools": 64
+      },
+      "tagline": "A music city where every kid can find a stage.",
+      "highlights": [
+        "Excellent pediatric specialty care",
+        "Strong music and adaptive arts scene",
+        "Accessible greenways",
+        "Friendly community"
+      ],
+      "pediatric_hospitals": [
+        "Monroe Carell Jr. Children's Hospital at Vanderbilt"
+      ],
+      "inclusive_playgrounds": [
+        "Accessible play areas in several metro parks",
+        "A greenway-adjacent playground with rubber surfacing"
+      ],
+      "transit_notes": "Buses are accessible, but coverage is limited and the city is car-dependent. Paratransit is available.",
+      "waiver_notes": "Tennessee has home and community-based programs, and some have waitlists. Ask your hospital social worker for guidance.",
+      "school_notes": "The district offers special education services; ask about inclusion and transportation.",
+      "insider_tips": [
+        {
+          "tip": "Ask about music therapy and adaptive music programs; many are low cost.",
+          "from": "Aunt raising a 9-year-old with limited mobility"
+        },
+        {
+          "tip": "A car with a ramp or lift is nearly essential here.",
+          "from": "Single dad of a teen"
+        },
+        {
+          "tip": "Check event venues for accessible seating before buying.",
+          "from": "Grandmother guardian of a young adult"
+        }
+      ],
+      "watch_outs": [
+        "Limited transit coverage",
+        "Rising rents"
+      ],
+      "cost_of_living": "moderate"
+    },
+    {
+      "id": "chicago-il",
+      "city": "Chicago",
+      "state": "IL",
+      "region": "Midwest",
+      "lat": 41.88,
+      "lon": -87.63,
+      "scores": {
+        "transit_curb_cuts": 66,
+        "inclusive_playgrounds": 76,
+        "medicaid_waiver": 64,
+        "pediatric_specialty": 95,
+        "inclusive_schools": 66
+      },
+      "tagline": "A lakefront city with adaptive everything.",
+      "highlights": [
+        "Renowned pediatric and rehab care",
+        "Accessible lakefront trail",
+        "Strong adaptive sports community",
+        "Many museums with sensory hours"
+      ],
+      "pediatric_hospitals": [
+        "Ann & Robert H. Lurie Children's Hospital of Chicago",
+        "Shirley Ryan AbilityLab"
+      ],
+      "inclusive_playgrounds": [
+        "Many park district playgrounds with accessible surfacing",
+        "Lakefront parks with accessible play areas"
+      ],
+      "transit_notes": "CTA buses are accessible, and an increasing number of 'L' stations have elevators. Paratransit is available. Winter weather is a real factor.",
+      "waiver_notes": "Illinois has several home and community-based options for children with disabilities, and waitlists may apply. Ask your hospital team about a service coordinator.",
+      "school_notes": "Options include neighborhood, selective, and specialized programs. Parent advocacy groups can support IEP planning.",
+      "insider_tips": [
+        {
+          "tip": "The lakefront trail is a great flat route; go on weekday mornings.",
+          "from": "Grandfather raising a 12-year-old"
+        },
+        {
+          "tip": "Check 'L' station elevator status before heading out.",
+          "from": "Two-mom family with a power-chair user"
+        },
+        {
+          "tip": "Park district adaptive programs are low cost; register early.",
+          "from": "Foster parent of a 9-year-old"
+        }
+      ],
+      "watch_outs": [
+        "Brutal winters",
+        "Some stations lack elevators"
+      ],
+      "cost_of_living": "moderate"
+    },
+    {
+      "id": "minneapolis-mn",
+      "city": "Minneapolis",
+      "state": "MN",
+      "region": "Midwest",
+      "lat": 44.98,
+      "lon": -93.27,
+      "scores": {
+        "transit_curb_cuts": 70,
+        "inclusive_playgrounds": 80,
+        "medicaid_waiver": 76,
+        "pediatric_specialty": 92,
+        "inclusive_schools": 78
+      },
+      "tagline": "Lakes, trails, and a deep winter sports culture that welcomes everyone.",
+      "highlights": [
+        "Renowned pediatric orthopedic and rehab care",
+        "Strong adaptive winter sports",
+        "Extensive trail system",
+        "Active disability advocacy"
+      ],
+      "pediatric_hospitals": [
+        "Gillette Children's",
+        "Children's Minnesota"
+      ],
+      "inclusive_playgrounds": [
+        "Many park board playgrounds with accessible surfacing",
+        "Inclusive playground areas around the lakes"
+      ],
+      "transit_notes": "Buses and light rail are accessible, and paratransit is available. Snow and ice are real, but plowing is a priority.",
+      "waiver_notes": "Minnesota has multiple waiver programs for children, and the state is known for relatively robust coverage. Waitlists exist for some programs, so ask early.",
+      "school_notes": "Many districts have strong inclusion cultures, and open enrollment lets you shop around.",
+      "insider_tips": [
+        {
+          "tip": "Adaptive hockey and skiing programs welcome kids of all abilities; call in the fall.",
+          "from": "Single dad of a sled hockey player"
+        },
+        {
+          "tip": "Skyway systems keep you warm in downtown winters.",
+          "from": "Grandmother raising a 7-year-old"
+        },
+        {
+          "tip": "Open enrollment lets you find the school with the best fit.",
+          "from": "Two-dad family with a teen"
+        }
+      ],
+      "watch_outs": [
+        "Long, cold winters",
+        "Equipment for ice and snow adds up"
+      ],
+      "cost_of_living": "moderate"
+    },
+    {
+      "id": "columbus-oh",
+      "city": "Columbus",
+      "state": "OH",
+      "region": "Midwest",
+      "lat": 39.96,
+      "lon": -83.0,
+      "scores": {
+        "transit_curb_cuts": 60,
+        "inclusive_playgrounds": 72,
+        "medicaid_waiver": 60,
+        "pediatric_specialty": 93,
+        "inclusive_schools": 70
+      },
+      "tagline": "Big pediatric care, small-city prices.",
+      "highlights": [
+        "Nationally known children's hospital",
+        "Affordable housing",
+        "Accessible metro parks",
+        "Strong family support networks"
+      ],
+      "pediatric_hospitals": [
+        "Nationwide Children's Hospital"
+      ],
+      "inclusive_playgrounds": [
+        "Accessible playgrounds in several metro parks",
+        "A large inclusive playground in a suburban park"
+      ],
+      "transit_notes": "Buses are accessible and paratransit is available. The city is car-oriented, with good curb cuts in newer areas.",
+      "waiver_notes": "Ohio has waiver programs for children with disabilities, and county boards of developmental disabilities can help you start. Ask about early enrollment.",
+      "school_notes": "Many suburban districts offer strong special education programs. County boards can also assist.",
+      "insider_tips": [
+        {
+          "tip": "Call your county board of developmental disabilities; they open doors.",
+          "from": "Grandmother raising a 9-year-old"
+        },
+        {
+          "tip": "Metro parks have paved accessible trails; check their site for maps.",
+          "from": "Single dad of a 6-year-old"
+        },
+        {
+          "tip": "Visit schools in person; inclusion looks different in each building.",
+          "from": "Aunt guardian of a teen with hearing loss"
+        }
+      ],
+      "watch_outs": [
+        "Car-dependent",
+        "Winter weather"
+      ],
+      "cost_of_living": "low"
+    },
+    {
+      "id": "madison-wi",
+      "city": "Madison",
+      "state": "WI",
+      "region": "Midwest",
+      "lat": 43.07,
+      "lon": -89.4,
+      "scores": {
+        "transit_curb_cuts": 68,
+        "inclusive_playgrounds": 74,
+        "medicaid_waiver": 66,
+        "pediatric_specialty": 82,
+        "inclusive_schools": 76
+      },
+      "tagline": "A bike-and-wheel-friendly college town with a big heart.",
+      "highlights": [
+        "Walkable and rollable downtown",
+        "Strong children's hospital",
+        "Trails around the lakes",
+        "Community-oriented"
+      ],
+      "pediatric_hospitals": [
+        "American Family Children's Hospital"
+      ],
+      "inclusive_playgrounds": [
+        "Accessible playgrounds in city parks",
+        "A lakeside inclusive play area"
+      ],
+      "transit_notes": "Buses are accessible and paratransit is available. Paths and curb cuts are generally good; winters are cold.",
+      "waiver_notes": "Wisconsin has a Children's Long-Term Support program and waitlists have varied. Ask your county about enrollment.",
+      "school_notes": "Many schools offer inclusion programs, and parent networks are active.",
+      "insider_tips": [
+        {
+          "tip": "Ask your county about children's long-term support early.",
+          "from": "Grandmother guardian of a 7-year-old"
+        },
+        {
+          "tip": "Lakefront paths are lovely and flat; go in the evening.",
+          "from": "Two-mom family with a teen"
+        },
+        {
+          "tip": "University programs sometimes offer adaptive recreation opportunities.",
+          "from": "Uncle raising a niece with CP"
+        }
+      ],
+      "watch_outs": [
+        "Snowy winters",
+        "Housing costs near campus"
+      ],
+      "cost_of_living": "moderate"
+    },
+    {
+      "id": "houston-tx",
+      "city": "Houston",
+      "state": "TX",
+      "region": "South Central",
+      "lat": 29.76,
+      "lon": -95.37,
+      "scores": {
+        "transit_curb_cuts": 52,
+        "inclusive_playgrounds": 68,
+        "medicaid_waiver": 44,
+        "pediatric_specialty": 96,
+        "inclusive_schools": 60
+      },
+      "tagline": "The Medical Center is huge, and so is the community's heart.",
+      "highlights": [
+        "One of the largest medical centers in the world",
+        "Top rehab and pediatric specialists",
+        "Warm weather",
+        "Diverse caregiver communities"
+      ],
+      "pediatric_hospitals": [
+        "Texas Children's Hospital",
+        "TIRR Memorial Hermann"
+      ],
+      "inclusive_playgrounds": [
+        "Accessible playgrounds in several city parks",
+        "A large inclusive play area in a suburban park"
+      ],
+      "transit_notes": "METRO buses and light rail are accessible, and paratransit exists. The city is very spread out and car-dependent; flooding can disrupt travel.",
+      "waiver_notes": "Texas has Medicaid waiver programs with long waitlists, and early registration is key. Ask your care team to help you join every list that fits.",
+      "school_notes": "Many districts with differing resources; research carefully and ask about special education supports.",
+      "insider_tips": [
+        {
+          "tip": "Join all waiver interest lists the day you get a diagnosis.",
+          "from": "Grandmother raising a 6-year-old"
+        },
+        {
+          "tip": "Hospital family programs often loan equipment while you wait.",
+          "from": "Single dad of a 10-year-old"
+        },
+        {
+          "tip": "Check flood maps before choosing a home.",
+          "from": "Aunt guardian of a young adult"
+        }
+      ],
+      "watch_outs": [
+        "Long waiver waitlists",
+        "Heat and flooding"
+      ],
+      "cost_of_living": "moderate"
+    },
+    {
+      "id": "san-antonio-tx",
+      "city": "San Antonio",
+      "state": "TX",
+      "region": "South Central",
+      "lat": 29.42,
+      "lon": -98.49,
+      "scores": {
+        "transit_curb_cuts": 55,
+        "inclusive_playgrounds": 96,
+        "medicaid_waiver": 44,
+        "pediatric_specialty": 76,
+        "inclusive_schools": 62
+      },
+      "tagline": "Home to a world-famous inclusive playground and a welcoming spirit.",
+      "highlights": [
+        "Morgan's Wonderland, an ultra-accessible theme park",
+        "Accessible River Walk areas",
+        "Warm weather",
+        "Strong family culture"
+      ],
+      "pediatric_hospitals": [
+        "Children's Hospital of San Antonio"
+      ],
+      "inclusive_playgrounds": [
+        "Morgan's Wonderland",
+        "Accessible play areas in city parks"
+      ],
+      "transit_notes": "VIA buses are accessible and paratransit exists. Parts of the River Walk have stairs, so use the accessible routes.",
+      "waiver_notes": "Texas has Medicaid waiver programs with long waitlists, so register early. Ask your care team to help with every list that fits.",
+      "school_notes": "Many districts across the metro; ask about inclusion and supports.",
+      "insider_tips": [
+        {
+          "tip": "Morgan's Wonderland has free admission for guests with special needs; check their current policy.",
+          "from": "Grandmother raising a 7-year-old"
+        },
+        {
+          "tip": "Use the River Walk's accessible entrances; staff can direct you.",
+          "from": "Single dad of a power-chair user"
+        },
+        {
+          "tip": "Visit in cooler months to enjoy outdoor spots.",
+          "from": "Aunt guardian of a teen"
+        }
+      ],
+      "watch_outs": [
+        "Summer heat",
+        "Long waiver waitlists"
+      ],
+      "cost_of_living": "low"
+    },
+    {
+      "id": "austin-tx",
+      "city": "Austin",
+      "state": "TX",
+      "region": "South Central",
+      "lat": 30.27,
+      "lon": -97.74,
+      "scores": {
+        "transit_curb_cuts": 60,
+        "inclusive_playgrounds": 78,
+        "medicaid_waiver": 46,
+        "pediatric_specialty": 82,
+        "inclusive_schools": 66
+      },
+      "tagline": "Live music, lake trails, and a keep-it-weird welcome.",
+      "highlights": [
+        "Strong children's medical center",
+        "Accessible hike-and-bike trails",
+        "Thriving adaptive arts and music",
+        "Mild winters"
+      ],
+      "pediatric_hospitals": [
+        "Dell Children's Medical Center"
+      ],
+      "inclusive_playgrounds": [
+        "Accessible playgrounds in several city parks",
+        "A trail-adjacent inclusive play area"
+      ],
+      "transit_notes": "Buses are accessible, and paratransit is available. The city is hilly in places, and rapid growth means uneven curb cuts.",
+      "waiver_notes": "Texas waiver waitlists are long, so register early. Local intellectual and developmental disability authorities can help you start.",
+      "school_notes": "Many nearby districts; ask about inclusion and special education supports.",
+      "insider_tips": [
+        {
+          "tip": "Ask about adaptive music and dance programs; there are many.",
+          "from": "Two-mom family with a 8-year-old"
+        },
+        {
+          "tip": "Hike-and-bike trails are lovely at sunrise.",
+          "from": "Grandfather raising a grandson"
+        },
+        {
+          "tip": "Register for waivers the day you arrive.",
+          "from": "Foster parent of a teen"
+        }
+      ],
+      "watch_outs": [
+        "Housing costs have climbed",
+        "Hot summers"
+      ],
+      "cost_of_living": "high"
+    },
+    {
+      "id": "dallas-tx",
+      "city": "Dallas",
+      "state": "TX",
+      "region": "South Central",
+      "lat": 32.78,
+      "lon": -96.8,
+      "scores": {
+        "transit_curb_cuts": 54,
+        "inclusive_playgrounds": 72,
+        "medicaid_waiver": 44,
+        "pediatric_specialty": 92,
+        "inclusive_schools": 62
+      },
+      "tagline": "Big specialists, big sky, big accessibility ambitions.",
+      "highlights": [
+        "Leading pediatric hospitals",
+        "Orthopedic specialty care",
+        "Many accessible suburban parks",
+        "Strong adaptive sports"
+      ],
+      "pediatric_hospitals": [
+        "Children's Medical Center Dallas",
+        "Texas Scottish Rite Hospital for Children"
+      ],
+      "inclusive_playgrounds": [
+        "Accessible playgrounds in several suburban parks",
+        "Inclusive play areas in city parks"
+      ],
+      "transit_notes": "DART rail and buses are accessible, and paratransit is available. The metro is vast and car-dependent.",
+      "waiver_notes": "Texas waiver waitlists are long, so sign up early. Your local authority for intellectual and developmental disabilities can get you started.",
+      "school_notes": "Many districts; suburban ones often have strong special education programs.",
+      "insider_tips": [
+        {
+          "tip": "Scottish Rite programs often include adaptive sports; ask about them.",
+          "from": "Single dad of a 10-year-old"
+        },
+        {
+          "tip": "Choose a district first, then a home.",
+          "from": "Grandmother raising a 6-year-old"
+        },
+        {
+          "tip": "Summer afternoons are tough; go early.",
+          "from": "Aunt guardian of a young adult"
+        }
+      ],
+      "watch_outs": [
+        "Car-dependent sprawl",
+        "Waiver waitlists"
+      ],
+      "cost_of_living": "moderate"
+    },
+    {
+      "id": "new-orleans-la",
+      "city": "New Orleans",
+      "state": "LA",
+      "region": "South Central",
+      "lat": 29.95,
+      "lon": -90.07,
+      "scores": {
+        "transit_curb_cuts": 44,
+        "inclusive_playgrounds": 58,
+        "medicaid_waiver": 50,
+        "pediatric_specialty": 74,
+        "inclusive_schools": 52
+      },
+      "tagline": "Music in the streets and joy in every second line.",
+      "highlights": [
+        "Deep music and cultural traditions",
+        "Children's hospital in the city",
+        "Strong community networks",
+        "Mild winters"
+      ],
+      "pediatric_hospitals": [
+        "Children's Hospital New Orleans"
+      ],
+      "inclusive_playgrounds": [
+        "Accessible play areas in a few city parks",
+        "A large park with accessible paths and play stops"
+      ],
+      "transit_notes": "Buses and streetcars are partly accessible, and paratransit exists. Uneven sidewalks and tree roots are common.",
+      "waiver_notes": "Louisiana has waiver programs with waitlists. Ask your care team or a family support organization to help you apply.",
+      "school_notes": "Mostly charter-based; ask each school about special education supports.",
+      "insider_tips": [
+        {
+          "tip": "Bring your own smooth path: scout routes before festivals.",
+          "from": "Grandmother raising a 9-year-old"
+        },
+        {
+          "tip": "Ask schools about their special education teams directly.",
+          "from": "Aunt guardian of a teen"
+        },
+        {
+          "tip": "Check flood zones when choosing housing.",
+          "from": "Single dad of a power-chair user"
+        }
+      ],
+      "watch_outs": [
+        "Broken sidewalks and old buildings",
+        "Hurricane and flood risk"
+      ],
+      "cost_of_living": "moderate"
+    },
+    {
+      "id": "denver-co",
+      "city": "Denver",
+      "state": "CO",
+      "region": "Mountain West",
+      "lat": 39.74,
+      "lon": -104.99,
+      "scores": {
+        "transit_curb_cuts": 75,
+        "inclusive_playgrounds": 80,
+        "medicaid_waiver": 68,
+        "pediatric_specialty": 92,
+        "inclusive_schools": 72
+      },
+      "tagline": "Sunshine, mountains, and a big adaptive-sports family.",
+      "highlights": [
+        "Leading adaptive sports community",
+        "Top children's hospital",
+        "Many sunny days",
+        "Accessible light rail"
+      ],
+      "pediatric_hospitals": [
+        "Children's Hospital Colorado"
+      ],
+      "inclusive_playgrounds": [
+        "Accessible playgrounds in several city parks",
+        "An inclusive play area near a trail"
+      ],
+      "transit_notes": "RTD light rail and buses are accessible, and paratransit is available. The metro is fairly flat, but winter storms can be tricky.",
+      "waiver_notes": "Colorado has children's waiver options, and waitlists exist for some. Ask your case management agency about which programs fit.",
+      "school_notes": "Choice options are broad; ask about inclusion and transportation.",
+      "insider_tips": [
+        {
+          "tip": "Adaptive ski and snowboard programs fill early; register in autumn.",
+          "from": "Two-dad family with a teen"
+        },
+        {
+          "tip": "Dry climate means less ice but more sun; bring sunscreen.",
+          "from": "Grandmother raising a 7-year-old"
+        },
+        {
+          "tip": "Call your community centered board for support.",
+          "from": "Foster parent of a 10-year-old"
+        }
+      ],
+      "watch_outs": [
+        "Altitude and winter storms",
+        "Rising housing costs"
+      ],
+      "cost_of_living": "high"
+    },
+    {
+      "id": "salt-lake-city-ut",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "region": "Mountain West",
+      "lat": 40.76,
+      "lon": -111.89,
+      "scores": {
+        "transit_curb_cuts": 70,
+        "inclusive_playgrounds": 78,
+        "medicaid_waiver": 60,
+        "pediatric_specialty": 86,
+        "inclusive_schools": 66
+      },
+      "tagline": "Mountain access and strong community support.",
+      "highlights": [
+        "Strong children's hospital",
+        "Adaptive skiing and outdoor programs",
+        "Accessible light rail",
+        "Strong family networks"
+      ],
+      "pediatric_hospitals": [
+        "Primary Children's Hospital"
+      ],
+      "inclusive_playgrounds": [
+        "Accessible playgrounds in several city parks",
+        "A large inclusive playground in a nearby suburb"
+      ],
+      "transit_notes": "TRAX light rail and buses are accessible, and paratransit is available. Winter snow and inversions can affect plans.",
+      "waiver_notes": "Utah has waiver programs, and waitlists vary. Ask your care team about registration.",
+      "school_notes": "Many districts with differing resources; ask about inclusion supports.",
+      "insider_tips": [
+        {
+          "tip": "Adaptive outdoor programs run year-round; ask about winter and summer offerings.",
+          "from": "Grandfather raising a 9-year-old"
+        },
+        {
+          "tip": "Check air quality alerts if breathing is a concern.",
+          "from": "Single mom of a teen"
+        },
+        {
+          "tip": "Light rail is a smooth ride downtown.",
+          "from": "Aunt guardian of a 6-year-old"
+        }
+      ],
+      "watch_outs": [
+        "Winter inversions and air quality",
+        "Housing costs"
+      ],
+      "cost_of_living": "moderate"
+    },
+    {
+      "id": "phoenix-az",
+      "city": "Phoenix",
+      "state": "AZ",
+      "region": "Mountain West",
+      "lat": 33.45,
+      "lon": -112.07,
+      "scores": {
+        "transit_curb_cuts": 62,
+        "inclusive_playgrounds": 70,
+        "medicaid_waiver": 56,
+        "pediatric_specialty": 88,
+        "inclusive_schools": 60
+      },
+      "tagline": "Sunshine, flat streets, and splash pads in every season.",
+      "highlights": [
+        "Mostly flat terrain",
+        "Strong children's hospital",
+        "Newer accessible buildings",
+        "Splash pads and indoor options"
+      ],
+      "pediatric_hospitals": [
+        "Phoenix Children's Hospital"
+      ],
+      "inclusive_playgrounds": [
+        "Accessible playgrounds in several city parks",
+        "Shaded inclusive play areas in suburban parks"
+      ],
+      "transit_notes": "Light rail and buses are accessible, and paratransit is available. The region is very spread out, and summer heat is intense.",
+      "waiver_notes": "Arizona has its own Medicaid system with programs for children with developmental disabilities. Ask your care team about eligibility and enrollment.",
+      "school_notes": "Many district and charter choices; ask about inclusion and supports.",
+      "insider_tips": [
+        {
+          "tip": "Shade and cool-down plans are essential in summer.",
+          "from": "Grandmother raising a 7-year-old"
+        },
+        {
+          "tip": "Indoor adaptive programs are lifesavers from June to September.",
+          "from": "Single dad of a teen"
+        },
+        {
+          "tip": "Hot metal surfaces: carry gloves for push rims.",
+          "from": "Aunt guardian of a power-chair user"
+        }
+      ],
+      "watch_outs": [
+        "Extreme summer heat",
+        "Car-dependent sprawl"
+      ],
+      "cost_of_living": "moderate"
+    },
+    {
+      "id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "region": "Pacific",
+      "lat": 47.61,
+      "lon": -122.33,
+      "scores": {
+        "transit_curb_cuts": 74,
+        "inclusive_playgrounds": 82,
+        "medicaid_waiver": 72,
+        "pediatric_specialty": 95,
+        "inclusive_schools": 74
+      },
+      "tagline": "Waterfront wheel routes and a stellar kids' hospital.",
+      "highlights": [
+        "Nationally known children's hospital",
+        "Accessible light rail and ferries",
+        "Strong adaptive recreation programs",
+        "Active disability advocacy"
+      ],
+      "pediatric_hospitals": [
+        "Seattle Children's Hospital"
+      ],
+      "inclusive_playgrounds": [
+        "Accessible playgrounds in several city parks",
+        "An inclusive playground with rubber surfacing in a large park"
+      ],
+      "transit_notes": "Light rail, buses, and ferries are accessible, and paratransit is available. The city is hilly, and rain is frequent.",
+      "waiver_notes": "Washington has Medicaid and developmental disability programs for children, and waitlists exist. Ask your care team about the state's disability services.",
+      "school_notes": "Many districts offer inclusion programs; advocacy groups can help.",
+      "insider_tips": [
+        {
+          "tip": "Hills matter: choose neighborhoods with flatter routes.",
+          "from": "Two-mom family with a 9-year-old wheelchair user"
+        },
+        {
+          "tip": "A good rain cover for the chair is a lifesaver.",
+          "from": "Grandfather raising a 6-year-old"
+        },
+        {
+          "tip": "Ferries are accessible and make fun outings.",
+          "from": "Foster parent of a teen"
+        }
+      ],
+      "watch_outs": [
+        "Steep hills",
+        "High cost of living"
+      ],
+      "cost_of_living": "high"
+    },
+    {
+      "id": "portland-or",
+      "city": "Portland",
+      "state": "OR",
+      "region": "Pacific",
+      "lat": 45.52,
+      "lon": -122.68,
+      "scores": {
+        "transit_curb_cuts": 72,
+        "inclusive_playgrounds": 78,
+        "medicaid_waiver": 70,
+        "pediatric_specialty": 84,
+        "inclusive_schools": 70
+      },
+      "tagline": "Green, gentle, and easy to roll through.",
+      "highlights": [
+        "Accessible light rail and buses",
+        "Strong children's hospital",
+        "Many parks and trails",
+        "Active adaptive recreation"
+      ],
+      "pediatric_hospitals": [
+        "Doernbecher Children's Hospital"
+      ],
+      "inclusive_playgrounds": [
+        "Accessible playgrounds in several city parks",
+        "An inclusive play area along a trail"
+      ],
+      "transit_notes": "MAX light rail and buses are accessible, and paratransit is available. Frequent rain affects surfaces.",
+      "waiver_notes": "Oregon has several programs for children with disabilities, and waitlists may apply. Ask your county or care team to help you start.",
+      "school_notes": "Options vary by district; ask about inclusion and supports.",
+      "insider_tips": [
+        {
+          "tip": "Layers and a waterproof seat cover make rainy days easier.",
+          "from": "Grandmother raising a 8-year-old"
+        },
+        {
+          "tip": "Check the adaptive recreation calendar early.",
+          "from": "Single dad of a teen"
+        },
+        {
+          "tip": "Ask about county developmental disability services.",
+          "from": "Aunt guardian of a young adult"
+        }
+      ],
+      "watch_outs": [
+        "Constant drizzle",
+        "Housing costs"
+      ],
+      "cost_of_living": "high"
+    },
+    {
+      "id": "san-francisco-ca",
+      "city": "San Francisco",
+      "state": "CA",
+      "region": "Pacific",
+      "lat": 37.77,
+      "lon": -122.42,
+      "scores": {
+        "transit_curb_cuts": 58,
+        "inclusive_playgrounds": 72,
+        "medicaid_waiver": 74,
+        "pediatric_specialty": 94,
+        "inclusive_schools": 64
+      },
+      "tagline": "Hills, fog, and an unstoppable disability-rights legacy.",
+      "highlights": [
+        "Birthplace of major disability rights movements nearby",
+        "Top pediatric care",
+        "Accessible waterfront",
+        "Strong advocacy community"
+      ],
+      "pediatric_hospitals": [
+        "UCSF Benioff Children's Hospital"
+      ],
+      "inclusive_playgrounds": [
+        "Accessible playgrounds in several city parks",
+        "Waterfront play areas"
+      ],
+      "transit_notes": "Muni buses and Metro are partly accessible, and BART has elevators. Steep hills are real, so plan flat routes.",
+      "waiver_notes": "California has regional centers that coordinate services for children with developmental disabilities, plus Medi-Cal programs. Ask about both early.",
+      "school_notes": "Choices range widely; ask about inclusion and transportation.",
+      "insider_tips": [
+        {
+          "tip": "Contact your regional center early; they open doors.",
+          "from": "Grandmother raising a 7-year-old"
+        },
+        {
+          "tip": "Plan flat routes with a map before heading out.",
+          "from": "Two-dad family with a power-chair user"
+        },
+        {
+          "tip": "Layers help; fog can chill a still passenger.",
+          "from": "Foster parent of a 9-year-old"
+        }
+      ],
+      "watch_outs": [
+        "Steep hills",
+        "Extremely high housing costs"
+      ],
+      "cost_of_living": "high"
+    },
+    {
+      "id": "los-angeles-ca",
+      "city": "Los Angeles",
+      "state": "CA",
+      "region": "Pacific",
+      "lat": 34.05,
+      "lon": -118.24,
+      "scores": {
+        "transit_curb_cuts": 56,
+        "inclusive_playgrounds": 74,
+        "medicaid_waiver": 72,
+        "pediatric_specialty": 94,
+        "inclusive_schools": 62
+      },
+      "tagline": "Sunshine, beaches, and a movie-star-sized community.",
+      "highlights": [
+        "Leading pediatric hospitals",
+        "Accessible beach mats and programs",
+        "Year-round outdoor adaptive recreation",
+        "Diverse caregiver communities"
+      ],
+      "pediatric_hospitals": [
+        "Children's Hospital Los Angeles"
+      ],
+      "inclusive_playgrounds": [
+        "Accessible playgrounds in several city parks",
+        "Inclusive play areas in beach-adjacent parks"
+      ],
+      "transit_notes": "Metro rail and buses are accessible, and paratransit is available. The region is vast and car-dependent.",
+      "waiver_notes": "California regional centers and Medi-Cal programs help children with disabilities. Ask about both and apply early.",
+      "school_notes": "Many districts; ask about inclusion and supports.",
+      "insider_tips": [
+        {
+          "tip": "Many beaches have mobility mats; call ahead.",
+          "from": "Grandfather raising a 8-year-old"
+        },
+        {
+          "tip": "Traffic is real, so schedule appointments for off-peak.",
+          "from": "Single mom of a teen"
+        },
+        {
+          "tip": "Your regional center is your best friend.",
+          "from": "Aunt guardian of a 6-year-old"
+        }
+      ],
+      "watch_outs": [
+        "Traffic and distances",
+        "High cost of living"
+      ],
+      "cost_of_living": "high"
+    },
+    {
+      "id": "san-diego-ca",
+      "city": "San Diego",
+      "state": "CA",
+      "region": "Pacific",
+      "lat": 32.72,
+      "lon": -117.16,
+      "scores": {
+        "transit_curb_cuts": 64,
+        "inclusive_playgrounds": 84,
+        "medicaid_waiver": 72,
+        "pediatric_specialty": 88,
+        "inclusive_schools": 68
+      },
+      "tagline": "Mild weather, beach mats, and adaptive everything.",
+      "highlights": [
+        "Mild weather year-round",
+        "Accessible beaches and boardwalks",
+        "Strong children's hospital",
+        "Active adaptive sports"
+      ],
+      "pediatric_hospitals": [
+        "Rady Children's Hospital-San Diego"
+      ],
+      "inclusive_playgrounds": [
+        "Accessible playgrounds in several city parks",
+        "Beachside play areas with accessible paths"
+      ],
+      "transit_notes": "Trolley and buses are accessible, and paratransit is available. The region is car-oriented; sidewalks vary.",
+      "waiver_notes": "California regional centers and Medi-Cal programs support children with disabilities. Apply early.",
+      "school_notes": "Many districts; ask about inclusion options.",
+      "insider_tips": [
+        {
+          "tip": "Ask about adaptive surf and beach days.",
+          "from": "Two-mom family with a teen"
+        },
+        {
+          "tip": "Beach mats make sand navigable; call ahead.",
+          "from": "Grandmother raising a 7-year-old"
+        },
+        {
+          "tip": "Mild weather means you can plan outdoor activities year-round.",
+          "from": "Foster parent of a 10-year-old"
+        }
+      ],
+      "watch_outs": [
+        "High housing costs",
+        "Car-dependent layout"
+      ],
+      "cost_of_living": "high"
+    },
+    {
+      "id": "honolulu-hi",
+      "city": "Honolulu",
+      "state": "HI",
+      "region": "Pacific",
+      "lat": 21.31,
+      "lon": -157.86,
+      "scores": {
+        "transit_curb_cuts": 60,
+        "inclusive_playgrounds": 64,
+        "medicaid_waiver": 62,
+        "pediatric_specialty": 72,
+        "inclusive_schools": 58
+      },
+      "tagline": "Island sunshine, aloha spirit, and adaptive ocean days.",
+      "highlights": [
+        "Warm weather year-round",
+        "Aloha community spirit",
+        "Adaptive ocean activities",
+        "Accessible beach paths"
+      ],
+      "pediatric_hospitals": [
+        "Kapiolani Medical Center for Women & Children",
+        "Shriners Children's Hawaii"
+      ],
+      "inclusive_playgrounds": [
+        "Accessible playgrounds in several city parks",
+        "Beachside parks with accessible paths"
+      ],
+      "transit_notes": "TheBus is accessible and paratransit is available. Island geography means limited alternatives if something is down.",
+      "waiver_notes": "Hawaii has Medicaid programs and developmental disability services. Ask your care team about enrollment and travel needs for specialty care.",
+      "school_notes": "A statewide system with differing school resources; ask about inclusion supports.",
+      "insider_tips": [
+        {
+          "tip": "Ask about adaptive outrigger and surf programs.",
+          "from": "Grandmother raising a 8-year-old"
+        },
+        {
+          "tip": "Specialty care sometimes means inter-island or mainland travel; ask about travel assistance.",
+          "from": "Single dad of a teen"
+        },
+        {
+          "tip": "Beach wheelchairs are often available to borrow; call ahead.",
+          "from": "Aunt guardian of a 6-year-old"
+        }
+      ],
+      "watch_outs": [
+        "Very high cost of living",
+        "Travel for some specialty care"
+      ],
+      "cost_of_living": "high"
+    },
+    {
+      "id": "ann-arbor-mi",
+      "city": "Ann Arbor",
+      "state": "MI",
+      "region": "Midwest",
+      "lat": 42.28,
+      "lon": -83.74,
+      "scores": {
+        "transit_curb_cuts": 68,
+        "inclusive_playgrounds": 76,
+        "medicaid_waiver": 64,
+        "pediatric_specialty": 90,
+        "inclusive_schools": 78
+      },
+      "tagline": "A college town with big-hospital care and a front-porch feel.",
+      "highlights": [
+        "University-affiliated pediatric specialty care",
+        "Walkable downtown with good curb cuts",
+        "Strong inclusive-education culture",
+        "Active adaptive recreation through parks and the university"
+      ],
+      "pediatric_hospitals": [
+        "University of Michigan C.S. Mott Children's Hospital"
+      ],
+      "inclusive_playgrounds": [
+        "Accessible play areas in several city parks with rubber surfacing",
+        "A trail-connected inclusive playground in a nearby township park"
+      ],
+      "transit_notes": "Local buses are accessible and a paratransit service covers the area. The core is fairly flat, but Michigan winters bring snow and ice.",
+      "waiver_notes": "Michigan has Medicaid waiver options for children with significant disabilities, and enrollment can take time. Ask your hospital social worker or county community mental health office which programs fit.",
+      "school_notes": "Several nearby districts have strong special education teams and inclusion models. Ask to tour classrooms before choosing where to live.",
+      "insider_tips": [
+        {
+          "tip": "Ask the hospital's family services team about local lending closets for equipment.",
+          "from": "Grandmother raising a 6-year-old walker user"
+        },
+        {
+          "tip": "Downtown sidewalks are great, but check older rental entrances for steps.",
+          "from": "Single dad of a teen with cerebral palsy"
+        },
+        {
+          "tip": "Call your county community mental health agency early; they coordinate disability services.",
+          "from": "Aunt guardian of a young adult with limited mobility"
+        }
+      ],
+      "watch_outs": [
+        "Snowy, icy winters",
+        "Housing near campus is pricey"
+      ],
+      "cost_of_living": "moderate"
+    },
+    {
+      "id": "raleigh-nc",
+      "city": "Raleigh",
+      "state": "NC",
+      "region": "Southeast",
+      "lat": 35.78,
+      "lon": -78.64,
+      "scores": {
+        "transit_curb_cuts": 56,
+        "inclusive_playgrounds": 78,
+        "medicaid_waiver": 62,
+        "pediatric_specialty": 82,
+        "inclusive_schools": 68
+      },
+      "tagline": "Greenways, research-triangle brains, and plenty of porch weather.",
+      "highlights": [
+        "Miles of paved greenway",
+        "Nearby university pediatric specialists",
+        "Newer buildings with good access",
+        "Mild winters for outdoor play"
+      ],
+      "pediatric_hospitals": [
+        "Duke Children's Hospital & Health Center",
+        "UNC Children's Hospital"
+      ],
+      "inclusive_playgrounds": [
+        "Accessible play areas in several city parks",
+        "A large inclusive playground in the parks and recreation system"
+      ],
+      "transit_notes": "Buses are accessible and paratransit is available, but the metro is car-oriented. Newer neighborhoods tend to have better curb cuts.",
+      "waiver_notes": "North Carolina has home and community-based pathways for children, and waitlists exist for some. Ask your care team about early registration.",
+      "school_notes": "Large districts with a range of inclusion models; ask about supports and bus accessibility before enrolling.",
+      "insider_tips": [
+        {
+          "tip": "Greenways are free and flat; go early on weekends before they fill up.",
+          "from": "Grandfather raising a 7-year-old with a walker"
+        },
+        {
+          "tip": "Ask about adaptive programs through the parks department; they are affordable.",
+          "from": "Two-mom family with a power-chair-using 9-year-old"
+        },
+        {
+          "tip": "Visit schools in person; inclusion looks different in each building.",
+          "from": "Foster parent of a teen with hearing loss"
+        }
+      ],
+      "watch_outs": [
+        "Car-dependent layout",
+        "Fast growth is raising rents"
+      ],
+      "cost_of_living": "moderate"
+    },
+    {
+      "id": "baltimore-md",
+      "city": "Baltimore",
+      "state": "MD",
+      "region": "Northeast",
+      "lat": 39.29,
+      "lon": -76.61,
+      "scores": {
+        "transit_curb_cuts": 50,
+        "inclusive_playgrounds": 64,
+        "medicaid_waiver": 68,
+        "pediatric_specialty": 93,
+        "inclusive_schools": 60
+      },
+      "tagline": "Harbor views, world-class care, and neighbors who show up.",
+      "highlights": [
+        "Top pediatric and rehab specialists",
+        "Accessible waterfront promenade",
+        "Maryland's disability services network",
+        "Close to Washington, DC attractions"
+      ],
+      "pediatric_hospitals": [
+        "Johns Hopkins Children's Center",
+        "Kennedy Krieger Institute"
+      ],
+      "inclusive_playgrounds": [
+        "Accessible play areas in several city parks",
+        "A harbor-area park with ramped play structures"
+      ],
+      "transit_notes": "Buses are accessible and a light rail and subway line have accessible stations, but coverage is limited. Some rowhouse neighborhoods have uneven sidewalks and steep steps.",
+      "waiver_notes": "Maryland has Medicaid waiver programs for children with disabilities, and some have waitlists. Ask your hospital social worker about the state's options.",
+      "school_notes": "Quality varies between the city and surrounding counties; ask about inclusion models and transportation.",
+      "insider_tips": [
+        {
+          "tip": "Ask the hospital social work team about community resources before you leave an appointment.",
+          "from": "Grandmother raising twins, one with cerebral palsy"
+        },
+        {
+          "tip": "Look for first-floor rowhouses or buildings with elevators.",
+          "from": "Uncle guardian of a 12-year-old wheelchair user"
+        },
+        {
+          "tip": "The harbor promenade is smooth and flat; go in the morning.",
+          "from": "Single dad of a 6-year-old"
+        }
+      ],
+      "watch_outs": [
+        "Uneven sidewalks and older housing",
+        "Uneven school quality"
+      ],
+      "cost_of_living": "moderate"
+    }
+  ]
+}

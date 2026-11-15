@@ -1,0 +1,920 @@
+{
+  "version": "1.0",
+  "roles": [
+    {
+      "id": "pediatrician",
+      "label": "Pediatrician",
+      "script_opener": "I'd love your help getting the right equipment for my child so they can move, learn, and play with more freedom. Can we talk about what a referral and a Letter of Medical Necessity would look like?"
+    },
+    {
+      "id": "pt",
+      "label": "Physical Therapist (PT)",
+      "script_opener": "We're ready to find equipment that fits my child's body and their goals, and I'd love your expert eye on what to trial first."
+    },
+    {
+      "id": "ot",
+      "label": "Occupational Therapist (OT)",
+      "script_opener": "I'd like to make everyday routines easier and more joyful for my child, and I'm hoping you can help me figure out which equipment will do that."
+    },
+    {
+      "id": "social_worker",
+      "label": "Social Worker",
+      "script_opener": "I'm working to get equipment for my child and I'd love your help mapping out every funding path, from Medicaid to waivers to grants."
+    },
+    {
+      "id": "behavioral_therapist",
+      "label": "Behavioral Therapist",
+      "script_opener": "I want to make sure the equipment we choose supports my child's comfort and participation, so I'd love your insights on what works for them."
+    },
+    {
+      "id": "school_nurse",
+      "label": "School Nurse",
+      "script_opener": "I'd like to partner with you so my child can use their equipment safely and comfortably all day at school."
+    },
+    {
+      "id": "school_admin",
+      "label": "School Administration",
+      "script_opener": "I'm here to make sure my child's equipment and access needs are fully supported on campus, and I'd like to build the plan together."
+    },
+    {
+      "id": "teacher",
+      "label": "Teacher",
+      "script_opener": "I want my child to take part in every part of your classroom, and I'd love to talk about how their equipment fits into the day."
+    },
+    {
+      "id": "sped_specialist",
+      "label": "Special Education Specialist",
+      "script_opener": "I'd like to make sure my child's equipment needs are clearly written into their plan, and I have some questions about what the school can provide or support."
+    },
+    {
+      "id": "snt_attorney",
+      "label": "Special Needs Trust Attorney",
+      "script_opener": "I want to understand how equipment purchases can be paid for from a special needs trust or ABLE account without affecting my child's benefits."
+    }
+  ],
+  "equipment": [
+    {
+      "id": "custom-manual-wheelchair",
+      "name": "Custom Manual Wheelchair",
+      "emoji": "🦽",
+      "who_it_helps": "Children and young adults who can propel themselves or be pushed and need a chair that fits their body, supports posture, and grows with them. A well-fitted chair means more independence at school, at home, and on the playground.",
+      "who_prescribes": [
+        "Physiatrist",
+        "Pediatrician with PT or OT evaluation",
+        "Physical Therapist",
+        "Occupational Therapist",
+        "Seating and mobility specialist (ATP)"
+      ],
+      "typical_steps": [
+        "Request a referral to a seating and mobility clinic or evaluation from your pediatrician or physiatrist.",
+        "Attend the seating evaluation with the PT or OT and an assistive technology professional (ATP) to measure and discuss goals.",
+        "Trial one or more chairs in the places your child actually uses them, such as home, school, and outdoors.",
+        "Your clinician writes a Letter of Medical Necessity and the vendor submits the prior authorization.",
+        "Wait for the decision, and appeal with your clinician's help if there is a denial.",
+        "Attend the delivery and fitting appointment and make sure the chair is adjusted to your child's body.",
+        "Schedule a follow-up check within a few weeks, and again as your child grows."
+      ],
+      "lmn_must_include": [
+        "Diagnosis and a plain description of functional mobility limits",
+        "Why a standard or loaner chair would not meet your child's needs",
+        "Specific features requested (frame, cushion, backrest, adjustability) with a reason for each",
+        "How the chair supports mobility-related activities of daily living at home, school, and in the community",
+        "Results of trials with other chairs",
+        "Growth and adjustability plan",
+        "Clinician's credentials and the date of the in-person evaluation"
+      ],
+      "questions": {
+        "pediatrician": [
+          "Can you refer us to a seating and mobility clinic and note the date of the referral?",
+          "Can you document how my child's current seating is affecting posture, comfort, or skin?",
+          "Would you be willing to review the Letter of Medical Necessity and sign it quickly?"
+        ],
+        "pt": [
+          "Can you test my child's posture and propulsion in two or three chairs and write down what works?",
+          "Can you document how a customized frame helps my child move through school hallways and the playground?",
+          "Can you recommend the growth and adjustability features that will help the chair last?"
+        ],
+        "ot": [
+          "Can you assess how the chair supports my child during eating, writing, and self-care?",
+          "Can you note arm support and trunk position needs in the letter?",
+          "Can you recommend cushions and backs that prevent pressure and fatigue?"
+        ],
+        "social_worker": [
+          "Can you help me find out if my child is eligible for Medicaid EPSDT or a waiver that covers this chair?",
+          "Can you help me track deadlines and denials so nothing falls through the cracks?",
+          "Can you connect us to local loan closets or grants while we wait?"
+        ],
+        "behavioral_therapist": [
+          "Can you share how a better-fitting chair affects my child's comfort and participation?",
+          "Can you note any positioning needs that help my child stay engaged?"
+        ],
+        "school_nurse": [
+          "Can you watch for skin or posture concerns during the school day and tell me what you see?",
+          "Can we agree on a plan for repositioning or pressure relief?"
+        ],
+        "school_admin": [
+          "Can the building be mapped for doorways, ramps, and elevators that fit the chair?",
+          "Can we set up a place to store or charge equipment at school?"
+        ],
+        "teacher": [
+          "Can my child's desk and seating be set so they can reach their work comfortably?",
+          "Can the classroom layout leave room for the chair at all times?"
+        ],
+        "sped_specialist": [
+          "Can the IEP list how the chair helps my child access school?",
+          "Can the school team join the seating evaluation or share observations?",
+          "Can transportation and field-trip plans include the chair?"
+        ],
+        "snt_attorney": [
+          "Can a special needs trust or ABLE account pay for upgrades or repairs not covered by insurance?",
+          "How do I document these purchases so they do not affect benefits?"
+        ]
+      },
+      "funding_paths": [
+        "Medicaid EPSDT for children and young adults under 21",
+        "Private insurance, with appeal rights if denied",
+        "State Assistive Technology Act reuse program or loan closet",
+        "Medicaid waiver programs",
+        "Grants from national and local charities",
+        "Special needs trust or ABLE account for items insurance will not cover"
+      ],
+      "growth_tips": "Ask for a frame with room to adjust seat depth, width, and back height, and for a growth kit if the model offers one. Plan on a re-check every 6 to 12 months for fast-growing kids.",
+      "typical_timeline": "3-6 months from evaluation to delivery"
+    },
+    {
+      "id": "power-wheelchair",
+      "name": "Power Wheelchair",
+      "emoji": "⚡",
+      "who_it_helps": "Children and young adults who cannot propel a manual chair efficiently or safely, or who tire quickly. Power mobility opens up independence, exploration, and social life.",
+      "who_prescribes": [
+        "Physiatrist",
+        "Physical Therapist",
+        "Occupational Therapist",
+        "Seating and mobility specialist (ATP)",
+        "Pediatrician with specialist evaluation"
+      ],
+      "typical_steps": [
+        "Ask your pediatrician or physiatrist for a referral to a seating and mobility clinic with power chair experience.",
+        "Complete a seating and mobility evaluation covering driving ability, seating needs, and the home and school environment.",
+        "Trial drive power chairs, including different drive controls such as a joystick or alternative access.",
+        "Your clinician writes the Letter of Medical Necessity and the vendor submits prior authorization.",
+        "Wait for approval, and appeal with your team's help if the request is denied.",
+        "Attend the delivery and fitting, including programming and driving practice.",
+        "Follow up on driving skills, seating, and repairs after a few weeks and as your child grows."
+      ],
+      "lmn_must_include": [
+        "Diagnosis and a clear description of mobility limits",
+        "Why a manual chair or scooter cannot safely meet daily mobility needs",
+        "Results of power chair trials and driving skills",
+        "Seating features such as tilt, recline, or elevating leg rests, with the reason for each",
+        "Home, school, and community access for the chair, including transportation",
+        "Safety and cognitive readiness for power mobility",
+        "Clinician credentials and the date of the in-person evaluation"
+      ],
+      "questions": {
+        "pediatrician": [
+          "Can you refer us to a clinic that does power mobility trials for kids?",
+          "Can you document why walking or a manual chair does not meet my child's daily needs?",
+          "Can you sign the face-to-face visit note and Letter of Medical Necessity quickly?"
+        ],
+        "pt": [
+          "Can you track my child's fatigue and how far they can propel safely before we decide on power?",
+          "Can you document how power mobility helps them keep up with classmates?",
+          "Can we plan a driving training schedule for the first weeks after delivery?"
+        ],
+        "ot": [
+          "Can you assess drive control options such as joystick, head array, or switches?",
+          "Can you note how the chair supports my child's reach, hand function, and self-care?",
+          "Can you recommend an access method that grows with my child's skills?"
+        ],
+        "social_worker": [
+          "Can you check if Medicaid or a waiver in our state will cover a power chair for my child?",
+          "Can you help me prepare for a denial or appeal?",
+          "Can you help me find a back-up or loaner chair while we wait?"
+        ],
+        "behavioral_therapist": [
+          "Can you help my child practice safe driving habits using positive coaching?",
+          "Can you share what you see about my child's engagement and confidence when they move independently?"
+        ],
+        "school_nurse": [
+          "Can we plan for charging, battery safety, and what to do if the chair breaks down at school?",
+          "Can we write a plan for emergencies, including evacuation, using the chair?"
+        ],
+        "school_admin": [
+          "Can the campus map show accessible routes, elevators, and charging spots?",
+          "Can we confirm the bus has a working lift and trained staff for securement?"
+        ],
+        "teacher": [
+          "Can the classroom layout give my child room to drive and turn?",
+          "Can we agree on how my child joins group activities and field trips in the chair?"
+        ],
+        "sped_specialist": [
+          "Can the IEP include driving practice and access to charging?",
+          "Can the school team write observations for the evaluation?",
+          "Can transportation and evacuation plans be added to the IEP?"
+        ],
+        "snt_attorney": [
+          "Can a special needs trust or ABLE account pay for repairs, batteries, or a back-up chair?",
+          "How should I keep records of equipment purchases for benefits reporting?"
+        ]
+      },
+      "funding_paths": [
+        "Medicaid EPSDT for children and young adults under 21",
+        "Private insurance, with appeal rights if denied",
+        "Medicaid waiver programs",
+        "State Assistive Technology Act reuse program or loan closet",
+        "Grants from national and local charities",
+        "Special needs trust or ABLE account for non-covered items"
+      ],
+      "growth_tips": "Ask for a base and seating system with adjustable seat depth, width, and back height, plus a growth kit when offered. Many power bases allow upgraded controls as skills change.",
+      "typical_timeline": "4-8 months from evaluation to delivery"
+    },
+    {
+      "id": "cane",
+      "name": "Cane (support cane and white cane)",
+      "emoji": "🦯",
+      "who_it_helps": "Support canes help young people with balance or limited mobility walk with more stability. White canes help children and young adults with blindness or low vision travel safely and independently, with training from an orientation and mobility (O&M) specialist.",
+      "who_prescribes": [
+        "Physical Therapist for support canes",
+        "Physiatrist",
+        "Orientation and mobility (O&M) specialist for white canes",
+        "Teacher of students with visual impairments (TVI)",
+        "Pediatrician or eye doctor referral"
+      ],
+      "typical_steps": [
+        "Ask your pediatrician, physiatrist, or eye doctor for an evaluation referral, to a PT for a support cane or to an O&M specialist for a white cane.",
+        "Complete the evaluation, including gait and balance for a support cane or travel skills and vision for a white cane.",
+        "Try several cane types, tips, and lengths, such as folding, rolling-tip, or support canes with a quad base.",
+        "Your clinician writes a letter documenting need and the vendor handles any prior authorization.",
+        "Receive and fit the cane, adjusting height and grip.",
+        "Practice with a PT or O&M specialist in the places your child actually travels, such as school and neighborhood.",
+        "Follow up as your child grows and re-fit, since cane length changes with height and skill."
+      ],
+      "lmn_must_include": [
+        "Diagnosis, including vision or mobility findings",
+        "Specific functional limits, such as balance, fatigue, or travel without sight",
+        "Why the cane type, length, and tip were chosen",
+        "Trial results and safety observations",
+        "How the cane supports daily activities and independent travel",
+        "Training plan with an O&M specialist or PT",
+        "Clinician credentials and date of evaluation"
+      ],
+      "questions": {
+        "pediatrician": [
+          "Can you refer us to an O&M specialist or PT for cane evaluation?",
+          "Can you document the vision or balance findings that make a cane necessary?",
+          "Can you sign any forms the program needs for the cane?"
+        ],
+        "pt": [
+          "Can you evaluate my child's balance and recommend the best cane type and tip?",
+          "Can you teach my child the right way to use the cane on stairs and curbs?",
+          "Can you set a follow-up for height adjustment as my child grows?"
+        ],
+        "ot": [
+          "Can you check that the grip is comfortable for my child's hand function?",
+          "Can you help with carrying items while using a support cane?",
+          "Can you note any fine-motor needs that affect cane use?"
+        ],
+        "social_worker": [
+          "Can you help find programs that provide white canes or support canes free or at low cost?",
+          "Can you connect us to a state agency serving people who are blind or low vision?",
+          "Can you help with paperwork for transportation and school supports?"
+        ],
+        "behavioral_therapist": [
+          "Can you help my child feel confident and proud using a cane in public?",
+          "Can you share ideas for making cane practice fun and low pressure?"
+        ],
+        "school_nurse": [
+          "Can staff know how to help my child with the cane in emergencies?",
+          "Can we plan for safe storage of the cane during gym and lunch?"
+        ],
+        "school_admin": [
+          "Can we make sure O&M training can happen in school hallways and on campus?",
+          "Can paths be kept clear and consistent for my child?"
+        ],
+        "teacher": [
+          "Can my child keep the cane at their desk and use it freely?",
+          "Can classmates learn about the cane so there is no teasing?"
+        ],
+        "sped_specialist": [
+          "Can the IEP include O&M services and a TVI for white cane use?",
+          "Can the plan list the cane as an assistive device on campus?",
+          "Can the school help replace a lost or broken cane quickly?"
+        ],
+        "snt_attorney": [
+          "Can a trust or ABLE account cover replacement canes and training sessions?",
+          "Can you explain how small equipment purchases fit into benefit rules?"
+        ]
+      },
+      "funding_paths": [
+        "Medicaid EPSDT for children and young adults under 21",
+        "Private insurance, which sometimes covers support canes",
+        "State services for people who are blind or low vision",
+        "School-purchased for school-only use, through the IEP",
+        "State Assistive Technology Act reuse program or loan closet",
+        "Grants and local service clubs",
+        "Special needs trust or ABLE account"
+      ],
+      "growth_tips": "Cane length should change as your child grows, so plan on a re-fit every year or two. Adjustable and folding canes can stretch the budget.",
+      "typical_timeline": "2-8 weeks from evaluation to delivery"
+    },
+    {
+      "id": "walker-gait-trainer",
+      "name": "Walker or Gait Trainer",
+      "emoji": "🚶",
+      "who_it_helps": "Children and young adults who can bear some weight and want to walk or practice walking with support. Gait trainers add trunk and pelvic support for children who need more help staying upright.",
+      "who_prescribes": [
+        "Physical Therapist",
+        "Physiatrist",
+        "Pediatrician with PT evaluation",
+        "Orthopedic or neurology specialist"
+      ],
+      "typical_steps": [
+        "Ask your pediatrician or physiatrist for a PT evaluation and referral.",
+        "The PT assesses walking ability, strength, and goals and tries options in clinic.",
+        "Trial different walkers or gait trainers, including support options and wheel styles.",
+        "Your clinician writes a Letter of Medical Necessity and the vendor submits prior authorization.",
+        "Wait for approval, and appeal with your clinician's help if there is a denial.",
+        "Attend the delivery and fitting and learn how to adjust and use the device safely.",
+        "Follow up with the PT in a few weeks and as your child grows."
+      ],
+      "lmn_must_include": [
+        "Diagnosis and current walking ability",
+        "Why a standard walker or no device is not enough",
+        "Specific supports requested, such as trunk, pelvic, or forearm supports",
+        "Trial results and safety observations",
+        "Goals for walking at home and school",
+        "Plan for use with braces or orthotics",
+        "Clinician credentials and date of evaluation"
+      ],
+      "questions": {
+        "pediatrician": [
+          "Can you refer us to a PT with gait trainer experience?",
+          "Can you document how walking practice supports bone, muscle, and joint health?",
+          "Can you sign the Letter of Medical Necessity quickly?"
+        ],
+        "pt": [
+          "Can you trial at least two models and document how my child does in each?",
+          "Can you show how the gait trainer supports upright time during the school day?",
+          "Can you teach us a daily practice routine that fits our family?"
+        ],
+        "ot": [
+          "Can you check hand and arm position on the handles and forearm supports?",
+          "Can you plan how my child will carry items or take part in classroom tasks?",
+          "Can you recommend positioning that supports eating and play while standing?"
+        ],
+        "social_worker": [
+          "Can you help me find out if Medicaid EPSDT or a waiver will cover a gait trainer?",
+          "Can you connect us to a loaner program while we wait?",
+          "Can you help with denial letters and appeals?"
+        ],
+        "behavioral_therapist": [
+          "Can you share how walking practice affects my child's mood and motivation?",
+          "Can you suggest ways to celebrate walking time that keep it fun?"
+        ],
+        "school_nurse": [
+          "Can staff learn safe use and how to respond if my child tires or falls?",
+          "Can we write a plan for storage and use during the school day?"
+        ],
+        "school_admin": [
+          "Can hallways, doors, and bathrooms accommodate the walker or gait trainer?",
+          "Can we arrange safe space for walking practice at school?"
+        ],
+        "teacher": [
+          "Can my child use the device during part of the day and still participate in group activities?",
+          "Can the classroom layout leave room for safe walking?"
+        ],
+        "sped_specialist": [
+          "Can the IEP include walking practice and PT services at school?",
+          "Can the school team share what they see about my child's mobility?",
+          "Can a second device be requested for school if needed?"
+        ],
+        "snt_attorney": [
+          "Can a trust or ABLE account pay for a second device or repairs?",
+          "How do I document purchases so benefits stay protected?"
+        ]
+      },
+      "funding_paths": [
+        "Medicaid EPSDT for children and young adults under 21",
+        "Private insurance, with appeal rights if denied",
+        "State Assistive Technology Act reuse program or loan closet",
+        "Medicaid waiver programs",
+        "School-purchased for school-only use",
+        "Grants from national and local charities",
+        "Special needs trust or ABLE account"
+      ],
+      "growth_tips": "Choose a model with adjustable height, width, and support positions, and ask about growth kits. A gait trainer that grows with your child can last years.",
+      "typical_timeline": "3-6 months from evaluation to delivery"
+    },
+    {
+      "id": "stander",
+      "name": "Stander",
+      "emoji": "🧍",
+      "who_it_helps": "Children and young adults who cannot stand on their own and benefit from supported standing for bone health, circulation, digestion, and joyful eye-level time with friends.",
+      "who_prescribes": [
+        "Physical Therapist",
+        "Physiatrist",
+        "Pediatrician with PT evaluation",
+        "Orthopedic specialist"
+      ],
+      "typical_steps": [
+        "Ask your pediatrician or physiatrist for a PT evaluation and referral.",
+        "The PT assesses standing tolerance, posture, hip and joint health, and goals.",
+        "Trial standers in clinic, such as supine, prone, or sit-to-stand models.",
+        "Your clinician writes a Letter of Medical Necessity and the vendor submits prior authorization.",
+        "Wait for approval, and appeal with your clinician's help if there is a denial.",
+        "Attend delivery and fitting and learn safe set-up and a standing schedule.",
+        "Follow up with the PT after a few weeks and again as your child grows."
+      ],
+      "lmn_must_include": [
+        "Diagnosis and standing limitations",
+        "Why supported standing is needed, such as bone density, hip health, circulation, or digestion",
+        "Type of stander and the reason for each support",
+        "Trial results and tolerance",
+        "Recommended standing schedule",
+        "Home and school use plan",
+        "Clinician credentials and date of evaluation"
+      ],
+      "questions": {
+        "pediatrician": [
+          "Can you note my child's bone, hip, or digestion concerns that standing may help?",
+          "Can you refer us to a PT for a stander evaluation?",
+          "Can you review and sign the Letter of Medical Necessity?"
+        ],
+        "pt": [
+          "Can you trial a few standers and write down tolerance and positioning?",
+          "Can you set a safe daily standing schedule?",
+          "Can you teach us how to set up and adjust the stander quickly?"
+        ],
+        "ot": [
+          "Can you recommend tray and activity set-ups for standing time?",
+          "Can you check arm and hand positioning during play and schoolwork?",
+          "Can you suggest how to use standing time for eating or art?"
+        ],
+        "social_worker": [
+          "Can you help check if Medicaid EPSDT covers a stander?",
+          "Can you connect us to a loaner or reuse program?",
+          "Can you help with appeals if there is a denial?"
+        ],
+        "behavioral_therapist": [
+          "Can you suggest ways to keep standing time positive and fun?",
+          "Can you share how my child's mood and attention change during standing?"
+        ],
+        "school_nurse": [
+          "Can staff supervise standing time safely and watch for fatigue or skin changes?",
+          "Can we agree on a plan if my child needs to stop early?"
+        ],
+        "school_admin": [
+          "Can the school store the stander and set aside a spot for standing time?",
+          "Can staff be trained on safe set-up?"
+        ],
+        "teacher": [
+          "Can standing time fit into lessons so my child is at eye level with peers?",
+          "Can we plan activities at a standing-height table?"
+        ],
+        "sped_specialist": [
+          "Can the IEP include a standing schedule and PT services?",
+          "Can the school team document how standing supports participation?",
+          "Can a second stander be requested for school?"
+        ],
+        "snt_attorney": [
+          "Can a trust or ABLE account pay for a second stander or accessories?",
+          "How do purchases get documented for benefits reporting?"
+        ]
+      },
+      "funding_paths": [
+        "Medicaid EPSDT for children and young adults under 21",
+        "Private insurance, with appeal rights if denied",
+        "State Assistive Technology Act reuse program or loan closet",
+        "Medicaid waiver programs",
+        "School-purchased for school-only use",
+        "Grants from national and local charities",
+        "Special needs trust or ABLE account"
+      ],
+      "growth_tips": "Ask for adjustable height, width, and support positions, and for a growth kit when available. Many standers can be used for years with adjustments.",
+      "typical_timeline": "2-5 months from evaluation to delivery"
+    },
+    {
+      "id": "home-ramp",
+      "name": "Home Ramp",
+      "emoji": "🏠",
+      "who_it_helps": "Families who need safe, independent access to their home for a child or young adult using a wheelchair, walker, or other mobility equipment.",
+      "who_prescribes": [
+        "Occupational Therapist (home assessment)",
+        "Physical Therapist",
+        "Physiatrist",
+        "Pediatrician",
+        "Contractor or ramp specialist for design"
+      ],
+      "typical_steps": [
+        "Ask your pediatrician, OT, or PT for a home assessment referral.",
+        "The OT or PT visits to measure the entry, slope, landings, and door widths and discusses your child's equipment.",
+        "Choose a ramp type, such as modular, portable, or permanent, with your clinician and installer.",
+        "Your clinician writes a Letter of Medical Necessity or support letter, and the vendor or contractor gets quotes and submits any needed approvals.",
+        "Wait for funding decisions, and check landlord or HOA permission if you rent or live in shared housing.",
+        "Installation, followed by an inspection and a trial with your child's equipment.",
+        "Follow up if the ramp needs changes as your child's equipment or needs change."
+      ],
+      "lmn_must_include": [
+        "Diagnosis and the equipment your child uses",
+        "Description of current barriers at each entrance",
+        "Why a ramp, not stairs or lifting, is the only safe option",
+        "Required slope, length, width, and landings",
+        "Safety risks to your child and caregivers without a ramp",
+        "Home assessment findings and date",
+        "Clinician credentials"
+      ],
+      "questions": {
+        "pediatrician": [
+          "Can you note why stairs are unsafe for my child and caregivers?",
+          "Can you provide a letter supporting a home ramp?",
+          "Can you refer us to an OT or PT for a home assessment?"
+        ],
+        "pt": [
+          "Can you measure slope and landing needs for my child's equipment?",
+          "Can you check transfers and lifting risks at the entrance?",
+          "Can you document how a ramp supports safe daily exits and emergencies?"
+        ],
+        "ot": [
+          "Can you complete a full home assessment, including doors, thresholds, and the path to the ramp?",
+          "Can you recommend ramp types that fit our home and budget?",
+          "Can you write the assessment in a format that funders accept?"
+        ],
+        "social_worker": [
+          "Can you help me find home modification funds or Medicaid waiver coverage?",
+          "Can you help with landlord or HOA permission?",
+          "Can you connect us to local volunteer ramp builders?"
+        ],
+        "behavioral_therapist": [
+          "Can you share how independent entry and exit affect my child's confidence and routines?",
+          "Can you help us plan how my child practices using the ramp safely?"
+        ],
+        "school_nurse": [
+          "Can you share any health or safety needs that affect getting in and out of home or school?",
+          "Can we align emergency plans at home and school?"
+        ],
+        "school_admin": [
+          "Can the school's ramp and entrance map be shared so we plan consistent access?",
+          "Can the school help with documentation of access needs?"
+        ],
+        "teacher": [
+          "Can you share any trouble my child has arriving or leaving that a home ramp would help?",
+          "Can you support a letter about daily participation if needed?"
+        ],
+        "sped_specialist": [
+          "Can you point us toward local resources for home access?",
+          "Can the school team provide observations that support the need?",
+          "Can transition planning include housing access?"
+        ],
+        "snt_attorney": [
+          "Can a special needs trust or ABLE account pay for a ramp or home modification?",
+          "If we rent, how should we handle ownership and landlord agreements?"
+        ]
+      },
+      "funding_paths": [
+        "Medicaid waiver home and community-based services (home modifications)",
+        "Medicaid EPSDT, in some states, as an environmental accommodation",
+        "Local nonprofit and service club ramp programs",
+        "State Assistive Technology Act reuse or loan programs for portable ramps",
+        "Grants from national and local charities",
+        "Special needs trust or ABLE account"
+      ],
+      "growth_tips": "Choose a ramp with the slope, width, and landing size to handle a bigger or power chair later. Modular ramps can be reused or moved.",
+      "typical_timeline": "2-6 months from assessment to installation"
+    },
+    {
+      "id": "vehicle-ramp-lift",
+      "name": "Vehicle Ramp or Lift",
+      "emoji": "🚐",
+      "who_it_helps": "Families who need safe, reliable ways to get a child or young adult in a wheelchair in and out of a vehicle, whether through a ramp, lift, or modified van.",
+      "who_prescribes": [
+        "Occupational Therapist or driver rehabilitation specialist",
+        "Physical Therapist",
+        "Physiatrist",
+        "Pediatrician",
+        "Certified mobility dealer"
+      ],
+      "typical_steps": [
+        "Ask your pediatrician or OT for an evaluation and referral to a mobility dealer experienced with children.",
+        "The OT or PT assesses transfers, wheelchair size, seating, securement, and travel needs.",
+        "Compare vehicle options, such as ramp van, lift, or add-on equipment, and try them with your child.",
+        "Get quotes and your clinician's letter, and check which funding sources apply.",
+        "Wait for approvals, noting that many insurers do not cover vehicles, and plan alternative funding.",
+        "Install and fit the equipment and test securement and travel.",
+        "Follow up on safety checks and re-adjust as your child grows or their chair changes."
+      ],
+      "lmn_must_include": [
+        "Diagnosis and the mobility equipment your child uses",
+        "Why transfers or lifting are unsafe",
+        "Required ramp or lift dimensions, weight limits, and securement",
+        "Transportation needs for school, medical care, and community",
+        "Risks to your child and caregivers without the equipment",
+        "Evaluation findings from the OT or driver rehabilitation specialist",
+        "Clinician credentials and date"
+      ],
+      "questions": {
+        "pediatrician": [
+          "Can you document why standard car transfers are unsafe for my child?",
+          "Can you provide a letter about medical transportation needs?",
+          "Can you refer us to an OT with vehicle experience?"
+        ],
+        "pt": [
+          "Can you assess transfer techniques and lifting risk for caregivers?",
+          "Can you measure my child and chair for vehicle fit?",
+          "Can you write what securement my child needs in the vehicle?"
+        ],
+        "ot": [
+          "Can you evaluate the best ramp or lift for my child's chair, size, and growth?",
+          "Can you test securement and seat belt positioning?",
+          "Can you document how this supports travel to school and appointments?"
+        ],
+        "social_worker": [
+          "Can you help me look for grants and waiver programs that fund vehicle access?",
+          "Can you help with state vocational rehabilitation or other options for older teens?",
+          "Can you connect us to used mobility vehicle resources?"
+        ],
+        "behavioral_therapist": [
+          "Can you share how travel anxiety or comfort affects my child during rides?",
+          "Can you suggest how to prepare my child for ramp or lift use?"
+        ],
+        "school_nurse": [
+          "Can school staff know how to assist with securement during school transportation?",
+          "Can we align safety plans for the school bus and our vehicle?"
+        ],
+        "school_admin": [
+          "Can the school provide accessible transportation with a working lift?",
+          "Can pickup and drop-off spots be accessible for ramp vehicles?"
+        ],
+        "teacher": [
+          "Can field trips include accessible transportation for my child?",
+          "Can we plan how my child arrives and leaves without missing class time?"
+        ],
+        "sped_specialist": [
+          "Can transportation be written into the IEP, including securement and trained staff?",
+          "Can the school team document transportation needs?",
+          "Can we plan for a smooth transition to adult transportation supports?"
+        ],
+        "snt_attorney": [
+          "Can a trust or ABLE account pay for vehicle modifications and who should own the vehicle?",
+          "How should we document the purchase for benefits reporting?"
+        ]
+      },
+      "funding_paths": [
+        "Medicaid waiver programs, in some states, for community access",
+        "Grants from national and local charities",
+        "Manufacturer rebates and mobility dealer financing",
+        "State vocational rehabilitation for older teens and young adults, where eligible",
+        "State Assistive Technology Act financial loan programs, where offered",
+        "Special needs trust or ABLE account"
+      ],
+      "growth_tips": "Choose ramp or lift capacity and door height to handle a larger or power chair later. Ask about adjustable securement for growing kids.",
+      "typical_timeline": "3-9 months from evaluation to installation"
+    },
+    {
+      "id": "bath-shower-chair",
+      "name": "Bath or Shower Chair",
+      "emoji": "🛁",
+      "who_it_helps": "Children and young adults who cannot sit safely in a standard tub or shower. A good bath chair supports posture, safety, and dignity, and makes bathing easier for caregivers.",
+      "who_prescribes": [
+        "Occupational Therapist",
+        "Physical Therapist",
+        "Physiatrist",
+        "Pediatrician"
+      ],
+      "typical_steps": [
+        "Ask your pediatrician or OT for a bathroom and bathing assessment.",
+        "The OT assesses your child's sitting balance, transfers, and the bathroom layout.",
+        "Trial different chairs, such as tub transfer benches, rolling shower chairs, or tilted commode-shower chairs.",
+        "Your clinician writes a Letter of Medical Necessity and the vendor submits prior authorization.",
+        "Wait for approval, and appeal with your clinician's help if there is a denial.",
+        "Delivery and set-up, including checking the fit in your bathroom.",
+        "Follow up on comfort and safety after a few weeks and as your child grows."
+      ],
+      "lmn_must_include": [
+        "Diagnosis and sitting balance or transfer limits",
+        "Why a standard chair, stool, or no equipment is unsafe",
+        "Features requested, such as straps, tilt, or headrest, with a reason for each",
+        "Bathroom assessment findings and photos",
+        "Caregiver safety concerns, including lifting risks",
+        "Trial results",
+        "Clinician credentials and date of evaluation"
+      ],
+      "questions": {
+        "pediatrician": [
+          "Can you document the skin, safety, or lifting risks at bath time?",
+          "Can you refer us to an OT for a bathroom assessment?",
+          "Can you sign the Letter of Medical Necessity?"
+        ],
+        "pt": [
+          "Can you evaluate transfer techniques and caregiver lifting safety?",
+          "Can you assess how my child's posture holds up in different chairs?",
+          "Can you recommend positioning supports for safe bathing?"
+        ],
+        "ot": [
+          "Can you complete a bathroom assessment and recommend the chair and set-up?",
+          "Can you trial two or three chairs and document what works?",
+          "Can you teach us bathing routines that protect my child and our backs?"
+        ],
+        "social_worker": [
+          "Can you check if Medicaid EPSDT or a waiver covers a bath chair?",
+          "Can you connect us to local loan closets and reuse programs?",
+          "Can you help with appeals if there is a denial?"
+        ],
+        "behavioral_therapist": [
+          "Can you suggest ways to make bath time calm and predictable?",
+          "Can you share how sensory preferences affect bathing equipment choices?"
+        ],
+        "school_nurse": [
+          "Can you share how personal care and toileting are handled at school?",
+          "Can we align hygiene routines across home and school?"
+        ],
+        "school_admin": [
+          "Can the school's accessible restrooms and any shower areas fit this equipment?",
+          "Can we plan privacy and dignity for personal care?"
+        ],
+        "teacher": [
+          "Can personal care routines keep my child with peers as much as possible?",
+          "Can we talk about how to keep my child's dignity protected at school?"
+        ],
+        "sped_specialist": [
+          "Can the IEP list personal care supports and equipment needed at school?",
+          "Can the school team provide a second changing or bathing set-up?",
+          "Can the plan cover training for staff involved in personal care?"
+        ],
+        "snt_attorney": [
+          "Can a trust or ABLE account pay for a bath chair or bathroom changes?",
+          "How do I keep receipts for benefits reporting?"
+        ]
+      },
+      "funding_paths": [
+        "Medicaid EPSDT for children and young adults under 21",
+        "Private insurance, with appeal rights if denied",
+        "Medicaid waiver programs",
+        "State Assistive Technology Act reuse program or loan closet",
+        "Local loan closets and grants",
+        "Special needs trust or ABLE account"
+      ],
+      "growth_tips": "Choose a chair with adjustable seat, back, and leg lengths, and ask about growth kits. Plan a re-check at least yearly.",
+      "typical_timeline": "1-4 months from evaluation to delivery"
+    }
+  ],
+  "lmn_glossary": [
+    {
+      "term": "Medical necessity",
+      "plain": "The reason a doctor or therapist says your child truly needs a piece of equipment to stay healthy and function in daily life.",
+      "why_it_matters": "Insurers approve or deny equipment based on whether it meets their definition of medical necessity.",
+      "flag_words": [
+        "medical necessity",
+        "medically necessary",
+        "medically necessity"
+      ]
+    },
+    {
+      "term": "MRADL (mobility-related activities of daily living)",
+      "plain": "Everyday tasks like getting around the house, toileting, dressing, eating, and bathing that depend on being able to move.",
+      "why_it_matters": "Many insurers require the letter to show equipment helps with MRADLs in the home.",
+      "flag_words": [
+        "mradl",
+        "mobility-related activities of daily living",
+        "activities of daily living",
+        "adl"
+      ]
+    },
+    {
+      "term": "Functional limitation",
+      "plain": "What your child cannot do, or cannot do safely, because of their condition, described in everyday terms.",
+      "why_it_matters": "Specific limits like 'cannot walk 20 feet without assistance' are stronger than a diagnosis alone.",
+      "flag_words": [
+        "functional limitation",
+        "functional limitations",
+        "unable to",
+        "cannot",
+        "limited ability"
+      ]
+    },
+    {
+      "term": "Tilt-in-space",
+      "plain": "A seating feature that tips the whole seat back while keeping the hips and knees at the same angle.",
+      "why_it_matters": "It helps with posture, pressure relief, and comfort over a long day.",
+      "flag_words": [
+        "tilt-in-space",
+        "tilt in space",
+        "tilt",
+        "recline"
+      ]
+    },
+    {
+      "term": "Seat-to-floor height",
+      "plain": "The distance from the seat of the chair to the floor, which affects transfers, foot placement, and table height.",
+      "why_it_matters": "The right height can make transfers, propelling, and tabletop work safer and easier.",
+      "flag_words": [
+        "seat-to-floor",
+        "seat to floor",
+        "seat height",
+        "seat-to-floor height"
+      ]
+    },
+    {
+      "term": "Growth kit",
+      "plain": "Parts that let a chair or device be lengthened or widened as your child grows.",
+      "why_it_matters": "A letter that requests growth features can save money and delay the need for a replacement.",
+      "flag_words": [
+        "growth kit",
+        "growth",
+        "adjustable",
+        "grows with"
+      ]
+    },
+    {
+      "term": "Prior authorization",
+      "plain": "Insurance approval you must get before the equipment is ordered or delivered.",
+      "why_it_matters": "Equipment ordered without prior authorization may not be covered.",
+      "flag_words": [
+        "prior authorization",
+        "pre-authorization",
+        "preauthorization",
+        "prior auth"
+      ]
+    },
+    {
+      "term": "HCPCS code",
+      "plain": "A standard billing code that identifies each type of equipment or supply.",
+      "why_it_matters": "The code on the order must match what the letter describes, or the claim can be denied.",
+      "flag_words": [
+        "hcpcs",
+        "hcpcs code",
+        "billing code"
+      ]
+    },
+    {
+      "term": "Trial/loaner period",
+      "plain": "A chance to try equipment at home or school before it is ordered or approved.",
+      "why_it_matters": "Trial results are strong evidence that a specific item meets your child's needs.",
+      "flag_words": [
+        "trial",
+        "loaner",
+        "demo",
+        "tried",
+        "tested"
+      ]
+    },
+    {
+      "term": "Durable medical equipment (DME)",
+      "plain": "Reusable medical equipment such as wheelchairs, walkers, standers, and bath chairs.",
+      "why_it_matters": "DME is the category insurance uses, and it comes with specific rules and supplier requirements.",
+      "flag_words": [
+        "durable medical equipment",
+        "dme",
+        "medical equipment"
+      ]
+    },
+    {
+      "term": "Least costly alternative",
+      "plain": "An insurer's practice of approving the cheapest option that they think will work.",
+      "why_it_matters": "Your letter should explain why cheaper options will not meet your child's needs.",
+      "flag_words": [
+        "least costly alternative",
+        "least costly",
+        "less costly",
+        "cheaper alternative",
+        "lowest cost"
+      ]
+    },
+    {
+      "term": "Pressure injury risk",
+      "plain": "The chance of skin damage from sitting or lying in one position too long.",
+      "why_it_matters": "Showing pressure risk can support features like tilt and special cushions.",
+      "flag_words": [
+        "pressure injury",
+        "pressure sore",
+        "pressure ulcer",
+        "skin breakdown",
+        "pressure relief"
+      ]
+    },
+    {
+      "term": "Home assessment",
+      "plain": "A visit by a therapist to check how equipment will work in your actual home.",
+      "why_it_matters": "Insurers often want proof that the equipment fits your doors, hallways, and bathroom.",
+      "flag_words": [
+        "home assessment",
+        "home evaluation",
+        "home visit",
+        "environmental assessment",
+        "doorway"
+      ]
+    },
+    {
+      "term": "Denial & appeal",
+      "plain": "A denial is when insurance says no. An appeal is your right to ask them to reconsider.",
+      "why_it_matters": "Many denials are overturned with stronger letters, trial results, and persistence.",
+      "flag_words": [
+        "denial",
+        "denied",
+        "appeal",
+        "reconsideration",
+        "peer-to-peer"
+      ]
+    }
+  ]
+}

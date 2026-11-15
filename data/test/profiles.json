@@ -1,0 +1,166 @@
+{
+  "version": "1.0",
+  "note": "Fictional illustrated personas.",
+  "profiles": [
+    {
+      "id": "profile-gloria-marcus",
+      "caregiver_name": "Gloria",
+      "caregiver_role": "Grandmother raising her grandson",
+      "child_name": "Marcus",
+      "child_age": 9,
+      "child_mobility": "power wheelchair",
+      "city": "Memphis",
+      "state": "TN",
+      "quote": "I raised three children and thought I was done learning. Marcus has me reading regulations at the kitchen table and racing him down the sidewalk, and I wouldn't trade it.",
+      "avatar": {
+        "caregiver_skin": "#6B4226",
+        "caregiver_hair": "#D9D9D9",
+        "caregiver_hair_style": "short",
+        "child_skin": "#7A4B2A",
+        "child_hair": "#1C1C1C",
+        "child_hair_style": "curly",
+        "accent": "#E8A317"
+      }
+    },
+    {
+      "id": "profile-daniel-andre-lucia",
+      "caregiver_name": "Daniel and Andre",
+      "caregiver_role": "Two dads raising their daughter",
+      "child_name": "Lucia",
+      "child_age": 6,
+      "child_mobility": "manual wheelchair",
+      "city": "Chicago",
+      "state": "IL",
+      "quote": "Our first IEP meeting, we brought a photo of Lucia doing a wheelie and set it in the middle of the table. Everybody started with a smile, and so did the plan.",
+      "avatar": {
+        "caregiver_skin": "#C68E5E",
+        "caregiver_hair": "#2B1B12",
+        "caregiver_hair_style": "short",
+        "child_skin": "#B9825A",
+        "child_hair": "#3A2214",
+        "child_hair_style": "braids",
+        "accent": "#4A90C2"
+      }
+    },
+    {
+      "id": "profile-kenji-hana",
+      "caregiver_name": "Kenji",
+      "caregiver_role": "Single father raising his daughter",
+      "child_name": "Hana",
+      "child_age": 12,
+      "child_mobility": "white cane",
+      "city": "Seattle",
+      "state": "WA",
+      "quote": "Hana mapped her new middle school with her cane in two weeks. Now she gives me the tour.",
+      "avatar": {
+        "caregiver_skin": "#E8C39E",
+        "caregiver_hair": "#121212",
+        "caregiver_hair_style": "short",
+        "child_skin": "#EBC9A4",
+        "child_hair": "#121212",
+        "child_hair_style": "long",
+        "accent": "#1F4D3A"
+      }
+    },
+    {
+      "id": "profile-amara-tobi",
+      "caregiver_name": "Amara",
+      "caregiver_role": "Aunt raising her nephew",
+      "child_name": "Tobi",
+      "child_age": 4,
+      "child_mobility": "posterior walker",
+      "city": "Houston",
+      "state": "TX",
+      "quote": "When Tobi came to live with me, I learned that I counted as his 'parent' at the IEP table. I walked in that day like I owned the building.",
+      "avatar": {
+        "caregiver_skin": "#5A3420",
+        "caregiver_hair": "#1A1A1A",
+        "caregiver_hair_style": "locs",
+        "child_skin": "#5E3722",
+        "child_hair": "#1A1A1A",
+        "child_hair_style": "short",
+        "accent": "#C8553D"
+      }
+    },
+    {
+      "id": "profile-rosa-mateo",
+      "caregiver_name": "Rosa",
+      "caregiver_role": "Foster and resource parent",
+      "child_name": "Mateo",
+      "child_age": 2,
+      "child_mobility": "adaptive stroller and early intervention physical therapy",
+      "city": "Sacramento",
+      "state": "CA",
+      "quote": "Our physical therapist comes to the house and coaches me during bath time and floor play. Mateo's giggles are the best progress report I've ever read.",
+      "avatar": {
+        "caregiver_skin": "#B07A50",
+        "caregiver_hair": "#4A2C1A",
+        "caregiver_hair_style": "bun",
+        "child_skin": "#A87148",
+        "child_hair": "#2E1A0F",
+        "child_hair_style": "curly",
+        "accent": "#E8A317"
+      }
+    },
+    {
+      "id": "profile-joe-wyatt",
+      "caregiver_name": "Joe",
+      "caregiver_role": "Kinship uncle raising his nephew",
+      "child_name": "Wyatt",
+      "child_age": 15,
+      "child_mobility": "forearm crutches and hearing aids",
+      "city": "Billings",
+      "state": "MT",
+      "quote": "Wyatt got me to join a dads-and-uncles group online. Turns out a lot of guys have the same questions I do about transition and trucks with lifts.",
+      "avatar": {
+        "caregiver_skin": "#A0623A",
+        "caregiver_hair": "#1E1E1E",
+        "caregiver_hair_style": "braids",
+        "child_skin": "#9C5F38",
+        "child_hair": "#1E1E1E",
+        "child_hair_style": "long",
+        "accent": "#1F4D3A"
+      }
+    },
+    {
+      "id": "profile-priya-sam-aria",
+      "caregiver_name": "Priya and Sam",
+      "caregiver_role": "Two moms raising their daughter",
+      "child_name": "Aria",
+      "child_age": 10,
+      "child_mobility": "cane and hearing aids",
+      "city": "Raleigh",
+      "state": "NC",
+      "quote": "We asked for an FM system and captions on every video, and now Aria corrects the teacher's spelling in the captions. Our girl is unstoppable.",
+      "avatar": {
+        "caregiver_skin": "#8D5A3B",
+        "caregiver_hair": "#1A1110",
+        "caregiver_hair_style": "long",
+        "child_skin": "#B98A68",
+        "child_hair": "#2A1A12",
+        "child_hair_style": "bun",
+        "accent": "#4A90C2"
+      }
+    },
+    {
+      "id": "profile-fatima-yusuf",
+      "caregiver_name": "Fatima",
+      "caregiver_role": "Legal guardian of her 19-year-old brother",
+      "child_name": "Yusuf",
+      "child_age": 19,
+      "child_mobility": "power wheelchair",
+      "city": "Dearborn",
+      "state": "MI",
+      "quote": "Yusuf is in his last years of school services, sampling jobs at a radio station and learning the bus routes. I'm learning to hand him the mic.",
+      "avatar": {
+        "caregiver_skin": "#C99B74",
+        "caregiver_hair": "#2B1D14",
+        "caregiver_hair_style": "hijab",
+        "child_skin": "#C4936B",
+        "child_hair": "#1F1610",
+        "child_hair_style": "short",
+        "accent": "#C8553D"
+      }
+    }
+  ]
+}
