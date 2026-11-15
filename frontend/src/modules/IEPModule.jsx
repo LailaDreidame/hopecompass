@@ -48,7 +48,7 @@ export default function IEPModule({ data, askCopilot }) {
 
   return (
     <div className="space-y-10">
-      <ModuleHeader kind="iep" eyebrow="Module 4 · IEP & 504 Advocacy Powerhouse" title="Champion your child’s rights, 0 to 21">
+      <ModuleHeader kind="iep" eyebrow="Module 4 · IEP & 504 Advocacy Powerhouse" title="Champion your child’s rights, ages 0 to 21">
         From Early Intervention to the transition years. Build accommodation language grounded in federal law, prep for the meeting, and walk in knowing your rights. Grandparents, foster and kinship caregivers: under IDEA, you can count as the “parent” too.
       </ModuleHeader>
 
