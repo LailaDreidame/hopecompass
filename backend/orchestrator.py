@@ -188,10 +188,26 @@ def _run_specialist(run: Run, key: str, intake: dict) -> dict | None:
     return out
 
 
+def _strip_source_ids(text: str, ids) -> str:
+    """Remove internal record ids (e.g. "act-172", "(Sources: prog-031, prog-003)") from caregiver-facing text."""
+    if not text or not ids:
+        return text
+    alt = "|".join(re.escape(i) for i in sorted(ids, key=len, reverse=True))
+    one = rf"(?:{alt})"
+    many = rf"{one}(?:\s*(?:,|;|and|y)\s*{one})*"
+    text = re.sub(rf"\s*\((?:[^()]{{0,25}}:\s*)?{many}\)", "", text)                       # (Sources: a, b) / (act-1)
+    text = re.sub(rf"\s*[A-Za-zÀ-ÿ\u0600-\u06FF\u4e00-\u9fff]{{0,15}}\s*[:：]\s*{many}\.?", "", text)  # Fuente: act-1.
+    text = re.sub(rf"\s*\[{many}\]", "", text)                                                # [act-1]
+    text = re.sub(rf"\b{many}\b", "", text)
+    return re.sub(r"[ \t]{2,}", " ", re.sub(r"\s+([.,;])", r"\1", text)).strip()
+
+
 def _verify(run: Run, final: dict, drafts: dict) -> dict:
     """Layer 5: code-level verification after the Editor (cannot be talked out of)."""
     allowed = run.toolbox.cited
     idx = run.toolbox.db["sources"]
+    final["message_markdown"] = _strip_source_ids(final.get("message_markdown", ""), idx.keys())
+    final["action_checklist"] = [_strip_source_ids(x, idx.keys()) for x in final.get("action_checklist", [])]
     sources, dropped = [], []
     for s in final.get("sources", []):
         if s["source_id"] in allowed and s["source_id"] in idx:

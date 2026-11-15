@@ -116,3 +116,9 @@ def test_translation_uses_cache_and_rejects_unknown_languages(monkeypatch):
         assert False, "unsupported language should raise"
     except ValueError:
         pass
+
+
+def test_internal_source_ids_never_reach_caregivers():
+    ids = data_store.load("full")["sources"].keys()
+    out = orchestrator._strip_source_ids("Ask BORP (Sources: act-172, prog-031). Fuente: act-171. Lift-equipped bus [prog-003].", ids)
+    assert "act-17" not in out and "prog-0" not in out and "Lift-equipped bus" in out

@@ -150,7 +150,7 @@ export default function Copilot({ copilot, prefill, setPrefill, openDrawer, conf
             {ans.mode === 'safe_redirect' && <Pill tone="terra">Medical question: here's who can help</Pill>}
             {ans.mode === 'blocked' && <Pill tone="terra">Kept you safe</Pill>}
             {ans.mode === 'offline' && <Pill tone="gold">Offline mode</Pill>}
-            {ans.sources?.length > 0 && <Pill tone="forest">From {ans.sources.length} trusted listings</Pill>}
+            {ans.sources?.length > 0 && <Pill tone="forest">✓ Checked against our trusted listings</Pill>}
           </div>
           <div translate={ans.lang && ans.lang !== 'en' ? 'no' : undefined}>
           <h3 className="font-display text-3xl text-navy">{ans.headline}</h3>
@@ -164,8 +164,8 @@ export default function Copilot({ copilot, prefill, setPrefill, openDrawer, conf
             </div>
           )}
           {ans.action_checklist?.length > 0 && (
-            <div className="mt-6" translate={ans.lang && ans.lang !== 'en' ? 'no' : undefined}><p className="label mb-2">Your next steps</p>
-              <ul className="space-y-1.5">{ans.action_checklist.map((a) => <li key={a}><label className="flex gap-3 items-start"><input type="checkbox" className="mt-1 w-5 h-5 accent-[#1F4D3A]" /><span>{a}</span></label></li>)}</ul>
+            <div className="mt-6"><p className="label mb-2">Your next steps</p>
+              <ul className="space-y-1.5" translate={ans.lang && ans.lang !== 'en' ? 'no' : undefined}>{ans.action_checklist.map((a) => <li key={a}><label className="flex gap-3 items-start"><input type="checkbox" className="mt-1 w-5 h-5 accent-[#1F4D3A]" /><span>{a}</span></label></li>)}</ul>
             </div>
           )}
           <Cards cards={ans.cards} />

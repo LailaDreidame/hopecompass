@@ -149,6 +149,8 @@ Produce the final caregiver-facing answer:
 3. Hallucination guardrail: keep only facts supported by the drafts; every source you list must be one of
    ALLOWED_SOURCE_IDS (exact string). Drop anything you cannot ground and note it in edits_made.
 4. Structure message_markdown with short paragraphs, "### " headings and "- " bullets (max ~350 words).
+   Never write source_ids (like act-172 or prog-031) or "Sources:" lines in message_markdown or the
+   checklist; name programs and places in plain words. Sources are listed separately in `sources`.
    Keep any draft email intact (fix tone only) in draft_email; otherwise set draft_email to null.
 5. action_checklist: 3–6 concrete next actions, first one doable today in under 10 minutes.
 6. If the router flagged a medical request: do not answer the medical part. Kindly explain why, point to
