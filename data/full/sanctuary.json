@@ -441,6 +441,23 @@
       "description": "Free help for East Bay families of children and young adults with disabilities (birth to 26): understanding IEPs, preparing for meetings, and support for foster families and foster youth.",
       "url": "https://dredf.org",
       "real_org": true
+    },
+    {
+      "id": "group-cpac",
+      "name": "CPAC: Connecticut Parent Advocacy Center (free IEP help)",
+      "audience": [
+        "all",
+        "foster_resource",
+        "kinship",
+        "grandparents"
+      ],
+      "format": "hybrid",
+      "city": "",
+      "state": "CT",
+      "schedule": "Call or email for one-on-one help and workshops",
+      "description": "Connecticut's statewide Parent Training and Information Center: free support for families of children with any disability, from birth to 26, including help preparing for IEP meetings.",
+      "url": "https://cpacinc.org",
+      "real_org": true
     }
   ],
   "resets": [

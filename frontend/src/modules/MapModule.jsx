@@ -57,7 +57,7 @@ export default function MapModule({ data, askCopilot }) {
                   {isSel && <circle r="18" fill="none" stroke="#1E90FF" strokeWidth="3" strokeDasharray="4 3" className="anim-wheel" style={{ animationDuration: '8s' }} />}
                   <circle r={isSel ? 11 : 4 + h.score / 18} fill={color(h.score)} stroke="#fff" strokeWidth={isSel ? 3 : 1.5} />
                   {(isSel || rank(h.id) <= 5) && (
-                    <text y={-14} textAnchor="middle" className="font-sans" fontSize="15" fontWeight="700" fill="#14213D" stroke="#FBF6EC" strokeWidth="4" paintOrder="stroke">{h.city} · {h.score}</text>
+                    <text y={-14} x={p[0] < 160 ? -6 : p[0] > W - 160 ? 6 : 0} textAnchor={p[0] < 160 ? 'start' : p[0] > W - 160 ? 'end' : 'middle'} className="font-sans" fontSize="15" fontWeight="700" fill="#14213D" stroke="#FBF6EC" strokeWidth="4" paintOrder="stroke">{h.city} · {h.score}</text>
                   )}
                 </g>
               )

@@ -281,7 +281,8 @@ class Toolbox:
         groups = [g for g in s["support_groups"]
                   if (not audience or set(audience) & set(g["audience"]) or "all" in g["audience"])
                   and (not st or g["format"] == "virtual" or g.get("state") in (st, "", None))]
-        groups.sort(key=lambda g: not (audience and set(audience) & set(g["audience"])))
+        groups.sort(key=lambda g: (not (audience and set(audience) & set(g["audience"])),   # their audience first,
+                                   not (st and g.get("state") == st)))                       # then local groups
         respite = [r for r in s["respite_grants"] if not st or "ALL" in r["states"] or st in r["states"]]
         g_rows = [{"source_id": g["id"], "name": g["name"], "audience": g["audience"], "format": g["format"],
                    "schedule": g["schedule"], "description": g["description"], "url": g.get("url", "")}

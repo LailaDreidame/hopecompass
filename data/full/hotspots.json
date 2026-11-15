@@ -1603,6 +1603,66 @@
         "Regional Center and CCS intake can take time, so start early"
       ],
       "cost_of_living": "high"
+    },
+    {
+      "id": "new-haven-ct",
+      "city": "New Haven",
+      "state": "CT",
+      "region": "Northeast",
+      "aliases": [
+        "connecticut",
+        "yale",
+        "hartford",
+        "wallingford",
+        "new haven ct"
+      ],
+      "lat": 41.31,
+      "lon": -72.92,
+      "scores": {
+        "transit_curb_cuts": 72,
+        "inclusive_playgrounds": 64,
+        "medicaid_waiver": 78,
+        "pediatric_specialty": 86,
+        "inclusive_schools": 70
+      },
+      "tagline": "Free world-class museums you can roll right into, a children's hospital in town, and Connecticut's only sled hockey team nearby.",
+      "highlights": [
+        "Yale New Haven Children's Hospital is downtown; Connecticut Children's is in Hartford",
+        "Free admission at the Yale Peabody Museum, Yale University Art Gallery and Yale Center for British Art",
+        "Gaylord Sports Association (Wallingford) runs 17 adaptive sports and Connecticut's only sled hockey team (ages 16+)",
+        "Connecticut's HUSKY Health, Birth to Three and CPAC's free IEP help"
+      ],
+      "pediatric_hospitals": [
+        "Yale New Haven Children's Hospital",
+        "Connecticut Children's (Hartford)"
+      ],
+      "inclusive_playgrounds": [
+        "Ask New Haven Parks & Recreation which playgrounds have rubber surfacing and ramps",
+        "The New Haven Green's flat paths make an easy downtown outing"
+      ],
+      "transit_notes": "CT Transit buses have ramps, and ADA paratransit serves Greater New Haven for riders who can't use fixed routes (CTrides.com lists options). Downtown and the Green are flat; East Rock and the hills are steep.",
+      "waiver_notes": "HUSKY Health is Connecticut's Medicaid/CHIP for kids, including EPSDT for under-21s. Birth to Three covers babies and toddlers. Ask the Department of Social Services about home- and community-based waivers for children, which can have waitlists.",
+      "school_notes": "New Haven Public Schools handles IEPs; CPAC (Connecticut Parent Advocacy Center) is the state's free Parent Training and Information Center, serving families from birth to 26.",
+      "insider_tips": [
+        {
+          "tip": "The Peabody has step-free entrances and big elevators, and you can request a sighted guide ahead by email.",
+          "from": "Joy Risers tip"
+        },
+        {
+          "tip": "Three free Yale museums sit within a few blocks; pick one per visit so nobody gets tired.",
+          "from": "Joy Risers tip"
+        },
+        {
+          "tip": "Teens 16+ can try sled hockey with the Gaylord Wolfpack in Wallingford.",
+          "from": "Joy Risers tip"
+        }
+      ],
+      "watch_outs": [
+        "Snowy, icy winters on sidewalks and curb cuts",
+        "Hilly neighborhoods beyond downtown",
+        "Few youth (under 16) adaptive sports teams in-state; ask Gaylord and CPAC about options"
+      ],
+      "cost_of_living": "moderate"
     }
   ]
 }

@@ -703,6 +703,40 @@
       "how_to_apply": "Call RCEB intake to request an eligibility assessment; services are planned in an Individual Program Plan (IPP).",
       "url": "https://www.rceb.org",
       "real_org": true
+    },
+    {
+      "id": "prog-036",
+      "name": "Connecticut Tech Act Project (assistive technology loans)",
+      "type": "loan_closet",
+      "scope": "state",
+      "states": [
+        "CT"
+      ],
+      "covers": [
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "Connecticut's statewide assistive technology program (Department of Aging and Disability Services) offers low-interest loans to buy AT and connects families to equipment programs.",
+      "how_to_apply": "See the CT Tech Act page on portal.ct.gov or call the program to ask about loans and device options.",
+      "url": "https://portal.ct.gov/aginganddisability/content-pages/programs/connecticut-tech-act",
+      "real_org": true
+    },
+    {
+      "id": "prog-037",
+      "name": "NEAT Marketplace (restored equipment)",
+      "type": "reuse",
+      "scope": "state",
+      "states": [
+        "CT"
+      ],
+      "covers": [
+        "any"
+      ],
+      "ages": "0-21",
+      "what_they_offer": "Restores donated adaptive devices and medical equipment so families can buy them for less than new.",
+      "how_to_apply": "Browse what's available on their site or call to ask about specific equipment.",
+      "url": "https://www.neatmarketplace.org",
+      "real_org": true
     }
   ]
 }

@@ -7904,6 +7904,228 @@
         "Several locations; check which is closest"
       ],
       "best_time": "Check today's hours and prices on their website before you go"
+    },
+    {
+      "id": "act-180",
+      "hotspot_id": "new-haven-ct",
+      "city": "New Haven",
+      "state": "CT",
+      "caregiver_tip": "Spanish-speaking tour guides lead several tours each week.",
+      "venue": "Yale Peabody Museum",
+      "neighborhood": "Science Hill / Whitney Avenue",
+      "schedule": null,
+      "how_to_join": "Just walk in; admission is free.",
+      "website": "https://peabody.yale.edu",
+      "name": "Yale Peabody Museum",
+      "category": "sensory_friendly_museum",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free admission",
+      "setting": "indoor",
+      "description": "Dinosaurs, including the famous Brontosaurus in the Great Hall, in a museum reopened after a big renovation. Free for everyone, every visit.",
+      "accessibility_notes": [
+        "Step-free entrances with ramps and large elevators inside",
+        "Accessible parking at Whitney Avenue & Humphrey Street (lot 22v)",
+        "Sighted guides available on request in advance by email"
+      ],
+      "best_time": "Check today's hours on their website before you go"
+    },
+    {
+      "id": "act-181",
+      "hotspot_id": "new-haven-ct",
+      "city": "New Haven",
+      "state": "CT",
+      "caregiver_tip": "",
+      "venue": "Yale University Art Gallery, Chapel Street",
+      "neighborhood": "Downtown / Yale campus",
+      "schedule": null,
+      "how_to_join": "Free; just walk in.",
+      "website": "https://artgallery.yale.edu",
+      "name": "Yale University Art Gallery",
+      "category": "sensory_friendly_museum",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free admission",
+      "setting": "indoor",
+      "description": "One of the country's oldest university art museums, with everything from ancient art to modern masterpieces. A calm, free indoor outing.",
+      "accessibility_notes": [
+        "See the gallery's accessibility page for entrances and elevators",
+        "Quiet galleries with room to roll",
+        "Ask at the desk about seating and rest spots"
+      ],
+      "best_time": "Check today's hours on their website before you go"
+    },
+    {
+      "id": "act-182",
+      "hotspot_id": "new-haven-ct",
+      "city": "New Haven",
+      "state": "CT",
+      "caregiver_tip": "",
+      "venue": "Yale Center for British Art, Chapel Street",
+      "neighborhood": "Downtown / Yale campus",
+      "schedule": null,
+      "how_to_join": "Free; just walk in.",
+      "website": "https://britishart.yale.edu",
+      "name": "Yale Center for British Art",
+      "category": "sensory_friendly_museum",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane"
+      ],
+      "ages": [
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free admission",
+      "setting": "indoor",
+      "description": "Light-filled galleries of paintings, prints and sculpture in a landmark building. Free, peaceful and easy to explore in a short visit.",
+      "accessibility_notes": [
+        "Check their visit page for accessible entrances and elevators",
+        "Galleries are spacious and calm",
+        "Ask about family activity guides"
+      ],
+      "best_time": "Check today's hours on their website before you go"
+    },
+    {
+      "id": "act-183",
+      "hotspot_id": "new-haven-ct",
+      "city": "New Haven",
+      "state": "CT",
+      "caregiver_tip": "",
+      "venue": "New Haven Free Public Library branches",
+      "neighborhood": "Citywide",
+      "schedule": null,
+      "how_to_join": "Find a storytime on the library's events calendar.",
+      "website": "https://nhfpl.org",
+      "name": "New Haven Free Public Library Storytimes",
+      "category": "library_storytime",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision",
+        "hearing"
+      ],
+      "ages": [
+        "0-5"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free",
+      "setting": "indoor",
+      "description": "Songs, books and wiggles for little ones at New Haven's library branches. A free, cozy outing on a cold day.",
+      "accessibility_notes": [
+        "Ask your branch about accessible entrances and seating",
+        "Libraries can help with large print and audiobooks",
+        "Check the calendar for sensory-friendly events"
+      ],
+      "best_time": "Check your branch's storytime calendar"
+    },
+    {
+      "id": "act-184",
+      "hotspot_id": "new-haven-ct",
+      "city": "New Haven",
+      "state": "CT",
+      "caregiver_tip": "",
+      "venue": "New Haven Green",
+      "neighborhood": "Downtown",
+      "schedule": {
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ],
+        "start": "07:00",
+        "end": "19:00",
+        "season": "Year-round",
+        "notes": "Public green, open every day"
+      },
+      "how_to_join": "Just show up.",
+      "website": "",
+      "name": "New Haven Green Roll & Stroll",
+      "category": "accessible_trail",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision"
+      ],
+      "ages": [
+        "0-5",
+        "6-12",
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "free",
+      "price_note": "Free public green",
+      "setting": "outdoor",
+      "description": "The historic town green at the heart of downtown, with flat paths, big trees and people-watching. Pair it with a free museum a few blocks away.",
+      "accessibility_notes": [
+        "Flat paths across the green",
+        "Benches around the edges",
+        "Watch for snow and ice on curb cuts in winter"
+      ],
+      "best_time": "Open daily; sunny afternoons are lovely"
+    },
+    {
+      "id": "act-185",
+      "hotspot_id": "new-haven-ct",
+      "city": "New Haven",
+      "state": "CT",
+      "caregiver_tip": "Younger than 16? Ask Gaylord and CPAC about youth options nearby.",
+      "venue": "Gaylord Sports Association",
+      "neighborhood": "Wallingford (about 20 minutes from New Haven)",
+      "schedule": null,
+      "how_to_join": "Contact the Gaylord Sports Association to ask about joining or a try-it day.",
+      "website": "https://sportsassociation.gaylord.org",
+      "name": "Gaylord Sports Association: Wolfpack Sled Hockey & adaptive sports (ages 16+)",
+      "category": "adaptive_sports",
+      "access": [
+        "wheelchair",
+        "walker",
+        "cane",
+        "vision"
+      ],
+      "ages": [
+        "13-17",
+        "18-21"
+      ],
+      "cost_tier": "under25",
+      "price_note": "Fees vary by program; confirm with Gaylord",
+      "setting": "hybrid",
+      "description": "Connecticut's largest adaptive sports program, with 17 sports, including the Gaylord Wolfpack, the state's only sled hockey team. Programs are for ages 16 and up.",
+      "accessibility_notes": [
+        "For people 16+ with a physical disability or visual impairment",
+        "Adaptive equipment through the program",
+        "Recreational and competitive options year-round"
+      ],
+      "best_time": "Sled hockey season runs roughly September to May; check their calendar"
     }
   ]
 }
