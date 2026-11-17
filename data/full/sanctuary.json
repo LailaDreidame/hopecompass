@@ -204,7 +204,7 @@
       "states": [
         "MA"
       ],
-      "what_they_offer": "Matches Massachusetts families of children who need specialized support so caregivers can trade respite, based on the child's medical and support needs, location and language or cultural preferences. Staff run background checks, offer trainings and online forums, and check in with matched families at least monthly.",
+      "what_they_offer": "Matches Massachusetts families of children who need specialized support so caregivers can trade respite, based on the child's medical and support needs, location, and language or cultural preferences. Staff run background checks, offer trainings and online forums, and check in with matched families at least monthly.",
       "eligibility": "Massachusetts families of children and young people ages 0-26 who need specialized support; open to families regardless of financial resources.",
       "how_to_apply": "Click Join / Request a Match on the C2C page or email c2crespite@fcsn.org.",
       "url": "https://fcsn.org/c2c/",
@@ -221,7 +221,7 @@
       "states": [
         "MA"
       ],
-      "what_they_offer": "Department of Developmental Services-funded centers give families information, referrals and support services; eligible families can ask about respite, including flexible funds to pay respite providers they choose.",
+      "what_they_offer": "Department of Developmental Services-funded centers give families information, referrals, and support services; eligible families can ask about respite, including flexible funds to pay respite providers they choose.",
       "eligibility": "Information and referral are open to any family; funded respite generally requires eligibility for DDS services (intellectual and developmental disabilities).",
       "how_to_apply": "Contact the Family Support Center for your area from the DDS directory, or ask your DDS Service Coordinator about respite.",
       "url": "https://www.mass.gov/info-details/dds-family-support-centers",
@@ -239,7 +239,7 @@
       "states": [
         "MN"
       ],
-      "what_they_offer": "DHS-licensed short-term respite at Camp Eden Wood in Eden Prairie and Camp Friendship in Annandale, with weekend, weekday and Saturday options, so caregivers can rest while kids enjoy camp.",
+      "what_they_offer": "DHS-licensed short-term respite at Camp Eden Wood in Eden Prairie and Camp Friendship in Annandale, with weekend, weekday, and Saturday options, so caregivers can rest while kids enjoy camp.",
       "eligibility": "Children and adults ages five and up with developmental or physical disabilities.",
       "how_to_apply": "Complete True Friends' online program application and health questionnaires; ask which funding sources (such as waiver funds) they can accept.",
       "url": "https://truefriends.org/programs/respite/",
@@ -257,7 +257,7 @@
         "MN"
       ],
       "what_they_offer": "A state cash grant for families raising a child with a certified disability at home; respite care is one of the listed uses.",
-      "eligibility": "Children under 25 with a certified disability living in their family home, under an income limit; generally not available alongside disability waivers, PCA/CFSS or the Consumer Support Grant. Funding is limited and there may be a waiting list.",
+      "eligibility": "Children under 25 with a certified disability living in their family home, under an income limit; generally not available alongside disability waivers, PCA/CFSS, or the Consumer Support Grant. Funding is limited and there may be a waiting list.",
       "how_to_apply": "Apply through your county or tribal human services office (in Hennepin County, start with disability services) or ask the Disability Linkage Line.",
       "url": "https://mn.gov/dhs/people-we-serve/people-with-disabilities/services/home-community/programs-and-services/fsg.jsp",
       "real_org": true,
@@ -274,7 +274,7 @@
       "states": [
         "WA"
       ],
-      "what_they_offer": "A voucher of up to $1,000 per household per year for short-term respite from a provider on the approved list; it usually lasts about 3-4 months, and summer camp and recreation awards start in January. Family members, friends and independent providers can't be paid with the voucher.",
+      "what_they_offer": "A voucher of up to $1,000 per household per year for short-term respite from a provider on the approved list; it usually lasts about 3-4 months, and summer camp and recreation awards start in January. Family members, friends, and independent providers can't be paid with the voucher.",
       "eligibility": "Unpaid Washington caregivers who provide 40 or more hours of care per week (including supervision), can't afford respite on their own, and aren't enrolled in another respite program (unless waitlisted and not scheduled within 30 days). The person receiving care can be any age.",
       "how_to_apply": "Submit the online application; for help email getrespite@wapave.org or call 253-442-3214. Awards depend on available funding.",
       "url": "https://wapave.org/how-to-apply-for-respite/",
@@ -420,7 +420,7 @@
     },
     {
       "id": "group-sample-dads-and-uncles",
-      "name": "The Pit Crew: Dads, Granddads and Uncles (sample listing)",
+      "name": "The Pit Crew: Dads, Granddads, and Uncles (sample listing)",
       "audience": [
         "male_caregivers"
       ],
@@ -574,7 +574,7 @@
       "city": "Boston",
       "state": "MA",
       "schedule": "Information Center staffed 10 a.m.-3 p.m., Monday-Friday; free workshops across Massachusetts",
-      "description": "Massachusetts' Parent Training and Information Center, and the nation's first, offers free help to families, youth and young adults with questions about special education: understanding IEPs, IEP clinics, workshops and help in many languages.",
+      "description": "Massachusetts' Parent Training and Information Center, and the nation's first, offers free help to families, youth, and young adults with questions about special education: understanding IEPs, IEP clinics, workshops, and help in many languages.",
       "url": "https://fcsn.org/pti/",
       "real_org": true,
       "verified_sources": [
@@ -593,7 +593,7 @@
       "city": "Boston",
       "state": "MA",
       "schedule": "Call or email to be matched with a support parent and to join trainings",
-      "description": "Staffed by family members with lived experience, Family TIES helps families of children birth to 26 with special health needs, disabilities or medical complexity find resources, and Parent to Parent matches you with a trained support parent who has walked a similar path.",
+      "description": "Staffed by family members with lived experience, Family TIES helps families of children birth to 26 with special health needs, disabilities, or medical complexity find resources, and Parent to Parent matches you with a trained support parent who has walked a similar path.",
       "url": "https://fcsn.org/family-ties/",
       "real_org": true,
       "verified_sources": [
@@ -628,7 +628,7 @@
       "city": "Bloomington",
       "state": "MN",
       "schedule": "Contact an advocate by phone or email; free virtual and in-person workshops",
-      "description": "Minnesota's federally designated Parent Training and Information Center and Family-to-Family Health Information Center. Advocates (in English, Spanish, Somali and other languages on request) help families of children and young adults with disabilities understand options and prepare for IEP meetings.",
+      "description": "Minnesota's federally designated Parent Training and Information Center and Family-to-Family Health Information Center. Advocates (in English, Spanish, Somali, and other languages on request) help families of children and young adults with disabilities understand options and prepare for IEP meetings.",
       "url": "https://www.pacer.org",
       "real_org": true,
       "verified_sources": [
@@ -685,7 +685,7 @@
       "city": "SeaTac",
       "state": "WA",
       "schedule": "Online support groups on Facebook and Google Groups, plus community events; email to request a Helping Parent match",
-      "description": "Peer support from parents who've walked the road before: support groups, community events and Helping Parent matches that connect you with a trained mentor parent with similar experiences. Services are offered in English and Spanish.",
+      "description": "Peer support from parents who've walked the road before: support groups, community events, and Helping Parent matches that connect you with a trained mentor parent with similar experiences. Services are offered in English and Spanish.",
       "url": "https://arcofkingcounty.org/services/parent-to-parent",
       "real_org": true,
       "verified_sources": [

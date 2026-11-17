@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef } from 'react'
-import { Pill, WebLinks, BUDGET_LABELS, SPECIALTY_LABELS, pretty } from '../components/ui.jsx'
+import { Pill, WebLinks, BUDGET_LABELS, SPECIALTY_LABELS, pretty, useWide } from '../components/ui.jsx'
 
 // Site-wide search across every bundled dataset (runs in the browser, instant, no AI cost).
 // All words must match somewhere (falling back to any word); matches in names count most.
@@ -48,6 +48,7 @@ export default function SearchModule({ data, q, setQ, openResult, askCopilot }) 
   // Sections ordered by their best match (ties keep the usual order), so the most relevant comes first.
   const groups = ORDER.map((g) => [g, results.filter((r) => r.group === g)]).filter(([, rs]) => rs.length)
     .sort((a, b) => b[1][0].score - a[1][0].score || ORDER.indexOf(a[0]) - ORDER.indexOf(b[0]))
+  const wide = useWide()
   const input = useRef(null)
   useEffect(() => { input.current?.focus() }, [])
 
@@ -59,7 +60,7 @@ export default function SearchModule({ data, q, setQ, openResult, askCopilot }) 
         <form onSubmit={(e) => e.preventDefault()} className="mt-5" role="search">
           <label htmlFor="site-search" className="sr-only">Search</label>
           <input id="site-search" ref={input} type="search" className="input text-lg !py-3.5" value={q} onChange={(e) => setQ(e.target.value)}
-            placeholder="Try: sled hockey, Oakland, stander, field trip, respite, Medicaid, Spanish-speaking pediatrician…" />
+            placeholder={wide ? 'Try: sled hockey, Oakland, stander, field trip, respite, Medicaid, Spanish-speaking pediatrician…' : 'Try: sled hockey, Oakland, respite…'} />
         </form>
         {q.trim() && <p className="mt-3 font-semibold text-navy" aria-live="polite">{results.length} {results.length === 1 ? 'result' : 'results'} for “{q.trim()}”</p>}
       </header>

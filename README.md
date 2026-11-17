@@ -3,16 +3,16 @@
 
 🌐 **Live app: [https://joy-risers.onrender.com](https://joy-risers.onrender.com)** · if it has been idle, the first visit can take about a minute to wake up.
 
-Grandparents, aunts and uncles, foster, resource and kinship families, legal guardians, and parents of every shape can:
+Grandparents, aunts and uncles, foster, resource, and kinship families, legal guardians, and parents of every shape can:
 
 | Module | What it does |
 |---|---|
 | 🗺️ **Best Places to Live & Thrive** | Interactive U.S. hotspot map. Re-ranks 30 cities by what matters to *your* family (curb cuts/transit, inclusive playgrounds, Medicaid/waivers, pediatric specialists, inclusive schools). Click a city for its dossier, insider tips, and a side-by-side comparison. |
 | 🎈 **Joy & Play Finder** | 80 accessible adventures, filterable by wheelchair/cane/walker/vision/hearing, age (0–5, 6–12, 13–17, 18–21), budget (Free → Over $100) and indoor/outdoor/hybrid. Plus a saved know-before-you-go checklist. |
-| 🦽 **Equipment & Gear Navigator** | Guides for 8 kinds of gear, a **Checklist & Script Builder** for 10 roles (pediatrician → special needs trust attorney), a **Letter of Medical Necessity decoder**, and loan closets, grants and swap programs. |
+| 🦽 **Equipment & Gear Navigator** | Guides for 8 kinds of gear, a **Checklist & Script Builder** for 10 roles (pediatrician → special needs trust attorney), a **Letter of Medical Necessity decoder**, and loan closets, grants, and swap programs. |
 | 📚 **IEP & 504 Powerhouse** | IFSP → IEP/504 → transition. An **Accommodation & Meeting Prep Builder** writes legally grounded accommodation language (adaptive PE, field-trip transport, evacuation plans, passing time, assistive tech…) with citations, plus a pre-meeting checklist. |
-| 🩺 **Inclusive Provider Finder** | Disability-competent, culturally responsive pediatricians, physiatrists, PTs, OTs and orthotists with Medicaid/insurance, language and telehealth filters, plus **Green Flag Questions** for visit one. |
-| 🌿 **Caregiver Sanctuary** | Respite grants, support circles for grandparents, foster/resource, BIPOC and male caregivers, and guided 5-minute resets. After 30 minutes of active use, a gentle ding-ding-ding breathing break appears. |
+| 🩺 **Inclusive Provider Finder** | Disability-competent, culturally responsive pediatricians, physiatrists, PTs, OTs, and orthotists with Medicaid/insurance, language, and telehealth filters, plus **Green Flag Questions** for visit one. |
+| 🌿 **Caregiver Sanctuary** | Respite grants, support circles for grandparents, foster/resource, BIPOC, and male caregivers, and guided 5-minute resets. After 30 minutes of active use, a gentle ding-ding-ding breathing break appears. |
 | ✨ **Multi-Agent Ask Hope** | 4 agents with structured JSON outputs, tool calling, prompt caching, a live **Agent Telemetry & Safety Inspector** and one-click red-team tests. |
 
 ---
@@ -86,7 +86,7 @@ See **[docs/architecture.md](docs/architecture.md)** for the Mermaid + ASCII dia
 ## 💸 Tokenomics
 
 - **Prompt caching:** each agent's long static prefix (brand voice, safety policy, data dictionary) comes first and stays byte-identical; dynamic text comes last, with a per-agent `prompt_cache_key`. Portkey's response cache is bypassed (`x-portkey-cache-force-refresh`) so every number is a real model call.
-- Every run records **input, cached, cache-write, output and reasoning tokens, latency and USD cost** per model call (prices in `data/prices.json`). It also projects cost **per family per month and for 100 / 10,000 families**.
+- Every run records **input, cached, cache-write, output, and reasoning tokens, latency, and USD cost** per model call (prices in `data/prices.json`). It also projects cost **per family per month and for 100 / 10,000 families**.
 - Every run is appended to `logs/telemetry.jsonl`. The Inspector's "All logged runs" panel averages them.
 - Terminal runs: `python scripts/run_copilot.py "your question"`
 
@@ -144,13 +144,13 @@ npm run build                                 # rewrites frontend/dist for the F
 
 ## 🔒 Privacy (beta)
 The app has a plain-language **Privacy note** (footer link, `#privacy`) and a reminder above the Ask Hope box. In short:
-- No accounts, ads, tracking cookies or analytics.
-- Ask Hope questions go through Portkey to an OpenAI model; the server keeps a temporary run record (question excerpt, answer, cost and safety details) in `logs/telemetry.jsonl`, which is cleared on hosts with temporary disks (like Render's free tier).
-- Language, dataset, checklist and breathing-timer choices stay in the browser; a per-tab session id and the visitor's IP are used only for fair-use limits.
+- No accounts, ads, tracking cookies, or analytics.
+- Ask Hope questions go through Portkey to an OpenAI model; the server keeps a temporary run record (question excerpt, answer, cost, and safety details) in `logs/telemetry.jsonl`, which is cleared on hosts with temporary disks (like Render's free tier).
+- Language, dataset, checklist, and breathing-timer choices stay in the browser; a per-tab session id and the visitor's IP are used only for fair-use limits.
 
 ## ⚖️ About the data
 - **National programs and laws are real** (e.g., IDEA, Section 504, ADA Title II, Medicaid EPSDT, ABLE; AT Act programs, AMBUCS Amtryke, Variety, Easterseals, ARCH Respite, Parent to Parent USA). Citations are general information, **not legal advice**.
-- **Providers are fictional sample listings.** City scores, local activities, hours and prices are **illustrative** demo data. Every card says so, and you should always confirm.
+- **Providers are fictional sample listings.** City scores, local activities, hours, and prices are **illustrative** demo data. Every card says so, and you should always confirm.
 - Hope Compass never diagnoses or gives medication advice. In an emergency call **911**. For crisis support call or text **988**.
 
 *MGT 409 · AI Foundations for Managers · Final Project · Fall 2026*

@@ -45,7 +45,7 @@ Rules:
 - Return JSON {{"t": [...]}} with exactly one translation per input string, in the same order.
 - Natural, warm, plain everyday {lang} that a caregiver would use; respectful disability language
   (e.g. "uses a wheelchair", never "wheelchair-bound"). Never assume a two-parent family.
-- Keep unchanged: names of organizations, programs, places, venues, laws and citations (e.g. "BORP", "IDEA",
+- Keep unchanged: names of organizations, programs, places, venues, laws, and citations (e.g. "BORP", "IDEA",
   "34 CFR §300.320", "Section 504", "Medicaid", "Lake Merritt"), people's names, URLs, emails, numbers, prices,
   times, emoji, and placeholders like {{child}} or [child's name]. You may add a short {lang} gloss in
   parentheses after an English acronym the first time it appears in a string.

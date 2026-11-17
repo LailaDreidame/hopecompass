@@ -14,9 +14,9 @@ const SUGGESTIONS = [
 export const PLAIN = {
   guard: ['Step 1', 'Safety check', 'Making sure your question is safe to answer'],
   intake: ['Step 2', 'Understanding your question', 'Figuring out what you need most'],
-  advocate: ['Helper', 'Rights & equipment helper', 'Looking up school rights, gear and funding'],
-  scout: ['Helper', 'Fun, places & doctors helper', 'Finding activities, cities and providers'],
-  editor: ['Step 3', 'Friendly editor', 'Making it warm, clear and accurate'],
+  advocate: ['Helper', 'Rights & equipment helper', 'Looking up school rights, gear, and funding'],
+  scout: ['Helper', 'Fun, places & doctors helper', 'Finding activities, cities, and providers'],
+  editor: ['Step 3', 'Friendly editor', 'Making it warm, clear, and accurate'],
   verify: ['Step 4', 'Fact check', 'Keeping only info from our trusted guides'],
 }
 const PLAIN_STATUS = { running: 'Working…', done: 'Done ✓', blocked: 'Stopped for safety', skipped: 'Not needed', error: 'Hiccup', idle: 'Waiting', notrun: 'Not needed' }
@@ -120,7 +120,7 @@ export default function Copilot({ copilot, prefill, setPrefill, openDrawer, conf
           <button className="btn-compass" disabled={running || !text.trim()}>{running ? 'Agents at work…' : 'Ask Hope 🧭'}</button>
           <span className="text-sm text-ink/85">{text.length}/2000 · Press Enter to send · Shift + Enter for a new line</span>
         </div>
-        <p className="mt-3 text-sm text-ink/85">🔒 Please don't include names, birthdays or medical record details. Your question goes to our AI providers (Portkey and OpenAI) to write your answer, and we keep a temporary record for safety and cost. <a href="#privacy" className="underline font-semibold">Privacy note</a></p>
+        <p className="mt-3 text-sm text-ink/85">🔒 Please don't include names, birthdays, or medical record details. Your question goes to our AI providers (Portkey and OpenAI) to write your answer, and we keep a temporary record for safety and cost. <a href="#privacy" className="underline font-semibold">Privacy note</a></p>
         {(!asked || showIdeas) ? (
           <div className="mt-4">
             {asked && <p className="label mb-2">Example questions</p>}

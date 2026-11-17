@@ -97,3 +97,6 @@ header select {
   field-sizing: content;
 }
 [dir='rtl'] header select { background-position: left 0.6rem center; }
+
+/* if a (translated) hint is still longer than its box on a phone, end it with "…" instead of a cut-off word */
+input { text-overflow: ellipsis; }

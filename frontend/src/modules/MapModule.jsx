@@ -41,7 +41,7 @@ export default function MapModule({ data, askCopilot, focus, clearFocus }) {
   return (
     <div>
       <ModuleHeader kind="map" eyebrow="Module 1 · Best Places to Live & Thrive" title="Where could your family thrive?">
-        Tell us what matters most and the map re-ranks every city. Click a glowing hotspot for the dossier: scores, children's hospitals, waivers and insider tips from caregivers who live there.
+        Tell us what matters most and the map re-ranks every city. Click a glowing hotspot for the dossier: scores, children's hospitals, waivers, and insider tips from caregivers who live there.
       </ModuleHeader>
 
       <div className="grid xl:grid-cols-[1fr_380px] gap-6">

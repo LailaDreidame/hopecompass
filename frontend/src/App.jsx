@@ -130,7 +130,7 @@ export default function App() {
         <div className="brand-ribbon" aria-hidden="true" />
         {uiLang !== 'en' && (
           <p className="bg-dodger-soft text-dodger-ink text-xs md:text-sm text-center px-4 py-1.5">
-            Translated by AI and may contain errors. Names of laws, programs and places stay in English so you can look them up.
+            Translated by AI and may contain errors. Names of laws, programs, and places stay in English so you can look them up.
             <button className="underline ml-2" onClick={() => setLang('en')}>English</button>
           </p>
         )}
@@ -159,11 +159,11 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6 py-10 grid md:grid-cols-3 gap-8 text-sm">
           <div>
             <p className="font-display text-2xl flex items-center gap-2.5"><Logo className="w-9 h-9 shrink-0" /><span translate="no">Hope Compass</span></p>
-            <p className="mt-2 text-cream/90">For the grandparents, aunts, uncles, foster and kinship families, guardians and parents raising joyful kids who roll, stride and explore their own way.</p>
+            <p className="mt-2 text-cream/90">For the grandparents, aunts, uncles, foster and kinship families, guardians, and parents raising joyful kids who roll, stride, and explore their own way.</p>
           </div>
           <div className="text-cream/90 space-y-2">
             <p><strong>Not medical or legal advice.</strong> Hope Compass shares general information and questions to bring to your child's care team. In an emergency call 911. For crisis support call or text 988.</p>
-            <p>Directory listings are curated demo data: national programs are real organizations; local listings, providers, hours, prices and scores are illustrative. Always confirm.</p>
+            <p>Directory listings are curated demo data: national programs are real organizations; local listings, providers, hours, prices, and scores are illustrative. Always confirm.</p>
           </div>
           <div className="text-cream/90">
             <p><strong>Beta:</strong> Hope Compass is new and still growing, so some listings are samples. Always confirm details.</p>

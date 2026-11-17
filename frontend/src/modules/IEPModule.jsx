@@ -3,9 +3,9 @@ import { ModuleHeader, Chips, Pill, CopyButton, pretty } from '../components/ui.
 
 const STAGES = [
   ['ifsp', 'Early Intervention (IFSP)', '0–3', 'IDEA Part C: services in natural environments like home and childcare, built around your family.'],
-  ['iep', 'IEP (K–12 special education)', '3–21', 'IDEA Part B: specially designed instruction, related services and accommodations.'],
+  ['iep', 'IEP (K–12 special education)', '3–21', 'IDEA Part B: specially designed instruction, related services, and accommodations.'],
   ['504', 'Section 504 Plan', 'K–12+', 'Equal access and accommodations when a child doesn’t need specialized instruction.'],
-  ['transition', 'Transition to adulthood', '14–21', 'Postsecondary goals, travel training, self-advocacy and the age-of-majority conversation.'],
+  ['transition', 'Transition to adulthood', '14–21', 'Postsecondary goals, travel training, self-advocacy, and the age-of-majority conversation.'],
 ]
 
 export default function IEPModule({ data, askCopilot }) {
@@ -49,7 +49,7 @@ export default function IEPModule({ data, askCopilot }) {
   return (
     <div className="space-y-10">
       <ModuleHeader kind="iep" eyebrow="Module 4 · IEP & 504 Advocacy Powerhouse" title="Champion your child’s rights, ages 0 to 21">
-        From Early Intervention to the transition years. Build accommodation language grounded in federal law, prep for the meeting, and walk in knowing your rights. Grandparents, foster and kinship caregivers: under IDEA, you can count as the “parent” too.
+        From Early Intervention to the transition years. Build accommodation language grounded in federal law, prep for the meeting, and walk in knowing your rights. Grandparents, foster, and kinship caregivers: under IDEA, you can count as the “parent” too.
       </ModuleHeader>
 
       <div>
@@ -117,7 +117,7 @@ export default function IEPModule({ data, askCopilot }) {
       <section aria-labelledby="lib">
         <h3 id="lib" className="font-display text-3xl text-navy">Know your rights library</h3>
         <div className="flex flex-wrap gap-4 items-end mt-4">
-          <label className="block w-72"><span className="label block mb-1">Search</span><input className="input" value={pq} onChange={(e) => setPq(e.target.value)} placeholder="transportation, assistive tech…" /></label>
+          <label className="block w-full sm:w-96"><span className="label block mb-1">Search</span><input className="input" value={pq} onChange={(e) => setPq(e.target.value)} placeholder="transportation, assistive tech…" /></label>
           <Chips label="Law" value={law} onChange={setLaw} options={lawOptions.map((l) => [l, l])} />
         </div>
         <div className="grid md:grid-cols-2 gap-5 mt-5">

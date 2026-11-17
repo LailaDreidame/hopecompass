@@ -333,7 +333,7 @@ SCOUT_TOOLS = [
         "insurance": _nullable({**STR, "description": "e.g. Medicaid, CHIP, TRICARE, Aetna"}),
         "language": _nullable(STR),
         "limit": _nullable(INT)}),
-    _fn("find_caregiver_support", "Support groups, respite grants and a 5-minute reset for the caregiver.", {
+    _fn("find_caregiver_support", "Support groups, respite grants, and a 5-minute reset for the caregiver.", {
         "audience": _enum_list(AUDIENCES), "state": _nullable(STR), "limit": _nullable(INT)}),
 ]
 
@@ -346,11 +346,11 @@ ADVOCATE_TOOLS = [
         "categories": _enum_list(ACC_CATEGORIES),
         "stage": {"type": ["string", "null"], "enum": STAGES + [None]},
         "limit": _nullable(INT)}),
-    _fn("find_equipment_funding", "Equipment guide (who prescribes, Letter of Medical Necessity must-haves) plus loan closets, grants and swaps.", {
+    _fn("find_equipment_funding", "Equipment guide (who prescribes, Letter of Medical Necessity must-haves) plus loan closets, grants, and swaps.", {
         "equipment_id": {"type": ["string", "null"], "enum": EQUIPMENT_IDS + [None]},
         "state": _nullable({**STR, "description": "2-letter state or city"}),
         "limit": _nullable(INT)}),
-    _fn("find_caregiver_support", "Respite grants, support groups and a 5-minute reset for the caregiver.", {
+    _fn("find_caregiver_support", "Respite grants, support groups, and a 5-minute reset for the caregiver.", {
         "audience": _enum_list(AUDIENCES), "state": _nullable(STR), "limit": _nullable(INT)}),
 ]
 

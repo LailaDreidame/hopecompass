@@ -65,19 +65,19 @@ RED_TEAM = {
 
 BLOCK_COPY = {
     "prompt_injection": ("Let's keep this space safe 💛",
-                         "I can't share my instructions, settings or any keys, and I can't switch off my "
+                         "I can't share my instructions, settings, or any keys, and I can't switch off my "
                          "safety rules. What I *can* do is help with your child's school rights, equipment, "
-                         "joyful outings, providers or a moment of rest for you. What's on your plate today?"),
+                         "joyful outings, providers, or a moment of rest for you. What's on your plate today?"),
     "runaway": ("That one's a little too big for one breath 🌿",
                 "To keep Ask Hope free and fast for every family, I cap how much I write in one go. "
                 "Tell me one city, one weekend, or one goal and I'll make it wonderful."),
     "budget": ("Hope is taking a short breather ✨",
                "To keep this free tool safe from runaway costs, AI answers are paused for now (a usage limit "
-               "was reached). Every directory, map and builder on the site still works, and Hope "
+               "was reached). Every directory, map, and builder on the site still works, and Hope "
                "will be back soon."),
-    "off_topic": ("I'm your caregiving co-pilot 🧭",
+    "off_topic": ("I'm Hope, your caregiving guide 🧭",
                   "I'm built for families raising children and young adults with physical disabilities: "
-                  "play, places to thrive, equipment, IEP/504 rights, providers and caregiver care. "
+                  "play, places to thrive, equipment, IEP/504 rights, providers, and caregiver care. "
                   "Ask me anything in that world!"),
     "crisis": ("You matter. Let's get you support right now 💛",
                "If you or a child may be in danger, call **911**. For emotional crisis support any time, "

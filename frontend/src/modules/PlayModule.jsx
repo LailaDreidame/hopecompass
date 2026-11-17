@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { ModuleHeader, Chips, Select, Pill, WebLinks, Sheet, ACCESS_LABELS, AGE_LABELS, BUDGET_LABELS, pretty } from '../components/ui.jsx'
+import { ModuleHeader, Chips, Select, Pill, WebLinks, Sheet, ACCESS_LABELS, AGE_LABELS, BUDGET_LABELS, pretty, useWide } from '../components/ui.jsx'
 
 const ORDER = ['free', 'under25', 'under50', 'under100', 'over100']
 const fitsBudget = (tier, cap) => !cap || (cap === 'over100' ? tier === 'over100' : ORDER.indexOf(tier) <= ORDER.indexOf(cap))
@@ -12,7 +12,7 @@ const fmtDays = (d) => (d.length === 7 ? 'Every day' : d.length === 2 && d.inclu
 export const whenText = (a) => (a.schedule ? `${fmtDays(a.schedule.days)} · ${t12(a.schedule.start)}–${t12(a.schedule.end)}` : a.best_time)
 const whereText = (a) => [a.venue, a.neighborhood, `${a.city}, ${a.state}`].filter(Boolean).join(' · ')
 
-// Download an .ics file for the next date this activity happens (works with Apple, Google and Outlook calendars).
+// Download an .ics file for the next date this activity happens (works with Apple, Google, and Outlook calendars).
 function addToCalendar(a) {
   const s = a.schedule; if (!s) return
   const now = new Date(); const d = new Date(now)
@@ -38,13 +38,13 @@ function DetailStrip({ a }) {
 }
 
 const CHECKLIST = [
-  'Call or email ahead: confirm the accessible entrance, elevator status and today’s hours',
-  'Ask about accessible parking, drop-off and the nearest family restroom / adult-size changing table',
+  'Call or email ahead: confirm the accessible entrance, elevator status, and today’s hours',
+  'Ask about accessible parking, drop-off, and the nearest family restroom / adult-size changing table',
   'Charge the power chair or pack spare batteries; check the terrain (grass, gravel, boardwalk)',
   'Pack the comfort kit: water, snacks, sunscreen, ear defenders, sunglasses, a favorite fidget',
-  'Ask about ASL interpreters, captioning, audio description or tactile options',
+  'Ask about ASL interpreters, captioning, audio description, or tactile options',
   'Pick a calm-down spot and an exit plan before you need them',
-  'Bring meds, a med list and your child’s “All About Me” card',
+  'Bring meds, a med list, and your child’s “All About Me” card',
   'Plan a caregiver break: who holds the bags while you sip a coffee?',
 ]
 
@@ -54,6 +54,7 @@ export default function PlayModule({ data, askCopilot, focus, clearFocus }) {
   const [age, setAge] = useState(null)
   const [budget, setBudget] = useState(null)
   const [setting, setSetting] = useState(null)
+  const wide = useWide()
   const [city, setCity] = useState(null)
   const [q, setQ] = useState('')
   const [open, setOpen] = useState(null)
@@ -72,16 +73,16 @@ export default function PlayModule({ data, askCopilot, focus, clearFocus }) {
   return (
     <div>
       <ModuleHeader kind="play" eyebrow="Module 2 · The Joy & Play Finder" title="Fun, free & affordable adventures">
-        Adaptive sports, sensory-friendly museum hours, rollable trails, inclusive splash pads and adaptive arts, free and low-cost first.
+        Adaptive sports, sensory-friendly museum hours, rollable trails, inclusive splash pads, and adaptive arts, free and low-cost first.
       </ModuleHeader>
 
       <div className="card p-5 md:p-6 space-y-4">
-        <div className="grid md:grid-cols-[1fr_220px_220px] gap-4">
-          <label className="block"><span className="label block mb-1">Search</span><input className="input" placeholder="sled hockey, splash pad, audio-described…" value={q} onChange={(e) => setQ(e.target.value)} /></label>
+        <div className="grid md:grid-cols-2 lg:grid-cols-[1fr_220px_220px] gap-4">
+          <label className="block md:col-span-2 lg:col-span-1"><span className="label block mb-1">Search</span><input className="input" placeholder={wide ? 'sled hockey, splash pad, audio-described…' : 'sled hockey, splash pad…'} value={q} onChange={(e) => setQ(e.target.value)} /></label>
           <Select label="City" value={city} onChange={setCity} options={[['', 'Anywhere'], ...cities]} />
           <Select label="Setting" value={setting} onChange={setSetting} options={[['', 'Any setting'], ['indoor', 'Indoor'], ['outdoor', 'Outdoor'], ['hybrid', 'Hybrid']]} />
         </div>
-        <div><p className="label mb-2">Mobility, vision or hearing aid</p><Chips multi label="Access needs" value={access} onChange={setAccess} options={Object.entries(ACCESS_LABELS)} /></div>
+        <div><p className="label mb-2">Mobility, vision, or hearing aid</p><Chips multi label="Access needs" value={access} onChange={setAccess} options={Object.entries(ACCESS_LABELS)} /></div>
         <div className="grid md:grid-cols-2 gap-4">
           <div><p className="label mb-2">Age</p><Chips label="Age" value={age} onChange={setAge} options={Object.entries(AGE_LABELS)} /></div>
           <div><p className="label mb-2">Budget</p><Chips label="Budget" value={budget} onChange={setBudget} options={Object.entries(BUDGET_LABELS)} /></div>

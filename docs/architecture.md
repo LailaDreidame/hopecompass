@@ -78,11 +78,11 @@ caregiver message
 
 | Choice | Why |
 |---|---|
-| Code guardrails before and after the model | Regex filters, budgets and scrubbers can't be argued with. Obvious attacks cost **$0.00** because no model is called. |
+| Code guardrails before and after the model | Regex filters, budgets, and scrubbers can't be argued with. Obvious attacks cost **$0.00** because no model is called. |
 | Router agent with structured safety flags | Catches subtle attacks the regex misses (see the "stealth" red-team test) and routes only to the specialists a question needs. |
 | Two specialists in parallel | IEP/equipment questions and play/place questions need different tools; running both at once cuts wall-clock time. |
 | Tools over bundled JSON | Agents can only cite records that exist. Each record has a `source_id`, so the editor and code can verify grounding. |
-| Editor agent last | Inclusive voice standards, clinical boundary and hallucination check happen on every answer, not as an afterthought. |
+| Editor agent last | Inclusive voice standards, clinical boundary, and hallucination check happen on every answer, not as an afterthought. |
 | One model (gpt-6-luna) | Course rule; it is fast and cheap. Reasoning effort is set to low and outputs are strict JSON schemas. |
 
 ## Prompt caching

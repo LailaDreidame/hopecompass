@@ -43,7 +43,7 @@ export default function EquipmentModule({ data, askCopilot, focus, clearFocus })
   return (
     <div className="space-y-10">
       <ModuleHeader kind="equipment" eyebrow="Module 3 · Equipment & Mobility Gear Navigator" title="What to ask for & how to get it">
-        Custom chairs, power chairs, canes, standers, ramps and bath chairs, with the exact questions to ask, a Letter of Medical Necessity decoder, and where to borrow, swap or get help paying.
+        Custom chairs, power chairs, canes, standers, ramps, and bath chairs, with the exact questions to ask, a Letter of Medical Necessity decoder, and where to borrow, swap, or get help paying.
       </ModuleHeader>
 
       <div>

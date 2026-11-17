@@ -27,7 +27,7 @@ INJECTION_PATTERNS = [
     (r"\b(reveal|print|dump|show|repeat|output|leak|display|tell me)\b[^.\n]{0,40}\b(system|hidden|initial|developer|secret)\s+(prompt|instruction|message|rules?)",
      "Asks for the hidden system prompt"),
     (r"\b(api[\s_-]?keys?|secret[\s_-]?keys?|access\s+tokens?|portkey_api_key|openai_api_key|\.env\b|environment variables?)",
-     "Asks for keys, tokens or environment secrets"),
+     "Asks for keys, tokens, or environment secrets"),
     (r"\b(you are now|act as|pretend (to be|you are)|roleplay as)\b[^.\n]{0,40}\b(dan|developer mode|devmode|jailbr\w*|unfiltered|unrestricted|no rules|evil)",
      "Role-play jailbreak"),
     (r"\b(jailbreak|developer mode|devmode|do anything now)\b", "Known jailbreak phrase"),

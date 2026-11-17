@@ -33,17 +33,26 @@ function skipped(el) {
   return false
 }
 
+// Text boxes keep what the caregiver typed, but their hint text (placeholder) and labels
+// should still be translated, so for INPUT/TEXTAREA only translate="no" and the ancestors count.
+const FIELD_TAGS = new Set(['INPUT', 'TEXTAREA'])
+const attrsSkipped = (el) => (FIELD_TAGS.has(el.tagName)
+  ? el.getAttribute('translate') === 'no' || skipped(el.parentElement)
+  : skipped(el))
+
 function collect(root) {
   const out = []
   if (root.nodeType === Node.TEXT_NODE) { out.push(root); return out }
-  if (root.nodeType !== Node.ELEMENT_NODE || skipped(root)) return out
+  if (root.nodeType !== Node.ELEMENT_NODE) return out
+  if (FIELD_TAGS.has(root.tagName)) { if (!attrsSkipped(root)) out.push(root); return out }
+  if (skipped(root)) return out
   const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT | NodeFilter.SHOW_ELEMENT, {
     acceptNode: (n) => (n.nodeType === Node.ELEMENT_NODE
       ? (SKIP_TAGS.has(n.tagName) || n.getAttribute('translate') === 'no' ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_SKIP)
       : NodeFilter.FILTER_ACCEPT),
   })
   for (let n = walker.nextNode(); n; n = walker.nextNode()) out.push(n)
-  root.querySelectorAll?.('[placeholder],[aria-label],[alt],[title]').forEach((el) => { if (!skipped(el)) out.push(el) })
+  root.querySelectorAll?.('[placeholder],[aria-label],[alt],[title]').forEach((el) => { if (!attrsSkipped(el)) out.push(el) })
   if (ATTRS.some((a) => root.hasAttribute?.(a))) out.push(root)
   return out
 }

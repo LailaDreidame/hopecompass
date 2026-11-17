@@ -615,7 +615,7 @@
       ],
       "best_time": "Saturday morning sensory hours, 9-11am.",
       "caregiver_tip": "Bring noise-reducing headphones.",
-      "venue": "Zoo, main entrance and walking paths",
+      "venue": "Zoo, main entrance, and walking paths",
       "neighborhood": "Grant Park",
       "schedule": {
         "days": [
@@ -1287,7 +1287,7 @@
       ],
       "best_time": "Early mornings, when the birds are most active.",
       "caregiver_tip": "Bring binoculars.",
-      "venue": "Metro park, birding trail and boardwalk lookout",
+      "venue": "Metro park, birding trail, and boardwalk lookout",
       "neighborhood": "Central Columbus",
       "schedule": {
         "days": [
@@ -2112,7 +2112,7 @@
       ],
       "best_time": "Weekday mornings, before the weekend crowds.",
       "caregiver_tip": "Visit in cooler months.",
-      "venue": "City park, paved path and carousel pavilion",
+      "venue": "City park, paved path, and carousel pavilion",
       "neighborhood": "Mid-City",
       "schedule": {
         "days": [
@@ -2430,7 +2430,7 @@
       ],
       "best_time": "Summer mornings, before the midday heat.",
       "caregiver_tip": "Bring towels.",
-      "venue": "Neighborhood park, splash pad and shade area",
+      "venue": "Neighborhood park, splash pad, and shade area",
       "neighborhood": "Central Salt Lake City",
       "schedule": {
         "days": [
@@ -2989,7 +2989,7 @@
       ],
       "best_time": "Select mornings, 8-10am; check the calendar.",
       "caregiver_tip": "Bring headphones.",
-      "venue": "Zoo, main entrance and walking paths",
+      "venue": "Zoo, main entrance, and walking paths",
       "neighborhood": "Griffith Park",
       "schedule": {
         "days": [
@@ -3048,7 +3048,7 @@
         "start": "08:00",
         "end": "12:00",
         "season": "June–August",
-        "notes": "Boards, volunteers and wetsuits provided; registration required"
+        "notes": "Boards, volunteers, and wetsuits provided; registration required"
       },
       "how_to_join": "Register with the surf program well ahead; spots are limited.",
       "website": ""
@@ -3133,7 +3133,7 @@
       ],
       "best_time": "Weekday mornings, before the midday heat.",
       "caregiver_tip": "Bring towels.",
-      "venue": "Neighborhood park, inclusive playground and splash pad",
+      "venue": "Neighborhood park, inclusive playground, and splash pad",
       "neighborhood": "Central San Diego",
       "schedule": {
         "days": [
@@ -6819,7 +6819,7 @@
       "cost_tier": "free",
       "price_note": "Free public path",
       "setting": "outdoor",
-      "description": "A flat, paved loop around Oakland's lake with ducks, pelicans and skyline views. Roll a short stretch or the whole loop, about three miles, and turn back whenever you like.",
+      "description": "A flat, paved loop around Oakland's lake with ducks, pelicans, and skyline views. Roll a short stretch or the whole loop, about three miles, and turn back whenever you like.",
       "accessibility_notes": [
         "Mostly flat paved path around the lake",
         "Benches all along the way for rest stops",
@@ -6890,7 +6890,7 @@
       "cost_tier": "under25",
       "price_note": "Membership or program enrollment may be required; confirm fees",
       "setting": "outdoor",
-      "description": "A fleet of more than 65 adaptive cycles, including youth sizes: handcycles, trikes and tandems. Group youth rides are escorted by trained volunteers.",
+      "description": "A fleet of more than 65 adaptive cycles, including youth sizes: handcycles, trikes, and tandems. Group youth rides are escorted by trained volunteers.",
       "accessibility_notes": [
         "Adaptive bikes in youth and adult sizes",
         "Trained volunteers on group youth rides",
@@ -6923,7 +6923,7 @@
       "cost_tier": "under25",
       "price_note": "Low cost; confirm current fees with BORP",
       "setting": "indoor",
-      "description": "Team practices where kids who use manual or power chairs learn the game, make friends and compete. Power soccer is built for power-chair users.",
+      "description": "Team practices where kids who use manual or power chairs learn the game, make friends, and compete. Power soccer is built for power-chair users.",
       "accessibility_notes": [
         "Sports chairs and equipment through the program",
         "Power soccer designed for power-chair users",
@@ -6957,7 +6957,7 @@
       "cost_tier": "under25",
       "price_note": "Paid admission; check current prices",
       "setting": "outdoor",
-      "description": "A storybook park on the shore of Lake Merritt with puppet shows, small rides and fairy-tale sets made for young children. A beloved Oakland classic.",
+      "description": "A storybook park on the shore of Lake Merritt with puppet shows, small rides, and fairy-tale sets made for young children. A beloved Oakland classic.",
       "accessibility_notes": [
         "Ask staff for the most accessible route through the park",
         "Lakeside location next to the flat Lake Merritt path",
@@ -6994,7 +6994,7 @@
       "cost_tier": "under50",
       "price_note": "Paid admission; check current prices",
       "setting": "outdoor",
-      "description": "Lions, giraffes and a gondola ride up to the California Trail with views over the bay. Some paths are hilly, so plan your route.",
+      "description": "Lions, giraffes, and a gondola ride up to the California Trail with views over the bay. Some paths are hilly, so plan your route.",
       "accessibility_notes": [
         "Ask about the gondola to the California Trail and wheelchair loading",
         "Some paths are steep; ask for an accessibility map",
@@ -7029,7 +7029,7 @@
       "cost_tier": "under50",
       "price_note": "Paid admission; check current prices",
       "setting": "indoor",
-      "description": "Planetarium shows, hands-on space exhibits and big telescopes up in the Oakland hills. A cozy indoor adventure for curious kids.",
+      "description": "Planetarium shows, hands-on space exhibits, and big telescopes up in the Oakland hills. A cozy indoor adventure for curious kids.",
       "accessibility_notes": [
         "Ask about accessible parking and elevator access",
         "Planetarium shows can be loud and dark; ask about seating near exits",
@@ -7064,7 +7064,7 @@
       "cost_tier": "free",
       "price_note": "Free",
       "setting": "indoor",
-      "description": "Songs, stories and wiggles for little ones at Oakland's library branches. A free, easy outing on a rainy day.",
+      "description": "Songs, stories, and wiggles for little ones at Oakland's library branches. A free, easy outing on a rainy day.",
       "accessibility_notes": [
         "Ask your branch about accessible entrances and seating",
         "Libraries can often help with large print and audiobooks",
@@ -7208,7 +7208,7 @@
       "cost_tier": "free",
       "price_note": "Free admission",
       "setting": "indoor",
-      "description": "Light-filled galleries of paintings, prints and sculpture in a landmark building. Free, peaceful and easy to explore in a short visit.",
+      "description": "Light-filled galleries of paintings, prints, and sculpture in a landmark building. Free, peaceful, and easy to explore in a short visit.",
       "accessibility_notes": [
         "Check their visit page for accessible entrances and elevators",
         "Galleries are spacious and calm",
@@ -7243,7 +7243,7 @@
       "cost_tier": "free",
       "price_note": "Free",
       "setting": "indoor",
-      "description": "Songs, books and wiggles for little ones at New Haven's library branches. A free, cozy outing on a cold day.",
+      "description": "Songs, books, and wiggles for little ones at New Haven's library branches. A free, cozy outing on a cold day.",
       "accessibility_notes": [
         "Ask your branch about accessible entrances and seating",
         "Libraries can help with large print and audiobooks",
@@ -7294,7 +7294,7 @@
       "cost_tier": "free",
       "price_note": "Free public green",
       "setting": "outdoor",
-      "description": "The historic town green at the heart of downtown, with flat paths, big trees and people-watching. Pair it with a free museum a few blocks away.",
+      "description": "The historic town green at the heart of downtown, with flat paths, big trees, and people-watching. Pair it with a free museum a few blocks away.",
       "accessibility_notes": [
         "Flat paths across the green",
         "Benches around the edges",
@@ -7357,14 +7357,14 @@
       "cost_tier": "under25",
       "price_note": "Fees apply to some sled hockey sessions; check current prices with Spaulding",
       "setting": "indoor",
-      "description": "Spaulding Adaptive Sports Centers' Sledgehogs is greater Boston's youth sled hockey team, with youth-only practices plus clinics and games around the region and beyond. Kids of all abilities glide, pass and score from the seat of a sled, and teammates quickly become a second family.",
+      "description": "Spaulding Adaptive Sports Centers' Sledgehogs is greater Boston's youth sled hockey team, with youth-only practices plus clinics and games around the region and beyond. Kids of all abilities glide, pass, and score from the seat of a sled, and teammates quickly become a second family.",
       "accessibility_notes": [
         "Coaching and sleds/equipment are provided in Spaulding sled hockey sessions",
         "Offers both recreational and competitive levels of play",
         "Ask which rink this season's practices use and about accessible locker rooms and parking"
       ],
       "best_time": "Check today's hours on their website before you go",
-      "caregiver_tip": "Pack extra layers, a blanket and warm gloves for both the player and the bench crew; rinks are chilly.",
+      "caregiver_tip": "Pack extra layers, a blanket, and warm gloves for both the player and the bench crew; rinks are chilly.",
       "venue": "Greater Boston ice rinks (Spaulding Adaptive Sports Centers program)",
       "neighborhood": "Greater Boston (rink varies by session)",
       "schedule": null,
@@ -7399,14 +7399,14 @@
       "cost_tier": "free",
       "price_note": "Free to players; the league says it is provided at no cost to families",
       "setting": "outdoor",
-      "description": "Every player gets to bat, run the bases and hear the crowd cheer on the Joseph Lalli Miracle Field, a specially built field at NARA Park. Volunteer buddies help where needed, so the whole afternoon is about joy, not keeping score.",
+      "description": "Every player gets to bat, run the bases, and hear the crowd cheer on the Joseph Lalli Miracle Field, a specially built field at NARA Park. Volunteer buddies help where needed, so the whole afternoon is about joy, not keeping score.",
       "accessibility_notes": [
         "The Miracle Field has a flat, rubberized surface so players using wheelchairs and walkers can move around the bases",
         "Youth league for players about ages 5 to 21, plus a separate adult league",
         "Ask about accessible parking and restrooms at NARA Park when you register"
       ],
       "best_time": "Check today's hours on their website before you go",
-      "caregiver_tip": "Bring sunscreen, water and a folding chair for the sidelines, and let the volunteer buddies take a turn while you cheer.",
+      "caregiver_tip": "Bring sunscreen, water, and a folding chair for the sidelines, and let the volunteer buddies take a turn while you cheer.",
       "venue": "Joseph Lalli Miracle Field, NARA Park",
       "neighborhood": "Acton",
       "schedule": null,
@@ -7439,14 +7439,14 @@
       "cost_tier": "free",
       "price_note": "Free: entry and equipment are free of charge (DCR Universal Access Program)",
       "setting": "indoor",
-      "description": "The state's Universal Access Program turns a public rink into a place where everyone gets on the ice, whether in their own wheelchair, an ice sled or a skate walker. Families, friends and support staff are welcome to skate alongside.",
+      "description": "The state's Universal Access Program turns a public rink into a place where everyone gets on the ice, whether in their own wheelchair, an ice sled, or a skate walker. Families, friends, and support staff are welcome to skate alongside.",
       "accessibility_notes": [
-        "Skaters can use a wheelchair, an ice sled, a skate walker, ice grippers or regular skates on the ice",
+        "Skaters can use a wheelchair, an ice sled, a skate walker, ice grippers, or regular skates on the ice",
         "Adaptive equipment is provided free",
         "Pre-registration is required; ask about age guidelines for younger children when you sign up"
       ],
       "best_time": "Winter 2026-27 Wednesday sessions listed by DCR, e.g. Dec. 9, 2026, 11 a.m.-1:30 p.m.; further dates listed for Jan. 6, Feb. 3 and Mar. 3, 2027. Confirm on their website before you go",
-      "caregiver_tip": "Bring a winter coat, hat and gloves; the rink is cold even for people watching from the boards.",
+      "caregiver_tip": "Bring a winter coat, hat, and gloves; the rink is cold even for people watching from the boards.",
       "venue": "Porrazzo Memorial Rink, 199 Coleridge St",
       "neighborhood": "East Boston",
       "schedule": null,
@@ -7478,7 +7478,7 @@
       "cost_tier": "free",
       "price_note": "Free public park",
       "setting": "outdoor",
-      "description": "Built in memory of Martin Richard, this waterfront playground in the Seaport was designed so children of every ability can climb, explore and play together, including on its big play ship. Sloping paths, gardens and water play make it a favorite stop next to Boston Children's Museum.",
+      "description": "Built in memory of Martin Richard, this waterfront playground in the Seaport was designed so children of every ability can climb, explore, and play together, including on its big play ship. Sloping paths, gardens, and water play make it a favorite stop next to Boston Children's Museum.",
       "accessibility_notes": [
         "Sloping paths and hills let children with mobility disabilities reach the top of the play areas",
         "Signs point out the inclusive routes and play elements",
@@ -7517,7 +7517,7 @@
       "cost_tier": "free",
       "price_note": "Free public playground",
       "setting": "outdoor",
-      "description": "Opened in 2025 on the old Charlesbank Playground site, this riverside playground was built to be fully ADA-accessible, with mini duck boats, small Boston landmarks and a 40-yard dash. It sits right next to the Alfond Spray Deck and Teddy Ebersol's Red Sox Fields, so there is plenty to do in one stop.",
+      "description": "Opened in 2025 on the old Charlesbank Playground site, this riverside playground was built to be fully ADA-accessible, with mini duck boats, small Boston landmarks, and a 40-yard dash. It sits right next to the Alfond Spray Deck and Teddy Ebersol's Red Sox Fields, so there is plenty to do in one stop.",
       "accessibility_notes": [
         "Described by the Esplanade Association and DCR as a fully ADA-accessible playground",
         "Design plans included rubberized surfacing and a ground-level merry-go-round for wheelchair access",
@@ -7559,7 +7559,7 @@
       "cost_tier": "free",
       "price_note": "Free public park",
       "setting": "outdoor",
-      "description": "Three miles of riverside park with more than five miles of paved paths, sailboats on the Charles and skyline views at every turn. Roll as far as you like, then rest at a playground, the Hatch Shell or the water's edge.",
+      "description": "Three miles of riverside park with more than five miles of paved paths, sailboats on the Charles, and skyline views at every turn. Roll as far as you like, then rest at a playground, the Hatch Shell, or the water's edge.",
       "accessibility_notes": [
         "Over five miles of paved paths; width and smoothness vary, but the Esplanade Association calls them largely welcoming to all visitors",
         "The Frances Appleton Pedestrian Bridge at Charles Circle is the most accessible way in; there are also at-grade entrances at each end of the park",
@@ -7599,7 +7599,7 @@
       "cost_tier": "free",
       "price_note": "Free; the library says all of its programs are free and open to the public",
       "setting": "indoor",
-      "description": "The Children's Library at the Central Library in Copley Square hosts story times for little ones (recent listings include ages 0-5 and 0-7), full of songs, rhymes and picture books. It is a cozy, welcoming way to spend a morning or afternoon together.",
+      "description": "The Children's Library at the Central Library in Copley Square hosts story times for little ones (recent listings include ages 0-5 and 0-7), full of songs, rhymes, and picture books. It is a cozy, welcoming way to spend a morning or afternoon together.",
       "accessibility_notes": [
         "The 700 Boylston Street entrance is at sidewalk level, and the Glass and West elevators reach the second-floor Children's Library",
         "Request ASL or other interpretation in advance through the contact on the event listing",
@@ -7639,7 +7639,7 @@
       "cost_tier": "under25",
       "price_note": "General admission is listed at $24 for ages 1 and up (under 12 months free); check Morningstar Access pricing when you pre-register",
       "setting": "indoor",
-      "description": "Morningstar Access opens the museum at quieter times for children with special or medical needs and their families, with a cap of 100 guests. Kids can climb, splash and pretend at their own pace without the usual crowds.",
+      "description": "Morningstar Access opens the museum at quieter times for children with special or medical needs and their families, with a cap of 100 guests. Kids can climb, splash, and pretend at their own pace without the usual crowds.",
       "accessibility_notes": [
         "Building and exhibits are wheelchair accessible, and the main elevator serves all three floors",
         "Free child and adult manual wheelchairs to borrow, plus sound-reducing earmuffs and assistive listening devices at the Admissions Desk",
@@ -7683,7 +7683,7 @@
       "setting": "indoor",
       "description": "From live science shows to the Planetarium, the Museum of Science is a big, hands-on adventure for curious kids of every age. Its Access Hours and quieter weekend mornings make it easier to explore at your own pace.",
       "accessibility_notes": [
-        "Free loans of manual, pediatric and bariatric wheelchairs, strollers and scooters at the Information Desk",
+        "Free loans of manual, pediatric, and bariatric wheelchairs, strollers, and scooters at the Information Desk",
         "Audio description for pre-recorded Omni and 4-D Theater shows and free Aira sighted-guide service",
         "ASL interpretation for live shows (in-person interpreters with two weeks' notice); Access Hours every other month and Soft Light, Soft Sound Planetarium shows"
       ],
@@ -7726,7 +7726,7 @@
       "description": "Ocean animals of every shape and size wait on Boston's waterfront, and kids who use their own wheelchairs get in free. The Aquarium is KultureCity certified, so staff are trained to welcome visitors with sensory needs.",
       "accessibility_notes": [
         "Free wheelchair loans for ticketed guests (ID required) and elevators in the Tropical Gallery and West Wing",
-        "Sensory kits with noise-canceling headphones, fidget tools and picture-communication cards, plus quiet spaces in the lower West Wing and first-aid room",
+        "Sensory kits with noise-canceling headphones, fidget tools, and picture-communication cards, plus quiet spaces in the lower West Wing and first-aid room",
         "Description panels throughout for visitors who are deaf or hard of hearing; assistive listening and captioning devices in the Simons Theatre"
       ],
       "best_time": "Check today's hours on their website before you go",
@@ -7747,7 +7747,7 @@
       "hotspot_id": "minneapolis-mn",
       "city": "Minneapolis",
       "state": "MN",
-      "name": "Courage Kenny Adaptive Sports & Recreation: youth wheelchair basketball, power soccer and more",
+      "name": "Courage Kenny Adaptive Sports & Recreation: youth wheelchair basketball, power soccer, and more",
       "category": "adaptive_sports",
       "access": [
         "wheelchair",
@@ -7762,9 +7762,9 @@
       "cost_tier": "under25",
       "price_note": "Fees vary by program; Courage Kenny says financial barriers won't prevent participation and offers a cost share/scholarship application on request",
       "setting": "indoor",
-      "description": "Courage Kenny's youth wheelchair basketball program has developmental, prep and junior varsity teams, and its Jr. Rolling Timberwolves have won three national championships. Power soccer (played from power wheelchairs), wheelchair lacrosse and more round out a program that welcomes kids as young as five.",
+      "description": "Courage Kenny's youth wheelchair basketball program has developmental, prep, and junior varsity teams, and its Jr. Rolling Timberwolves have won three national championships. Power soccer (played from power wheelchairs), wheelchair lacrosse, and more round out a program that welcomes kids as young as five.",
       "accessibility_notes": [
-        "Wheelchair basketball, power soccer and wheelchair lacrosse are held at the Courage Kenny gym in Golden Valley",
+        "Wheelchair basketball, power soccer, and wheelchair lacrosse are held at the Courage Kenny gym in Golden Valley",
         "Teams are split by level, from developmental to junior varsity, so beginners have a place to start",
         "Ask whether loaner sport wheelchairs are available for new players and which team fits your child's age"
       ],
@@ -7806,7 +7806,7 @@
       "cost_tier": "under25",
       "price_note": "Program fees vary by activity; a personal assistant doesn't pay drop-in entry fees. Check current prices on their website",
       "setting": "hybrid",
-      "description": "Every Minneapolis Park & Recreation Board program is open to people with and without disabilities, and the Inclusion Team builds individualized support so your child can join the fun. Supports can include picture schedules, sensory-friendly spaces, sign language interpretation and 1:1 staff support.",
+      "description": "Every Minneapolis Park & Recreation Board program is open to people with and without disabilities, and the Inclusion Team builds individualized support so your child can join the fun. Supports can include picture schedules, sensory-friendly spaces, sign language interpretation, and 1:1 staff support.",
       "accessibility_notes": [
         "Accommodations are individualized and follow the ADA, including sign language interpretation and 1:1 staff support",
         "For drop-in open gym and pools, a personal assistant can come along and checks in at the front desk",
@@ -7884,7 +7884,7 @@
       "cost_tier": "free",
       "price_note": "Free; the park has both pay and free parking lots",
       "setting": "outdoor",
-      "description": "Minneapolis' first universally accessible play area sits near Minnehaha Falls, with cabins, tents and a play car and camper inspired by the park's history. Rubber surfacing and ramps up onto the structure let kids who roll and kids who run play side by side.",
+      "description": "Minneapolis' first universally accessible play area sits near Minnehaha Falls, with cabins, tents, and a play car and camper inspired by the park's history. Rubber surfacing and ramps up onto the structure let kids who roll and kids who run play side by side.",
       "accessibility_notes": [
         "Rubberized surfacing throughout the play area",
         "Multiple ramps lead up onto the play structure, plus a quiet area",
@@ -7928,7 +7928,7 @@
       "description": "Say hello to animals and wander a glass conservatory full of plants, all with free admission in St. Paul. Sensory Friendly Early Entry mornings give families a calmer hour before the gates open to everyone.",
       "accessibility_notes": [
         "Wheelchairs ($10/day) and electric scooters ($30/day) can be rented on site; they can't be reserved ahead",
-        "A social narrative, visual schedule and sensory map are available on the website",
+        "A social narrative, visual schedule, and sensory map are available on the website",
         "Sensory Friendly Early Entry runs 9 to 10 AM on listed dates"
       ],
       "best_time": "Zoo open daily 10 AM to 4 PM; Conservatory open 10 AM to 4 PM Tuesday to Sunday through April 30, 2027. Confirm on their website before you go",
@@ -7964,11 +7964,11 @@
       "cost_tier": "under25",
       "price_note": "Online advance tickets $17.95 to $19.95, walk-up $24.95, income-based All Play tickets $5; personal care attendants are free with the person they assist",
       "setting": "indoor",
-      "description": "Climb, splash, build and pretend in a museum where every exhibit is designed to be wheelchair accessible. Quiet comfort rooms and low-stimulation spaces help kids reset whenever they need a break.",
+      "description": "Climb, splash, build, and pretend in a museum where every exhibit is designed to be wheelchair accessible. Quiet comfort rooms and low-stimulation spaces help kids reset whenever they need a break.",
       "accessibility_notes": [
         "Every exhibit is designed to be wheelchair accessible",
         "Comfort rooms on the first floor (near Shipwreck Adventures) and second floor (in Sprouts)",
-        "Visual timers, noise-reducing headphones and universal cuffs can be checked out at the box office"
+        "Visual timers, noise-reducing headphones, and universal cuffs can be checked out at the box office"
       ],
       "best_time": "Check today's hours on their website before you go",
       "caregiver_tip": "Park in the World Trade Center ramp and take the skyway in, and ask about All Play pricing if you have an EBT or WIC card.",
@@ -8029,7 +8029,7 @@
       "hotspot_id": "minneapolis-mn",
       "city": "Minneapolis",
       "state": "MN",
-      "name": "Children's Theatre Company accessible performances (sensory friendly, ASL and audio described)",
+      "name": "Children's Theatre Company accessible performances (sensory friendly, ASL, and audio described)",
       "category": "adaptive_arts",
       "access": [
         "wheelchair",
@@ -8046,7 +8046,7 @@
       "cost_tier": "under50",
       "price_note": "Ticket prices vary by show and seat; check current prices on their website",
       "setting": "indoor",
-      "description": "Each season, Children's Theatre Company sets aside sensory-friendly, ASL-interpreted and audio-described performances so the whole family can enjoy live theatre together. Sensory-friendly shows keep the house lights low and sound gentler, developed with Fraser and the Autism Society of Minnesota.",
+      "description": "Each season, Children's Theatre Company sets aside sensory-friendly, ASL-interpreted, and audio-described performances so the whole family can enjoy live theatre together. Sensory-friendly shows keep the house lights low and sound gentler, developed with Fraser and the Autism Society of Minnesota.",
       "accessibility_notes": [
         "Step-free wheelchair rows in both theatres (Row O on the UnitedHealth Group Stage, Row A on the Cargill Stage) and accessible restrooms",
         "Free assistive listening headsets, ASL-interpreted and audio-described performances",
@@ -8129,13 +8129,13 @@
       "setting": "hybrid",
       "description": "Adaptive lessons let kids who learn music differently, including those with physical disabilities, play and sing with a board-certified music therapist who tailors every lesson. No musical experience is needed, just curiosity and joy.",
       "accessibility_notes": [
-        "Lessons are designed for students with physical, cognitive or emotional challenges",
+        "Lessons are designed for students with physical, cognitive, or emotional challenges",
         "Individual sessions in person or online through MacPhail Live Online",
         "Ask about step-free access and room setup at the location you choose"
       ],
       "best_time": "Check today's hours on their website before you go",
       "caregiver_tip": "If your child has CDCS waiver funds, ask whether MacPhail can bill your Fiscal Management Services provider directly.",
-      "venue": "MacPhail Center for Music (Minneapolis, plus Apple Valley, Chanhassen and online)",
+      "venue": "MacPhail Center for Music (Minneapolis, plus Apple Valley, Chanhassen, and online)",
       "neighborhood": "Minneapolis",
       "schedule": null,
       "how_to_join": "Complete the online music therapy intake form or call to schedule a short intake interview; placement with a therapist usually follows within a few days.",
@@ -8189,7 +8189,7 @@
       "hotspot_id": "seattle-wa",
       "city": "Seattle",
       "state": "WA",
-      "name": "Seattle Adaptive Sports Youth Wheelchair Basketball, Sled Hockey and Power Soccer",
+      "name": "Seattle Adaptive Sports Youth Wheelchair Basketball, Sled Hockey, and Power Soccer",
       "category": "adaptive_sports",
       "access": [
         "wheelchair",
@@ -8246,10 +8246,10 @@
       "cost_tier": "under100",
       "price_note": "Fees vary by program; scholarships may be available with proof of income, and the program says it accepts DDA (DDCS) respite funds where applicable. Check current prices on their website",
       "setting": "hybrid",
-      "description": "The City of Seattle's own recreation team for people with disabilities runs summer day camps for ages 4-21, overnight camp for ages 6-21, youth weekend programs and trips, and teen and young adult afterschool programs. It's a wonderful way for kids to make friends, try new things and give caregivers a little breathing room.",
+      "description": "The City of Seattle's own recreation team for people with disabilities runs summer day camps for ages 4-21, overnight camp for ages 6-21, youth weekend programs and trips, and teen and young adult afterschool programs. It's a wonderful way for kids to make friends, try new things, and give caregivers a little breathing room.",
       "accessibility_notes": [
         "Run by Seattle Parks' dedicated Specialized Programs unit for people with disabilities",
-        "Ask about staff-to-participant ratios and help with transfers, feeding or personal care",
+        "Ask about staff-to-participant ratios and help with transfers, feeding, or personal care",
         "Ask whether outings and trips use wheelchair-accessible transportation"
       ],
       "best_time": "Check today's hours on their website before you go",
@@ -8284,7 +8284,7 @@
       "cost_tier": "free",
       "price_note": "Free and open to the public; no registration for Free Play",
       "setting": "outdoor",
-      "description": "This one-acre, fully fenced garden and playground was built so kids with disabilities can play side by side with siblings and friends, with friendly staff on site during open play. A 2026 renovation swapped wood chips for turf, so wheels, walkers and bare feet can roam everywhere.",
+      "description": "This one-acre, fully fenced garden and playground was built so kids with disabilities can play side by side with siblings and friends, with friendly staff on site during open play. A 2026 renovation swapped wood chips for turf, so wheels, walkers, and bare feet can roam everywhere.",
       "accessibility_notes": [
         "Artificial turf replaced wood chips, making it wheelchair and stroller friendly",
         "Play structures are low and wide, so it's easy to lift a child from a wheelchair onto a ride; the seesaw and spinning ring work for kids in chairs",
@@ -8295,7 +8295,7 @@
       "venue": "Seattle Children's PlayGarden (Seattle PlayGarden), 1745 24th Ave S at Colman Playground",
       "neighborhood": "South Seattle (Colman Playground)",
       "schedule": null,
-      "how_to_join": "Just come play; call (206) 325-5576 about camps (ages 3.5-21), preschool and young adult programs.",
+      "how_to_join": "Just come play; call (206) 325-5576 about camps (ages 3.5-21), preschool, and young adult programs.",
       "website": "https://seattleplaygarden.org",
       "verified_sources": [
         "https://seattleplaygarden.org",
@@ -8324,7 +8324,7 @@
       "cost_tier": "free",
       "price_note": "Free public park",
       "setting": "outdoor",
-      "description": "Bellevue built this universally accessible playground with the Bellevue Rotary Club so kids of every ability can play and explore at their own pace. Its features engage sight, sound, scent and touch, and in summer the water spray adds a splash of joy.",
+      "description": "Bellevue built this universally accessible playground with the Bellevue Rotary Club so kids of every ability can play and explore at their own pace. Its features engage sight, sound, scent, and touch, and in summer the water spray adds a splash of joy.",
       "accessibility_notes": [
         "The City of Bellevue describes it as a universally accessible play experience with features that engage the senses",
         "A reviewer notes multiple inclusive swing options and a braille map at the entrance",
@@ -8364,7 +8364,7 @@
       "cost_tier": "free",
       "price_note": "Free public park",
       "setting": "outdoor",
-      "description": "Green Lake's 2.8-mile paved inner loop is one of Seattle's favorite car-free paths, with lake views, ducks and plenty of company. Roll a lap, stop for a picnic, or simply turn back whenever your crew is ready.",
+      "description": "Green Lake's 2.8-mile paved inner loop is one of Seattle's favorite car-free paths, with lake views, ducks, and plenty of company. Roll a lap, stop for a picnic, or simply turn back whenever your crew is ready.",
       "accessibility_notes": [
         "The 2.8-mile inner loop is paved",
         "Wheeled users have the outside lane (one way, follow the arrows, 10 mph limit); motorized wheelchairs are the only motorized devices allowed",
@@ -8408,7 +8408,7 @@
       "setting": "hybrid",
       "description": "Seattle's zoo has published an Accessibility Guide with a trail-conditions map and a Sensory Map pointing to quiet spots to relax and lively spots to romp. Blind and low-vision guests can even request a trained volunteer sighted guide for a day of animal wonder.",
       "accessibility_notes": [
-        "Manual wheelchairs and electric scooters can be rented at Guest Services (first come, first served); EBT/Washington Quest, WIC and foster and kinship families get 50% off manual wheelchair rentals",
+        "Manual wheelchairs and electric scooters can be rented at Guest Services (first come, first served); EBT/Washington Quest, WIC, and foster and kinship families get 50% off manual wheelchair rentals",
         "Request a sighted guide with 14 days' notice, or a certified sign language interpreter through the zoo's request form",
         "An adult-sized changing table is in the family restroom near the West Guest Entry/ZooStore; accessible stalls are marked on the Accessibility Map"
       ],
@@ -8445,13 +8445,13 @@
       "cost_tier": "free",
       "price_note": "ParentMap reports admission to Sensory-Friendly Hours is free; confirm when you reserve tickets",
       "setting": "indoor",
-      "description": "About once a month, Pacific Science Center opens early or stays late with softer lighting, lower noise and hands-on exhibits adjusted for a calmer visit. It's a relaxed way for curious kids to explore science without the crowds.",
+      "description": "About once a month, Pacific Science Center opens early or stays late with softer lighting, lower noise, and hands-on exhibits adjusted for a calmer visit. It's a relaxed way for curious kids to explore science without the crowds.",
       "accessibility_notes": [
         "Free wheelchairs at the Main Entry Information Desk (ID required as a deposit); restrooms are wheelchair accessible",
-        "Free sensory kits with noise-cancelling headphones, fidgets and sunglasses, plus a Sensory Lounge in Exhibits East",
+        "Free sensory kits with noise-cancelling headphones, fidgets, and sunglasses, plus a Sensory Lounge in Exhibits East",
         "A guest's aide receives complimentary admission"
       ],
-      "best_time": "Monthly 2026-27 series: Dec 30, 2026 and Jan 31, Feb 18, Apr 15 and May 22, 2027 (8-10 a.m.); Mar 27 and Jun 24, 2027 (5-7 p.m.). Confirm on their website before you go",
+      "best_time": "Monthly 2026-27 series: Dec 30, 2026 and Jan 31, Feb 18, Apr 15, and May 22, 2027 (8-10 a.m.); Mar 27 and Jun 24, 2027 (5-7 p.m.). Confirm on their website before you go",
       "caregiver_tip": "Request a wheelchair ahead of time if you can, especially for busier visits.",
       "venue": "Pacific Science Center",
       "neighborhood": "Seattle Center, Seattle",
@@ -8498,7 +8498,7 @@
       "venue": "Seattle Children's Theatre",
       "neighborhood": "Seattle Center, Seattle",
       "schedule": null,
-      "how_to_join": "Book through sct.org or the Box Office at tickets@sct.org or 206.441.3322 and ask which dates are Access, Sensory-Friendly or ASL performances.",
+      "how_to_join": "Book through sct.org or the Box Office at tickets@sct.org or 206.441.3322 and ask which dates are Access, Sensory-Friendly, or ASL performances.",
       "website": "https://www.sct.org/accessibility-offerings/",
       "verified_sources": [
         "https://www.sct.org/accessibility-offerings/",
@@ -8523,7 +8523,7 @@
       "cost_tier": "free",
       "price_note": "No cost is listed; confirm with the library",
       "setting": "indoor",
-      "description": "Washington's state library for readers who can't use standard print hosts a storytime for children 0-5 of all abilities: 30 minutes of stories, songs and dance, then 30 minutes of play. Its Children's Room is designed for multisensory exploration, with tactile toys and print/braille board books.",
+      "description": "Washington's state library for readers who can't use standard print hosts a storytime for children 0-5 of all abilities: 30 minutes of stories, songs, and dance, then 30 minutes of play. Its Children's Room is designed for multisensory exploration, with tactile toys and print/braille board books.",
       "accessibility_notes": [
         "Designed for children who are blind or have low vision, with print/braille and large-print board books",
         "Families who can't attend can watch on WTBBL's YouTube channel or request a Storytime Kit mailed home (ages 0-5)",

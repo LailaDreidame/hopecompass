@@ -173,7 +173,7 @@ export default function TelemetryDrawer({ open, onClose, copilot, config, go }) 
           )}
 
           {r && <details className="rounded-2xl bg-white border border-sand p-3"><summary className="cursor-pointer font-semibold">Raw run JSON (for the report)</summary><pre tabIndex={0} className="text-[11px] mt-2 overflow-auto max-h-80">{JSON.stringify({ ...r, answer: undefined }, null, 2)}</pre></details>}
-          {!r && !copilot.running && <p className="text-ink/80">Run a question on the <button className="underline" onClick={() => { onClose(); go('copilot') }}>Ask Hope page</button>, or click a red-team test above. Each run shows its tokens, cost, routing and blocked attacks here.</p>}
+          {!r && !copilot.running && <p className="text-ink/80">Run a question on the <button className="underline" onClick={() => { onClose(); go('copilot') }}>Ask Hope page</button>, or click a red-team test above. Each run shows its tokens, cost, routing, and blocked attacks here.</p>}
         </div>
       </div>
     </>

@@ -2,11 +2,11 @@ import { HeroScene, FamilyPortrait } from '../components/Illustrations.jsx'
 
 // [key, emoji, menu label (matches the top menu button exactly), card title, description, color]
 const MODULES = [
-  ['map', '🗺️', 'Places to Thrive', 'Best Places to Live & Thrive', "See which cities make life easier for kids who roll, stroll or walk with help: curb cuts, inclusive playgrounds, Medicaid waivers, children's hospitals and schools.", 'bg-sky-soft'],
-  ['play', '🎈', 'Joy & Play', 'Joy & Play Finder', 'Free and low-cost fun your kid can actually join: adaptive sports, sensory-friendly museum hours, rollable trails and splash pads.', 'bg-marigold-soft'],
-  ['equipment', '🦽', 'Gear Navigator', 'Equipment & Gear Navigator', 'What to ask for, who to ask, what that Letter of Medical Necessity really means, and where to borrow, swap or get help paying.', 'bg-terracotta-soft'],
+  ['map', '🗺️', 'Places to Thrive', 'Best Places to Live & Thrive', "See which cities make life easier for kids who roll, stroll, or walk with help: curb cuts, inclusive playgrounds, Medicaid waivers, children's hospitals, and schools.", 'bg-sky-soft'],
+  ['play', '🎈', 'Joy & Play', 'Joy & Play Finder', 'Free and low-cost fun your kid can actually join: adaptive sports, sensory-friendly museum hours, rollable trails, and splash pads.', 'bg-marigold-soft'],
+  ['equipment', '🦽', 'Gear Navigator', 'Equipment & Gear Navigator', 'What to ask for, who to ask, what that Letter of Medical Necessity really means, and where to borrow, swap, or get help paying.', 'bg-terracotta-soft'],
   ['iep', '📚', 'IEP & 504', 'IEP & 504 Powerhouse', "From early intervention to age 21: the right words for your child's IEP or 504, backed by the law, plus a checklist for meeting day.", 'bg-sky-soft'],
-  ['providers', '🩺', 'Providers', 'Inclusive Provider Finder', 'Doctors and therapists who get it, speak your language and take your insurance, plus questions to ask at the first visit.', 'bg-marigold-soft'],
+  ['providers', '🩺', 'Providers', 'Inclusive Provider Finder', 'Doctors and therapists who get it, speak your language, and take your insurance, plus questions to ask at the first visit.', 'bg-marigold-soft'],
   ['sanctuary', '🌿', 'Sanctuary', 'Caregiver Sanctuary', 'Because you matter too: respite help, people who understand (grandparents, foster families, dads and uncles, and more) and 5-minute resets.', 'bg-terracotta-soft'],
 ]
 

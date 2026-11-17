@@ -21,12 +21,12 @@ export default function ProvidersModule({ data, askCopilot }) {
   return (
     <div className="space-y-10">
       <ModuleHeader kind="providers" eyebrow="Module 5 · Inclusive Pediatric Physician & Therapist Finder" title="Care that sees your whole kid">
-        Pediatricians, physiatrists, PTs, OTs and orthotists vetted for disability-competent, culturally responsive care, with Medicaid and insurance filters.
+        Pediatricians, physiatrists, PTs, OTs, and orthotists vetted for disability-competent, culturally responsive care, with Medicaid and insurance filters.
       </ModuleHeader>
 
       <div className="card p-5 md:p-6 space-y-4">
-        <div className="grid md:grid-cols-4 gap-4">
-          <label className="block md:col-span-1"><span className="label block mb-1">Search</span><input className="input" value={q} onChange={(e) => setQ(e.target.value)} placeholder="ceiling lift, ASL, seating…" /></label>
+        <div className="grid sm:grid-cols-2 xl:grid-cols-[1.4fr_1fr_1fr_1fr] gap-4">
+          <label className="block"><span className="label block mb-1">Search</span><input className="input" value={q} onChange={(e) => setQ(e.target.value)} placeholder="ceiling lift, ASL, seating…" /></label>
           <Select label="City" value={city} onChange={setCity} options={[['', 'Anywhere'], ...cities]} />
           <Select label="Insurance" value={ins} onChange={setIns} options={[['', 'Any insurance'], ...insurers.map((i) => [i, i])]} />
           <Select label="Language" value={lang} onChange={setLang} options={[['', 'Any language'], ...langs.map((l) => [l, l])]} />

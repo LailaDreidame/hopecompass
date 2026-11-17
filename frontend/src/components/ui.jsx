@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import { Vignette } from './Illustrations.jsx'
 
 export function ModuleHeader({ kind, eyebrow, title, children }) {
@@ -127,4 +128,16 @@ export function Sheet({ open, onClose, title, children }) {
       </div>
     </div>
   )
+}
+
+// Long hint text gets cut off on phones, so anything narrower than a wide laptop gets a shorter example list.
+export function useWide(query = '(min-width: 1280px)') {
+  const [wide, setWide] = useState(() => window.matchMedia(query).matches)
+  useEffect(() => {
+    const mq = window.matchMedia(query)
+    const f = () => setWide(mq.matches)
+    mq.addEventListener('change', f)
+    return () => mq.removeEventListener('change', f)
+  }, [query])
+  return wide
 }

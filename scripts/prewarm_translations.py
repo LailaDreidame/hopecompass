@@ -65,7 +65,7 @@ def run(lang: str, strings: list[str], workers: int = 8) -> tuple[int, float]:
                         o, cc = i18n._translate_with_model(lang, half)
                         out += o; c_cost += cc
                     except Exception:
-                        out += half          # leave English
+                        out += [''] * len(half)   # not cached, so it stays English and is retried next run
                 c = c[: len(out)]
             cost += c_cost
             for src, tgt in zip(c, out):
