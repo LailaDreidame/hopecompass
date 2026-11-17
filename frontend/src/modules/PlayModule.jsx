@@ -19,7 +19,7 @@ function addToCalendar(a) {
   for (let i = 0; i < 8; i++) { d.setDate(now.getDate() + i); if (s.days.includes(DAYS[d.getDay()]) && (i > 0 || `${now.getHours()}`.padStart(2, '0') + ':00' < s.start)) break }
   const ymd = `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}${String(d.getDate()).padStart(2, '0')}`
   const esc = (t) => String(t).replace(/[,;\\]/g, (c) => '\\' + c).replace(/\n/g, ' ')
-  const ics = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Joy Risers//EN', 'BEGIN:VEVENT', `UID:${a.id}-${ymd}@joyrisers`,
+  const ics = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Hope Compass//EN', 'BEGIN:VEVENT', `UID:${a.id}-${ymd}@joyrisers`,
     `DTSTAMP:${new Date().toISOString().replace(/[-:]/g, '').split('.')[0]}Z`, `DTSTART:${ymd}T${s.start.replace(':', '')}00`, `DTEND:${ymd}T${s.end.replace(':', '')}00`,
     `SUMMARY:${esc(a.name)}`, `LOCATION:${esc(whereText(a))}`, `DESCRIPTION:${esc(`${a.price_note}. ${a.how_to_join || ''} Confirm details before you go.`)}`,
     'END:VEVENT', 'END:VCALENDAR'].join('\r\n')
@@ -79,7 +79,7 @@ export default function PlayModule({ data, askCopilot, focus, clearFocus }) {
         <div className="grid md:grid-cols-[1fr_220px_220px] gap-4">
           <label className="block"><span className="label block mb-1">Search</span><input className="input" placeholder="sled hockey, splash pad, audio-described…" value={q} onChange={(e) => setQ(e.target.value)} /></label>
           <Select label="City" value={city} onChange={setCity} options={[['', 'Anywhere'], ...cities]} />
-          <Select label="Setting" value={setting} onChange={setSetting} options={[['', 'Indoor, outdoor or hybrid'], ['indoor', 'Indoor'], ['outdoor', 'Outdoor'], ['hybrid', 'Hybrid']]} />
+          <Select label="Setting" value={setting} onChange={setSetting} options={[['', 'Any setting'], ['indoor', 'Indoor'], ['outdoor', 'Outdoor'], ['hybrid', 'Hybrid']]} />
         </div>
         <div><p className="label mb-2">Mobility, vision or hearing aid</p><Chips multi label="Access needs" value={access} onChange={setAccess} options={Object.entries(ACCESS_LABELS)} /></div>
         <div className="grid md:grid-cols-2 gap-4">
@@ -113,7 +113,7 @@ export default function PlayModule({ data, askCopilot, focus, clearFocus }) {
             </div>
           </article>
         ))}
-        {!rows.length && <div className="card p-8 col-span-full text-center"><p className="text-lg">Nothing matches every filter yet. Try loosening one, or let Joy Compass get creative.</p></div>}
+        {!rows.length && <div className="card p-8 col-span-full text-center"><p className="text-lg">Nothing matches every filter yet. Try loosening one, or let Hope get creative.</p></div>}
       </div>
 
 
@@ -139,7 +139,7 @@ export default function PlayModule({ data, askCopilot, focus, clearFocus }) {
             <ul className="space-y-1">{open.accessibility_notes.map((n) => <li key={n}>✓ {n}</li>)}</ul>
             <p className="mt-2 text-sm text-ink/80">Good for: {open.access.map((x) => ACCESS_LABELS[x]).join(' · ')}</p>
             {open.caregiver_tip && <p className="mt-4 rounded-xl bg-marigold-soft p-3">💡 {open.caregiver_tip}</p>}
-            <button className="btn-compass mt-5" onClick={() => { setOpen(null); askCopilot(`Help me plan a visit to "${open.name}" in ${open.city}, ${open.state} (${whenText(open)}). What should I know and bring?`) }}>Plan this visit with Joy Compass 🧭</button>
+            <button className="btn-compass mt-5" onClick={() => { setOpen(null); askCopilot(`Help me plan a visit to "${open.name}" in ${open.city}, ${open.state} (${whenText(open)}). What should I know and bring?`) }}>Plan this visit with Ask Hope 🧭</button>
           </div>
         )}
       </Sheet>

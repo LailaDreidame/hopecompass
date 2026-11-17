@@ -42,9 +42,9 @@ HOTSPOT = {
     "waiver_notes": "California's Medi-Cal covers kids under 21 (EPSDT). California Children's Services (CCS) and its Medical Therapy Program can provide PT/OT for qualifying conditions such as cerebral palsy, and the Regional Center of the East Bay serves eligible kids with developmental disabilities (including CP) under the Lanterman Act. Ask both about equipment, respite and In-Home Supportive Services (IHSS).",
     "school_notes": "Oakland Unified's special education team runs IEPs; DREDF in Berkeley is the free Parent Training and Information Center for Alameda County and helps families prepare for IEP meetings.",
     "insider_tips": [
-        {"tip": "Lake Merritt's paved loop is flat and about three miles around, so you can turn back at any bench.", "from": "Joy Risers tip"},
-        {"tip": "Call BORP before the season starts and ask about a sled hockey try-it session; they provide the sleds.", "from": "Joy Risers tip"},
-        {"tip": "Ask your CCS therapist whether a Medical Therapy Unit at a nearby school can do seating checks.", "from": "Joy Risers tip"},
+        {"tip": "Lake Merritt's paved loop is flat and about three miles around, so you can turn back at any bench.", "from": "Hope Compass tip"},
+        {"tip": "Call BORP before the season starts and ask about a sled hockey try-it session; they provide the sleds.", "from": "Hope Compass tip"},
+        {"tip": "Ask your CCS therapist whether a Medical Therapy Unit at a nearby school can do seating checks.", "from": "Hope Compass tip"},
     ],
     "watch_outs": ["Steep hills in many neighborhoods", "High cost of living", "Regional Center and CCS intake can take time, so start early"],
     "cost_of_living": "high",

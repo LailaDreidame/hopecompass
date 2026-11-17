@@ -104,7 +104,7 @@ export default function TelemetryDrawer({ open, onClose, copilot, config, go }) 
               )}
               {p && (
                 <div className="rounded-2xl bg-white border border-sand p-4 mt-3">
-                  <p className="text-[11px] font-bold uppercase tracking-wider text-forest">Projected cost at this run's price (assumes {p.runs_per_user_per_month} Joy Compass questions per family per month)</p>
+                  <p className="text-[11px] font-bold uppercase tracking-wider text-forest">Projected cost at this run's price (assumes {p.runs_per_user_per_month} Ask Hope questions per family per month)</p>
                   <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-2 text-center">
                     <div><p className="font-display text-lg">{fmtUSD(p.cost_per_run, 5)}</p><p className="text-xs">per run</p></div>
                     <div><p className="font-display text-lg">{fmtUSD(p.per_user_per_month, 4)}</p><p className="text-xs">per family / mo</p></div>
@@ -138,7 +138,7 @@ export default function TelemetryDrawer({ open, onClose, copilot, config, go }) 
               <div className="flex items-center justify-between"><h3 id="bud" className="font-display text-xl text-navy">Session circuit breaker</h3>
                 <button className="text-sm underline" onClick={() => resetSession().then(refresh)}>Reset session</button></div>
               <div className="space-y-3 mt-3">
-                <Meter label="Joy Compass turns" used={s.turns_used} limit={L.max_turns_per_session} />
+                <Meter label="Ask Hope turns" used={s.turns_used} limit={L.max_turns_per_session} />
                 <Meter label="Tokens (all agents)" used={s.tokens_used} limit={L.max_tokens_per_session} />
                 <Meter label="Spend (USD)" used={s.usd_used} limit={L.max_usd_per_session} fmt={(n) => fmtUSD(n, 4)} />
               </div>
@@ -173,7 +173,7 @@ export default function TelemetryDrawer({ open, onClose, copilot, config, go }) 
           )}
 
           {r && <details className="rounded-2xl bg-white border border-sand p-3"><summary className="cursor-pointer font-semibold">Raw run JSON (for the report)</summary><pre tabIndex={0} className="text-[11px] mt-2 overflow-auto max-h-80">{JSON.stringify({ ...r, answer: undefined }, null, 2)}</pre></details>}
-          {!r && !copilot.running && <p className="text-ink/80">Run a question on the <button className="underline" onClick={() => { onClose(); go('copilot') }}>Joy Compass page</button>, or click a red-team test above. Each run shows its tokens, cost, routing and blocked attacks here.</p>}
+          {!r && !copilot.running && <p className="text-ink/80">Run a question on the <button className="underline" onClick={() => { onClose(); go('copilot') }}>Ask Hope page</button>, or click a red-team test above. Each run shows its tokens, cost, routing and blocked attacks here.</p>}
         </div>
       </div>
     </>

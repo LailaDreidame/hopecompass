@@ -1,4 +1,4 @@
-"""Multi-agent orchestration for the Caregiver Joy Compass.
+"""Multi-agent orchestration for the Ask Hope caregiver guide.
 
     caregiver message
         │
@@ -69,11 +69,11 @@ BLOCK_COPY = {
                          "safety rules. What I *can* do is help with your child's school rights, equipment, "
                          "joyful outings, providers or a moment of rest for you. What's on your plate today?"),
     "runaway": ("That one's a little too big for one breath 🌿",
-                "To keep Joy Compass free and fast for every family, I cap how much I write in one go. "
+                "To keep Ask Hope free and fast for every family, I cap how much I write in one go. "
                 "Tell me one city, one weekend, or one goal and I'll make it wonderful."),
-    "budget": ("Joy Compass is taking a short breather ✨",
+    "budget": ("Hope is taking a short breather ✨",
                "To keep this free tool safe from runaway costs, AI answers are paused for now (a usage limit "
-               "was reached). Every directory, map and builder on the site still works, and Joy Compass "
+               "was reached). Every directory, map and builder on the site still works, and Hope "
                "will be back soon."),
     "off_topic": ("I'm your caregiving co-pilot 🧭",
                   "I'm built for families raising children and young adults with physical disabilities: "
@@ -84,7 +84,7 @@ BLOCK_COPY = {
                "call or text **988** (Suicide & Crisis Lifeline). You are not alone, and reaching out is "
                "strength. When you're ready, the Caregiver Sanctuary has respite and peer support."),
     "error": ("A small hiccup on our side",
-              "Joy Compass couldn't finish this answer. Please try again in a moment; every directory "
+              "Hope couldn't finish this answer. Please try again in a moment; every directory "
               "and builder still works offline."),
 }
 
@@ -98,7 +98,7 @@ def _now() -> str:
 
 
 class Run:
-    """Collects the trace for one Joy Compass run and streams progress events to the UI."""
+    """Collects the trace for one Ask Hope run and streams progress events to the UI."""
 
     def __init__(self, message: str, session_id: str, dataset: str, emit: Emit, redteam: str | None):
         self.id = uuid.uuid4().hex[:10]

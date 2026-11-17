@@ -16,7 +16,7 @@ import { LANGS, getLang, setLang, onLangChange } from './i18n.js'
 
 export const NAV = [
   ['home', 'Home'], ['map', 'Places to Thrive'], ['play', 'Joy & Play'], ['equipment', 'Gear Navigator'],
-  ['iep', 'IEP & 504'], ['providers', 'Providers'], ['sanctuary', 'Sanctuary'], ['copilot', 'Joy Compass 🧭'],
+  ['iep', 'IEP & 504'], ['providers', 'Providers'], ['sanctuary', 'Sanctuary'], ['copilot', 'Ask Hope 🧭'],
 ]
 
 const pageFromHash = () => {
@@ -24,7 +24,7 @@ const pageFromHash = () => {
   return NAV.some(([k]) => k === h) || h === 'search' || h === 'privacy' ? h : 'home'
 }
 
-// Shared Joy Compass state so Joy Compass page and the Telemetry drawer see the same live run.
+// Shared Ask Hope state so Ask Hope page and the Telemetry drawer see the same live run.
 function useCopilot(dataset) {
   const [state, setState] = useState({ running: false, steps: {}, events: [], result: null, error: null, message: '' })
   const [history, setHistory] = useState([])
@@ -94,9 +94,9 @@ export default function App() {
       <header className="sticky top-0 z-30 bg-cream/90 backdrop-blur border-b border-sand">
         <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 py-3 flex items-center gap-2 sm:gap-4">
           <button onClick={() => go('home')} className="flex items-center gap-1.5 sm:gap-2.5 shrink-0">
-            <svg viewBox="0 0 64 64" className="w-8 h-8 sm:w-10 sm:h-10 shrink-0" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#1F4D3A" /><path d="M14 40 Q32 8 50 40" stroke="#E8A317" strokeWidth="6" fill="none" strokeLinecap="round" /><circle cx="32" cy="44" r="6" fill="#FBF6EC" /></svg>
-            <span className="font-display text-xl sm:text-2xl text-forest font-semibold whitespace-nowrap max-[379px]:hidden" translate="no">Joy Risers</span>
-            {' '}<span translate="no" className="rounded-full bg-marigold-soft text-navy text-[10px] sm:text-[11px] font-bold uppercase tracking-wider px-1.5 sm:px-2 py-0.5 border border-marigold" title="Joy Risers is new and still growing">Beta</span><span className="sr-only">, home</span>
+            <Logo className="w-8 h-8 sm:w-10 sm:h-10 shrink-0" />
+            <span className="font-display text-xl sm:text-2xl text-navy font-semibold whitespace-nowrap max-[379px]:hidden" translate="no">Hope Compass</span>
+            {' '}<span translate="no" className="rounded-full bg-marigold-soft text-navy text-[10px] sm:text-[11px] font-bold uppercase tracking-wider px-1.5 sm:px-2 py-0.5 border border-marigold" title="Hope Compass is new and still growing">Beta</span><span className="sr-only">, home</span>
           </button>
           <div className="ml-auto flex items-center gap-1.5 sm:gap-2">
             <button onClick={() => go('search')} className={`chip ${page === 'search' ? 'chip-on' : 'chip-off'} !py-1.5`} aria-label="Search the whole site">
@@ -104,13 +104,13 @@ export default function App() {
             </button>
             <label className="flex items-center gap-1 text-xs font-semibold text-navy" title="Language">
               <span aria-hidden="true" className="hidden sm:inline">🌐</span>
-              <select aria-label="Language" translate="no" className="rounded-full border border-sand bg-white px-2 py-1 max-w-[5rem] sm:max-w-[7.5rem]" value={uiLang} onChange={(e) => setLang(e.target.value)}>
+              <select aria-label="Language" translate="no" className="rounded-full border border-sand bg-white ps-3 py-1 max-w-[6.5rem] sm:max-w-[8.5rem]" value={uiLang} onChange={(e) => setLang(e.target.value)}>
                 {LANGS.map(([k, label]) => <option key={k} value={k}>{label}</option>)}
               </select>
             </label>
             <label className="hidden lg:flex items-center gap-2 text-xs font-semibold text-navy">
               <span>Data</span>
-              <select aria-label="Dataset" className="rounded-full border border-sand bg-white px-2 py-1" value={dataset || ''} onChange={(e) => setDataset(e.target.value)}>
+              <select aria-label="Dataset" className="rounded-full border border-sand bg-white ps-3 py-1" value={dataset || ''} onChange={(e) => setDataset(e.target.value)}>
                 <option value="full">Full (nationwide)</option><option value="test">Test (small)</option>
               </select>
             </label>
@@ -138,7 +138,7 @@ export default function App() {
 
       <main id="main" className="flex-1 w-full max-w-7xl mx-auto px-4 md:px-6 py-8 md:py-12">
         {/* Every page gets a top-level heading for screen readers (Home shows its own visible h1) */}
-        {page !== 'home' && <h1 className="sr-only">{page === 'search' ? 'Search' : page === 'privacy' ? 'Privacy' : NAV.find(([k]) => k === page)?.[1]} · Joy Risers</h1>}
+        {page !== 'home' && <h1 className="sr-only">{page === 'search' ? 'Search' : page === 'privacy' ? 'Privacy' : NAV.find(([k]) => k === page)?.[1]} · Hope Compass</h1>}
         {!data && page !== 'copilot' && page !== 'privacy' ? <Loading /> : (
           <>
             {page === 'home' && <Home {...props} />}
@@ -158,15 +158,15 @@ export default function App() {
       <footer className="bg-forest text-cream mt-12">
         <div className="max-w-7xl mx-auto px-6 py-10 grid md:grid-cols-3 gap-8 text-sm">
           <div>
-            <p className="font-display text-2xl">Joy Risers</p>
+            <p className="font-display text-2xl flex items-center gap-2.5"><Logo className="w-9 h-9 shrink-0" /><span translate="no">Hope Compass</span></p>
             <p className="mt-2 text-cream/90">For the grandparents, aunts, uncles, foster and kinship families, guardians and parents raising joyful kids who roll, stride and explore their own way.</p>
           </div>
           <div className="text-cream/90 space-y-2">
-            <p><strong>Not medical or legal advice.</strong> Joy Risers shares general information and questions to bring to your child's care team. In an emergency call 911. For crisis support call or text 988.</p>
+            <p><strong>Not medical or legal advice.</strong> Hope Compass shares general information and questions to bring to your child's care team. In an emergency call 911. For crisis support call or text 988.</p>
             <p>Directory listings are curated demo data: national programs are real organizations; local listings, providers, hours, prices and scores are illustrative. Always confirm.</p>
           </div>
           <div className="text-cream/90">
-            <p><strong>Beta:</strong> Joy Risers is new and still growing, so some listings are samples. Always confirm details.</p>
+            <p><strong>Beta:</strong> Hope Compass is new and still growing, so some listings are samples. Always confirm details.</p>
             <p className="mt-2"><button className="underline font-semibold" onClick={() => go('privacy')}>Privacy note</button></p>
             <p className="mt-2">MGT 409 · AI Foundations for Managers · Final Project</p>
             <p className="mt-1">Model: {config?.model || 'gpt-6-luna'} via {config?.provider || '…'} · dataset: {dataset}</p>
@@ -187,5 +187,15 @@ function Loading() {
       <div className="h-64 rounded-3xl shimmer bg-cream-2" />
       <p className="text-forest font-semibold">Gathering joyful things…</p>
     </div>
+  )
+}
+
+function Logo({ className }) {
+  return (
+    <svg viewBox="0 0 64 64" className={className} aria-hidden="true">
+      <circle cx="32" cy="32" r="30" fill="#1E90FF" />
+      <path d="M32 8l5 19 19 5-19 5-5 19-5-19-19-5 19-5z" fill="#FBF6EC" />
+      <circle cx="32" cy="32" r="7" fill="#E8A317" />
+    </svg>
   )
 }

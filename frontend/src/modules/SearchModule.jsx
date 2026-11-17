@@ -54,7 +54,7 @@ export default function SearchModule({ data, q, setQ, openResult, askCopilot }) 
   return (
     <div className="space-y-8">
       <header>
-        <p className="label mb-2">Search all of Joy Risers</p>
+        <p className="label mb-2">Search all of Hope Compass</p>
         <h2 className="font-display text-4xl md:text-5xl text-navy">What are you looking for?</h2>
         <form onSubmit={(e) => e.preventDefault()} className="mt-5" role="search">
           <label htmlFor="site-search" className="sr-only">Search</label>
@@ -89,10 +89,10 @@ export default function SearchModule({ data, q, setQ, openResult, askCopilot }) 
       {q.trim() ? (
         <section className="card p-6 bg-sky-soft !border-sky grid md:grid-cols-[1fr_auto] gap-4 items-center">
           <div>
-            <p className="font-display text-xl text-navy">{results.length ? 'Want a plan built around this?' : 'No exact matches, but Joy Compass can help.'}</p>
-            <p className="mt-1">Joy Compass understands questions in your own words, in any language, and searches everything for you.</p>
+            <p className="font-display text-xl text-navy">{results.length ? 'Want a plan built around this?' : 'No exact matches, but Hope can help.'}</p>
+            <p className="mt-1">Hope understands questions in your own words, in any language, and searches everything for you.</p>
           </div>
-          <button className="btn-compass" onClick={() => askCopilot(q.trim())}>Ask Joy Compass 🧭</button>
+          <button className="btn-compass" onClick={() => askCopilot(q.trim())}>Ask Hope 🧭</button>
         </section>
       ) : (
         <div className="flex flex-wrap gap-2">

@@ -38,7 +38,7 @@ _cache: dict[str, dict[str, str]] = {}
 _ip_calls: dict[str, list[float]] = {}
 HAS_LETTERS = re.compile(r"[A-Za-z]")
 
-SYSTEM = """You translate the user interface and listings of Joy Risers, a warm, joyful, practical resource hub for
+SYSTEM = """You translate the user interface and listings of Hope Compass, a warm, joyful, practical resource hub for
 caregivers (parents, grandparents, aunts and uncles, foster and kinship families, guardians) of children and young
 adults (0-21) with physical disabilities, from English into {lang}.
 Rules:
@@ -97,7 +97,7 @@ def _translate_with_model(lang: str, strings: list[str]) -> tuple[list[str], flo
         model=MODEL_NAME, instructions=SYSTEM.format(lang=LANGS[lang]["name"]),
         input=json.dumps({"strings": strings}, ensure_ascii=False),
         text={"format": {"type": "json_schema", "name": "translations", "schema": schema, "strict": True}},
-        max_output_tokens=8000, reasoning={"effort": "low"}, prompt_cache_key=f"joy-risers-translate-{lang}",
+        max_output_tokens=8000, reasoning={"effort": "low"}, prompt_cache_key=f"hope-compass-translate-{lang}",
         store=False)
     out = json.loads(resp.output_text)["t"]
     u = resp.usage

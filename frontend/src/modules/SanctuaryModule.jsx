@@ -92,7 +92,7 @@ export default function SanctuaryModule({ data, askCopilot }) {
       <section className="card p-8 bg-terracotta-soft !border-terracotta grid md:grid-cols-[1fr_auto] gap-6 items-center">
         <div>
           <h3 className="font-display text-2xl text-navy">Running on empty?</h3>
-          <p className="mt-1">Tell Joy Compass who you are and where you live. It will find respite funding and a circle of people who get it. If you are in crisis, call or text <strong>988</strong> any time.</p>
+          <p className="mt-1">Tell Hope who you are and where you live. It will find respite funding and a circle of people who get it. If you are in crisis, call or text <strong>988</strong> any time.</p>
         </div>
         <button className="btn-primary" onClick={() => askCopilot("I'm a grandfather raising my grandson who uses a power chair in Philadelphia. I'm exhausted. Where can I find respite help and other grandparents to talk to?")}>Find me some support 💛</button>
       </section>

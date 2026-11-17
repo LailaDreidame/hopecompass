@@ -10,7 +10,7 @@ const SUGGESTIONS = [
   "My daughter is 17, blind, and uses a white cane. What should her transition plan include before she turns 18?",
 ]
 
-// Plain-English names for caregivers (Joy Compass page); the technical names stay in the Telemetry drawer.
+// Plain-English names for caregivers (Ask Hope page); the technical names stay in the Telemetry drawer.
 export const PLAIN = {
   guard: ['Step 1', 'Safety check', 'Making sure your question is safe to answer'],
   intake: ['Step 2', 'Understanding your question', 'Figuring out what you need most'],
@@ -101,14 +101,14 @@ export default function Copilot({ copilot, prefill, setPrefill, openDrawer, conf
     <div className="space-y-8">
       <header className="grid lg:grid-cols-[1fr_auto] gap-4 items-end">
         <div>
-          <p className="label mb-2">Joy Compass · your caregiving guide</p>
+          <p className="label mb-2">Hope · your caregiving guide</p>
           <h2 className="font-display text-4xl md:text-5xl text-navy">Ask anything. Get a clear next step.</h2>
           <p className="mt-3 text-lg max-w-3xl">Type your question the way you'd say it to a friend. We'll look it up in our trusted guides and send back a warm, clear answer: next steps, an email you can send if you need one, and where the information came from.</p>
           <p className="mt-2 text-ink/80">It takes about 15–30 seconds. We never give medical diagnoses or medication advice. For that, we'll point you to the right person.</p>
         </div>
         <button className="btn-ghost text-sm" onClick={openDrawer}>🔍 See how your answer was made</button>
       </header>
-      {config?.provider === 'offline' && <p className="card p-4 bg-terracotta-soft">No API key found, so Joy Compass is in <strong>offline mode</strong> (local data only). Add PORTKEY_API_KEY or OPENAI_API_KEY to <code>.env</code> or <code>../.env</code> for the full 4-agent run.</p>}
+      {config?.provider === 'offline' && <p className="card p-4 bg-terracotta-soft">No API key found, so Hope is in <strong>offline mode</strong> (local data only). Add PORTKEY_API_KEY or OPENAI_API_KEY to <code>.env</code> or <code>../.env</code> for the full 4-agent run.</p>}
 
       <form onSubmit={submit} className="card p-5 md:p-6">
         <label htmlFor="ask" className="label">What's on your plate? Ask in your own words</label>
@@ -117,7 +117,7 @@ export default function Copilot({ copilot, prefill, setPrefill, openDrawer, conf
           onKeyDown={(e) => { if (e.key === 'Enter' && !e.shiftKey && !e.nativeEvent.isComposing) submit(e) }}
           placeholder="e.g. My grandson uses a walker. What's fun and free near Chicago this Saturday?" />
         <div className="flex flex-wrap items-center gap-3 mt-3">
-          <button className="btn-compass" disabled={running || !text.trim()}>{running ? 'Agents at work…' : 'Ask Joy Compass 🧭'}</button>
+          <button className="btn-compass" disabled={running || !text.trim()}>{running ? 'Agents at work…' : 'Ask Hope 🧭'}</button>
           <span className="text-sm text-ink/85">{text.length}/2000 · Press Enter to send · Shift + Enter for a new line</span>
         </div>
         <p className="mt-3 text-sm text-ink/85">🔒 Please don't include names, birthdays or medical record details. Your question goes to our AI providers (Portkey and OpenAI) to write your answer, and we keep a temporary record for safety and cost. <a href="#privacy" className="underline font-semibold">Privacy note</a></p>

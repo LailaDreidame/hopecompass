@@ -1,4 +1,4 @@
-"""Run Joy Compass from the terminal (handy for testing and for collecting telemetry).
+"""Run Ask Hope from the terminal (handy for testing and for collecting telemetry).
 
     python scripts/run_copilot.py "Free wheelchair-friendly weekend ideas in Denver for my 7-year-old"
     python scripts/run_copilot.py --redteam injection      # or medical / runaway / stealth

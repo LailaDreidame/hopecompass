@@ -1,4 +1,4 @@
-# Joy Risers: Multi-Agent Architecture
+# Hope Compass: Multi-Agent Architecture
 
 ## Mermaid diagram
 
@@ -90,7 +90,7 @@ caregiver message
 Every agent's instructions = **SHARED_PREFIX** (≈1,300 tokens: brand voice, inclusion standards, safety
 policy, data dictionary) + a static role block. All dynamic text (the caregiver's message, drafts, ids)
 goes in the user turn *after* the instructions. Each agent uses its own `prompt_cache_key`
-(`joy-risers-intake`, `…-advocate`, `…-scout`, `…-editor`), so repeat calls read the prefix from cache at
+(`hope-compass-intake`, `…-advocate`, `…-scout`, `…-editor`), so repeat calls read the prefix from cache at
 $0.01/1M instead of $0.10/1M. The Inspector shows cached tokens and the % saved vs. no caching.
 
 ## Budget limits (`backend/config.py → LIMITS`)
@@ -98,7 +98,7 @@ $0.01/1M instead of $0.10/1M. The Inspector shows cached tokens and the % saved 
 | Limit | Value |
 |---|---|
 | Message length | 2,000 characters |
-| Joy Compass turns per session | 25 |
+| Ask Hope turns per session | 25 |
 | Tokens per session (all agents) | 150,000 |
 | Dollar ceiling per session | $0.25 |
 | Model calls per run | 10 |

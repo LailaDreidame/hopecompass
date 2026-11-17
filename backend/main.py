@@ -1,4 +1,4 @@
-"""Joy Risers API + static frontend server.
+"""Hope Compass API + static frontend server.
 
 Run from the repo folder:   python -m uvicorn backend.main:app --port 8000
 Then open http://localhost:8000
@@ -21,7 +21,7 @@ from pydantic import BaseModel
 from . import data_store, i18n, orchestrator, safety, telemetry
 from .config import FRONTEND_DIST, public_config
 
-app = FastAPI(title="Joy Risers API", version="1.0")
+app = FastAPI(title="Hope Compass API", version="1.0")
 app.add_middleware(CORSMiddleware, allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
                    allow_methods=["*"], allow_headers=["*"])
 
@@ -47,7 +47,7 @@ class CopilotRequest(BaseModel):
     message: str = ""
     dataset: Optional[str] = None
     redteam: Optional[str] = None
-    lang: Optional[str] = None      # UI language; Joy Compass answers caregivers in it
+    lang: Optional[str] = None      # UI language; Ask Hope answers caregivers in it
 
 
 def client_ip(request: Request) -> Optional[str]:

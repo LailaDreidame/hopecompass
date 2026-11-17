@@ -1,4 +1,4 @@
-"""Offline mode: when no API key is found Joy Compass still answers from local data.
+"""Offline mode: when no API key is found Hope still answers from local data.
 
 Same guardrails, same tools, but a keyword router and a template replace the four model calls
 (telemetry shows 0 tokens and provider=offline). Useful for grading without keys or network.
@@ -76,7 +76,7 @@ def offline_answer(run, medical: bool) -> dict:
             sources.append({"source_id": sid, **meta})
     run.step("editor", "done", summary="Offline template (add a key for the full 4-agent run)")
     answer = {"headline": headline, "message_markdown": "\n".join(lines) +
-              "\n\n*Offline mode: add PORTKEY_API_KEY or OPENAI_API_KEY for the full multi-agent Joy Compass.*",
+              "\n\n*Offline mode: add PORTKEY_API_KEY or OPENAI_API_KEY for the full multi-agent Ask Hope.*",
               "draft_email": None,
               "action_checklist": ["Save one idea above to try this week", "Call ahead to confirm details",
                                    "Take five minutes for yourself today"],

@@ -39,9 +39,9 @@ HOTSPOT = {
     "waiver_notes": "HUSKY Health is Connecticut's Medicaid/CHIP for kids, including EPSDT for under-21s. Birth to Three covers babies and toddlers. Ask the Department of Social Services about home- and community-based waivers for children, which can have waitlists.",
     "school_notes": "New Haven Public Schools handles IEPs; CPAC (Connecticut Parent Advocacy Center) is the state's free Parent Training and Information Center, serving families from birth to 26.",
     "insider_tips": [
-        {"tip": "The Peabody has step-free entrances and big elevators, and you can request a sighted guide ahead by email.", "from": "Joy Risers tip"},
-        {"tip": "Three free Yale museums sit within a few blocks; pick one per visit so nobody gets tired.", "from": "Joy Risers tip"},
-        {"tip": "Teens 16+ can try sled hockey with the Gaylord Wolfpack in Wallingford.", "from": "Joy Risers tip"},
+        {"tip": "The Peabody has step-free entrances and big elevators, and you can request a sighted guide ahead by email.", "from": "Hope Compass tip"},
+        {"tip": "Three free Yale museums sit within a few blocks; pick one per visit so nobody gets tired.", "from": "Hope Compass tip"},
+        {"tip": "Teens 16+ can try sled hockey with the Gaylord Wolfpack in Wallingford.", "from": "Hope Compass tip"},
     ],
     "watch_outs": ["Snowy, icy winters on sidewalks and curb cuts", "Hilly neighborhoods beyond downtown",
                    "Few youth (under 16) adaptive sports teams in-state; ask Gaylord and CPAC about options"],

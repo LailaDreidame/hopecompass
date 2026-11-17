@@ -28,7 +28,7 @@ export default function Home({ data, go, askCopilot }) {
             Find something fun for Saturday, the right gear, a doctor who gets it, and the words for your next IEP meeting, all in one spot.
           </p>
           <div className="mt-7 flex flex-wrap gap-3">
-            <button className="btn-compass" onClick={() => go('copilot')}>Ask Joy Compass 🧭</button>
+            <button className="btn-compass" onClick={() => go('copilot')}>Ask Hope 🧭</button>
             <button className="btn-ghost text-lg" onClick={() => go('play')}>Find something fun this weekend</button>
           </div>
           <p className="mt-4 text-sm text-ink/80">Ask a question in your own words and get a clear, kind response in about 30 seconds. We double-check every answer for safety and accuracy.</p>
@@ -43,11 +43,11 @@ export default function Home({ data, go, askCopilot }) {
           <h2 id="founder" className="font-display text-2xl md:text-3xl text-navy mt-1">I built this for you, because I needed it too.</h2>
           <div className="mt-3 space-y-3 text-[17px] leading-relaxed text-ink/90 max-w-3xl">
             <p>As a working mom and a caregiver to our son, who lives with cerebral palsy and uses a wheelchair, I know what it's like to need a little help. Even the small things, like finding a playground he can actually roll onto or planning a fun Saturday, can feel like a second job.</p>
-            <p>I created Joy Risers to take a little of that weight off your shoulders. A bit of extra time and support can mean everything.</p>
+            <p>I created Hope Compass to take a little of that weight off your shoulders. A bit of extra time and support can mean everything.</p>
             <p>Some days we do this with grace, and some days in a beautiful mess. Both count. You're not alone.</p>
           </div>
           <p className="mt-4 font-display text-xl text-forest" translate="no">Laila Dreidame</p>
-          <p className="text-sm text-ink/80">Founder, Joy Risers</p>
+          <p className="text-sm text-ink/80">Founder, Hope Compass</p>
         </div>
       </section>
 

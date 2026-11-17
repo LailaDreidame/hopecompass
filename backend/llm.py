@@ -76,7 +76,7 @@ def run_agent(*, agent: str, instructions: str, user_input: str, schema: dict, s
                       max_output_tokens=LIMITS["max_output_tokens_per_call"], reasoning={"effort": REASONING_EFFORT},
                       store=False, include=["reasoning.encrypted_content"])
         if PROMPT_CACHING:
-            kwargs["prompt_cache_key"] = f"joy-risers-{agent}"
+            kwargs["prompt_cache_key"] = f"hope-compass-{agent}"
         else:
             kwargs["extra_body"] = {"prompt_cache_options": {"mode": "explicit"}}   # no breakpoints = no caching
         if tools:

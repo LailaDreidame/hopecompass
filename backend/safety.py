@@ -174,7 +174,7 @@ SESSIONS = SessionStore()
 
 class SiteGuard:
     """Site-wide circuit breaker: protects the shared key when the app is public.
-    A visitor can open endless browser sessions, so we also cap Joy Compass runs per IP per hour and
+    A visitor can open endless browser sessions, so we also cap Ask Hope runs per IP per hour and
     total spend per UTC day."""
 
     def __init__(self):
