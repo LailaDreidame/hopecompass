@@ -1,7 +1,7 @@
 # Hope Compass 🧭
 **A joyful digital sanctuary and multi-agent AI guide, Ask Hope, for every caregiver raising a child or young adult (ages 0–21) with a physical disability.**
 
-🌐 **Live app: [https://hopecompass.onrender.com](https://hopecompass.onrender.com)** · if it has been idle, the first visit can take about a minute to wake up.
+🌐 **Live app: [https://hopecompass.onrender.com](https://hopecompass.onrender.com)**
 
 Grandparents, aunts and uncles, foster, resource, and kinship families, legal guardians, and parents of every shape can:
 
