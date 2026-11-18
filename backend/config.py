@@ -12,7 +12,7 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-ROOT = Path(__file__).resolve().parent.parent          # the repo folder (joy-risers/)
+ROOT = Path(__file__).resolve().parent.parent          # the repo folder (hopecompass/)
 DATA_DIR = ROOT / "data"
 LOG_DIR = ROOT / "logs"
 FRONTEND_DIST = ROOT / "frontend" / "dist"

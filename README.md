@@ -1,7 +1,7 @@
 # Hope Compass 🧭
 **A joyful digital sanctuary and multi-agent AI guide, Ask Hope, for every caregiver raising a child or young adult (ages 0–21) with a physical disability.**
 
-🌐 **Live app: [https://joy-risers.onrender.com](https://joy-risers.onrender.com)** · if it has been idle, the first visit can take about a minute to wake up.
+🌐 **Live app: [https://hopecompass.onrender.com](https://hopecompass.onrender.com)** · if it has been idle, the first visit can take about a minute to wake up.
 
 Grandparents, aunts and uncles, foster, resource, and kinship families, legal guardians, and parents of every shape can:
 
@@ -23,8 +23,8 @@ You need **Python 3.9 or newer**. Node is **not** needed: the built frontend is 
 
 **1. Get the code and install the Python packages**
 ```bash
-git clone <this-repo-url> joy-risers
-cd joy-risers
+git clone https://github.com/LailaDreidame/hopecompass.git
+cd hopecompass
 python3 -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -105,7 +105,7 @@ Offline unit tests (no tokens): `python -m pytest -q`
 
 ## 🗂️ File tree
 ```
-joy-risers/
+hopecompass/
 ├── README.md · .env.example · .gitignore · requirements.txt · render.yaml · .python-version
 ├── backend/
 │   ├── main.py           FastAPI: /api/data, /api/copilot (NDJSON stream), /api/telemetry, serves frontend/dist
