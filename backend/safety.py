@@ -18,7 +18,7 @@ from .config import LIMITS, OPENAI_API_KEY, PORTKEY_API_KEY
 
 # A random-looking marker planted in every system prompt. If it ever shows up in an output, the
 # model is leaking its instructions, and the output scanner blocks the answer.
-CANARY = "JR-CANARY-7f3a91"
+CANARY = "HC-CANARY-7f3a91"
 
 # ----------------------------------------------------------------------------- (a) injection
 INJECTION_PATTERNS = [

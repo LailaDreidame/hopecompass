@@ -59,7 +59,7 @@ function useCopilot(dataset) {
 
 export default function App() {
   const [page, setPage] = useState(pageFromHash())
-  const [dataset, setDataset] = useState(() => new URLSearchParams(location.search).get('dataset') || localStorage.getItem('jr-dataset') || null)
+  const [dataset, setDataset] = useState(() => new URLSearchParams(location.search).get('dataset') || localStorage.getItem('hc-dataset') || null)
   const [data, setData] = useState(null)
   const [config, setConfig] = useState(null)
   const [drawer, setDrawer] = useState(false)
@@ -72,7 +72,7 @@ export default function App() {
 
   useEffect(() => { const f = () => setPage(pageFromHash()); window.addEventListener('hashchange', f); return () => window.removeEventListener('hashchange', f) }, [])
   useEffect(() => { getJSON('/api/health').then((c) => { setConfig(c); if (!dataset) setDataset(c.dataset) }).catch(() => setConfig({ provider: 'unreachable' })) }, [])
-  useEffect(() => { if (!dataset) return; localStorage.setItem('jr-dataset', dataset); setData(null); getJSON(`/api/data?dataset=${dataset}`).then(setData) }, [dataset])
+  useEffect(() => { if (!dataset) return; localStorage.setItem('hc-dataset', dataset); setData(null); getJSON(`/api/data?dataset=${dataset}`).then(setData) }, [dataset])
 
   const go = (p) => { window.location.hash = p; window.scrollTo({ top: 0, behavior: 'smooth' }) }
   const askCopilot = (text) => { setPrefill(text); go('copilot') }

@@ -19,7 +19,7 @@ function addToCalendar(a) {
   for (let i = 0; i < 8; i++) { d.setDate(now.getDate() + i); if (s.days.includes(DAYS[d.getDay()]) && (i > 0 || `${now.getHours()}`.padStart(2, '0') + ':00' < s.start)) break }
   const ymd = `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}${String(d.getDate()).padStart(2, '0')}`
   const esc = (t) => String(t).replace(/[,;\\]/g, (c) => '\\' + c).replace(/\n/g, ' ')
-  const ics = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Hope Compass//EN', 'BEGIN:VEVENT', `UID:${a.id}-${ymd}@joyrisers`,
+  const ics = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Hope Compass//EN', 'BEGIN:VEVENT', `UID:${a.id}-${ymd}@hopecompass`,
     `DTSTAMP:${new Date().toISOString().replace(/[-:]/g, '').split('.')[0]}Z`, `DTSTART:${ymd}T${s.start.replace(':', '')}00`, `DTEND:${ymd}T${s.end.replace(':', '')}00`,
     `SUMMARY:${esc(a.name)}`, `LOCATION:${esc(whereText(a))}`, `DESCRIPTION:${esc(`${a.price_note}. ${a.how_to_join || ''} Confirm details before you go.`)}`,
     'END:VEVENT', 'END:VCALENDAR'].join('\r\n')
@@ -59,7 +59,7 @@ export default function PlayModule({ data, askCopilot, focus, clearFocus }) {
   const [q, setQ] = useState('')
   const [open, setOpen] = useState(null)
   useEffect(() => { if (focus?.module === 'play') { const a = acts.find((x) => x.id === focus.id); if (a) setOpen(a); clearFocus() } }, [focus])
-  const [checked, setChecked] = useState(() => JSON.parse(localStorage.getItem('jr-kbyg') || '[]'))
+  const [checked, setChecked] = useState(() => JSON.parse(localStorage.getItem('hc-kbyg') || '[]'))
   const cities = useMemo(() => [...new Map(acts.map((a) => [a.hotspot_id, `${a.city}, ${a.state}`])).entries()].sort((a, b) => a[1].localeCompare(b[1])), [acts])
 
   const rows = acts.filter((a) =>
@@ -68,7 +68,7 @@ export default function PlayModule({ data, askCopilot, focus, clearFocus }) {
     (!q || `${a.name} ${a.description} ${a.category}`.toLowerCase().includes(q.toLowerCase())))
     .sort((a, b) => ORDER.indexOf(a.cost_tier) - ORDER.indexOf(b.cost_tier))
 
-  const toggle = (i) => { const n = checked.includes(i) ? checked.filter((x) => x !== i) : [...checked, i]; setChecked(n); localStorage.setItem('jr-kbyg', JSON.stringify(n)) }
+  const toggle = (i) => { const n = checked.includes(i) ? checked.filter((x) => x !== i) : [...checked, i]; setChecked(n); localStorage.setItem('hc-kbyg', JSON.stringify(n)) }
 
   return (
     <div>

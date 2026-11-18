@@ -9,7 +9,7 @@ import { useEffect, useRef, useState } from 'react'
 // Demo / screenshot shortcut: ?breathe=5 → 1st after 5 s, 2nd after 10 more s, then none (not saved).
 const IDLE_MS = 2 * 60 * 1000
 const DAY_MS = 24 * 60 * 60 * 1000
-const KEY = 'jr-breathe-v2'
+const KEY = 'hc-breathe-v2'
 const MAX_PER_DAY = 2
 
 const fresh = () => ({ active: 0, shown: 0, windowStart: null })

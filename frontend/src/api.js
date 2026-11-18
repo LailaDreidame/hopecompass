@@ -1,7 +1,7 @@
 // Small API client. The session id lives in sessionStorage so the token budget is per browser tab.
 export const SESSION_ID = (() => {
-  let id = sessionStorage.getItem('jr-session')
-  if (!id) { id = crypto.randomUUID ? crypto.randomUUID() : String(Math.random()).slice(2); sessionStorage.setItem('jr-session', id) }
+  let id = sessionStorage.getItem('hc-session')
+  if (!id) { id = crypto.randomUUID ? crypto.randomUUID() : String(Math.random()).slice(2); sessionStorage.setItem('hc-session', id) }
   return id
 })()
 

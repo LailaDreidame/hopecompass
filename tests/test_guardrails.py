@@ -13,7 +13,7 @@ from backend.tools import Toolbox  # noqa: E402
 
 
 def test_env_lookup_order_repo_first_then_parent(tmp_path):
-    repo = tmp_path / "submissions" / "joy-risers"
+    repo = tmp_path / "submissions" / "hopecompass"
     repo.mkdir(parents=True)
     labels = [(label, path) for label, path in config.env_candidates(repo)]
     assert labels[0] == ("./.env", repo / ".env")

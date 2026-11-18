@@ -13,7 +13,7 @@ const ATTRS = ['placeholder', 'aria-label', 'alt', 'title']
 const HAS_LETTERS = /[A-Za-z]/
 const SKIP_TAGS = new Set(['SCRIPT', 'STYLE', 'NOSCRIPT', 'TEXTAREA', 'INPUT', 'CODE', 'PRE', 'svg', 'SVG'])
 
-let lang = localStorage.getItem('jr-lang') || 'en'
+let lang = localStorage.getItem('hc-lang') || 'en'
 const memo = {}                      // lang -> Map(english -> translated)
 const original = new WeakMap()       // text node -> latest English text
 const shown = new WeakMap()          // text node -> the translation we put there
@@ -177,7 +177,7 @@ function restoreEnglish() {
 
 export function setLang(next) {
   lang = next
-  localStorage.setItem('jr-lang', next)
+  localStorage.setItem('hc-lang', next)
   const meta = LANGS.find(([k]) => k === next) || LANGS[0]
   document.documentElement.lang = next === 'zh' ? 'zh-Hans' : next
   document.documentElement.dir = meta[2]
